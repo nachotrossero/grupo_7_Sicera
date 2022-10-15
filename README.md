@@ -51,9 +51,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
    
-  2. Patagonia Cerveza
+  [2. Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
    
-   https://www.cervezapatagonia.com.ar/
 
    Funcionalidad: 
    Es una muy buena la posibilidad de scrolear y que se mantenga la barra superior en su posición.
@@ -64,9 +63,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
     
     
 
-  3. Bodega Malma
+  [3. Bodega Malma](https://shop.bodegamalma.com.ar/)
    
-   https://shop.bodegamalma.com.ar/
 
    Página muy concreta y fácil de recorrer por su diseño.
 
@@ -85,9 +83,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
 
-  4. Córdoba Turismo
+  [4. Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/)
    
-   https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/
 
    Funcionalidad:
    No necesitamos mapa.
@@ -98,9 +95,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
 
-  5. Moño Azul
+  [5. Moño Azul](https://mazul.com.ar/)
    
-   https://mazul.com.ar/
 
    Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy completa paleta de
    colores.
