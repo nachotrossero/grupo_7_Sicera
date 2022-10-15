@@ -42,15 +42,16 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 [Vinino](https://www.vivino.com/)
   
-    Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios aspectos
-    que nos inspiró.
+    Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios
+    aspectos que nos inspiró.
 
     Funcionalidad:
-    Poder filtrar los vinos por precios y valoraciones, para posteriormente recibir una web con los resultados.
+    Poder filtrar los vinos por precios y valoraciones, para posteriormente recibir una web con
+    los resultados.
 
     Estética:
-    Paleta muy simple. Presenta solo dos colores, con lo cual no representa una excesiva carga visual para el
-    usuario.
+    Paleta muy simple. Presenta solo dos colores, con lo cual no representa una excesiva carga visual
+    para el usuario.
 
 
 
