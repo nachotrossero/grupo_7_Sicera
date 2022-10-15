@@ -38,7 +38,7 @@
 
     1. Vinino 
     
-    [Vivino](https://www.vivino.com/)
+    La web de [Vivino](https://www.vivino.com/)
 
     Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios aspectos que nos inspiró.
 
