@@ -37,8 +37,7 @@
 ## Referencias web
 
     1. Vinino 
-    
-    La web de [Vivino](https://www.vivino.com/)
+  https://www.vivino.com/
 
     Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios aspectos que nos inspiró.
 
