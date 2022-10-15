@@ -2,24 +2,24 @@
 
 # Sicera 
 
-    Nuestra página web está diseñada para brindar a los usuarios un sitio de fácil acceso, para que nuestros clientes puedan obtener 
-    sus productos en tiempo, forma y con una experiencia agradable. 
+Nuestra página web está diseñada para brindar a los usuarios un sitio de fácil acceso, para que nuestros clientes puedan obtener 
+sus productos en tiempo, forma y con una experiencia agradable. 
     
-    El objetivo principal es conquistar los paladares más exigentes y que la sidra sea conocida por sus beneficios, ya que, está hecha
-    con frutas de excelente calidad en nuestro suelo argentino.
+El objetivo principal es conquistar los paladares más exigentes y que la sidra sea conocida por sus beneficios, ya que, está hecha
+con frutas de excelente calidad en nuestro suelo argentino.
     
 
 ## Contenido
 
-    1- Audiencia
+  1- Audiencia
 
-    2- Referencias
+  2- Referencias
 
-    3- Roadmap
+  3- Roadmap
 
-    4- Wireframes
+  4- Wireframes
 
-    5- Developers
+  5- Developers
 
 
 ## Audiencia
