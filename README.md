@@ -42,14 +42,14 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 [Vinino](https://www.vivino.com/)
   
-    Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios
+   * Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios
     aspectos que nos inspiró.
 
-    Funcionalidad:
+   * Funcionalidad:
     Poder filtrar los vinos por precios y valoraciones, para posteriormente recibir una web con
     los resultados.
 
-    Estética:
+   * Estética:
     Paleta muy simple. Presenta solo dos colores, con lo cual no representa una excesiva carga visual
     para el usuario.
 
@@ -59,10 +59,10 @@ con frutas de excelente calidad en nuestro suelo argentino.
   [Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
    
 
-    Funcionalidad: 
+   * Funcionalidad: 
     Es una muy buena la posibilidad de scrolear y que se mantenga la barra superior en su posición.
 
-    Estética:
+   * Estética:
     El footer tiene una estética que nos brinda herramientas para realizar nuestro sitio web.
     
     
@@ -71,13 +71,13 @@ con frutas de excelente calidad en nuestro suelo argentino.
   [Bodega Malma](https://shop.bodegamalma.com.ar/)
    
 
-    Página muy concreta y fácil de recorrer por su diseño.
+   * Página muy concreta y fácil de recorrer por su diseño.
 
-    Estética: 
+   * Estética: 
     Web que cuenta con un lindo diseño adaptado a sus productos.
     Tiene una paleta de 3 colores y no hay sobrecarga visual.
 
-    Funcionalidad:
+   * Funcionalidad:
     La web en general es muy buena como marketplace.
     Nos gustó el hecho de que el banner del inicio cuando bajás se mantiene en su posición.
     Otro aspecto que nos inspiró es que tenga un carro de compras que te redirecciona hacia otra pestaña.
@@ -91,10 +91,10 @@ con frutas de excelente calidad en nuestro suelo argentino.
   [Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/)
    
 
-    Funcionalidad:
+   * Funcionalidad:
     No necesitamos mapa.
 
-    Contenido:
+   * Contenido:
     Un interesante aspecto es que la parte de "Experiencias" tiene Fotos que llevan a tours u otras partes de
     la web.
 
@@ -104,10 +104,10 @@ con frutas de excelente calidad en nuestro suelo argentino.
   [Moño Azul](https://mazul.com.ar/)
    
 
-    Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy
+   * Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy
     completa paleta de colores.
 
-    Contenido:
+   * Contenido:
     Nos gustó el video de fondo y el texto con la frase: "Quien siembra verdad cosecha confianza".
     Invitación a conocer las chacras que se muestran en el video.
 
