@@ -19,7 +19,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
   Wireframes
 
-  Developers
+  [Developers](https://github.com/nachotrossero/grupo_7_Sicera/blob/main/README.md#apple-wireframes)
 
 
 ## :apple: Audiencia 
