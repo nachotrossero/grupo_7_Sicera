@@ -108,7 +108,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 ## Roadmap
 
-   - 1er sprint. Wireframes + boceto. Fecha límite de entrega 28-10-2022
+   - 1er sprint. Wireframes + boceto. Fecha límite de entrega 18-10-2022
 
    - 2do sprint. HTML Y CSS. Fecha límite de entrega -
 
