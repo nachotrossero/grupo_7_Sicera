@@ -24,12 +24,12 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 ## Audiencia
 
-    El target de nuestra empresa son personas mayores de 18 años que aman las fiestas como navidad y año nuevo;
-    donde se suele disfrutar de una buena sidra. Para ello buscamos que puedan conseguir y saborear la mejor
-    sidra del mercado, cuando quiera y sin una mirada juzgadora.
+    El target de nuestra empresa son personas mayores de 18 años que aman las fiestas como navidad y año 
+    nuevo; donde se suele disfrutar de una buena sidra. Para ello buscamos que puedan conseguir y saborear
+    la mejor sidra del mercado, cuando quiera y sin una mirada juzgadora.
 
-    Nuestro público es un evangelizador de la sidra, que ama dar cátedra y sumar más discípulos al culto de la
-    sidra.
+    Nuestro público es un evangelizador de la sidra, que ama dar cátedra y sumar más discípulos al culto de
+    la sidra.
     Esta web no solo vende productos, sino que brinda contenido orgánico, tips, recetas, datos curiosos y
     consejos, que terminan llevando al usuario desconocedor a convertirse en un usuario informado, con más
     motivación para comprar la sidra que quiere consumir o regalar.
@@ -42,8 +42,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 [Vinino](https://www.vivino.com/)
   
-    Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios aspectos que
-    nos inspiró.
+    Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios aspectos
+    que nos inspiró.
 
     Funcionalidad:
     Poder filtrar los vinos por precios y valoraciones, para posteriormente recibir una web con los resultados.
