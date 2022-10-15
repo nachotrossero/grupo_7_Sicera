@@ -1,6 +1,6 @@
 ![Logo](https://stock.adobe.com/70265105?as_channel=adobe_com&as_campclass=brand&as_campaign=srp-raill&as_source=behance_net&as_camptype=acquisition&as_audience=users&as_content=thumbnail-click&promoid=J7XBWPPS&mv=other)
 
-# Sidra de los Andes
+# Sicera 
 
     Nuestra página web está diseñada para brindar a los usuarios un sitio de fácil acceso, 
     para que nuestros clientes puedan obtener sus productos en tiempo, forma y con una experiencia agradable. 
