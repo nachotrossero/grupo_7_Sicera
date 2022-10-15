@@ -94,7 +94,8 @@
 
     https://mazul.com.ar/
 
-    Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy completa paleta de colores.
+    Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy completa paleta de
+    colores.
 
     Contenido:
     Nos gustó el video de fondo y el texto con la frase: "Quien siembra verdad cosecha confianza".
