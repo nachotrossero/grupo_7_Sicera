@@ -1,4 +1,4 @@
-![Logo](https://stock.adobe.com/70265105?as_channel=adobe_com&as_campclass=brand&as_campaign=srp-raill&as_source=behance_net&as_camptype=acquisition&as_audience=users&as_content=thumbnail-click&promoid=J7XBWPPS&mv=other)
+![LOGO](https://user-images.githubusercontent.com/61055543/196007158-41a8273d-4c77-4c81-8d63-351424f255b4.png)
 
 # Sicera 
 
