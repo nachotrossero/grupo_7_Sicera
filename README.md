@@ -11,15 +11,15 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 ## :apple: Contenido 
 
-  1- Audiencia
+  Audiencia
 
-  2- Referencias
+  Referencias
 
-  3- Roadmap
+  Roadmap
 
-  4- Wireframes
+  Wireframes
 
-  5- Developers
+  Developers
 
 
 ## :apple: Audiencia 
