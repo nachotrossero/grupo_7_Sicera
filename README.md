@@ -128,6 +128,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
 ## :apple: Wireframes 
 
    Si quieres hechar un vistazo a los wireframes de nuestro sitio web [ingrese aquí](https://www.figma.com/file/O5lbgB9RD6ZjLMi2E1M0Tb/DH---Proyecto-integrador---Sprint-1-Wireframes?node-id=0%3A1).
+   
+   [go](http://stackoverflow.com){:target="_blank" rel="noopener"}
 
 
 ## Developers :clinking_glasses:
