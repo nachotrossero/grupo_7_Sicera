@@ -2,7 +2,7 @@
 
 # Sicera 
 
-Nuestra página web está diseñada para brindar a los usuarios un sitio de fácil acceso, para que nuestros clientes puedan obtener 
+Nuestra página web está diseñada para brindar a los usuarios un sitio de fácil acceso, para que los clientes puedan obtener 
 sus productos en tiempo, forma y con una experiencia agradable. 
     
 El objetivo principal es conquistar los paladares más exigentes y que la sidra sea conocida por sus beneficios, ya que, está hecha
@@ -27,7 +27,6 @@ con frutas de excelente calidad en nuestro suelo argentino.
     El target de nuestra empresa son personas mayores de 18 años que aman las fiestas como navidad y año 
     nuevo; donde se suele disfrutar de una buena sidra. Para ello buscamos que puedan conseguir y saborear
     la mejor sidra del mercado, cuando quiera y sin una mirada juzgadora.
-
     Nuestro público es un evangelizador de la sidra, que ama dar cátedra y sumar más discípulos al culto de
     la sidra.
     Esta web no solo vende productos, sino que brinda contenido orgánico, tips, recetas, datos curiosos y
@@ -37,7 +36,6 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
 ## Referencias web
-
 
 
 [Vinino](https://www.vivino.com/)
@@ -53,9 +51,6 @@ con frutas de excelente calidad en nuestro suelo argentino.
     Paleta muy simple. Presenta solo dos colores, con lo cual no representa una excesiva carga visual
     para el usuario.
 
-
-
-
    
   [Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
    
@@ -65,8 +60,6 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
    * Estética:
     El footer tiene una estética que nos brinda herramientas para realizar nuestro sitio web.
-    
-    
     
     
 
@@ -85,9 +78,6 @@ con frutas de excelente calidad en nuestro suelo argentino.
     Otro aspecto que nos inspiró es que tenga un carro de compras que te redirecciona hacia otra pestaña.
     Web muy responsive.
     Cuenta con un botón de Whatsapp con acceso rápido
-    
-
-
 
 
 
@@ -100,8 +90,6 @@ con frutas de excelente calidad en nuestro suelo argentino.
    * Contenido:
     Un interesante aspecto es que la parte de "Experiencias" tiene Fotos que llevan a tours u otras partes de
     la web.
-
-
 
 
 
