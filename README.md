@@ -119,7 +119,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 ## Wireframes
 
-    Si quieres hechar un vistazo a los wireframes de nuestro sitio web ingrese (aquí) -botón con hipervínculo-
+    Si quieres hechar un vistazo a los wireframes de nuestro sitio web ingrese aquí
 
 
 ## Developers
