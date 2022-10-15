@@ -108,21 +108,21 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 ## Roadmap
 
-    - 1er sprint. Wireframes + boceto. Fecha límite de entrega 28-10-2022
+   - 1er sprint. Wireframes + boceto. Fecha límite de entrega 28-10-2022
 
-    - 2do sprint. HTML Y CSS. Fecha límite de entrega -
+   - 2do sprint. HTML Y CSS. Fecha límite de entrega -
 
-    - 3er sprint. Template engines. Fecha límite de entrega -
+   - 3er sprint. Template engines. Fecha límite de entrega -
 
-    - 4to sprint. JSON + métodos HTTP. Fecha límite de entrega -
+   - 4to sprint. JSON + métodos HTTP. Fecha límite de entrega -
 
-    - 5to sprint. Middlewares + Auth. Fecha límite de entrega -
+   - 5to sprint. Middlewares + Auth. Fecha límite de entrega -
 
-    - 6to sprint. Base de datos. Fecha límite de entrega -
+   - 6to sprint. Base de datos. Fecha límite de entrega -
 
-    - 7mo sprint. Validaciones. Fecha límite de entrega -
+   - 7mo sprint. Validaciones. Fecha límite de entrega -
 
-    - 8vo sprint. APis + React. Fecha límite de entrega -
+   - 8vo sprint. APis + React. Fecha límite de entrega -
 
 
 ## Wireframes
