@@ -52,7 +52,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
     para el usuario.
 
    
-    [Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
+   [Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
    
 
    * Funcionalidad: 
@@ -63,7 +63,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
     
     
 
-    [Bodega Malma](https://shop.bodegamalma.com.ar/)
+   [Bodega Malma](https://shop.bodegamalma.com.ar/)
    
 
    * Página muy concreta y fácil de recorrer por su diseño.
@@ -81,7 +81,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
 
-    [Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/)
+   [Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/)
    
 
    * Funcionalidad:
@@ -93,7 +93,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
 
-    [Moño Azul](https://mazul.com.ar/)
+   [Moño Azul](https://mazul.com.ar/)
    
 
    * Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy
