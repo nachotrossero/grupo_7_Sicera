@@ -92,7 +92,7 @@
 
     5. Moño Azul
 
-    (https://mazul.com.ar/)
+    ![link Moño Azul](https://mazul.com.ar/)
 
     Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy completa paleta de
     colores.
