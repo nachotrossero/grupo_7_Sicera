@@ -38,7 +38,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
 
-[1.Vinino](https://www.vivino.com/)
+[Vinino](https://www.vivino.com/)
   
    Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios aspectos que nos inspiró.
 
@@ -51,7 +51,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
    
-  [2. Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
+  [Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
    
 
    Funcionalidad: 
@@ -63,7 +63,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
     
     
 
-  [3. Bodega Malma](https://shop.bodegamalma.com.ar/)
+  [3Bodega Malma](https://shop.bodegamalma.com.ar/)
    
 
    Página muy concreta y fácil de recorrer por su diseño.
@@ -83,7 +83,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
 
-  [4. Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/)
+  [Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/)
    
 
    Funcionalidad:
@@ -95,7 +95,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
 
-  [5. Moño Azul](https://mazul.com.ar/)
+  [Moño Azul](https://mazul.com.ar/)
    
 
    Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy completa paleta de
