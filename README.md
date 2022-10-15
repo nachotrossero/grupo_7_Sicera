@@ -25,9 +25,9 @@ con frutas de excelente calidad en nuestro suelo argentino.
 ## :apple: Audiencia 
 
    El target de nuestra empresa son personas mayores de 18 años que aman las fiestas como navidad y año 
-   nuevo; donde se suele disfrutar de una buena sidra. Para ello buscamos que puedan conseguir y saborear
+   nuevo; donde se suele disfrutar de una buena bebida. Para ello buscamos que puedan conseguir y saborear
    la mejor sidra del mercado, cuando quiera y sin una mirada juzgadora.
-   Nuestro público es un evangelizador de la sidra, que ama dar cátedra y sumar más discípulos al culto de
+   Nuestro público es un evangelizador de la misma, que ama dar cátedra y sumar más discípulos al culto de
    la sidra.
    Esta web no solo vende productos, sino que brinda contenido orgánico, tips, recetas, datos curiosos y
    consejos, que terminan llevando al usuario desconocedor a convertirse en un usuario informado, con más
