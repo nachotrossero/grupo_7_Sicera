@@ -123,4 +123,4 @@
     - [@AylinAvila](https://github.com/AylinAvila)
     - [@nachotrossero](https://github.com/nachotrossero)
     - [@FacundoUndiano1](https://github.com/FacundoUndiano1)
-    - [@FacundoUndiano1](https://github.com/FacundoUndiano1) -el de jero-
+    - [@FacundoUndiano1](https://github.com/JeroSaracho)
