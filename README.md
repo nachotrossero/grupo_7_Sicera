@@ -36,6 +36,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 ## Referencias web
 
+
+
 [1.Vinino](https://www.vivino.com/)
   
    Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios aspectos que nos inspiró.
@@ -45,6 +47,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
    Estética:
    Paleta muy simple. Presenta solo dos colores, con lo cual no representa una excesiva carga visual para el usuario.
+
+
 
    
    2. Patagonia Cerveza
@@ -56,6 +60,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
    Estética:
    El footer tiene una estética que nos brinda herramientas para realizar nuestro sitio web.
+    
+    
     
 
    3. Bodega Malma
@@ -77,6 +83,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
     
 
 
+
+
    4. Córdoba Turismo
    
    https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/
@@ -86,6 +94,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
    Contenido:
    Un interesante aspecto es que la parte de "Experiencias" tiene Fotos que llevan a tours u otras partes de la web.
+
+
 
 
    5. Moño Azul
