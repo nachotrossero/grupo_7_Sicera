@@ -40,13 +40,15 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 [Vinino](https://www.vivino.com/)
   
-    Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios aspectos que nos inspiró.
+    Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios aspectos que nos
+    inspiró.
 
     Funcionalidad:
     Poder filtrar los vinos por precios y valoraciones, para posteriormente recibir una web con los resultados.
 
     Estética:
-    Paleta muy simple. Presenta solo dos colores, con lo cual no representa una excesiva carga visual para el usuario.
+    Paleta muy simple. Presenta solo dos colores, con lo cual no representa una excesiva carga visual para el
+    usuario.
 
 
 
@@ -90,7 +92,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
     No necesitamos mapa.
 
     Contenido:
-    Un interesante aspecto es que la parte de "Experiencias" tiene Fotos que llevan a tours u otras partes de la web.
+    Un interesante aspecto es que la parte de "Experiencias" tiene Fotos que llevan a tours u otras partes de
+    la web.
 
 
 
@@ -98,8 +101,8 @@ con frutas de excelente calidad en nuestro suelo argentino.
   [Moño Azul](https://mazul.com.ar/)
    
 
-    Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy completa paleta de
-    colores.
+    Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy
+    completa paleta de colores.
 
     Contenido:
     Nos gustó el video de fondo y el texto con la frase: "Quien siembra verdad cosecha confianza".
