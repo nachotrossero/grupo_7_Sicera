@@ -1,6 +1,6 @@
 ![LOGO](https://user-images.githubusercontent.com/61055543/196007158-41a8273d-4c77-4c81-8d63-351424f255b4.png)
 
-# Sicera 
+# Sicera :champagne:
 
 Nuestra página web está diseñada para brindar a los usuarios un sitio de fácil acceso, para que los clientes puedan obtener 
 sus productos en tiempo, forma y con una experiencia agradable. 
@@ -9,7 +9,7 @@ El objetivo principal es conquistar los paladares más exigentes y que la sidra 
 con frutas de excelente calidad en nuestro suelo argentino.
     
 
-## Contenido
+## :apple: Contenido 
 
   1- Audiencia
 
@@ -22,7 +22,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
   5- Developers
 
 
-## Audiencia
+## :apple: Audiencia 
 
    El target de nuestra empresa son personas mayores de 18 años que aman las fiestas como navidad y año 
    nuevo; donde se suele disfrutar de una buena sidra. Para ello buscamos que puedan conseguir y saborear
@@ -35,7 +35,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 
 
-## Referencias web
+## :apple: Referencias web 
 
 
 [Vinino](https://www.vivino.com/)
@@ -106,7 +106,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
  
 
 
-## Roadmap
+## :apple: Roadmap 
 
    - [ ] 1er sprint. Wireframes + boceto. Fecha límite de entrega 18-10-2022.
 
@@ -125,12 +125,12 @@ con frutas de excelente calidad en nuestro suelo argentino.
    - [ ] 8vo sprint. APis + React. Fecha límite de entrega 23-02-2023.
 
 
-## Wireframes
+## :apple: Wireframes 
 
    Si quieres hechar un vistazo a los wireframes de nuestro sitio web [ingrese aquí](https://www.figma.com/file/O5lbgB9RD6ZjLMi2E1M0Tb/DH---Proyecto-integrador---Sprint-1-Wireframes?node-id=0%3A1).
 
 
-## Developers
+## Developers :clinking_glasses:
 
    - [@AylinAvila](https://github.com/AylinAvila)
    - [@nachotrossero](https://github.com/nachotrossero)
