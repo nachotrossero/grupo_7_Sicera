@@ -11,15 +11,15 @@ con frutas de excelente calidad en nuestro suelo argentino.
 
 ## :apple: Contenido 
 
-  Audiencia
+  1. [Audiencia](https://github.com/nachotrossero/grupo_7_Sicera/edit/main/README.md#apple-audiencia)
 
-  Referencias
+  2. [Referencias](https://github.com/nachotrossero/grupo_7_Sicera/edit/main/README.md#apple-referencias-web)
 
-  Roadmap
+  3. [Roadmap](https://github.com/nachotrossero/grupo_7_Sicera/edit/main/README.md#apple-roadmap)
 
-  Wireframes
+  4. [Wireframes](https://github.com/nachotrossero/grupo_7_Sicera/blob/main/README.md#apple-wireframes)
 
-  [Developers](https://github.com/nachotrossero/grupo_7_Sicera/blob/main/README.md#apple-wireframes)
+  5. [Developers](https://github.com/nachotrossero/grupo_7_Sicera/edit/main/README.md#developers-clinking_glasses)
 
 
 ## :apple: Audiencia 
