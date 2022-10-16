@@ -40,7 +40,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
 ## :apple: Referencias web 
 
 
-   [Vinino](https://www.vivino.com/)
+    [Vinino](https://www.vivino.com/)
   
    * Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios
     aspectos que nos inspiraron.
@@ -54,7 +54,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
     para el usuario.
 
    
-   [Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
+    [Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
    
 
    * Funcionalidad: 
@@ -83,7 +83,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
 
 
-   [Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/)
+    [Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/)
    
 
    * Funcionalidad:
@@ -95,7 +95,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
 
 
-   [Moño Azul](https://mazul.com.ar/)
+    [Moño Azul](https://mazul.com.ar/)
    
 
    * Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy
