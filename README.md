@@ -2,11 +2,13 @@
 
 # Sicera :champagne:
 
+El objetivo principal es conquistar los paladares más exigentes y que la sidra sea conocida por sus beneficios, ya que, está hecha
+con frutas de excelente calidad en nuestro suelo argentino.
+
 Nuestra página web está diseñada para brindar a los usuarios un sitio de fácil acceso, para que los clientes puedan obtener 
 sus productos en tiempo, forma y con una experiencia agradable. 
     
-El objetivo principal es conquistar los paladares más exigentes y que la sidra sea conocida por sus beneficios, ya que, está hecha
-con frutas de excelente calidad en nuestro suelo argentino.
+
     
 
 ## :apple: Contenido 
@@ -41,7 +43,7 @@ con frutas de excelente calidad en nuestro suelo argentino.
    [Vinino](https://www.vivino.com/)
   
    * Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios
-    aspectos que nos inspiró.
+    aspectos que nos inspiraron.
 
    * Funcionalidad:
     Poder filtrar los vinos por precios y valoraciones, para posteriormente recibir una web con
