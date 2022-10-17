@@ -45,11 +45,11 @@ sus productos en tiempo, forma y con una experiencia agradable.
    * Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios
     aspectos que nos inspiraron.
 
-   * Funcionalidad:
+   * **_Funcionalidad:_**
     Poder filtrar los vinos por precios y valoraciones, para posteriormente recibir una web con
     los resultados.
 
-   * Estética:
+   * **_Estética:_**
     Paleta muy simple. Presenta solo dos colores, con lo cual no representa una excesiva carga visual
     para el usuario.
 
@@ -57,10 +57,10 @@ sus productos en tiempo, forma y con una experiencia agradable.
    [Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
    
 
-   * Funcionalidad: 
+   * **_Funcionalidad:_** 
     Es una muy buena la posibilidad de scrolear y que se mantenga la barra superior en su posición.
 
-   * Estética:
+   * **_Estética:_**
     El footer tiene una estética que nos brinda herramientas para realizar nuestro sitio web.
     
     
@@ -70,26 +70,25 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
   * Página muy concreta y fácil de recorrer por su diseño.
 
-  * Estética: 
-    Web que cuenta con un lindo diseño adaptado a sus productos.
-    Tiene una paleta de 3 colores y no hay sobrecarga visual.
-
-  * Funcionalidad:
+ * **_Funcionalidad:_**
     La web en general es muy buena como marketplace.
     Nos gustó el hecho de que el banner del inicio cuando bajás se mantiene en su posición.
     Otro aspecto que nos inspiró es que tenga un carro de compras que te redirecciona hacia otra pestaña.
     Web muy responsive.
-    Cuenta con un botón de Whatsapp con acceso rápido
+    Cuenta con un botón de Whatsapp con acceso rápido.
 
+  * **_Estética:_** 
+    Web que cuenta con un lindo diseño adaptado a sus productos.
+    Tiene una paleta de 3 colores y no hay sobrecarga visual.
 
-
+  
    [Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/)
    
 
-  * Funcionalidad:
+  * **_Funcionalidad:_**
     No necesitamos mapa.
 
-  * Contenido:
+  * **_Contenido:_**
     Un interesante aspecto es que la parte de "Experiencias" tiene Fotos que llevan a tours u otras partes de
     la web.
 
@@ -101,7 +100,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
   * Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy
     completa paleta de colores.
 
-  * Contenido:
+  * **_Contenido:_**
     Nos gustó el video de fondo y el texto con la frase: "Quien siembra verdad cosecha confianza".
     Invitación a conocer las chacras que se muestran en el video.
 
@@ -131,7 +130,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
    Si quieres hechar un vistazo a los wireframes de nuestro sitio web [ingrese aquí](https://www.figma.com/file/O5lbgB9RD6ZjLMi2E1M0Tb/DH---Proyecto-integrador---Sprint-1-Wireframes?node-id=0%3A1).
    
-## 🖌️: Boceto Logo, tipografías y paleta de colores
+## 🖌️ Boceto Logo, tipografías y paleta de colores
    Si quieren hechar un vistazo a cómo sería la paleta de colores para la página web [ingresar aquí](https://www.figma.com/file/O5lbgB9RD6ZjLMi2E1M0Tb/DH---Proyecto-integrador---Sprint-1-Wireframes?node-id=119%3A869).
 
 ##  Developers :clinking_glasses:
