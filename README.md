@@ -28,7 +28,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
    El target de nuestra empresa son personas mayores de 18 años que aman las fiestas como navidad y año 
    nuevo; donde se suele disfrutar de una buena bebida. Para ello buscamos que puedan conseguir y saborear
-   la mejor sidra del mercado, cuando quiera y sin una mirada juzgadora.
+   la mejor sidra del mercado, cuando quieran y sin una mirada juzgadora.
    Nuestro público es un evangelizador de la misma, que ama dar cátedra y sumar más discípulos al culto de
    la sidra.
    Esta web no solo vende productos, sino que brinda contenido orgánico, tips, recetas, datos curiosos y
@@ -59,10 +59,10 @@ sus productos en tiempo, forma y con una experiencia agradable.
    
 
    * **_Funcionalidad:_** 
-    Es una muy buena la posibilidad de scrolear y que se mantenga la barra superior en su posición.
+    Es una muy buena cualidad la posibilidad de scrolear y que se mantenga la barra superior en su posición.
 
    * **_Estética:_**
-    El footer tiene una estética que nos brinda herramientas para realizar nuestro sitio web.
+    El footer tiene una estética detallada que nos brinda herramientas para realizar nuestro sitio web.
     
     
     
@@ -74,14 +74,14 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
  * **_Funcionalidad:_**
     La web en general es muy buena como marketplace.
-    Nos gustó el hecho de que el banner del inicio cuando bajás se mantiene en su posición.
+    Nos gustó el hecho de que el banner del inicio se matenga en su posición cuando recorres la página.
     Otro aspecto que nos inspiró es que tenga un carro de compras que te redirecciona hacia otra pestaña.
     Web muy responsive.
     Cuenta con un botón de Whatsapp con acceso rápido.
 
   * **_Estética:_** 
-    Web que cuenta con un lindo diseño adaptado a sus productos.
-    Tiene una paleta de 3 colores y no hay sobrecarga visual.
+    Web que cuenta con un lindo diseño adaptado a sus productos y a los usuarios.
+    Cuenta con una paleta de 3 colores y no hay sobrecarga visual.
 
   
   
@@ -105,7 +105,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
   * **_Contenido:_**
     Nos gustó el video de fondo y el texto con la frase: "Quien siembra verdad cosecha confianza".
-    Invitación a conocer las chacras que se muestran en el video.
+    Invitación a conocer las chacras que se muestran en el video, permitiendo al usuario vivir de cerca una buena experiencia.
 
  
 
