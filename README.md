@@ -1,6 +1,6 @@
 ![LOGO](https://user-images.githubusercontent.com/61055543/196007158-41a8273d-4c77-4c81-8d63-351424f255b4.png)
 
-# Sicera :champagne::champagne:
+# Sicera :champagne:
 
 El objetivo principal es conquistar los paladares más exigentes y que la sidra sea conocida por sus beneficios, ya que, está hecha
 con frutas de excelente calidad de nuestro suelo argentino.
@@ -37,10 +37,10 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
 
 
-## :apple: Referencias web 
+## :apple: Referencias web :information_source:
 
 
-  ### [Vinino](https://www.vivino.com/)
+  ### [Vinino](https://www.vivino.com/) :wine_glass:
   
    * Creemos que es muy buena referencia para nuestra empresa, ya que este sitio web cuenta con varios
     aspectos que nos inspiraron.
@@ -55,7 +55,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
     
 
    
-  ### [Patagonia Cerveza](https://www.cervezapatagonia.com.ar/)
+  ### [Patagonia Cerveza](https://www.cervezapatagonia.com.ar/) :beers:
    
 
    * **_Funcionalidad:_** 
@@ -67,7 +67,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
     
     
 
-  ### [Bodega Malma](https://shop.bodegamalma.com.ar/)
+  ### [Bodega Malma](https://shop.bodegamalma.com.ar/) :grapes:
    
 
   * Página muy concreta y fácil de recorrer por su diseño.
@@ -85,7 +85,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
   
   
-  ### [Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/)
+  ### [Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/) :airplane:
    
 
   * **_Funcionalidad:_**
@@ -97,7 +97,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
     
     
     
-  ### [Moño Azul](https://mazul.com.ar/)
+  ### [Moño Azul](https://mazul.com.ar/) :ribbon:
    
 
   * Elegimos está página web porque cuenta con una muy linda ilustración en el header. También posee una muy
