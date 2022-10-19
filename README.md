@@ -1,6 +1,6 @@
 ![LOGO](https://user-images.githubusercontent.com/61055543/196007158-41a8273d-4c77-4c81-8d63-351424f255b4.png)
 
-# Sicera :champagne: '#f03c15'
+# Sicera :champagne:
 
 El objetivo principal es conquistar los paladares más exigentes y que la sidra sea conocida por sus beneficios, ya que, está hecha
 con frutas de excelente calidad de nuestro suelo argentino.
