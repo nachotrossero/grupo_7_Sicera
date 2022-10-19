@@ -112,7 +112,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
 ## :apple: Roadmap 
 
-   - [ ] 1er sprint. Wireframes + boceto. Fecha límite de entrega 18-10-2022.
+   - [x] 1er sprint. Wireframes + boceto. Fecha límite de entrega 18-10-2022.
 
    - [ ] 2do sprint. HTML Y CSS. Fecha límite de entrega 03-11-2022.
 
