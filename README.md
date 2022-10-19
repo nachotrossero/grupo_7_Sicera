@@ -72,14 +72,14 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
   * Página muy concreta y fácil de recorrer por su diseño.
 
- * **_Funcionalidad:_**
+   * **_Funcionalidad:_**
     La web en general es muy buena como marketplace.
     Nos gustó el hecho de que el banner del inicio se matenga en su posición cuando recorres la página.
     Otro aspecto que nos inspiró es que tenga un carro de compras que te redirecciona hacia otra pestaña.
     Web muy responsive.
     Cuenta con un botón de Whatsapp con acceso rápido.
 
-  * **_Estética:_** 
+   * **_Estética:_** 
     Web que cuenta con un lindo diseño adaptado a sus productos y a los usuarios.
     Cuenta con una paleta de 3 colores y no hay sobrecarga visual.
 
@@ -88,10 +88,10 @@ sus productos en tiempo, forma y con una experiencia agradable.
   ### [Córdoba Turismo](https://www.cordobaturismo.gov.ar/cosa_para_hacer/caminos-del-vino/) :airplane:
    
 
-  * **_Funcionalidad:_**
+   * **_Funcionalidad:_**
     No necesitamos mapa.
 
-  * **_Contenido:_**
+   * **_Contenido:_**
     Un interesante aspecto es que la parte de "Experiencias" tiene Fotos que llevan a tours u otras partes de
     la web.
     
