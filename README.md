@@ -142,3 +142,6 @@ sus productos en tiempo, forma y con una experiencia agradable.
    - [@nachotrossero](https://github.com/nachotrossero)
    - [@FacundoUndiano1](https://github.com/FacundoUndiano1)
    - [@JeroSaracho](https://github.com/JeroSaracho)
+
+## Tablero de trabajo en equipo 🥇
+   Usamos la plataforma Trello proyecto, puede ingresar [aquí](https://trello.com/invite/b/9ol5Dujp/ae0e16843ecde057208a7cb955dae1ff/proyecto-integrador-e-comerce)
