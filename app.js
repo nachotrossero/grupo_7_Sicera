@@ -16,10 +16,10 @@ app.listen(3000, () => {
 
 //Ruteo al home
 app.use('/', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './views/html'));
+  res.sendFile(path.resolve(__dirname, './views/index.html'));
 })
 
 //Ruteo al home
 app.use('/home', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './views/html'));
+  res.sendFile(path.resolve(__dirname, './views/index.html'));
 })
