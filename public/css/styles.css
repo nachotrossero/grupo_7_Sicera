@@ -1,13 +1,16 @@
-* {
+/* selector universal */
+* {  
   font-family: 'Roboto', sans-serif;
   margin: 0px;
   padding: 0px;
 }
 
+/* estilo de prueba para el body */
 body {
   background-color:bisque;
 }
 
+/* estilo de prueba para el h1 */
 h1 {
   background-color: green;
 }
