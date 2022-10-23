@@ -4,19 +4,19 @@ Sprint #1
 Retrospectiva Sprint #1
 
 1. Comenzar a hacer.
-	Hacer mínimo 2 reuniones fijas por semana.
-	Practicar Git y Github para evitar pisarnos durante el trabajo colaborativo y evitar problemas de sincronización.
-	Chequear trello y hacer git pull antes de trabajar.
+	Realizar mínimo 2 reuniones fijas por semana.
+	Practicar Git y Github para evitar conflictos en el trabajo colaborativo, además de problemas de sincronización.
+	Chequear Trello periódicamente y actualizar tu repositorio local antes de comenzar a trabajar.
 
 2. Hacer más.
 	Celebrar nuestros triunfos. 
-	Practicar mucho CSS porque no es fácil.
+	Practicar mucho CSS, ya que, es algo que todavía no tenemos muy interiorizado.
 	Usar muchos emogis en nuestras reuniones.
-	Hacer consultas a los profesores.
+	Hacer consultas a los profesores en base a nuestras dudas.
 
 3. Continuar haciendo.
-	Comunicarse de manera constante para hacernos consultas y generar encuentros de trabajo.
-	Usar trello como tablero organizador de tareas.
+	Comunicación constante en el equipo para trabajar sobre las dudas y generar encuentros de trabajo.
+	Usar Trello como tablero organizador de tareas.
 
 4. Hacer menos.
 	Nada por ahora.
@@ -25,5 +25,5 @@ Retrospectiva Sprint #1
 
 Conclusiones finales de la retrospectiva sprint #1:
 
-Consideramos que la primera experiencia del sprint fue muy positiva ya que supimos organizarnos para trabajar de manera constante y en conjunto. Cada uno aportó en el desarrollo del sprint #1 desde donde se sentía cómodo y siempre hubo espírtu de compañerismo.
+Consideramos que la primera experiencia del sprint fue muy positiva, debido que supimos organizarnos para trabajar de manera constante y en conjunto. Cada uno aportó en el desarrollo del sprint #1 desde donde se sentía cómodo y siempre hubo espírtu de compañerismo.
 
