@@ -24,6 +24,9 @@ app.use('/home', (req, res) => {
   res.sendFile(path.resolve(__dirname, './views/index.html'));
 })
 
+
+//Las rutas de abajo no estan funcionando
+
 //Ruteo al registro
 app.use('/registro', (req, res) => {
   res.sendFile(path.resolve(__dirname, './views/register.html'));
