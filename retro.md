@@ -4,26 +4,25 @@ Grupo #7
 Retrospectiva Sprint #1
 
 1. Comenzar a hacer.
-	Realizar mínimo 2 reuniones fijas por semana.
-	Practicar Git y Github para evitar conflictos en el trabajo colaborativo, además de problemas de sincronización.
-	Chequear Trello periódicamente y actualizar tu repositorio local antes de comenzar a trabajar.
+	Realizar mínimo dos reuniones fijas por semana.
+	Practicar y familiarizarnos con Git y Github, para evitar conflictos en el trabajo colaborativo, además de problemas de sincronización.
+	Chequear Trello periódicamente y actualizar el repositorio local antes de comenzar a trabajar.
 
 2. Hacer más.
-	Celebrar nuestros triunfos. 
+	Celebrar nuestros triunfos y virtudes. 
 	Practicar mucho CSS, ya que, es algo que todavía no tenemos muy interiorizado.
-	Usar muchos emogis en nuestras reuniones.
-	Hacer consultas a los profesores en base a nuestras dudas.
+	Hacer consultas a los profesores en base a nuestras dudas, para llevar las clases al día y poder aplicar los conocimientos en los proyectos.
 
 3. Continuar haciendo.
-	Comunicación constante en el equipo para trabajar sobre las dudas y generar encuentros de trabajo.
-	Usar Trello como tablero organizador de tareas.
+	Comunicación constante en el equipo para llevar un seguimiento de las diferentes actividades y generar encuentros de trabajo.
+	Utilizar Trello como tablero organizador de tareas.
 
 4. Hacer menos.
-	Nada por ahora.
+	Nada por el momento.
 5. Dejar de hacer.
-	Nada por ahora.
+	Nada por el momento.
 
-Conclusiones finales de la retrospectiva sprint #1:
+Conclusiones finales de la retrospectiva en base al sprint #1:
 
-Consideramos que la primera experiencia del sprint fue muy positiva, debido que supimos organizarnos para trabajar de manera constante y en conjunto. Cada uno aportó en el desarrollo del sprint #1 desde donde se sentía cómodo y siempre hubo espírtu de compañerismo.
+Consideramos que la primera experiencia del sprint fue muy positiva, debido a que supimos organizar nuestro tiempo para trabajar de forma constante y en conjunto. Cada uno aportó en el desarrollo del mismo desde donde se sentía cómodo y siempre hubo espírtu de compañerismo.
 
