@@ -1,5 +1,5 @@
 
-//Requerimos paquetes
+//Requerimos paquetes express y path
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -22,4 +22,27 @@ app.use('/', (req, res) => {
 //Ruteo al home
 app.use('/home', (req, res) => {
   res.sendFile(path.resolve(__dirname, './views/index.html'));
+})
+
+//Ruteo al registro
+app.use('/registro', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './views/register.html'));
+})
+
+
+//Ruteo al login
+app.use('/login', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './views/login.html'));
+})
+
+
+//Ruteo detalles de producto
+app.use('/productos', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './views/productDetail.html'));
+})
+
+
+//Ruteo al carro de compras
+app.use('/carrito', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './views/productCart.html'));
 })
