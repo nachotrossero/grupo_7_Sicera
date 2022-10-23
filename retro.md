@@ -1,5 +1,5 @@
 Grupo #7
-Sprint #1
+
 
 Retrospectiva Sprint #1
 
