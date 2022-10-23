@@ -10,6 +10,11 @@ body {
   background-color:bisque;
 }
 
+.nav-links {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
 /* estilo de prueba para el h1 */
 h1 {
   background-color: green;
