@@ -19,7 +19,7 @@ app.use('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, './views/index.html'));
 })
 
-//Ruteo al home
+//Segundo ruteo al home
 app.use('/home', (req, res) => {
   res.sendFile(path.resolve(__dirname, './views/index.html'));
 })
