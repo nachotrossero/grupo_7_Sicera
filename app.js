@@ -4,15 +4,12 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+//Levantamos el servidor
+let PORT = 3030
+app.listen(PORT, console.log('Servidor corriendo en puerto ' + PORT));
+
 //Hacemos publicos algunos archivos
 app.use(express.static('public'));
-
-
-//Levantamos el servidor
-app.listen(3000, () => {
-  console.log('Servidor corriendo en puerto 3000');
-})
-
 
 //Ruteo al home
 app.get('/', (req, res) => {

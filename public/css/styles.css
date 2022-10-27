@@ -13,9 +13,111 @@ body {
 .nav-links {
   text-decoration: none;
   color: rgb(0, 0, 0);
+  padding-top: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  
 }
 
 /* estilo de prueba para el h1 */
 h1 {
   background-color: green;
 }
+
+/* estilo del header */
+header{
+  background-color: #E33241;
+  opacity: 80%;
+  padding: 0px;
+}
+
+/* burger menu */
+div.burger-menu{
+  text-align: center;
+  padding-top: 10px;
+}
+
+div.burger-menu i{
+   color: #ffffff;
+   background-color: #D50000;
+   padding: 10px;
+   margin-left: 320px;
+   border-radius: 5px;
+   font-size: 18px;
+}
+
+/* estilo del buscador */
+.top-header{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 48%;
+    top: auto;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin:-20px;
+    transform: translate(-50%,-50%);
+}
+
+input.src{
+  padding: 9px 10px 9px 10px;
+  outline: none;
+  font-size: 13px;
+  border-radius: 15px;
+  color: #000;
+  border: 3px solid #fff;
+  margin-right: 30px;
+  margin-left: 50px;
+  width: 90px;
+  transition: all .7s;
+}
+
+
+input {
+    outline: none;
+    box-sizing: border-box;
+    padding: 16px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 14px;
+    border: 2px solid #D50000;
+    transition: all .7s ease;
+}
+
+::placeholder {
+    color: #000;
+}
+
+.icon-search {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+    background: #D50000;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-search i {
+    font-size: 25px;
+    color: white;
+    line-height: 80px;
+    transition: all .7s ease;
+}
+
+.top-header:hover input {
+    width: 200px;
+}
+
+.top-header:hover i{
+    transform: rotate(-360deg);
+    
+}
+

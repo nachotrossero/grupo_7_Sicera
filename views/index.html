@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Para linkear fuente Roboto-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
 
     <!--Para linkear iconos-->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <title>Sicera</title>
 
     <!--Para linkear hoja de estilos-->
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css">
 
   </head>
 
   <body>
     <header>
+      
+        <section class="logo-sicera">
+          <img src="/public/img/logo-sicera.jpg" alt="logo">
+        </section>
+
+        
+      <!--menu-burger-->
+        <div class="burger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        
+      <!--Buscador-->
+      <div class="top-header">
+        <input type="text" 
+        name="search" 
+        placeholder="Busca la sidra indicada" 
+        class="src" 
+        autocomplete="off">
+        <!--icono del buscador-->
+        <div class="icon-search">
+          <i class="fas fa-search"></i>
+        </div>
+
+        
+      </div>
+
       <nav class="nav-links">
         <section>
           <a href="/register">Registro</a>
@@ -39,7 +62,7 @@
 
     <main>
       <section class="h1">
-        <h1>Oferta de producto y/o servicios</h1>
+        <h1>Oferta de producto y/o servicios</h1><i class="far fa-search"></i>
       </section>
     </main>
 
