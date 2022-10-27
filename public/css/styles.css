@@ -121,3 +121,17 @@ input {
     
 }
 
+/* marco de placeholder del footer  */
+footer{
+
+  margin: 1px;
+  border:solid blue 2px ;
+
+}
+.footer-copy{
+
+  border-top: solid red 5px;
+  padding-top: 5px;
+
+}
+
