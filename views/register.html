@@ -33,8 +33,51 @@
     </header>
 
     <main>
-      <h1>Registro</h1>
-      <section></section>
+      <!--CSS: título debería ir centrado-->
+      <h1>Registrate</h1>
+
+      <section>
+                <!--Comienza formulario -->
+        <form action="#" method="POST">
+
+          <div>
+          <label for="user-name"></label>
+          <input type="text" name="user-name" placeholder="Nombre" required>
+        </div>
+          
+        <div>
+          <label for="user-surname"></label>
+          <input type="text" name="user-surname" placeholder="Apellido" required>
+        </div>
+
+        <div>
+          <label for="user-email"></label>
+          <input type="text" name="user-email" placeholder="E-mail" required>
+        </div>
+
+        <div>  
+        <label for="user-password"></label>
+          <input type="password" name="user-password" placeholder="Contraseña" required>
+          <label for="submit"></label>
+        </div>
+
+        <div class="button">
+          <button type="submit" name="submit">Registrate</button>
+        </div>
+
+        <p>¿Ya eres miembro?</p>
+        <p><a href="/logIn">Inicia sesión</a></p>
+
+
+        </form> 
+      </section>
+
+      <div>
+        <label for="submit"></label>
+          <button type="submit" name="submit">Ingresa con Google</button>
+        </div>
+       
+
     </main>
 
     <footer></footer>

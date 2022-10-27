@@ -37,12 +37,12 @@ app.get('/login', (req, res) => {
 
 
 //Ruteo detalles de producto
-app.get('/productos', (req, res) => {
+app.get('/productDetail', (req, res) => {
   res.sendFile(path.resolve(__dirname, './views/productDetail.html'));
 })
 
 
 //Ruteo al carro de compras
-app.get('/carrito', (req, res) => {
+app.get('/productCart', (req, res) => {
   res.sendFile(path.resolve(__dirname, './views/productCart.html'));
 })
