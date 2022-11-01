@@ -31,17 +31,28 @@ header{
   padding: 0px;
 }
 
+/* estilo de logo */
+.logo-sicera-def{
+  padding: 10px;
+  width: 0px;
+  height: -70px;
+  margin: 2px;
+}
+
+
 /* burger menu */
 div.burger-menu{
   text-align: center;
   padding-top: 10px;
+  display: block;
+  text-align: center;
 }
 
 div.burger-menu i{
    color: #ffffff;
    background-color: #D50000;
    padding: 10px;
-   margin-left: 320px;
+   margin-left: 280px;
    border-radius: 5px;
    font-size: 18px;
 }
@@ -50,11 +61,11 @@ div.burger-menu i{
 .top-header{
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    left: 48%;
+    left: 64%;
     top: auto;
-    padding-top: 10px;
+    padding-top: 12px;
     padding-left: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 00px;
     margin:-20px;
     transform: translate(-50%,-50%);
 }
@@ -113,12 +124,20 @@ input {
 }
 
 .top-header:hover input {
-    width: 200px;
+    width: 190px;
 }
 
 .top-header:hover i{
     transform: rotate(-360deg);
     
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+
 }
 
 /* marco de placeholder del footer  */
