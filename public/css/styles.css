@@ -1,32 +1,57 @@
-/* selector universal */
+/*! Selectores universales */
 * {  
   font-family: 'Roboto', sans-serif;
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
-
-.nav-links {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  padding-top: 0px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: sandybrown;
 }
 
+p {
+  font-size: 12px;
+}
 
-/* estilo del header */
-header{
+/*!Header -nav-links-burger*/
+
+header {
   background-color: #E33241;
   opacity: 80%;
   padding: 0px;
 }
 
-/* burger menu */
+.top-header {
+  display: flex;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.search-bar:hover input {
+    width: 200px;
+}
+
+.search-bar:hover i{
+    transform: rotate(-360deg);
+}
+
+.logo-sicera img {
+  width: 35%;
+  box-sizing: border-box;
+}
+
+.search-bar {
+  width: 20%;
+  box-sizing: border-box;
+}
+
+/**Burger*/
 div.burger-menu{
   text-align: center;
   padding-top: 10px;
+  box-sizing: border-box;
 }
 
 div.burger-menu i{
@@ -36,11 +61,11 @@ div.burger-menu i{
    margin-left: 320px;
    border-radius: 5px;
    font-size: 18px;
+   box-sizing: border-box;
 }
 
-/* estilo del buscador */
-.top-header{
-    font-family: 'Roboto', sans-serif;
+/**Search bar*/
+.search-bar {
     position: absolute;
     left: 48%;
     top: auto;
@@ -63,7 +88,6 @@ input.src{
   width: 90px;
   transition: all .7s;
 }
-
 
 input {
     outline: none;
@@ -104,26 +128,111 @@ input {
     transition: all .7s ease;
 }
 
-.top-header:hover input {
-    width: 200px;
+/**Links nav-bar*/
+.header-nav-links {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-top: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
 }
 
-.top-header:hover i{
-    transform: rotate(-360deg);
-    
+/**Slider de imagenes*/
+.slider {
+
 }
 
-/* marco de placeholder del footer  */
+
+
+
+/*!Main*/
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 16px;
+  font-style: italic;
+}
+
+
+
+
+/*!Footer*/
 footer{
-
   margin: 1px;
-  border:solid blue 2px ;
+  border:solid rgb(52, 52, 116) 2px ;
+  background-color: darkgrey;
+  padding: 10px 0;
+}
+
+.top-footer article i {
+  display: flex;
+  display: block;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.under-top-footer p {
+  text-align: center;
+}
+
+.lista-footer1 ul li{
+  display: flex;
+  display: block;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.lista-footer2 ul li{
+  display: flex;
+  display: block;
+  flex-wrap: wrap;
+  text-align: right;
+  width: 50%;
+  box-sizing: border-box;
 
 }
-.footer-copy{
 
-  border-top: solid red 5px;
+.bottom-footer article a i {
+  display: flex;
+  display: block;
+  flex-wrap: wrap;
+  padding: 1px;
+  margin: 1px;
+}
+
+section .sub-footer {
+  margin-top: 3px;
+  border-top: solid red 3px;
   padding-top: 5px;
-
+  text-align: left;
+  font-weight: bold;
 }
 
+
+
+
+/*!Queries*/
+
+/*?Puse mismas medidas que la liebre, cambiarlas*/
+ /**Tablet*/
+ @media (min-width: 426) {
+
+ }
+
+
+ /**Desktop*/
+ @media (min-width: 769px) {
+
+ }
