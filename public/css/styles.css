@@ -146,6 +146,8 @@ input {
 
 /**Slider de imagenes*/
 .slider {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
