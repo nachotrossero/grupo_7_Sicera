@@ -4,7 +4,7 @@
   --dark-gray: #2c363f; /* footer */
 }
 
-/* selector universal */
+/**Selectores universales*/
 * {  
   font-family: 'Roboto', sans-serif;
   margin: 0px;
@@ -12,6 +12,7 @@
   box-sizing: border-box;
 }
 
+/**Selectores generales*/
 body {
   font-family: 'Roboto', sans-serif;
   background-color:lightsteelblue;
@@ -20,6 +21,13 @@ body {
 p {
   font-size: 12px;
 }
+
+
+
+/******************************************/
+
+
+/*?Index styles* start/
 
 /*!Header -nav-links-burger*/
 
@@ -173,7 +181,7 @@ h3 {
 
 
 
-/*!Footer*/
+/*!Footer y subfooter*/
 footer{
   margin: 1px;
   border:solid rgb(52, 52, 116) 2px ;
@@ -230,9 +238,58 @@ section .sub-footer {
 
 
 
-/*!Queries*/
+/******************************************/
 
-/*?Puse mismas medidas que la liebre, cambiarlas*/
+/*?Login styles* start/
+/*!Header*/
+/*!Main*/
+/*!Footer*/
+/*?Login styles* end/
+
+
+
+
+/******************************************/
+
+/*?Register styles* start/
+/*!Header*/
+/*!Main*/
+/*!Footer*/
+/*?Register styles* end/
+
+
+
+
+/******************************************/
+
+/*?ProductCart styles* start/
+/*!Header*/
+/*!Main*/
+/*!Footer*/
+/*?ProductCart styles* end/
+
+
+
+
+/******************************************/
+
+/*?ProductDetail styles* start/
+/*!Header*/
+/*!Main*/
+/*!Footer*/
+/*?ProductDetail styles* end/
+
+
+
+
+/******************************************/
+
+
+
+
+/*!Media Queries*/
+
+/*?Puse mismas medidas que la liebre, cambiarlas por las que vayamos a usar*/
  /**Tablet*/
  @media (min-width: 426) {
 
