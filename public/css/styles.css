@@ -58,7 +58,7 @@ div.burger-menu i{
    color: #ffffff;
    background-color: #D50000;
    padding: 10px;
-   margin-left: 320px;
+   margin-left: 280px;
    border-radius: 5px;
    font-size: 18px;
    box-sizing: border-box;
@@ -67,11 +67,11 @@ div.burger-menu i{
 /**Search bar*/
 .search-bar {
     position: absolute;
-    left: 48%;
+    left: 64%;
     top: auto;
-    padding-top: 10px;
+    padding-top: 12px;
     padding-left: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 00px;
     margin:-20px;
     transform: translate(-50%,-50%);
 }
