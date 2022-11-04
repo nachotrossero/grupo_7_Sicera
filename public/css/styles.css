@@ -1,10 +1,8 @@
 :root{
-  --red: #e33241; /*barra de navegacion opcacidad 80%*/
+  --red: #e33241; /*barra de navegacion opacidad 80%*/
   --light-orange: #fff4e9; /* fondo de la pag */
   --dark-gray: #2c363f; /* footer */
 }
-
-
 
 /* selector universal */
 * {  
