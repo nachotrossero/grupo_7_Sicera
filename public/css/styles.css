@@ -14,7 +14,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: sandybrown;
+  background-color:lightsteelblue;
 }
 
 p {
@@ -177,7 +177,7 @@ h3 {
 footer{
   margin: 1px;
   border:solid rgb(52, 52, 116) 2px ;
-  background-color: darkgrey;
+  background-color:lightgrey;
   padding: 10px 0;
 }
 
