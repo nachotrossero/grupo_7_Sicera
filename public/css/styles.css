@@ -1,4 +1,10 @@
-/*! Selectores universales */
+:root{
+  --red: #e33241; /*barra de navegacion opacidad 80%*/
+  --light-orange: #fff4e9; /* fondo de la pag */
+  --dark-gray: #2c363f; /* footer */
+}
+
+/* selector universal */
 * {  
   font-family: 'Roboto', sans-serif;
   margin: 0px;
