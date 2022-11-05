@@ -321,7 +321,6 @@ section .sub-footer {
   padding: 15px;
   width: 100%;
   display: block;
-  text-transform: capitalize;
 }
 
 .kart-main-top-text p {
