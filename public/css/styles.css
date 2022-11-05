@@ -271,6 +271,9 @@ section .sub-footer {
   flex-wrap: wrap;
   border-bottom: 2px solid grey;
   padding-bottom: 15px;
+  justify-content: space-between;
+  align-items: flex-end;
+
 }
 
 .kart-h1 {
@@ -282,26 +285,38 @@ section .sub-footer {
   padding: 15px;
   width: 100%;
   display: block;
+  text-transform: capitalize;
 }
 
-.kart-main-top-text div {
+.kart-main-top-text p {
   display: flex;
   font-style:italic ;
   font-weight: 500;
   padding: 5px;
   margin: 3px;
-  
 }
 
-.kart-main-top-basket div {
+
+.kart-main-top-basket i {
   display: flex;
   padding: 5px;
   margin: 3px;
+  font-size: 25px;
+  margin-right: 20px;
 
 }
 
 .kart-products {
   text-align: center;
+}
+
+.product {
+  display: flex;
+  padding: 4px;
+  margin: 3px;
+  border-bottom: 2px solid grey;
+  justify-content: space-around;
+  margin-right: 15px;
 }
 
 .kart-product-img img {
@@ -310,21 +325,41 @@ section .sub-footer {
   margin: 7px;
   display: block;
   text-align: left;
+  background-color: #d9545f;
 }
 
 .kart-product-details {
-
+  display: flex;
+  flex-wrap: wrap;
+  width: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .kart-product-units {
-
+  display: flex;
+  flex-wrap: wrap;
+  width: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .kart-product-price {
+  display: flex;
+  flex-wrap: wrap;
+  width: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.kart-lower-main {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
 }
 
 .kart-final-price p {
+  display: block;
   font-size: 16px;
   font-weight: bold;
   text-align: right;
@@ -332,9 +367,9 @@ section .sub-footer {
   padding: 4px;
 }
 
+
 .kart-buttons button {
   display: flex;
-  
   width: 17%;
   font-weight: bold;
   padding: 1px;
