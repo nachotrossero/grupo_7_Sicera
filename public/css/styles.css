@@ -268,6 +268,8 @@ section .sub-footer {
 .kart-main-top {
   display: flex;
   flex-wrap: wrap;
+  border-bottom: 2px solid grey;
+  padding-bottom: 15px;
 }
 
 .kart-h1 {
@@ -278,18 +280,23 @@ section .sub-footer {
   margin-bottom: 3px;
   padding: 15px;
   width: 100%;
+  display: block;
 }
 
-.kart-main-top-text {
+.kart-main-top-text div {
+  display: flex;
   font-style:italic ;
   font-weight: 500;
   padding: 5px;
   margin: 3px;
+  
 }
 
-.kart-main-top-basket i {
+.kart-main-top-basket div {
+  display: flex;
   padding: 5px;
   margin: 3px;
+
 }
 
 .kart-products {
