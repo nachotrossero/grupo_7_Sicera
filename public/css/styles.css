@@ -183,6 +183,7 @@ footer{
 .top-footer{
   display: flex;  
   flex-wrap: wrap;  
+  justify-content: space-around;
 }
 
 .top-footer article i{
