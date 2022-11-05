@@ -31,8 +31,6 @@ p {
 
 /*!Header -nav-links-burger*/
 
-/*!Header -nav-links-burger*/
-
 header {
   background-color: #E33241;
   opacity: 80%;
@@ -331,6 +329,24 @@ section .sub-footer {
 /*?Login styles* start/
 /*!Header*/
 /*!Main*/
+.main-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 25px 0 25px;
+}
+.button-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+.hipervinculo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 /*!Footer*/
 /*?Login styles* end/
 
@@ -498,8 +514,6 @@ section .sub-footer {
 
 /*?ProductDetail styles* start/
 /*!Header*/
-
-
 /*!Main*/
 .main-prod-detail{
   margin: 0 25px 0 25px;
