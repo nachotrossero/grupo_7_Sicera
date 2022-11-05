@@ -69,13 +69,13 @@ div.burger-menu{
 }
 
 div.burger-menu i{
-   color: #ffffff;
-   background-color: #D50000;
-   padding: 10px;
-   margin-left: 280px;
-   border-radius: 5px;
-   font-size: 18px;
-   box-sizing: border-box;
+  color: #ffffff;
+  background-color: #D50000;
+  padding: 10px;
+  margin-left: 280px;
+  border-radius: 5px;
+  font-size: 18px;
+  box-sizing: border-box;
 }
 
 /**Search bar*/
@@ -180,6 +180,7 @@ h3 {
 
 
 /*!Footer y subfooter*/
+
 footer{
   margin: 1px;
   border:solid rgb(52, 52, 116) 2px ;
