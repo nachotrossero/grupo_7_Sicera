@@ -37,104 +37,113 @@ header {
   background-color: #E33241;
   opacity: 80%;
   padding: 0px;
+  height: 125px;
 }
 
 .top-header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-}
-
-.search-bar:hover input {
-    width: 200px;
-}
-
-.search-bar:hover i {
-    transform: rotate(-360deg);
+  justify-content: space-between;
 }
 
 .logo-sicera {
   width: 30%;
 }
+
 .logo-sicera img {
   width: 100%;
-  box-sizing: border-box;
 }
 
+/**Search bar*/
 .search-bar {
+  text-align: center;
   display: flex;
+  position: relative;
+  left: -15px;
+}
+
+.search-bar input {
+  text-align: center;
+  width: 60%;
+  height: 15px;
+  display: flex;
+  position: relative;
+  top: 13px;
+  right: -49px;
+}
+
+.search-bar:hover input {
+  width: 200px;
+}
+
+.search-bar:hover i {
+  transform: rotate(-360deg);
+}
+
+input {
+  outline: none;
   box-sizing: border-box;
+  padding: 16px;
+  color: #000;
+  border-radius: 50px;
+  font-size: 14px;
+  border: 2px solid #D50000;
+  transition: all .7s ease;
+}
+
+::placeholder {
+  color: #000;
 }
 
 /**Burger*/
 div.burger-menu {
   text-align: center;
   padding-top: 10px;
-  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  right: -30px;
+  top: 4px;
 }
 
 div.burger-menu i {
-   color: #ffffff;
-   background-color: #D50000;
-   padding: 10px;
-   border-radius: 5px;
-   font-size: 18px;
-   box-sizing: border-box;
-}
-
-/**Search bar*/
-.search-bar {
-    padding-bottom: 00px;
-}
-
-input.src{
-
-}
-
-input {
-    outline: none;
-    box-sizing: border-box;
-    padding: 16px;
-    color: #000;
-    border-radius: 50px;
-    font-size: 14px;
-    border: 2px solid #D50000;
-    transition: all .7s ease;
-}
-
-::placeholder {
-    color: #000;
+  color: #ffffff;
+  background-color: #D50000;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 .icon-search {
-
-    width: 50px;
-    height: 50px;
-    background: #D50000;
-    line-height: 80px;
-    border-radius: 50%;
-    text-align: center;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ width: 40px;
+  height: 40px;
+  background: #D50000;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 11px;
+  right: 155px;
 }
 
 .icon-search i {
-    font-size: 25px;
-    color: white;
-    line-height: 80px;
-    transition: all .7s ease;
+  font-size: 25px;
+  color:white;
+  line-height: 80px;
+  transition: all .7s ease;
 }
 
 /**Links nav-bar*/
 .header-nav-links {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  padding-top: 0px;
   margin-top: 20px;
   margin-bottom: 0px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 
@@ -160,6 +169,7 @@ h1 {
   text-align: center;
   padding: 10px 0px 15px 0px;
   border-bottom: 3px solid #d9545f;
+  color:#e33241;
 }
 
 h2 {
@@ -310,6 +320,7 @@ section .sub-footer {
   padding-top: 5px;
   text-align: center;
   font-weight: bold;
+  color: white;
 }
 
 
@@ -420,7 +431,6 @@ section .sub-footer {
   margin-bottom: 10px;
   position: relative;
   top: -15px;
-
 }
 
 .kart-product-units {
