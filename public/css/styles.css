@@ -179,12 +179,17 @@ footer{
   padding: 10px 0;
 }
 
-.top-footer article i {
-  display: flex;
-  display: block;
-  flex-wrap: wrap;
-  box-sizing: border-box;
+.top-footer{
+  display: flex;  
+  flex-wrap: wrap;  
 }
+
+.top-footer article i{
+
+  font-size: 50px;
+
+}
+
 
 .under-top-footer p {
   text-align: center;
