@@ -49,7 +49,7 @@ header {
 
 /**Contenedor del logo*/
 .logo-sicera {
-  width: 30%;
+  width: 33%;
 }
 
 /**Logo imagen*/
@@ -62,7 +62,7 @@ header {
   text-align: center;
   display: flex;
   position: relative;
-  left: -60px;
+  left: -40px;
 }
 
 /**Search bar input*/
