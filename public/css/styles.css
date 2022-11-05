@@ -300,7 +300,11 @@ section .sub-footer {
 }
 
 .kart-product-img img {
-
+  width: 25vw;
+  padding: 5px;
+  margin: 7px;
+  display: block;
+  text-align: left;
 }
 
 .kart-product-details {
