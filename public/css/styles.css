@@ -324,15 +324,17 @@ section .sub-footer {
   font-weight: bold;
   text-align: right;
   margin-right: 15px;
+  padding: 4px;
 }
 
 .kart-buttons button {
   width: 17%;
   font-weight: bold;
-  padding: 2px;
+  padding: 1px;
+  margin: 2px;
   text-transform: uppercase;
   border: 1px solid black;
-  border-radius: 10%;
+  border-radius: 8%;
 }
 
 /*!Footer*/
