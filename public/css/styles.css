@@ -31,6 +31,7 @@ p {
 
 /*!Header -nav-links-burger*/
 
+/**Header reglas generales*/
 header {
   background-color: #E33241;
   opacity: 80%;
@@ -38,6 +39,7 @@ header {
   height: 125px;
 }
 
+/**Incluye todo el header menos la nav*/
 .top-header {
   display: flex;
   flex-wrap: wrap;
@@ -45,22 +47,25 @@ header {
   justify-content: space-between;
 }
 
+/**Contenedor del logo*/
 .logo-sicera {
   width: 30%;
 }
 
+/**Logo imagen*/
 .logo-sicera img {
   width: 100%;
 }
 
-/**Search bar*/
+/**Contenedor search bar*/
 .search-bar {
   text-align: center;
   display: flex;
   position: relative;
-  left: -15px;
+  left: -60px;
 }
 
+/**Search bar input*/
 .search-bar input {
   text-align: center;
   width: 60%;
@@ -69,19 +74,7 @@ header {
   position: relative;
   top: 13px;
   right: -49px;
-}
-
-.search-bar:hover input {
-  width: 200px;
-}
-
-.search-bar:hover i {
-  transform: rotate(-360deg);
-}
-
-.search-bar input {
   outline: none;
-  box-sizing: border-box;
   padding: 16px;
   color: #000;
   border-radius: 50px;
@@ -90,20 +83,33 @@ header {
   transition: all .7s ease;
 }
 
+/**Search bar hover*/
+.search-bar:hover input {
+  width: 200px;
+}
+
+/**Search bar hover*/
+.search-bar:hover i {
+  transform: rotate(-360deg);
+}
+
+/**Color texto del input*/
 ::placeholder {
   color: #000;
 }
 
-/**Burger*/
+/**Contenedor burger menu*/
 div.burger-menu {
   text-align: center;
   padding-top: 10px;
   display: flex;
   position: relative;
-  right: -30px;
+  right: -70px;
   top: 4px;
+  
 }
 
+/**Burger menu icono*/
 div.burger-menu i {
   color: #ffffff;
   background-color: #D50000;
@@ -112,6 +118,7 @@ div.burger-menu i {
   font-size: 18px;
 }
 
+/**Contenedor icon search*/
 .icon-search {
  width: 40px;
   height: 40px;
@@ -124,9 +131,10 @@ div.burger-menu i {
   align-items: center;
   position: relative;
   top: 11px;
-  right: 155px;
+  right: -50px;
 }
 
+/**Imagen icon search*/
 .icon-search i {
   font-size: 25px;
   color:white;
@@ -142,6 +150,7 @@ div.burger-menu i {
   margin-bottom: 0px;
   box-sizing: border-box;
   text-align: center;
+  display: none;
 }
 
 
@@ -159,7 +168,6 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 h1 {
   font-size: 20px;
