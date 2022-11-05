@@ -143,16 +143,17 @@ input {
   box-sizing: border-box;
 }
 
-/**Slider de imagenes*/
-.slider {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 
 
 
 /*!Main*/
+
+/**Slider de imagenes*/
+.slider img {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 h1 {
   font-size: 20px;
