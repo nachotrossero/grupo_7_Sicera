@@ -473,4 +473,50 @@ section .sub-footer {
  /**Desktop*/
  @media (min-width: 769px) {
 
+ 
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-footer{
+    width: 30%;
+    justify-content: center;
+  }
+  .top-footer article{   
+    width: 30%;
+    display: flex;    
+  }
+  .top-footer .paypal{
+
+    justify-content: flex-end;
+
+  }
+  .top-footer .visa{
+
+    justify-content: center;
+
+  }
+  .top-footer .mastercard{
+
+    justify-content: flex-start;
+  }
+
+  .listas-footer{
+    
+    width: 30%
+  }
+  .lista-footer2{
+    width: 60%;
+  }
+  
+  .bottom-footer{
+
+    width: 30%;
+    align-items: center;
+  }
+  
+
  }
