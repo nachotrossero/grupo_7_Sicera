@@ -41,7 +41,6 @@ header {
 
 .top-header {
   display: flex;
-
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -51,12 +50,11 @@ header {
     width: 200px;
 }
 
-.search-bar:hover i{
+.search-bar:hover i {
     transform: rotate(-360deg);
 }
 
 .logo-sicera {
-
   width: 30%;
 }
 .logo-sicera img {
@@ -65,23 +63,21 @@ header {
 }
 
 .search-bar {
-
   display: flex;
   box-sizing: border-box;
 }
 
 /**Burger*/
-div.burger-menu{
+div.burger-menu {
   text-align: center;
   padding-top: 10px;
   box-sizing: border-box;
 }
 
-div.burger-menu i{
+div.burger-menu i {
    color: #ffffff;
    background-color: #D50000;
    padding: 10px;
-   
    border-radius: 5px;
    font-size: 18px;
    box-sizing: border-box;
@@ -89,9 +85,7 @@ div.burger-menu i{
 
 /**Search bar*/
 .search-bar {
-
     padding-bottom: 00px;
-
 }
 
 input.src{
