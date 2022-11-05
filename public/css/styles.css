@@ -429,6 +429,7 @@ section .sub-footer {
 /*!Main*/
 .main-prod-detail{
   margin: 0 25px 0 25px;
+  background-color: #fff4e9;
 }
 .precio-original{
   text-decoration: line-through;
