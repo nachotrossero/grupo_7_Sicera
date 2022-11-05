@@ -15,7 +15,7 @@
 /**Selectores generales*/
 body {
   font-family: 'Roboto', sans-serif;
-  background-color:lightsteelblue;
+  background-color: #fff4e9;
 }
 
 p {
@@ -41,7 +41,6 @@ header {
 
 .top-header {
   display: flex;
-
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -51,12 +50,11 @@ header {
     width: 200px;
 }
 
-.search-bar:hover i{
+.search-bar:hover i {
     transform: rotate(-360deg);
 }
 
 .logo-sicera {
-
   width: 30%;
 }
 .logo-sicera img {
@@ -65,23 +63,21 @@ header {
 }
 
 .search-bar {
-
   display: flex;
   box-sizing: border-box;
 }
 
 /**Burger*/
-div.burger-menu{
+div.burger-menu {
   text-align: center;
   padding-top: 10px;
   box-sizing: border-box;
 }
 
-div.burger-menu i{
+div.burger-menu i {
    color: #ffffff;
    background-color: #D50000;
    padding: 10px;
-   
    border-radius: 5px;
    font-size: 18px;
    box-sizing: border-box;
@@ -89,9 +85,7 @@ div.burger-menu i{
 
 /**Search bar*/
 .search-bar {
-
     padding-bottom: 00px;
-
 }
 
 input.src{
@@ -159,9 +153,13 @@ main {
   flex-wrap: wrap;
 }
 
+
 h1 {
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
+  padding: 10px 0px 15px 0px;
+  border-bottom: 3px solid #d9545f;
 }
 
 h2 {
@@ -174,6 +172,52 @@ h3 {
   font-style: italic;
 }
 
+.producto1 {
+  border-bottom: 2px solid #d9545f;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.producto1 img {
+  width: 50%;
+  border: 2px solid grey;
+}
+
+.producto2 {
+  border-bottom: 2px solid #d9545f;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.producto2 img {
+  width: 50%;
+  border: 2px solid grey;
+}
+
+.producto3 {
+  border-bottom: 2px solid #d9545f;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.producto3 img {
+  width: 50%;
+  border: 2px solid grey;
+}
+
+.price {
+  padding: 0px 0px 0px 3px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.product-name {
+  padding:4px 0px 6px 3px;
+  margin-bottom: 4px;
+}
 
 /*!Footer y subfooter*/
 
@@ -356,6 +400,7 @@ section .sub-footer {
   border-bottom: 2px solid grey;
   justify-content: space-around;
   margin-right: 15px;
+  align-items: center;
 }
 
 .kart-product-img img {
@@ -373,14 +418,23 @@ section .sub-footer {
   width: 15%;
   margin-top: 10px;
   margin-bottom: 10px;
+  position: relative;
+  top: -15px;
+
 }
 
 .kart-product-units {
   display: flex;
   flex-wrap: wrap;
-  width: 15%;
+  width: 20%;
   margin-top: 10px;
   margin-bottom: 10px;
+  border: 1px solid black;
+  background-color: #FFFFFF;
+  height: 18px;
+  justify-content: space-around;
+  position: relative;
+  top: -15px;
 }
 
 .kart-product-price {
@@ -389,6 +443,9 @@ section .sub-footer {
   width: 15%;
   margin-top: 10px;
   margin-bottom: 10px;
+  position: relative;
+  top: -15px;
+
 }
 
 .kart-lower-main {
@@ -431,6 +488,8 @@ section .sub-footer {
 
 /*?ProductDetail styles* start/
 /*!Header*/
+
+
 /*!Main*/
 .main-prod-detail{
   margin: 0 25px 0 25px;
