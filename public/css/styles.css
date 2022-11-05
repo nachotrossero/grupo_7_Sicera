@@ -326,6 +326,8 @@ section .sub-footer {
 }
 
 .kart-buttons button {
+  display: flex;
+  
   width: 17%;
   font-weight: bold;
   padding: 1px;
