@@ -261,7 +261,11 @@ section .sub-footer {
 
 /*?ProductCart styles* start/
 /*!Header*/
-/*Esperar a que corrija jero el header para ponerlo*/
+/*TODO: Esperar a que corrija jero el header para ponerlo*/
+
+
+
+
 
 /*!Main*/
 
@@ -349,6 +353,23 @@ section .sub-footer {
 /*?ProductDetail styles* start/
 /*!Header*/
 /*!Main*/
+.main-prod-detail{
+  margin: 0 30px;
+}
+.precio-original{
+  text-decoration: line-through;
+}
+.precio-con-descuento{
+  color: green;
+  font-weight: bolder;
+}
+.cantidad-de-productos{
+  font-size: 16px;
+}
+.unidades{
+  font-style: italic;
+}
+
 /*!Footer*/
 /*?ProductDetail styles* end/
 
