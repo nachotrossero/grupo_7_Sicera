@@ -28,10 +28,46 @@
 
   <body>
     <header>
-      <nav>
-        <a href="/index">Volver</a>
-      </nav>
-    </header>
+      
+      <section class="top-header">
+        <!--Logo-->
+        <section class="logo-sicera">
+          <div class="logo-img">
+            <img src="img/logo-sicera-sin-fondo.png" alt="logo">
+          </div>
+        </section>
+
+        <!--Buscador-->
+        <div class="search-bar">
+          <input type="text" 
+          name="search" 
+          placeholder="Busca la sidra indicada" 
+          class="src" 
+          autocomplete="off">
+
+          <!--icono del buscador-->
+          <div class="icon-search">
+            <i class="fas fa-search"></i>
+          </div>
+        
+        <!--Burger menu-->
+        <div class="burger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </section>
+      
+
+    <nav class="header-nav-links">
+      <section>
+        <a href="/register">Registro</a>
+        <a href="/login">Login</a>
+        <a href="/productDetail">Detalles de Producto</a>
+        <a href="/productCart">Carrito</a>
+      </section>
+    </nav>
+
+  </header>
+  <!--Final del header-->
     <!-- el producto elegido -->
     <main class="main-prod-detail">
       <section class="slider">
