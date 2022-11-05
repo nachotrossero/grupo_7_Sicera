@@ -81,7 +81,7 @@ header {
   transform: rotate(-360deg);
 }
 
-input {
+.search-bar input {
   outline: none;
   box-sizing: border-box;
   padding: 16px;
