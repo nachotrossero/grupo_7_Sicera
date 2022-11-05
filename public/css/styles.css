@@ -31,6 +31,8 @@ p {
 
 /*!Header -nav-links-burger*/
 
+/*!Header -nav-links-burger*/
+
 header {
   background-color: #E33241;
   opacity: 80%;
@@ -39,8 +41,10 @@ header {
 
 .top-header {
   display: flex;
-  display: block;
+
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-bar:hover input {
@@ -51,13 +55,18 @@ header {
     transform: rotate(-360deg);
 }
 
+.logo-sicera {
+
+  width: 30%;
+}
 .logo-sicera img {
-  width: 35%;
+  width: 100%;
   box-sizing: border-box;
 }
 
 .search-bar {
-  width: 20%;
+
+  display: flex;
   box-sizing: border-box;
 }
 
@@ -69,38 +78,24 @@ div.burger-menu{
 }
 
 div.burger-menu i{
-  color: #ffffff;
-  background-color: #D50000;
-  padding: 10px;
-  margin-left: 280px;
-  border-radius: 5px;
-  font-size: 18px;
-  box-sizing: border-box;
+   color: #ffffff;
+   background-color: #D50000;
+   padding: 10px;
+   
+   border-radius: 5px;
+   font-size: 18px;
+   box-sizing: border-box;
 }
 
 /**Search bar*/
 .search-bar {
-    position: absolute;
-    left: 64%;
-    top: auto;
-    padding-top: 12px;
-    padding-left: 50px;
+
     padding-bottom: 00px;
-    margin:-20px;
-    transform: translate(-50%,-50%);
+
 }
 
 input.src{
-  padding: 9px 10px 9px 10px;
-  outline: none;
-  font-size: 13px;
-  border-radius: 15px;
-  color: #000;
-  border: 3px solid #fff;
-  margin-right: 30px;
-  margin-left: 50px;
-  width: 90px;
-  transition: all .7s;
+
 }
 
 input {
@@ -119,17 +114,13 @@ input {
 }
 
 .icon-search {
-    position: absolute;
-    right: 20px;
-    top: 5px;
+
     width: 50px;
     height: 50px;
     background: #D50000;
     line-height: 80px;
     border-radius: 50%;
-    text-align: center;
-    cursor: pointer;
-    transition: .5s;
+    text-align: center;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,8 +254,82 @@ section .sub-footer {
 
 /*?ProductCart styles* start/
 /*!Header*/
+/*Esperar a que corrija jero el header para ponerlo*/
+
 /*!Main*/
+
+
+.kart-main-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kart-h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: 3px;
+  padding: 15px;
+  width: 100%;
+}
+
+.kart-main-top-text {
+  font-style:italic ;
+  font-weight: 500;
+  padding: 5px;
+  margin: 3px;
+}
+
+.kart-main-top-basket i {
+  padding: 5px;
+  margin: 3px;
+}
+
+.kart-products {
+  text-align: center;
+}
+
+.kart-product-img img {
+  width: 25vw;
+  padding: 5px;
+  margin: 7px;
+  display: block;
+  text-align: left;
+}
+
+.kart-product-details {
+
+}
+
+.kart-product-units {
+
+}
+
+.kart-product-price {
+
+}
+
+.kart-final-price p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 15px;
+  padding: 4px;
+}
+
+.kart-buttons button {
+  width: 17%;
+  font-weight: bold;
+  padding: 1px;
+  margin: 2px;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 8%;
+}
+
 /*!Footer*/
+
 /*?ProductCart styles* end/
 
 
