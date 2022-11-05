@@ -429,7 +429,7 @@ section .sub-footer {
 /*!Header*/
 /*!Main*/
 .main-prod-detail{
-  margin: 0 30px;
+  margin: 0 25px 0 25px;
 }
 .precio-original{
   text-decoration: line-through;
@@ -441,6 +441,7 @@ section .sub-footer {
 .cantidad-de-productos{
   font-size: 16px;
 }
+
 .unidades{
   font-style: italic;
 }
