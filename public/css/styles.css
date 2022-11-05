@@ -406,7 +406,8 @@ section .sub-footer {
 
 .kart-buttons button {
   display: flex;
-  width: 17%;
+  width: 100%;
+  justify-content: center;
   font-weight: bold;
   padding: 1px;
   margin: 2px;
