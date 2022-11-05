@@ -15,7 +15,7 @@
 /**Selectores generales*/
 body {
   font-family: 'Roboto', sans-serif;
-  background-color:lightsteelblue;
+  background-color: #fff4e9;
 }
 
 p {
@@ -431,10 +431,11 @@ section .sub-footer {
 
 /*?ProductDetail styles* start/
 /*!Header*/
+
+
 /*!Main*/
 .main-prod-detail{
   margin: 0 25px 0 25px;
-  background-color: #fff4e9;
 }
 .precio-original{
   text-decoration: line-through;
