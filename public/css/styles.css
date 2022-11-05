@@ -465,7 +465,7 @@ section .sub-footer {
 
 /*?Puse mismas medidas que la liebre, cambiarlas por las que vayamos a usar*/
  /**Tablet*/
- @media (min-width: 426) {
+ @media (min-width: 426px) {
 
  }
 
