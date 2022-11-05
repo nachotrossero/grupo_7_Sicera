@@ -149,6 +149,10 @@ input {
 
 /*!Main*/
 
+main {
+  background-color: #FFF4E9;
+}
+
 /**Slider de imagenes*/
 .slider img {
   display: flex;
@@ -413,6 +417,7 @@ section .sub-footer {
   text-transform: uppercase;
   border: 1px solid black;
   border-radius: 8%;
+  background-color:#d9545f;
 }
 
 /*!Footer*/
@@ -461,7 +466,7 @@ section .sub-footer {
 
 /*?Puse mismas medidas que la liebre, cambiarlas por las que vayamos a usar*/
  /**Tablet*/
- @media (min-width: 426) {
+ @media (min-width: 426px) {
 
  }
 
