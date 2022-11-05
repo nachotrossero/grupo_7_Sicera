@@ -176,7 +176,7 @@ h3 {
 footer{
   margin: 1px;
   border:solid rgb(52, 52, 116) 2px ;
-  background-color:lightgrey;
+  background-color: var(--dark-gray);
   padding: 10px 0;
 }
 
@@ -184,51 +184,83 @@ footer{
   display: flex;  
   flex-wrap: wrap;  
   justify-content: space-around;
+  padding-top: 10px;
 }
 
 .top-footer article i{
 
   font-size: 50px;
-
+  color: white;
 }
 
 
 .under-top-footer p {
   text-align: center;
+  color: white;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.listas-footer{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.lista-footer1{
+  display: flex;  
+  flex-wrap: wrap;  
+  width: 40%;  
+  justify-content: center;
+}
+.lista-footer2{
+  display: flex;  
+  flex-wrap: wrap;  
+  width: 50%;  
+}
+footer section ul li a{
+
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+footer section ul{
+
+  list-style-type: none;
+
+}
+.bottom-footer{
+
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
 }
 
-.lista-footer1 ul li{
-  display: flex;
-  display: block;
+.bottom-footer article {
+  display: flex;  
   flex-wrap: wrap;
-  text-align: left;
-  width: 50%;
-  box-sizing: border-box;
-}
-
-.lista-footer2 ul li{
-  display: flex;
-  display: block;
-  flex-wrap: wrap;
-  text-align: right;
-  width: 50%;
-  box-sizing: border-box;
-
-}
-
-.bottom-footer article a i {
-  display: flex;
-  display: block;
-  flex-wrap: wrap;
-  padding: 1px;
+  padding-right: 8px;
+  padding-left: 8px;
   margin: 1px;
+  
+}
+.bottom-footer article a{
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;  
+}
+.bottom-footer article a i{
+
+  font-size: 40px;
 }
 
 section .sub-footer {
   margin-top: 3px;
   border-top: solid red 3px;
   padding-top: 5px;
-  text-align: left;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -261,7 +293,11 @@ section .sub-footer {
 
 /*?ProductCart styles* start/
 /*!Header*/
-/*Esperar a que corrija jero el header para ponerlo*/
+/*TODO: Esperar a que corrija jero el header para ponerlo*/
+
+
+
+
 
 /*!Main*/
 
@@ -391,6 +427,23 @@ section .sub-footer {
 /*?ProductDetail styles* start/
 /*!Header*/
 /*!Main*/
+.main-prod-detail{
+  margin: 0 30px;
+}
+.precio-original{
+  text-decoration: line-through;
+}
+.precio-con-descuento{
+  color: green;
+  font-weight: bolder;
+}
+.cantidad-de-productos{
+  font-size: 16px;
+}
+.unidades{
+  font-style: italic;
+}
+
 /*!Footer*/
 /*?ProductDetail styles* end/
 
