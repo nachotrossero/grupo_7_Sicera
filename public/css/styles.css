@@ -165,77 +165,57 @@ main {
   background-color: #FFF4E9;
 }
 
-/**Slider de imagenes*/
-.slider img {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 /**Carrusel*/
-.carrousel{
-  width: 100%;
-}
 
-.conteCarrousel{
-  width: 100%;
-  height: 200px;
+#conteItemsCarrusel{
+  height: 300px;
   overflow: hidden;
+  margin-top: 20px;
 }
 
-.itemCarrousel{
+.itemCarrusel{
+  height: 100%;
   position: relative;
-  width: 100%;
+
+}
+
+.tarjetaCarrusel{
   height: 100%;
 }
 
-.itemCarrouselTarjeta{
-  width: 100%;
-  height: 100%;
-}
-
-.itemCarrouselArrows{
+.flechasCarrusel{
   position: absolute;
   top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px; 
+  padding: 20px;
 }
 
-.itemCarrouselArrows > i:hover {
-  cursor: pointer;
-}
-
-#itemCarrousel-1{
-  background-color: rgb(226, 50, 50);
-}
-
-.img{
-  width: 800px;
-  height: 280px
-  
-}
-
-.conteCarrouselController{
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.conteCarrouselController > a{
+a{
   text-decoration: none;
-  font-size: 2em;
-  color: grey;
 }
 
-.itemCarrouselArrows > a > i{
-  color: white;
+#contePuntos{
+   background-color: lightgray;
+  display: flex;
+  justify-content: space-around;    
+
 }
+
+#contePuntos > a{
+  font-size: 25px;
+  font-style: none;
+  color: black;
+}
+
+.imagen{
+  width: 100%;
+  height: 100%;
+}
+
 
 /* FIN DEL CARRUSEL */
 
