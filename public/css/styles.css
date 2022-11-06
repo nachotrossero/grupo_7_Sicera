@@ -611,13 +611,14 @@ section .sub-footer {
   display: flex;
   width: 100%;
   justify-content: center;
-  font-weight: bold;
+  font-weight: thin;
   padding: 1px;
   margin: 2px;
   text-transform: uppercase;
   border: 1px solid black;
   border-radius: 8%;
   background-color:#d9545f;
+  color: #ffffff
 }
 
 /*!Footer*/
