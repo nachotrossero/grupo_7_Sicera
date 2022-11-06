@@ -83,7 +83,7 @@ header {
   border-radius: 50px;
   font-size: 14px;
   border: 2px solid #D50000;
-  transition: all .7s ease;
+  transition: all .7s ease; 
 }
 
 /**Search bar hover*/
@@ -100,8 +100,11 @@ header {
 ::placeholder {
   color: #000;
 }
-/*! Carrusel desactivado  */
 
+/*! Carrusel desactivado */
+#conteItemsCarrusel{
+  display: none;
+}
 
 /** Nav desktop  */
 .header-nav-links{
@@ -110,8 +113,15 @@ header {
 
 /**Contenedor burger menu*/
 
-.burger-menu{
+.section-burger{
 
+  display: flex;
+  width: 60px;
+
+}
+.burger-menu{
+  display: flex;
+  width: 100%;
 }
 input[type="checkbox"]  {
   display: none;
@@ -119,16 +129,21 @@ input[type="checkbox"]  {
 
 /**Burger menu icono*/
 .burger-menu label  {
-  box-sizing: border-box;
-  display: inline-block;
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  font-weight: bold;
+  
+  display: inline-block;  
+  border-radius: 5px;  
+  line-height: 30px;  
   text-align: center;
   user-select: none;
+}
+.burger-menu label i{
+
+  color: #ffffff;
+  background-color: #D50000;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 0.5px solid grey;
 }
 
 /**Lista del burger menu*/
@@ -137,8 +152,22 @@ input[type="checkbox"]  {
 }
 /** input para mostrar la lista */
 .burger-menu .nav-burger input:checked ~ ul{
-
+  display: block;  
+}
+/** Estilo desplegables burger menu*/ 
+.nav-burger .lista-burger-menu li{
+  width: 150px;
   display: block;
+  background: #D50000;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid grey;
+}
+.nav-burger .lista-burger-menu li a{
+
+  text-decoration: none;
+  color: #ffffff;
 }
 
 
