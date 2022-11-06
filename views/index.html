@@ -75,56 +75,57 @@
     <main>
       
       <!--carrusel-->
-      <div class="conteCarrousel">
-        <div class="itemCarrousel" id="itemCarrousel-1">
-            <div class="itemCarrouselTarjeta"></div>
-            <img src="img/probar2.0.jpg" alt="Imagen 1 carrusel" class="img">
-            <div class="itemCarrouselArrows">
-                <a href="#itemCarrousel-3">
-                    <i class="fas fa-chevron-left"></i>
+      <div id="conteItemsCarrusel">
+        <div class="itemCarrusel">
+        <!--IMAGEN 1-->
+            <div class="tarjetaCarrusel">
+                <img src="img/1carrusel-primera.jpg" id="img1" class="imagen">
+            </div>  
+            <div class="flechasCarrusel">
+               <a href="#img3"> 
+                    <i>I<!--agregar icono--></i>
                 </a>
-                <a href="#itemCarrousel-2">
-                    <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-        <div class="itemCarrousel" id="itemCarrousel-2">
-            <div class="itemCarrouselTarjeta"></div>
-            <div class="itemCarrouselArrows">
-                <a href="#itemCarrousel-1">
-                    <i class="fas fa-chevron-left"></i>
-                </a>
-                <a href="#itemCarrousel-3">
-                    <i class="fas fa-chevron-right"></i>
+                <a href="#img2">
+                    <i>D</i>
                 </a>
             </div>
         </div>
-        <div class="itemCarrousel" id="itemCarrousel-3">
-            <div class="itemCarrouselTarjeta"></div>
-            <div class="itemCarrouselArrows">
-                <a href="#itemCarrousel-2">
-                    <i class="fas fa-chevron-left"></i>
+        <!--IMAGEN 2-->
+        <div class="itemCarrusel">
+            <div class="tarjetaCarrusel">
+                <img src="img/2carruse-segunda.jpg " id="img2" class="imagen">
+            </div>  
+            <div class="flechasCarrusel">
+                <a href="#img1"> 
+                    <i>I</i>
                 </a>
-                <a href="#itemCarrousel-1">
-                    <i class="fas fa-chevron-right"></i>
+                <a href="#img3">
+                    <i>D</i>
                 </a>
             </div>
         </div>
+        <!--IMAGEN 3-->
+        <div class="itemCarrusel">
+            <div class="tarjetaCarrusel">
+                <img src="img/3carrusel-tercera.jpg" id="img3" class="imagen">
+            </div>  
+            <div class="flechasCarrusel">
+                <a href="#img2"> 
+                    <i>I</i>
+                </a>
+                <a href="#img1">
+                    <i>D</i>
+                </a>
+            </div>
+        </div>   
+    </div> 
+    
+    <div id="contePuntos">
+        <a href="#img1">*</a>
+        <a href="#img2">*</a>
+        <a href="#img3">*<!--agregar puntos de fontawesome--></a>
     </div>
-    <div class="conteCarrouselController">
-        <a href="#itemCarrousel-1">•</a>
-        <a href="#itemCarrousel-2">•</a>
-        <a href="#itemCarrousel-3">•</a>
-    </div>
-</div>
-
-
-      <section class="slider">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-      </section>
+    
 
       <section>
         <h1>¡Encontrá la sidra perfecta!</h1><i class="far fa-search"></i>
