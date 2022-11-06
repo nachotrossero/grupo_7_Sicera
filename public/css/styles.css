@@ -250,19 +250,26 @@ a{
 }
 
 #contePuntos{
-   background-color: lightgray;
   display: flex;
   justify-content: space-around;    
 
 }
 
 #contePuntos > a{
-  font-size: 25px;
+  font-size: 12px;
+  padding: 10px;
   font-style: none;
-  color: black;
+  color: #000;
+  
 }
 
-.imagen{
+i {
+
+  font-size: none;
+  color: #000;
+}
+
+.img-carrusel{
   width: 100%;
   height: 100%;
 }
@@ -478,12 +485,7 @@ section .sub-footer {
   font-size: 12px;
   padding-top: 5px;
 }
-.button-login{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5px;
-}
+
 .hipervinculo{
   display: flex;
   flex-direction: column;
@@ -662,13 +664,14 @@ section .sub-footer {
   display: flex;
   width: 100%;
   justify-content: center;
-  font-weight: bold;
+  font-weight: thin;
   padding: 1px;
   margin: 2px;
   text-transform: uppercase;
   border: 1px solid black;
   border-radius: 8%;
   background-color:#d9545f;
+  color: #ffffff
 }
 
 /*!Footer*/
@@ -684,7 +687,7 @@ section .sub-footer {
 /*!Header*/
 /*!Main*/
 .main-prod-detail{
-  margin: 0 25px 0 25px;
+  margin: 0 25px 15px 25px;
 }
 
 .productos article img {
