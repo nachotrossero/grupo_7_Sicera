@@ -66,13 +66,13 @@ header {
   text-align: center;
   display: flex;
   position: relative;
-  left: -40px;
+  left: -50px;
 }
 
 /**Search bar input*/
 .search-bar input {
   text-align: center;
-  width: 80%;
+  width: 95%;
   height: 15px;
   display: flex;
   position: relative;
@@ -111,7 +111,7 @@ div.burger-menu {
   right: -70px;
   top: 4px;
   position: relative;
-  right: -192px;
+  right: -194px;
 }
 
 /**Burger menu icono*/
@@ -546,6 +546,16 @@ section .sub-footer {
 .main-prod-detail{
   margin: 0 25px 0 25px;
 }
+
+.productos article img {
+  width: 35%;
+  padding: 3px;
+  margin: 5px;
+  position: relative;
+  right: 15px;
+  background-color: #d9545f;
+}
+
 .precio-original{
   text-decoration: line-through;
 }
