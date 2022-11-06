@@ -199,19 +199,26 @@ a{
 }
 
 #contePuntos{
-  background-color: lightgray;
   display: flex;
   justify-content: space-around;    
 
 }
 
 #contePuntos > a{
-  font-size: 25px;
+  font-size: 12px;
+  padding: 10px;
   font-style: none;
-  color: black;
+  color: #000;
+  
 }
 
-.imagen{
+i {
+
+  font-size: none;
+  color: #000;
+}
+
+.img-carrusel{
   width: 100%;
   height: 100%;
 }
