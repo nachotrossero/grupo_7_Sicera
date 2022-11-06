@@ -630,8 +630,15 @@ section .sub-footer {
 
  /**Desktop*/
  @media (min-width: 769px) {
+/*!Header */
+.header-nav-links {
+  display:contents;
+}
 
- 
+
+div.burger-menu{
+  display: none;
+}
 
   /*!Footer*/
 
