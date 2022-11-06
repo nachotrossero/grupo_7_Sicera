@@ -122,8 +122,8 @@ div.burger-menu i {
 
 /**Contenedor icon search*/
 .icon-search {
- width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   background: #D50000;
   line-height: 80px;
   border-radius: 50%;
@@ -132,13 +132,13 @@ div.burger-menu i {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 11px;
+  top: 15px;
   right: -36px;
 }
 
 /**Imagen icon search*/
 .icon-search i {
-  font-size: 25px;
+  font-size: 20px;
   color:white;
   line-height: 80px;
   transition: all .7s ease;
