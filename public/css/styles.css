@@ -49,8 +49,11 @@ header {
 
 /**Contenedor del logo*/
 .logo-sicera {
-  width: 33%;
+  width: 35%;
   margin: auto;
+  position: relative;
+  bottom: -15px;
+  left: -7px;
 }
 
 /**Logo imagen*/
@@ -69,12 +72,12 @@ header {
 /**Search bar input*/
 .search-bar input {
   text-align: center;
-  width: 60%;
+  width: 80%;
   height: 15px;
   display: flex;
   position: relative;
   top: 13px;
-  right: -49px;
+  right: -32px;
   outline: none;
   padding: 16px;
   color: #000;
@@ -107,7 +110,8 @@ div.burger-menu {
   position: relative;
   right: -70px;
   top: 4px;
-  
+  position: relative;
+  right: -192px;
 }
 
 /**Burger menu icono*/
@@ -117,6 +121,7 @@ div.burger-menu i {
   padding: 10px;
   border-radius: 5px;
   font-size: 18px;
+  border: 1px solid grey;
 }
 
 /**Contenedor icon search*/
@@ -132,7 +137,7 @@ div.burger-menu i {
   align-items: center;
   position: relative;
   top: 11px;
-  right: -50px;
+  right: -32px;
 }
 
 /**Imagen icon search*/
