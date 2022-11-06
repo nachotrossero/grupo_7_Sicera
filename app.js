@@ -21,6 +21,10 @@ app.get('/index', (req, res) => {
   res.sendFile(path.resolve(__dirname, './views/index.html'));
 })
 
+//Tercer ruteo al home
+app.get('/home', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './views/index.html'));
+})
 
 //Las rutas de abajo ahora funcionan
 
