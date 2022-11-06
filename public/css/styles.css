@@ -361,6 +361,11 @@ section .sub-footer {
   margin-bottom: 5px;
   margin-top: 5px;
 }
+
+.control-form{
+  font-size: 12px;
+  padding-top: 5px;
+}
 .button-login{
   display: flex;
   flex-direction: column;
