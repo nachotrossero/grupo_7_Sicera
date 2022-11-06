@@ -42,9 +42,9 @@ header {
 /**Incluye todo el header menos la nav*/
 .top-header {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 /**Contenedor del logo*/
@@ -53,7 +53,6 @@ header {
   margin: auto;
   position: relative;
   bottom: -15px;
-  left: -7px;
 }
 
 /**Logo imagen*/
@@ -66,18 +65,18 @@ header {
   text-align: center;
   display: flex;
   position: relative;
-  left: -50px;
+  left: -39px;
 }
 
 /**Search bar input*/
 .search-bar input {
   text-align: center;
-  width: 95%;
+  width: 80%;
   height: 15px;
   display: flex;
   position: relative;
   top: 13px;
-  right: -32px;
+  right: -52px;
   outline: none;
   padding: 16px;
   color: #000;
@@ -105,13 +104,10 @@ header {
 /**Contenedor burger menu*/
 div.burger-menu {
   text-align: center;
-  padding-top: 10px;
   display: flex;
   position: relative;
-  right: -70px;
-  top: 4px;
-  position: relative;
-  right: -194px;
+  margin-left: 164px;
+  margin-top: 20px;
 }
 
 /**Burger menu icono*/
@@ -137,7 +133,7 @@ div.burger-menu i {
   align-items: center;
   position: relative;
   top: 11px;
-  right: -32px;
+  right: -36px;
 }
 
 /**Imagen icon search*/
