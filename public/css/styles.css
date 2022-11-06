@@ -633,7 +633,7 @@ section .sub-footer {
 /*!Header*/
 /*!Main*/
 .main-prod-detail{
-  margin: 0 25px 0 25px;
+  margin: 0 25px 15px 25px;
 }
 
 .productos article img {
