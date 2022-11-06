@@ -572,6 +572,47 @@ section .sub-footer {
  /**Tablet*/
  @media (min-width: 426px) {
 
+
+
+
+
+
+
+  /*!Footer*/
+
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-footer{
+    width: 100%;
+    justify-content: center;
+  }
+  .top-footer article{   
+    width: 30%;
+    display: flex;    
+  }
+  .top-footer .paypal{
+
+    justify-content: flex-end;
+
+  }
+  .top-footer .visa{
+
+    justify-content: center;
+
+  }
+  .top-footer .mastercard{
+
+    justify-content: flex-start;
+  }
+  .listas-footer{
+    
+    width: 100%
+  }
  }
 
 
@@ -579,6 +620,9 @@ section .sub-footer {
  @media (min-width: 769px) {
 
  
+
+  /*!Footer*/
+
   .footer{
     display: flex;
     flex-wrap: wrap;
