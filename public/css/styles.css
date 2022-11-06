@@ -50,6 +50,7 @@ header {
 /**Contenedor del logo*/
 .logo-sicera {
   width: 33%;
+  margin: auto;
 }
 
 /**Logo imagen*/
