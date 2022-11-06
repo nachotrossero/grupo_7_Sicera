@@ -237,6 +237,8 @@ main {
   color: white;
 }
 
+/* FIN DEL CARRUSEL */
+
 
 h1 {
   font-size: 22px;
@@ -258,6 +260,12 @@ h3 {
   font-style: italic;
 }
 
+/* Productos del main */
+.productos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .producto1 {
   border-bottom: 2px solid #d9545f;
   margin-top: 10px;
@@ -278,7 +286,7 @@ h3 {
   border-bottom: 2px solid #d9545f;
   margin-top: 10px;
   margin-bottom: 6px;
-  text-align: center;
+    text-align: center;
 }
 
 .producto2 img {
@@ -303,6 +311,10 @@ h3 {
 
 .producto3 i {
   color: #d9545f;
+}
+
+.main-article{
+  margin-right: 35px;
 }
 
 .price {
