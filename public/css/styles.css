@@ -199,7 +199,7 @@ a{
 }
 
 #contePuntos{
-   background-color: lightgray;
+  background-color: lightgray;
   display: flex;
   justify-content: space-around;    
 
