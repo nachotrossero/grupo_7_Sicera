@@ -215,12 +215,10 @@ main {
   background-color: rgb(226, 50, 50);
 }
 
-#itemCarrousel-2{
-  background-color: rgb(50, 200, 226);
-}
-
-#itemCarrousel-3{
-  background-color: rgb(200, 226, 50);
+.img{
+  width: 800px;
+  height: 280px
+  
 }
 
 .conteCarrouselController{
