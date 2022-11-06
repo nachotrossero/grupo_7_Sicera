@@ -355,7 +355,7 @@ section .sub-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 25px 0 25px;
+  margin: 0 25px 20px 25px;
 }
 .input-user-name-email{
   margin-bottom: 5px;
