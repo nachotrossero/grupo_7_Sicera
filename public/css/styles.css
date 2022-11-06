@@ -100,25 +100,47 @@ header {
 ::placeholder {
   color: #000;
 }
+/*! Carrusel desactivado  */
+
+
+/** Nav desktop  */
+.header-nav-links{
+  display: none;
+}
 
 /**Contenedor burger menu*/
-div.burger-menu {
-  text-align: center;
-  display: flex;
-  position: relative;
-  margin-left: 190px;
-  margin-top: 20px;
+
+.burger-menu{
+
+}
+input[type="checkbox"]  {
+  display: none;
 }
 
 /**Burger menu icono*/
-div.burger-menu i {
-  color: #ffffff;
-  background-color: #D50000;
-  padding: 10px;
+.burger-menu label  {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
   border-radius: 5px;
-  font-size: 18px;
-  border: 1px solid grey;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
 }
+
+/**Lista del burger menu*/
+.burger-menu .nav-burger ul{
+  display: none;
+}
+/** input para mostrar la lista */
+.burger-menu .nav-burger input:checked ~ ul{
+
+  display: block;
+}
+
 
 /**Contenedor icon search*/
 .icon-search {
