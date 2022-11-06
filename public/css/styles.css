@@ -406,7 +406,7 @@ section .sub-footer {
   border-top: solid red 3px;
   padding-top: 5px;
   text-align: center;
-  font-weight: bold;
+  font-style: italic;
   color: white;
 }
 
