@@ -170,7 +170,8 @@ main {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 22px;
+  font-style: italic;
   font-weight: bold;
   text-align: center;
   padding: 10px 0px 15px 0px;
@@ -200,6 +201,10 @@ h3 {
   border: 2px solid grey;
 }
 
+.producto1 i {
+  color: #d9545f;
+}
+
 .producto2 {
   border-bottom: 2px solid #d9545f;
   margin-top: 10px;
@@ -212,16 +217,23 @@ h3 {
   border: 2px solid grey;
 }
 
+.producto2 i {
+  color: #d9545f;
+}
+
 .producto3 {
   border-bottom: 2px solid #d9545f;
   margin-top: 10px;
-  margin-bottom: 6px;
   text-align: center;
 }
 
 .producto3 img {
   width: 50%;
   border: 2px solid grey;
+}
+
+.producto3 i {
+  color: #d9545f;
 }
 
 .price {
