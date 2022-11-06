@@ -357,6 +357,10 @@ section .sub-footer {
   align-items: center;
   margin: 0 25px 0 25px;
 }
+.input-user-name-email{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
 .button-login{
   display: flex;
   flex-direction: column;
