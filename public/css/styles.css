@@ -36,36 +36,36 @@ header {
   background-color: #E33241;
   opacity: 80%;
   padding: 0px;
-  height: 125px;
+  
 }
 
 /**Incluye todo el header menos la nav*/
 .top-header {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: flex-end;
   justify-content: center;
 }
 
 /**Contenedor del logo*/
 .logo-sicera {
-  width: 35%;
-  margin: auto;
-  position: relative;
-  bottom: -24px;
+  width: 15%;
+  display: flex;  
 }
 
 /**Logo imagen*/
 .logo-sicera img {
   width: 100%;
 }
+.logo-completo{
+  display: none;
+}
 
 /**Contenedor search bar*/
 .search-bar {
   text-align: center;
   display: flex;
-  position: relative;
-  left: -39px;
+  
 }
 
 /**Search bar input*/
@@ -74,9 +74,7 @@ header {
   width: 80%;
   height: 15px;
   display: flex;
-  position: relative;
-  top: 13px;
-  right: -52px;
+  
   outline: none;
   padding: 16px;
   color: #000;
@@ -100,11 +98,28 @@ header {
 ::placeholder {
   color: #000;
 }
-
-/*! Carrusel desactivado */
-#conteItemsCarrusel{
-  display: none;
+/**Contenedor icon search*/
+.icon-search {
+  width: 35px;
+  height: 35px;
+  background: #D50000;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;    
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
+
+/**Imagen icon search*/
+.icon-search i {
+  font-size: 20px;
+  color:white;
+  line-height: 80px;
+  transition: all .7s ease;
+}
+
+
 
 /** Nav desktop  */
 .header-nav-links{
@@ -171,29 +186,7 @@ input[type="checkbox"]  {
 }
 
 
-/**Contenedor icon search*/
-.icon-search {
-  width: 35px;
-  height: 35px;
-  background: #D50000;
-  line-height: 80px;
-  border-radius: 50%;
-  text-align: center;    
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 15px;
-  right: -36px;
-}
 
-/**Imagen icon search*/
-.icon-search i {
-  font-size: 20px;
-  color:white;
-  line-height: 80px;
-  transition: all .7s ease;
-}
 
 /**Links nav-bar*/
 .header-nav-links {
