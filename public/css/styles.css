@@ -459,10 +459,12 @@ section .sub-footer {
   align-items: center;
   margin: 0 25px 20px 25px;
 }
+
 .input-register{
   margin-bottom: 5px;
   margin-top: 5px;
 }
+
 .button-login{
   display: flex;
   flex-direction: column;
@@ -471,6 +473,7 @@ section .sub-footer {
 }
 
 /* TODO hay que separar ya eres miembro de inicia sesión */
+
 .hipervinculo-register{
   display: flex;
   flex-direction: row;
@@ -732,7 +735,7 @@ section .sub-footer {
 }
 
 .search-bar input {
-  
+
 }
 
 .serach-bar i {
