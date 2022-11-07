@@ -463,6 +463,7 @@ section .sub-footer {
 
 /*?Login styles* start/
 /*!Header*/
+
 /*!Main*/
 
 
@@ -501,14 +502,17 @@ section .sub-footer {
   border-bottom: 2px solid black;
 }
 
-.kart-buttons button {
-  margin-bottom: 3px;
-}
+ .hr-invisible {
+  visibility: collapse;
+ }
 
-.hipervinculo{
+.hipervinculo {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  margin-top: 5px;
+  padding-bottom: 2px;
+  font-weight: 600;
 }
 
 /*!Footer*/
@@ -521,6 +525,7 @@ section .sub-footer {
 
 /*?Register styles* start/
 /*!Header*/
+
 /*!Main*/
 .main-register {
   display: flex;
@@ -533,7 +538,6 @@ section .sub-footer {
   margin-bottom: 5px;
   margin-top: 5px;
 }
-
 
 .button-login {
   display: flex;
