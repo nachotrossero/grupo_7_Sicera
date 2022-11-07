@@ -464,6 +464,8 @@ section .sub-footer {
 /*?Login styles* start/
 /*!Header*/
 /*!Main*/
+
+
 .main-login{
   display: flex;
   flex-direction: column;
@@ -472,9 +474,11 @@ section .sub-footer {
 }
 
 .input-user-name-email{
-  margin-bottom: 5px;
+  margin-bottom: 13px;
   margin-top: 5px;
 }
+
+.input
 
 .control-form{
   font-size: 12px;
