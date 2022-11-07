@@ -473,16 +473,36 @@ section .sub-footer {
   margin: 0 25px 20px 25px;
 }
 
-.input-user-name-email{
+.input-user-name-email {
   margin-bottom: 13px;
   margin-top: 5px;
 }
 
-.input
+.input-user-name-email input {
+  text-align: center;
+  font-weight: bold;
+}
 
-.control-form{
+.input-user-password {
+  margin-bottom: 1px;
+}
+
+.input-user-password input {
+  text-align: center;
+  font-weight: bold;
+}
+
+.control-form {
   font-size: 12px;
   padding-top: 5px;
+  font-weight: bold;
+  margin-bottom: 9px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.kart-buttons button {
+  margin-bottom: 3px;
 }
 
 .hipervinculo{
