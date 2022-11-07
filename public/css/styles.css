@@ -470,6 +470,7 @@ section .sub-footer {
   align-items: center;
   margin: 0 25px 20px 25px;
 }
+
 .input-user-name-email{
   margin-bottom: 5px;
   margin-top: 5px;
@@ -497,19 +498,20 @@ section .sub-footer {
 /*?Register styles* start/
 /*!Header*/
 /*!Main*/
-.main-register{
+.main-register {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 25px 20px 25px;
 }
 
-.input-register{
+.input-register {
   margin-bottom: 5px;
   margin-top: 5px;
 }
 
-.button-login{
+
+.button-login {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -518,7 +520,7 @@ section .sub-footer {
 
 /* TODO hay que separar ya eres miembro de inicia sesión */
 
-.hipervinculo-register{
+.hipervinculo-register { 
   display: flex;
   flex-direction: row;
   align-items: flex-end;
