@@ -36,36 +36,36 @@ header {
   background-color: #E33241;
   opacity: 80%;
   padding: 0px;
-  height: 125px;
+  
 }
 
 /**Incluye todo el header menos la nav*/
 .top-header {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: flex-end;
   justify-content: center;
 }
 
 /**Contenedor del logo*/
 .logo-sicera {
-  width: 35%;
-  margin: auto;
-  position: relative;
-  bottom: -24px;
+  width: 15%;
+  display: flex;  
 }
 
 /**Logo imagen*/
 .logo-sicera img {
   width: 100%;
 }
+.logo-completo{
+  display: none;
+}
 
 /**Contenedor search bar*/
 .search-bar {
   text-align: center;
   display: flex;
-  position: relative;
-  left: -39px;
+  
 }
 
 /**Search bar input*/
@@ -74,9 +74,7 @@ header {
   width: 80%;
   height: 15px;
   display: flex;
-  position: relative;
-  top: 13px;
-  right: -52px;
+  
   outline: none;
   padding: 16px;
   color: #000;
@@ -101,26 +99,6 @@ header {
 ::placeholder {
   color: #000;
 }
-
-/**Contenedor burger menu*/
-div.burger-menu {
-  text-align: center;
-  display: flex;
-  position: relative;
-  margin-left: 190px;
-  margin-top: 20px;
-}
-
-/**Burger menu icono*/
-div.burger-menu i {
-  color: #ffffff;
-  background-color: #D50000;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 18px;
-  border: 1px solid grey;
-}
-
 /**Contenedor icon search*/
 .icon-search {
   width: 33px;
@@ -131,10 +109,7 @@ div.burger-menu i {
   text-align: center;    
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 15px;
-  right: -36px;
+  align-items: center; 
 }
 
 /**Imagen icon search*/
@@ -144,6 +119,75 @@ div.burger-menu i {
   line-height: 80px;
   transition: all .7s ease;
 }
+
+
+
+/** Nav desktop  */
+.header-nav-links{
+  display: none;
+}
+
+/**Contenedor burger menu*/
+
+.section-burger{
+
+  display: flex;
+  width: 60px;
+
+}
+.burger-menu{
+  display: flex;
+  width: 100%;
+}
+input[type="checkbox"]  {
+  display: none;
+}
+
+/**Burger menu icono*/
+.burger-menu label  {
+  
+  display: inline-block;  
+  border-radius: 5px;  
+  line-height: 30px;  
+  text-align: center;
+  user-select: none;
+}
+.burger-menu label i{
+
+  color: #ffffff;
+  background-color: #D50000;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 0.5px solid grey;
+}
+
+/**Lista del burger menu*/
+.burger-menu .nav-burger ul{
+  display: none;
+}
+/** input para mostrar la lista */
+.burger-menu .nav-burger input:checked ~ ul{
+  display: block;  
+}
+/** Estilo desplegables burger menu*/ 
+.nav-burger .lista-burger-menu li{
+  width: 150px;
+  display: block;
+  background: #D50000;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid grey;
+}
+.nav-burger .lista-burger-menu li a{
+
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
 
 /**Links nav-bar*/
 .header-nav-links {
