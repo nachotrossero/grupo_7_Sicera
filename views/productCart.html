@@ -24,51 +24,63 @@
   </head>
 
   <body>
-    <!--Inicio del header-->
+     <!--Inicio del header-->
     <header>
       
       <section class="top-header">
+
         <!--Logo-->
         <section class="logo-sicera">
           <div class="logo-img">
             <a href="/index">
-            <img src="img/logo-sicera-sin-fondo.png" alt="logo">
-          </a>
+            <img src="img/logo-sicera-sin-fondo.png" alt="logo" class="logo-completo">
+            <img src="img/logo-manzana-sola.png" alt="logo">
+            </a>
           </div>
         </section>
-          
-          <!--Buscador-->
-          <div class="search-bar">
-            <input type="text" 
+
+        <!--Buscador-->
+        <div class="search-bar">
+          <input type="text" 
             name="search" 
             placeholder="Buscá la sidra indicada" 
             class="src" 
             autocomplete="off">
 
-            <!--icono del buscador-->
-            <div class="icon-search">
-              <i class="fas fa-search"></i>
+          <!--icono del buscador-->
+          <div class="icon-search">
+            <i class="fas fa-search"></i>
           </div>
-        </section>
-          
-        <section>
-          <!--Burger menu-->
-          <div class="burger-menu">
-            <i class="fas fa-bars"></i>
-          </div>
-        </section>
-        
+        </div> 
 
-        <nav class="header-nav-links">
+        <!--Burger menu-->         
+        <section class="section-burger">            
+          <div class="burger-menu">
+            <nav class="nav-burger">
+              <input type="checkbox" id="menu">
+              <label for="menu"><i class="fas fa-bars"></i></label>
+              <ul class="lista-burger-menu">
+                <li><a href="/register">Registro</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/productDetail">Detalles de Producto</a></li>
+                <li><a href="/productCart">Carrito</a></li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+            
+      </section>          
+      
+      <!--Nav links-->
+      <nav class="header-nav-links">
         <section>
           <a href="/register">Registro</a>
           <a href="/login">Login</a>
           <a href="/productDetail">Detalles de Producto</a>
           <a href="/productCart">Carrito</a>
-        </section>
-      </nav>
+        </section>  
+      </nav>   
 
-      
     </header>
     <!--Final del header-->
     
