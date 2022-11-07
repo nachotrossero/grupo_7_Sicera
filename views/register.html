@@ -85,8 +85,8 @@
     </header>
     <!--Final del header-->
   
-  <!--CSS: título debería ir centrado-->
-  <h1>Registrate</h1>
+    <!--CSS: título debería ir centrado-->
+    <h1>Registrate</h1>
 
     <main class="main-register">
 
@@ -99,46 +99,52 @@
 
 
       <!--Comienza formulario -->
-      <section>
         <form action="#" method="POST" class="register">
 
-          <div class="input-register">
-            <label for="user-name"></label>
-            <input type="text" name="user-name" placeholder="Nombre" required>
-          </div>
-          
-          <div class="input-register">
-            <label for="user-surname"></label>
-            <input type="text" name="user-surname" placeholder="Apellido" required>
-          </div>
+          <section>
+            <div class="input-register">
+              <label for="user-name"></label>
+              <input type="text" name="user-name" placeholder="Nombre" required>
+            </div>
+            
+            <div class="input-register">
+              <label for="user-surname"></label>
+              <input type="text" name="user-surname" placeholder="Apellido" required>
+            </div>
+  
+            <div class="input-register">
+              <label for="user-email"></label>
+              <input type="text" name="user-email" placeholder="E-mail" required>
+            </div>
+  
+            <div class="input-register">  
+              <label for="user-password"></label>
+              <input type="password" name="user-password" placeholder="Contraseña" required>
+            <label for="submit"></label>
+            </div>
+          </section>
 
-          <div class="input-register">
-            <label for="user-email"></label>
-            <input type="text" name="user-email" placeholder="E-mail" required>
-          </div>
+          <section class="login-button1">
+            <div class="kart-buttons">
+              <button type="submit" name="submit">Registrate</button>
+            </div>
+          </section>
 
-          <div class="input-register">  
-            <label for="user-password"></label>
-            <input type="password" name="user-password" placeholder="Contraseña" required>
-          <label for="submit"></label>
-          </div>
+          <section>
+            <div class="hipervinculo-register">
+              <p>¿Ya eres miembro?</p>
+              <p><a href="/logIn">Inicia sesión</a></p>
+            </div>
+          </section>
 
-          <div class="kart-buttons">
-            <button type="submit" name="submit">Registrate</button>
-          </div>
-          <div class="hipervinculo-register">
-            <p>¿Ya eres miembro?</p>
-            <p><a href="/logIn">Inicia sesión</a></p>
-          </div>
-
-        </form> 
-      </section>
-
-      <div class="kart-buttons">
-        <label for="submit"></label>
-          <button type="submit" name="submit">Ingresa con Google</button>
-        </div>
-       
+          <section class="login-button2">
+            <div class="kart-buttons">
+              <label for="submit"></label>
+              <button type="submit" name="submit">Ingresa con Google</button>
+            </div>
+          </section>
+        
+      </form> 
     </main>
 
         <!--Inicio del footer-->

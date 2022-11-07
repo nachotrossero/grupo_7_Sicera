@@ -539,6 +539,20 @@ section .sub-footer {
   margin-top: 5px;
 }
 
+.input-register input {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.login-button1 {
+  margin: 10px 0px 6px 0px;
+}
+
+.login-button2 {
+  margin: 10px 0px 0px 0px;
+}
+
 .button-login {
   display: flex;
   flex-direction: column;
