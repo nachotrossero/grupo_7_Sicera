@@ -510,8 +510,8 @@ section .sub-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5px;
-  padding-bottom: 2px;
+  margin-top: 3px;
+  padding-bottom: 3px;
   font-weight: 600;
 }
 
@@ -531,12 +531,13 @@ section .sub-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 25px 20px 25px;
+  margin: 0px 0px 20px 0px;
 }
 
 .input-register {
   margin-bottom: 5px;
   margin-top: 5px;
+  text-align: center;
 }
 
 .input-register input {
@@ -545,29 +546,27 @@ section .sub-footer {
   margin-bottom: 3px;
 }
 
-.login-button1 {
-  margin: 10px 0px 6px 0px;
+.login-line {
+  border-bottom: 2px solid black;
+  padding-top: 5px;
 }
+
+.login-button1 {
+  margin: 12px 0px 6px 0px;
+}
+
+.hipervinculo-register { 
+  display: flex;
+}
+
 
 .login-button2 {
   margin: 10px 0px 0px 0px;
 }
 
-.button-login {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5px;
-}
-
 /* TODO hay que separar ya eres miembro de inicia sesión */
 
-.hipervinculo-register { 
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: center;
-}
+
 
 /*!Footer*/
 /*?Register styles* end/
@@ -768,124 +767,113 @@ section .sub-footer {
 
 /*!Media Queries*/
 
- /*?Tablet*/
- @media (min-width: 426px) {
+/*?Tablet*/
+  @media (min-width: 426px) {
 
+    /**Footer*/
 
+    .footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
 
+    .top-footer{
+      width: 100%;
+      justify-content: center;
+    }
 
+    .top-footer article{   
+      width: 30%;
+      display: flex;    
+    }
 
-  /**Footer*/
+    .top-footer .paypal{
+      justify-content: flex-end;
+    }
 
-  .footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    .top-footer .visa{
+      justify-content: center;
+    }
+
+    .top-footer .mastercard{
+      justify-content: flex-start;
+    }
+
+    .listas-footer{
+      width: 100%
+    }
   }
-
-  .top-footer{
-    width: 100%;
-    justify-content: center;
-  }
-  .top-footer article{   
-    width: 30%;
-    display: flex;    
-  }
-  .top-footer .paypal{
-
-    justify-content: flex-end;
-
-  }
-  .top-footer .visa{
-
-    justify-content: center;
-
-  }
-  .top-footer .mastercard{
-
-    justify-content: flex-start;
-  }
-  .listas-footer{
-    
-    width: 100%
-  }
- }
 
 
  /*?Desktop*/
- @media (min-width: 769px) {
+  @media (min-width: 769px) {
 
-/**Header */
+    /**Header */
 
-.logo-sicera.logo-img {
+     .logo-sicera.logo-img {
  
-}
+     }
 
-.search-bar input {
+     .search-bar input {
 
-}
+     }
 
-.serach-bar i {
+     .serach-bar i {
 
-}
+     }
 
+     .header-nav-links {
+       display:contents;
+     }
 
-.header-nav-links {
-  display:contents;
-}
+     div.burger-menu{
+       display: none;
+     }
 
+     /**Footer*/
 
+     .footer{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+     }
 
-div.burger-menu{
-  display: none;
-}
+     .top-footer{
+       width: 30%;
+       justify-content: center;
+     }
 
-  /**Footer*/
+     .top-footer article{   
+       width: 30%;
+       display: flex;    
+     }
 
-  .footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
+     .top-footer .paypal{
+      justify-content: flex-end;
+     }
 
-  .top-footer{
-    width: 30%;
-    justify-content: center;
-  }
-  .top-footer article{   
-    width: 30%;
-    display: flex;    
-  }
-  .top-footer .paypal{
+     .top-footer .visa{
+       justify-content: center;
+     }
 
-    justify-content: flex-end;
+     .top-footer .mastercard{
+       justify-content: flex-start;
+     }
 
-  }
-  .top-footer .visa{
+     .listas-footer{
+       width: 30%
+     }
 
-    justify-content: center;
-
-  }
-  .top-footer .mastercard{
-
-    justify-content: flex-start;
-  }
-
-  .listas-footer{
-    
-    width: 30%
-  }
-  .lista-footer2{
-    width: 60%;
-  }
+     .lista-footer2{
+       width: 60%;
+     }
   
-  .bottom-footer{
+     .bottom-footer{
+       width: 30%;
+       align-items: center;
+     }
 
-    width: 30%;
-    align-items: center;
   }
-  
-
- }
