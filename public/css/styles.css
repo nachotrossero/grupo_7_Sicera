@@ -84,6 +84,7 @@ header {
   font-size: 14px;
   border: 2px solid #D50000;
   transition: all .7s ease;
+  font-weight: bold;
 }
 
 /**Search bar hover*/
@@ -122,8 +123,8 @@ div.burger-menu i {
 
 /**Contenedor icon search*/
 .icon-search {
-  width: 35px;
-  height: 35px;
+  width: 33px;
+  height: 33px;
   background: #D50000;
   line-height: 80px;
   border-radius: 50%;
