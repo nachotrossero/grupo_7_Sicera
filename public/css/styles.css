@@ -81,7 +81,8 @@ header {
   border-radius: 50px;
   font-size: 14px;
   border: 2px solid #D50000;
-  transition: all .7s ease; 
+  transition: all .7s ease;
+  font-weight: bold;
 }
 
 /**Search bar hover*/
@@ -100,8 +101,8 @@ header {
 }
 /**Contenedor icon search*/
 .icon-search {
-  width: 35px;
-  height: 35px;
+  width: 33px;
+  height: 33px;
   background: #D50000;
   line-height: 80px;
   border-radius: 50%;
@@ -720,17 +721,14 @@ section .sub-footer {
 
 /*!Media Queries*/
 
-/*?Puse mismas medidas que la liebre, cambiarlas por las que vayamos a usar*/
- /**Tablet*/
+ /*?Tablet*/
  @media (min-width: 426px) {
 
 
 
 
 
-
-
-  /*!Footer*/
+  /**Footer*/
 
   .footer{
     display: flex;
@@ -768,19 +766,35 @@ section .sub-footer {
  }
 
 
- /**Desktop*/
+ /*?Desktop*/
  @media (min-width: 769px) {
-/*!Header */
+
+/**Header */
+
+.logo-sicera.logo-img {
+ 
+}
+
+.search-bar input {
+  
+}
+
+.serach-bar i {
+
+}
+
+
 .header-nav-links {
   display:contents;
 }
+
 
 
 div.burger-menu{
   display: none;
 }
 
-  /*!Footer*/
+  /**Footer*/
 
   .footer{
     display: flex;
