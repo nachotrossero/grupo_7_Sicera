@@ -787,7 +787,8 @@ section .sub-footer {
   font-weight: bolder;
 }
 .cantidad-de-productos{
-  font-size: 16px;
+  margin: 0 5px 0 5px;
+  font-size: 14px;
 }
 
 .unidades{
