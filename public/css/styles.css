@@ -566,13 +566,13 @@ section .sub-footer {
   display: flex;
 }
 
+.hipervinculo-register p{
+  margin: 0 2px 0 2px;
+}
 
 .login-button2 {
   margin: 10px 0px 0px 0px;
 }
-
-/* TODO hay que separar ya eres miembro de inicia sesión */
-
 
 
 /*!Footer*/
