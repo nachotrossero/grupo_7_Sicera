@@ -751,13 +751,37 @@ section .sub-footer {
   margin: 0 25px 15px 25px;
 }
 
-.productos article img {
+.detalle-producto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 0 30px;
+}
+
+.detalle-producto article img {
   width: 35%;
   padding: 3px;
   margin: 5px;
   position: relative;
   right: 15px;
   background-color: #d9545f;
+}
+
+
+.button-agregar-al-carro {
+  margin-right: 10px;
+}
+
+.button-agregar-al-carro button {
+  width: 55%;
+  font-weight: thin;
+  padding: 1px;
+  margin: 2px;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color:#d9545f;
+  color: #ffffff
 }
 
 .precio-original{
