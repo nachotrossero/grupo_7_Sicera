@@ -755,7 +755,6 @@ section .sub-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 0 30px;
 }
 
 .detalle-producto article img {
@@ -768,12 +767,8 @@ section .sub-footer {
 }
 
 
-.button-agregar-al-carro {
-  margin-right: 10px;
-}
-
 .button-agregar-al-carro button {
-  width: 55%;
+  width: 50%;
   font-weight: thin;
   padding: 1px;
   margin: 2px;
