@@ -354,6 +354,21 @@ h3 {
   color: #d9545f;
 }
 
+.producto4 {
+  /* border-bottom: 2px solid #d9545f; */
+  margin-top: 10px;
+  text-align: center;
+}
+
+.producto4 img {
+  width: 50%;
+  border: 2px solid grey;
+}
+
+.producto4 i {
+  color: #d9545f;
+}
+
 .main-article{
   margin-right: 35px;
 }
