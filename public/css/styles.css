@@ -52,7 +52,7 @@ header {
   width: 15%;
   display: flex;  
   padding: 4px;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   border-radius: 60%;
 }
 
