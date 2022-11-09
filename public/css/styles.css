@@ -860,6 +860,10 @@ section .sub-footer {
     .listas-footer {
       width: 100%
     }
+    .lista-footer2{
+
+      justify-content: center;
+    }
     
   }
 
