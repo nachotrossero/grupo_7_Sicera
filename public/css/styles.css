@@ -302,70 +302,58 @@ h3 {
 /* Productos del main */
 .productos{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 0 0 30px;
+  flex-wrap: wrap;
+  justify-content: center;  
+  padding-bottom: 50px;
 }
 
-.producto1 {
+.producto {
   /* border-bottom: 2px solid #d9545f; */
   margin-top: 10px;
   margin-bottom: 6px;
   text-align: center;
+  background-color: #FFFFFF;
+  width: 85%;
+
+  border-radius: 10%;
+  box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
 }
 
-.producto1 img {
-  width: 50%;
-  border: 2px solid grey;
+.producto img {
+  width: 100%;
+  border-radius: 13%;
 }
 
-.producto1 i {
+.producto i {
   color: #d9545f;
 }
 
-.producto2 {
-  /* border-bottom: 2px solid #d9545f; */
-  margin-top: 10px;
-  margin-bottom: 6px;
-    text-align: center;
-}
-
-.producto2 img {
-  width: 50%;
-  border: 2px solid grey;
-}
-
-.producto2 i {
-  color: #d9545f;
-}
-
-.producto3 {
-  /* border-bottom: 2px solid #d9545f; */
-  margin-top: 10px;
-  text-align: center;
-}
-
-.producto3 img {
-  width: 50%;
-  border: 2px solid grey;
-}
-
-.producto3 i {
-  color: #d9545f;
-}
 
 .main-article{
-  margin-right: 35px;
+  background-color: transparent;
 }
 
-.price {
-  padding: 0px 0px 0px 3px;
-  font-size: 14px;
+.manzanas-calificacion{
+
+  padding: 10px;
+}
+.manzanas-calificacion i{
+
+  font-size: 30px;
+}
+.manzanas-calificacion p{
+
+  font-size: 20px;
+}
+
+.price {  
+  font-size: 20px;
   font-style: italic;
 }
 
 .product-name {
-  padding:4px 0px 6px 3px;
+  font-size: 20px;
+  padding: 5px;
   margin-bottom: 4px;
 }
 
@@ -736,7 +724,7 @@ section .sub-footer {
   margin: 0 25px 15px 25px;
 }
 
-.productos article img {
+.productosDetalles article img {
   width: 35%;
   padding: 3px;
   margin: 5px;
@@ -792,7 +780,17 @@ section .sub-footer {
       font-size: 40px;
 
     }
+    /** Main INDEX */
 
+    .producto{
+
+      width: 45%;
+      
+    }
+    .productos{
+
+      justify-content: space-evenly;
+    }
 
 
 
@@ -908,6 +906,17 @@ section .sub-footer {
     .section-burger{
       display: none;
     }
+
+    /** Main INDEX */ 
+    .producto{
+
+      width: 20%;
+      
+    }
+
+
+
+
 
     /**Footer*/
 
