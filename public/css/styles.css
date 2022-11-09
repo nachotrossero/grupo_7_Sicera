@@ -899,6 +899,10 @@ section .sub-footer {
       display:contents;        
     }
 
+    section .login-registro-carro-desktop {
+      position: relative;
+      left: -17px;
+    }
    
     .login-registro-carro-desktop {
       display: flex;
@@ -906,7 +910,7 @@ section .sub-footer {
       justify-content: space-evenly;
     }
 
-    .login-registro-carro-desktop a{
+    .login-registro-carro-desktop a {
       display: flex;
       background-color: #e8dbc5;
       color: darkslateblue;
