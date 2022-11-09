@@ -893,7 +893,6 @@ section .sub-footer {
     }
 
     .header-nav-links {
-
       display:contents;        
     }
 
@@ -903,6 +902,7 @@ section .sub-footer {
       width: 25%;
       justify-content: space-evenly;
     }
+
     .login-registro-carro-desktop a{
       display: flex;
       background-color: #e8dbc5;
@@ -912,6 +912,7 @@ section .sub-footer {
       padding: 5px;
       margin: 5px;
     }
+
     .login-registro-carro-desktop a i{
 
       font-size: 35px;
@@ -927,8 +928,7 @@ section .sub-footer {
       justify-content: space-evenly;
     }
 
-    .section-nav-desktop a{
-
+    .section-nav-desktop a {
       background-color: #e8dbc5;
       color: darkslateblue;
       border: solid 1px #000;
@@ -936,21 +936,19 @@ section .sub-footer {
       padding: 5px;
       margin: 5px;
     }
-    .section-nav-desktop a i{
 
+    .section-nav-desktop a i {
       font-size: 25px;
       padding-right: 5px;
     }
 
-    .section-burger{
+    .section-burger {
       display: none;
     }
 
     /** Main INDEX */ 
     .producto{
-
       width: 20%;
-      
     }
 
 
@@ -959,44 +957,44 @@ section .sub-footer {
 
     /**Footer*/
 
-    .footer{
+    .footer {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
     }
 
-    .top-footer{
+    .top-footer {
       width: 30%;
       justify-content: center;
     }
 
-    .top-footer article{   
+    .top-footer article {   
       width: 30%;
       display: flex;    
     }
 
-    .top-footer .paypal{
+    .top-footer .paypal {
     justify-content: flex-end;
     }
 
-    .top-footer .visa{
+    .top-footer .visa {
       justify-content: center;
     }
 
-    .top-footer .mastercard{
+    .top-footer .mastercard {
       justify-content: flex-start;
     }
 
-    .listas-footer{
+    .listas-footer {
       width: 30%
     }
 
-    .lista-footer2{
+    .lista-footer2 {
       width: 60%;
     }
 
-    .bottom-footer{
+    .bottom-footer {
       width: 30%;
       align-items: center;
     }
