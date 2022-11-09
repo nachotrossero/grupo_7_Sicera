@@ -786,7 +786,7 @@ section .sub-footer {
 
     .top-footer article{   
       width: 30%;
-      display: flex;    
+      display: flex;
     }
 
     .top-footer .paypal{
