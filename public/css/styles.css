@@ -371,36 +371,39 @@ footer {
   font-size: 15px;
   padding-top: 10px;
 }
-.listas-footer {
 
+.listas-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .lista-footer1 {
   display: flex;  
   flex-wrap: wrap;  
   width: 40%;  
   justify-content: center;
 }
+
 .lista-footer2 {
   display: flex;  
   flex-wrap: wrap;  
   width: 50%;  
 }
+
 footer section ul li a {
 
   text-decoration: none;
   color: white;
   font-size: 18px;
 }
+
 footer section ul {
-
   list-style-type: none;
-
 }
+
 .bottom-footer{
 
   display: flex;
@@ -417,13 +420,13 @@ footer section ul {
   
 }
 
-.bottom-footer article a{
-
+.bottom-footer article a {
   padding-top: 15px;
   padding-bottom: 15px;
   color: white;  
 }
-.bottom-footer article a i{
+
+.bottom-footer article a i {
   color: white;
   font-size: 40px;
 }
