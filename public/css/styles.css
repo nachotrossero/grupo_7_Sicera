@@ -43,7 +43,7 @@ header {
 .top-header {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 
@@ -51,6 +51,9 @@ header {
 .logo-sicera {
   width: 15%;
   display: flex;  
+  padding: 4px;
+  /* background-color: blanchedalmond; */
+  border-radius: 60%;
 }
 
 /**Logo imagen*/
@@ -65,6 +68,7 @@ header {
 .search-bar {
   text-align: center;
   display: flex;
+  padding: 15px;
   
 }
 
@@ -124,6 +128,10 @@ header {
 
 /** Nav desktop  */
 .header-nav-links{
+  display: none;
+}
+.login-registro-carro-desktop{
+
   display: none;
 }
 
@@ -191,12 +199,7 @@ input[type="checkbox"]  {
 
 /**Links nav-bar*/
 .header-nav-links {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-  margin-bottom: 0px;
-  box-sizing: border-box;
-  text-align: center;
+  
   display: none;
 }
 
@@ -237,6 +240,10 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+}
+
+.flechasCarrusel i{
+  color: rgb(255, 255, 255);
 }
 
 a{
@@ -347,6 +354,21 @@ h3 {
   color: #d9545f;
 }
 
+.producto4 {
+  /* border-bottom: 2px solid #d9545f; */
+  margin-top: 10px;
+  text-align: center;
+}
+
+.producto4 img {
+  width: 50%;
+  border: 2px solid grey;
+}
+
+.producto4 i {
+  color: #d9545f;
+}
+
 .main-article{
   margin-right: 35px;
 }
@@ -374,7 +396,7 @@ footer{
 .top-footer{
   display: flex;  
   flex-wrap: wrap;  
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 10px;
 }
 
@@ -559,13 +581,13 @@ section .sub-footer {
   display: flex;
 }
 
+.hipervinculo-register p{
+  margin: 0 2px 0 2px;
+}
 
 .login-button2 {
   margin: 10px 0px 0px 0px;
 }
-
-/* TODO hay que separar ya eres miembro de inicia sesión */
-
 
 
 /*!Footer*/
@@ -603,7 +625,6 @@ section .sub-footer {
   font-weight: bold;
   margin-top: 6px;
   margin-bottom: 3px;
-  padding: 15px;
   width: 100%;
   display: block;
 }
@@ -730,13 +751,32 @@ section .sub-footer {
   margin: 0 25px 15px 25px;
 }
 
-.productos article img {
+.detalle-producto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detalle-producto article img {
   width: 35%;
   padding: 3px;
   margin: 5px;
   position: relative;
   right: 15px;
   background-color: #d9545f;
+}
+
+
+.button-agregar-al-carro button {
+  width: 50%;
+  font-weight: thin;
+  padding: 1px;
+  margin: 2px;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color:#d9545f;
+  color: #ffffff
 }
 
 .precio-original{
@@ -747,7 +787,8 @@ section .sub-footer {
   font-weight: bolder;
 }
 .cantidad-de-productos{
-  font-size: 16px;
+  margin: 0 5px 0 5px;
+  font-size: 14px;
 }
 
 .unidades{
@@ -769,6 +810,27 @@ section .sub-footer {
 
 /*?Tablet*/
   @media (min-width: 426px) {
+
+    /** Header */
+
+    .top-header{
+
+      justify-content: space-around;
+
+    }
+    .search-bar{
+
+      width: 50%;
+    }
+    .section-burger .nav-burger label i{
+
+      font-size: 40px;
+
+    }
+
+
+
+
 
     /**Footer*/
 
@@ -812,68 +874,118 @@ section .sub-footer {
 
     /**Header */
 
-     .logo-sicera.logo-img {
- 
-     }
+    .logo-completo{
+      display: flex;
+    }
+    .logo-incompleto{
 
-     .search-bar input {
+      display: none;      
+    }
 
-     }
+    .logo-sicera{
+      width: 30%;
+    }
+    .search-bar{
+      width: 35%;
+      justify-content: center;
+    }
 
-     .serach-bar i {
+    .header-nav-links {
 
-     }
+      display:contents;        
+    }
 
-     .header-nav-links {
-       display:contents;
-     }
+   
+    .login-registro-carro-desktop{
+      display: flex;
+      width: 25%;
+      justify-content: space-evenly;
+    }
+    .login-registro-carro-desktop a{
+      display: flex;
+      background-color: #e8dbc5;
+      color: darkslateblue;
+      border: solid 1px #000;
+      border-radius: 10%;
+      padding: 5px;
+      margin: 5px;
+    }
+    .login-registro-carro-desktop a i{
 
-     div.burger-menu{
-       display: none;
-     }
+      font-size: 35px;
+      padding-right: 5px;
+    }
 
-     /**Footer*/
+    .section-nav-desktop{
+      margin-top: 20px;
+      margin-bottom: 0px;
 
-     .footer{
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-       align-items: center;
-     }
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
 
-     .top-footer{
-       width: 30%;
-       justify-content: center;
-     }
+    .section-nav-desktop a{
 
-     .top-footer article{   
-       width: 30%;
-       display: flex;    
-     }
+      background-color: #e8dbc5;
+      color: darkslateblue;
+      border: solid 1px #000;
+      border-radius: 10%;
+      padding: 5px;
+      margin: 5px;
+    }
+    .section-nav-desktop a i{
 
-     .top-footer .paypal{
-      justify-content: flex-end;
-     }
+      font-size: 25px;
+      padding-right: 5px;
+    }
 
-     .top-footer .visa{
-       justify-content: center;
-     }
+    .section-burger{
+      display: none;
+    }
 
-     .top-footer .mastercard{
-       justify-content: flex-start;
-     }
+    /**Footer*/
 
-     .listas-footer{
-       width: 30%
-     }
+    .footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
 
-     .lista-footer2{
-       width: 60%;
-     }
-  
-     .bottom-footer{
-       width: 30%;
-       align-items: center;
-     }
+    .top-footer{
+      width: 30%;
+      justify-content: center;
+    }
+
+    .top-footer article{   
+      width: 30%;
+      display: flex;    
+    }
+
+    .top-footer .paypal{
+    justify-content: flex-end;
+    }
+
+    .top-footer .visa{
+      justify-content: center;
+    }
+
+    .top-footer .mastercard{
+      justify-content: flex-start;
+    }
+
+    .listas-footer{
+      width: 30%
+    }
+
+    .lista-footer2{
+      width: 60%;
+    }
+
+    .bottom-footer{
+      width: 30%;
+      align-items: center;
+    }
 
   }
