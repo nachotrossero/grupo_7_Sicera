@@ -897,7 +897,7 @@ section .sub-footer {
     }
 
    
-    .login-registro-carro-desktop{
+    .login-registro-carro-desktop {
       display: flex;
       width: 25%;
       justify-content: space-evenly;
@@ -914,15 +914,12 @@ section .sub-footer {
     }
 
     .login-registro-carro-desktop a i{
-
       font-size: 35px;
-      padding-right: 5px;
     }
 
-    .section-nav-desktop{
+    .section-nav-desktop {
       margin-top: 20px;
       margin-bottom: 0px;
-
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
