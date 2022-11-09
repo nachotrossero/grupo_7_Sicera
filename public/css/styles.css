@@ -323,7 +323,6 @@ h3 {
 }
 
 .manzanas-calificacion {
-
   padding: 10px;
 }
 
@@ -821,6 +820,9 @@ section .sub-footer {
       justify-content: space-evenly;
     }
 
+    .manzanas-calificacion i {
+      font-size: 27px;
+    }
 
 
 
@@ -945,6 +947,10 @@ section .sub-footer {
     /** Main INDEX */ 
     .producto{
       width: 20%;
+    }
+
+    .manzanas-calificacion i {
+      font-size: 25px;
     }
 
 
