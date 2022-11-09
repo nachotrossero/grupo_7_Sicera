@@ -53,6 +53,8 @@ header {
   padding: 4px;
   /* background-color: blanchedalmond; */
   border-radius: 60%;
+
+  z-index: 5;
 }
 
 /**Logo imagen*/
@@ -136,16 +138,17 @@ header {
 .section-burger {
   display: flex;
   width: 60px;
+  z-index: 10;
 }
 
 .burger-menu {
   display: flex;
   width: 100%;
 }
-
-input[type="checkbox"] {
+.nav-burger input[type="checkbox"] {
   display: none;
 }
+
 
 /**Burger menu icono*/
 .burger-menu label {
