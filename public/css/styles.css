@@ -731,17 +731,20 @@ section .sub-footer {
   position: relative;
   background-color: #d9545f;
 }
+
 .articulo-elegido {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main-article{
+
+.main-article {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main-article i{
+
+.main-article i {
   color: #D50000;
 }
 
@@ -757,7 +760,7 @@ section .sub-footer {
   color: #ffffff
 }
 
-.precios{
+.precios {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -767,23 +770,27 @@ section .sub-footer {
   text-decoration: line-through;
   margin-right: 5px;
 }
-.precio-con-descuento{
+
+.precio-con-descuento {
   color: green;
   font-weight: bolder;
 }
-.cantidad-de-productos{
+
+.cantidad-de-productos {
   margin: 0 5px 0 5px;
   font-size: 14px;
 }
 
-.unidades{
+.unidades {
   font-style: italic;
   width: 30%;
 }
-.calificacion-manzanas i{
+
+.calificacion-manzanas i {
   color:#D50000;
 }
-.comentario-usuario{
+
+.comentario-usuario {
   font-style: italic;
 }
 
@@ -806,28 +813,24 @@ section .sub-footer {
     /** Header */
 
     .top-header{
-
       justify-content: space-around;
-
     }
-    .search-bar{
 
+    .search-bar{
       width: 50%;
     }
+
     .section-burger .nav-burger label i{
-
       font-size: 40px;
-
     }
+
     /** Main INDEX */
 
     .producto{
-
       width: 45%;
-      
     }
-    .productos{
 
+    .productos{
       justify-content: space-evenly;
     }
 
@@ -843,29 +846,29 @@ section .sub-footer {
       align-items: center;
     }
 
-    .top-footer{
+    .top-footer {
       width: 100%;
       justify-content: center;
     }
 
-    .top-footer article{   
+    .top-footer article {   
       width: 30%;
       display: flex;
     }
 
-    .top-footer .paypal{
+    .top-footer .paypal {
       justify-content: flex-end;
     }
 
-    .top-footer .visa{
+    .top-footer .visa {
       justify-content: center;
     }
 
-    .top-footer .mastercard{
+    .top-footer .mastercard {
       justify-content: flex-start;
     }
 
-    .listas-footer{
+    .listas-footer {
       width: 100%
     }
   }
