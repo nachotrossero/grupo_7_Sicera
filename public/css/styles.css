@@ -317,7 +317,6 @@ h3 {
   color: #d9545f;
 }
 
-
 .main-article {
   background-color: transparent;
 }
@@ -706,6 +705,7 @@ section .sub-footer {
 /*?ProductDetail styles* start/
 /*!Header*/
 /*!Main*/
+
 .main-prod-detail{
   margin: 0 25px 15px 25px;
 }
@@ -821,7 +821,7 @@ section .sub-footer {
     }
 
     .manzanas-calificacion i {
-      font-size: 27px;
+      font-size: 26px;
     }
 
 
