@@ -69,7 +69,6 @@ header {
   text-align: center;
   display: flex;
   padding: 15px;
-
 }
 
 /**Search bar input*/
@@ -134,7 +133,6 @@ header {
 }
 
 /**Contenedor burger menu*/
-
 .section-burger {
   display: flex;
   width: 60px;
@@ -150,7 +148,7 @@ input[type="checkbox"] {
 }
 
 /**Burger menu icono*/
-.burger-menu label  {
+.burger-menu label {
   display: inline-block;  
   border-radius: 5px;  
   line-height: 30px;  
@@ -188,14 +186,10 @@ input[type="checkbox"] {
   border-bottom: 1px solid grey;
 }
 
-.nav-burger .lista-burger-menu li a
-{
+.nav-burger .lista-burger-menu li a {
   text-decoration: none;
   color: #ffffff;
 }
-
-
-
 
 /**Links nav-bar*/
 .header-nav-links {
@@ -258,7 +252,6 @@ a {
   padding: 10px;
   font-style: none;
   color: #000;
-  
 }
 
 i {
@@ -296,7 +289,7 @@ h3 {
 }
 
 /* Productos del main */
-.productos{
+.productos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;  
@@ -317,6 +310,7 @@ h3 {
 .producto img {
   width: 100%;
   border-radius: 13%;
+  padding-top: 6px;
 }
 
 .producto i {
@@ -873,26 +867,26 @@ section .sub-footer {
 
     /**Header */
 
-    .logo-completo{
+    .logo-completo {
       display: flex;
     }
 
-    .logo-incompleto{
-
+    .logo-incompleto {
       display: none;      
     }
 
-    .logo-sicera{
+    .logo-sicera {
       width: 30%;
     }
 
-    .search-bar{
+    .search-bar {
       width: 35%;
       justify-content: center;
     }
 
     .header-nav-links {
-      display:contents;        
+      display:contents;
+      font-weight: bold;        
     }
 
     section .login-registro-carro-desktop {
@@ -914,10 +908,12 @@ section .sub-footer {
       border-radius: 10%;
       padding: 5px;
       margin: 5px;
+      font-weight: bold;
     }
 
     .login-registro-carro-desktop a i{
       font-size: 35px;
+      padding-right: 3px;
     }
 
     .section-nav-desktop {
