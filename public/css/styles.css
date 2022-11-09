@@ -733,6 +733,19 @@ section .sub-footer {
   background-color: #d9545f;
 }
 
+
+.button-agregar-al-carro button {
+  width: 50%;
+  font-weight: thin;
+  padding: 1px;
+  margin: 2px;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color:#d9545f;
+  color: #ffffff
+}
+
 .precio-original{
   text-decoration: line-through;
 }
@@ -741,7 +754,8 @@ section .sub-footer {
   font-weight: bolder;
 }
 .cantidad-de-productos{
-  font-size: 16px;
+  margin: 0 5px 0 5px;
+  font-size: 14px;
 }
 
 .unidades{
@@ -811,7 +825,7 @@ section .sub-footer {
 
     .top-footer article{   
       width: 30%;
-      display: flex;    
+      display: flex;
     }
 
     .top-footer .paypal{
