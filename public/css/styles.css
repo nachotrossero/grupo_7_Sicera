@@ -416,6 +416,7 @@ footer section ul {
   margin: 1px;
   
 }
+
 .bottom-footer article a{
 
   padding-top: 15px;
@@ -423,7 +424,7 @@ footer section ul {
   color: white;  
 }
 .bottom-footer article a i{
-
+  color: white;
   font-size: 40px;
 }
 
