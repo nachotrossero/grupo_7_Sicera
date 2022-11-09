@@ -729,13 +729,24 @@ section .sub-footer {
   padding: 3px;
   margin: 5px;
   position: relative;
-  right: 15px;
   background-color: #d9545f;
 }
-
+.articulo-elegido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-article i{
+  color: #D50000;
+}
 
 .button-agregar-al-carro button {
-  width: 50%;
+  width: 100%;
   font-weight: thin;
   padding: 1px;
   margin: 2px;
@@ -746,8 +757,15 @@ section .sub-footer {
   color: #ffffff
 }
 
+.precios{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .precio-original{
   text-decoration: line-through;
+  margin-right: 5px;
 }
 .precio-con-descuento{
   color: green;
@@ -759,6 +777,13 @@ section .sub-footer {
 }
 
 .unidades{
+  font-style: italic;
+  width: 30%;
+}
+.calificacion-manzanas i{
+  color:#D50000;
+}
+.comentario-usuario{
   font-style: italic;
 }
 
