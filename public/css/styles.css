@@ -36,7 +36,6 @@ header {
   background-color: #E33241;
   opacity: 80%;
   padding: 0px;
-  
 }
 
 /**Incluye todo el header menos la nav*/
@@ -60,7 +59,8 @@ header {
 .logo-sicera img {
   width: 100%;
 }
-.logo-completo{
+
+.logo-completo {
   display: none;
 }
 
@@ -69,7 +69,7 @@ header {
   text-align: center;
   display: flex;
   padding: 15px;
-  
+
 }
 
 /**Search bar input*/
@@ -78,7 +78,6 @@ header {
   width: 80%;
   height: 15px;
   display: flex;
-  
   outline: none;
   padding: 16px;
   color: #000;
@@ -103,6 +102,7 @@ header {
 ::placeholder {
   color: #000;
 }
+
 /**Contenedor icon search*/
 .icon-search {
   width: 33px;
@@ -124,44 +124,41 @@ header {
   transition: all .7s ease;
 }
 
-
-
 /** Nav desktop  */
-.header-nav-links{
+.header-nav-links {
   display: none;
 }
-.login-registro-carro-desktop{
 
+.login-registro-carro-desktop {
   display: none;
 }
 
 /**Contenedor burger menu*/
 
-.section-burger{
-
+.section-burger {
   display: flex;
   width: 60px;
-
 }
-.burger-menu{
+
+.burger-menu {
   display: flex;
   width: 100%;
 }
-input[type="checkbox"]  {
+
+input[type="checkbox"] {
   display: none;
 }
 
 /**Burger menu icono*/
 .burger-menu label  {
-  
   display: inline-block;  
   border-radius: 5px;  
   line-height: 30px;  
   text-align: center;
   user-select: none;
 }
-.burger-menu label i{
 
+.burger-menu label i {
   color: #ffffff;
   background-color: #D50000;
   padding: 10px;
@@ -171,15 +168,17 @@ input[type="checkbox"]  {
 }
 
 /**Lista del burger menu*/
-.burger-menu .nav-burger ul{
+.burger-menu .nav-burger ul {
   display: none;
 }
+
 /** input para mostrar la lista */
-.burger-menu .nav-burger input:checked ~ ul{
+.burger-menu .nav-burger input:checked ~ ul {
   display: block;  
 }
+
 /** Estilo desplegables burger menu*/ 
-.nav-burger .lista-burger-menu li{
+.nav-burger .lista-burger-menu li {
   width: 150px;
   display: block;
   background: #D50000;
@@ -188,8 +187,9 @@ input[type="checkbox"]  {
   list-style: none;
   border-bottom: 1px solid grey;
 }
-.nav-burger .lista-burger-menu li a{
 
+.nav-burger .lista-burger-menu li a
+{
   text-decoration: none;
   color: #ffffff;
 }
@@ -199,7 +199,6 @@ input[type="checkbox"]  {
 
 /**Links nav-bar*/
 .header-nav-links {
-  
   display: none;
 }
 
@@ -215,23 +214,22 @@ main {
 
 /**Carrusel*/
 
-#conteItemsCarrusel{
+#conteItemsCarrusel {
   height: 300px;
   overflow: hidden;
   margin-top: 20px;
 }
 
-.itemCarrusel{
+.itemCarrusel {
   height: 100%;
   position: relative;
-
 }
 
-.tarjetaCarrusel{
+.tarjetaCarrusel {
   height: 100%;
 }
 
-.flechasCarrusel{
+.flechasCarrusel {
   position: absolute;
   top: 0;
   height: 100%;
@@ -242,21 +240,20 @@ main {
   padding: 20px;
 }
 
-.flechasCarrusel i{
+.flechasCarrusel i {
   color: rgb(255, 255, 255);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 #contePuntos{
   display: flex;
   justify-content: space-around;    
-
 }
 
-#contePuntos > a{
+#contePuntos > a {
   font-size: 12px;
   padding: 10px;
   font-style: none;
@@ -265,12 +262,11 @@ a{
 }
 
 i {
-
   font-size: none;
   color: #000;
 }
 
-.img-carrusel{
+.img-carrusel {
   width: 100%;
   height: 100%;
 }
@@ -314,7 +310,6 @@ h3 {
   text-align: center;
   background-color: #FFFFFF;
   width: 85%;
-
   border-radius: 10%;
   box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
 }
@@ -329,20 +324,20 @@ h3 {
 }
 
 
-.main-article{
+.main-article {
   background-color: transparent;
 }
 
-.manzanas-calificacion{
+.manzanas-calificacion {
 
   padding: 10px;
 }
-.manzanas-calificacion i{
 
+.manzanas-calificacion i {
   font-size: 30px;
 }
-.manzanas-calificacion p{
 
+.manzanas-calificacion p {
   font-size: 20px;
 }
 
@@ -359,26 +354,24 @@ h3 {
 
 /*!Footer y subfooter*/
 
-footer{
+footer {
   margin: 1px;
   border:solid rgb(52, 52, 116) 2px ;
   background-color: var(--dark-gray);
   padding: 10px 0;
 }
 
-.top-footer{
+.top-footer {
   display: flex;  
   flex-wrap: wrap;  
   justify-content: space-evenly;
   padding-top: 10px;
 }
 
-.top-footer article i{
-
+.top-footer article i {
   font-size: 50px;
   color: white;
 }
-
 
 .under-top-footer p {
   text-align: center;
@@ -386,7 +379,7 @@ footer{
   font-size: 15px;
   padding-top: 10px;
 }
-.listas-footer{
+.listas-footer {
 
   display: flex;
   flex-wrap: wrap;
@@ -394,24 +387,24 @@ footer{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.lista-footer1{
+.lista-footer1 {
   display: flex;  
   flex-wrap: wrap;  
   width: 40%;  
   justify-content: center;
 }
-.lista-footer2{
+.lista-footer2 {
   display: flex;  
   flex-wrap: wrap;  
   width: 50%;  
 }
-footer section ul li a{
+footer section ul li a {
 
   text-decoration: none;
   color: white;
   font-size: 18px;
 }
-footer section ul{
+footer section ul {
 
   list-style-type: none;
 
@@ -462,7 +455,7 @@ section .sub-footer {
 /*!Main*/
 
 
-.main-login{
+.main-login {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -812,25 +805,25 @@ section .sub-footer {
 
     /** Header */
 
-    .top-header{
+    .top-header {
       justify-content: space-around;
     }
 
-    .search-bar{
+    .search-bar {
       width: 50%;
     }
 
-    .section-burger .nav-burger label i{
+    .section-burger .nav-burger label i {
       font-size: 40px;
     }
 
     /** Main INDEX */
 
-    .producto{
+    .producto {
       width: 45%;
     }
 
-    .productos{
+    .productos {
       justify-content: space-evenly;
     }
 
@@ -839,7 +832,7 @@ section .sub-footer {
 
     /**Footer*/
 
-    .footer{
+    .footer {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -871,6 +864,7 @@ section .sub-footer {
     .listas-footer {
       width: 100%
     }
+    
   }
 
 
@@ -882,6 +876,7 @@ section .sub-footer {
     .logo-completo{
       display: flex;
     }
+
     .logo-incompleto{
 
       display: none;      
@@ -890,6 +885,7 @@ section .sub-footer {
     .logo-sicera{
       width: 30%;
     }
+
     .search-bar{
       width: 35%;
       justify-content: center;
