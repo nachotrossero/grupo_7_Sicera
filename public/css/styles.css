@@ -142,6 +142,7 @@ header {
   display: flex;
   width: 100%;
 }
+
 .nav-burger input[type="checkbox"] {
   display: none;
 }
@@ -263,18 +264,23 @@ i {
 /* FIN DEL CARRUSEL */
 
 h1 {
-  font-size: 22px;
+  font-size: 20px;
   font-style: italic;
   font-weight: bold;
   text-align: center;
-  padding: 10px 0px 15px 0px;
+  padding: 10px 0px 20px 0px;
   border-bottom: 3px solid #d9545f;
-  color: #e33241;
+  color: goldenrod;
 }
 
 h2 {
   font-size: 18px;
   font-style: italic;
+}
+
+.most-value h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
 }
 
 .articulos h2 {
@@ -351,12 +357,12 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
+  width: 100%;
 }
 
 .video-experiencia-sidra img {
   /* border-bottom: 2px solid #d9545f; */
-  margin-top: 10px;
-  margin-bottom: 6px;
+  margin-top: 40px;
   text-align: center;
   background-color: #ffffff;
   width: 80%;
@@ -365,7 +371,7 @@ h3 {
 }
 
 
-.fotos-experiencia-sidra div{
+.fotos-experiencia-sidra{
   display: none;
 }
 
@@ -802,6 +808,7 @@ section .sub-footer {
 
 
 
+
 /******************************************/
 
 /*!Media Queries*/
@@ -813,9 +820,11 @@ section .sub-footer {
   .logo-completo {
     display: flex;
   }
+
   .logo-sicera {
     width: 25%;
   }
+
   .logo-incompleto {
     display: none;
   }
@@ -833,6 +842,11 @@ section .sub-footer {
   }
 
   /** Main INDEX */
+
+  .most-value h2 {
+    font-size: 22px;
+    padding-bottom: 15px;
+  }
 
   .producto {
     width: 45%;
@@ -858,30 +872,43 @@ section .sub-footer {
 
   /** Cierra Carrusel */
 
+  /** Section experiencia sidra*/
+  
+  .fotos-experiencia-sidra {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .fotos-experiencia-sidra img {
     display: flex;
-     /* border-bottom: 2px solid #d9545f; */
-      margin-top: 10px;
-      margin-bottom: 6px;
-      text-align: center;
-      background-color: #ffffff;
-      width: 50%;
-      border-radius: 10%;
-      box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
-    }
-    .fotos-experiencia-sidra div{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      flex-direction: column;
-      padding-bottom: 10px;
-      }
+    /* border-bottom: 2px solid #d9545f; */
+    margin-top: 10px;
+    margin-bottom: 6px;
+    background-color: #ffffff;
+    width: 50%;
+    border-radius: 10%;
+    box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
   }
-  
     
+  .fotos-experiencia-sidra .exp-sidra-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 33%;
+  }
+    
+  .descripcion-experiencia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 70%;
+    text-align: center;
+  }
 
-
-    /**Footer*/
+  /*!Footer*/
 
   .footer {
     display: flex;
@@ -915,10 +942,12 @@ section .sub-footer {
   .listas-footer {
     width: 100%;
   }
+
   .lista-footer2 {
     justify-content: center;
   }
-
+}
+  
 
 /*?Desktop*/
 @media (min-width: 769px) {
@@ -947,6 +976,11 @@ section .sub-footer {
     font-weight: bold;
   }
 
+  .most-value h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
   section .login-registro-carro-desktop {
     position: relative;
     left: -17px;
@@ -966,9 +1000,9 @@ section .sub-footer {
     padding: 5px;
     margin: 5px;
     font-weight: bold;
-
     box-shadow: 0 0 0 1px rgb(157, 61, 25);
   }
+
   .login-registro-carro-desktop :hover {
     filter: brightness(105%);
   }
@@ -1011,26 +1045,25 @@ section .sub-footer {
   }
 
 
-    /** Carrusel */
-    #conteItemsCarrusel{
-      height:450px
-    }
+  /** Carrusel */
+  #conteItemsCarrusel{
+    height:450px
+  }
   
-    .flechasCarrusel{
-      font-size: 50px
-    }
-    /** Cierra Carrusel */
+  .flechasCarrusel{
+    font-size: 50px
+  }
+  /** Cierra Carrusel */
 
-    /** Main INDEX */ 
-    .producto{
-      width: 20%;
-    }
-    .producto:hover{
+  /** Main INDEX */ 
+  .producto{
+    width: 20%;
+  }
 
-      width: 20.1%;
-      box-shadow: 0 0 0 2px rgb(157, 61, 25);
-
-    }
+  .producto:hover{
+    width: 20.1%;
+    box-shadow: 0 0 0 2px rgb(157, 61, 25);
+  }
 
   .manzanas-calificacion i {
     font-size: 25px;
