@@ -350,6 +350,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
+  width: 100%;
 }
 
 .video-experiencia-sidra img {
@@ -364,7 +365,7 @@ h3 {
 }
 
 
-.fotos-experiencia-sidra div{
+.fotos-experiencia-sidra{
   display: none;
 }
 
@@ -801,6 +802,7 @@ section .sub-footer {
 
 
 
+
 /******************************************/
 
 /*!Media Queries*/
@@ -857,67 +859,81 @@ section .sub-footer {
 
   /** Cierra Carrusel */
 
+  /** Section experiencia sidra*/
+  
+  .fotos-experiencia-sidra {
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+
   .fotos-experiencia-sidra img {
     display: flex;
      /* border-bottom: 2px solid #d9545f; */
       margin-top: 10px;
       margin-bottom: 6px;
-      text-align: center;
       background-color: #ffffff;
       width: 50%;
       border-radius: 10%;
       box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
     }
-    .fotos-experiencia-sidra div{
+    
+    .fotos-experiencia-sidra .exp-sidra-div{
       display: flex;
       justify-content: space-around;
       align-items: center;
       flex-direction: column;
       padding-bottom: 10px;
+      width: 33%;
       }
+      .descripcion-experiencia{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 10px;
+        width: 70%;
+        text-align: center;
+      }
+
+      /*!Footer*/
+
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .top-footer {
+      width: 100%;
+      justify-content: space-around;
+    }
+
+    .top-footer article {
+      width: 30%;
+      display: flex;
+    }
+
+    .top-footer .paypal {
+      justify-content: flex-end;
+    }
+
+    .top-footer .visa {
+      justify-content: center;
+    }
+
+    .top-footer .mastercard {
+      justify-content: flex-start;
+    }
+
+    .listas-footer {
+      width: 100%;
+    }
+    .lista-footer2 {
+      justify-content: center;
+    }
   }
   
-    
-
-
-    /**Footer*/
-
-  .footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .top-footer {
-    width: 100%;
-    justify-content: space-around;
-  }
-
-  .top-footer article {
-    width: 30%;
-    display: flex;
-  }
-
-  .top-footer .paypal {
-    justify-content: flex-end;
-  }
-
-  .top-footer .visa {
-    justify-content: center;
-  }
-
-  .top-footer .mastercard {
-    justify-content: flex-start;
-  }
-
-  .listas-footer {
-    width: 100%;
-  }
-  .lista-footer2 {
-    justify-content: center;
-  }
-
 
 /*?Desktop*/
 @media (min-width: 769px) {
