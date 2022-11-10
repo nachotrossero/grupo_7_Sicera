@@ -23,7 +23,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
   5. [Developers](https://github.com/nachotrossero/grupo_7_Sicera/blob/main/README.md#developers-clinking_glasses)
   
-  6. [Tablero de trabajo en equipo](https://github.com/nachotrossero/grupo_7_Sicera/edit/main/README.md#tablero-de-trabajo-en-equipo-)
+  6. [Tablero de trabajo en equipo](https://github.com/nachotrossero/grupo_7_Sicera/blob/main/README.md#tablero-de-trabajo-en-equipo-)
 
 
 ## :apple: Audiencia 
