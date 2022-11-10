@@ -845,7 +845,7 @@ section .sub-footer {
     font-size: 26px;
   }
 
-/** Carrusel */
+  /** Carrusel */
 
   #conteItemsCarrusel{
   height:300px
@@ -855,7 +855,7 @@ section .sub-footer {
     font-size: 35px;
   }
 
-/** Cierra Carrusel */
+  /** Cierra Carrusel */
 
   .fotos-experiencia-sidra img {
     display: flex;
@@ -1008,6 +1008,17 @@ section .sub-footer {
   .section-burger {
     display: none;
   }
+
+
+    /** Carrusel */
+    #conteItemsCarrusel{
+      height:450px
+    }
+  
+    .flechasCarrusel{
+      font-size: 50px
+    }
+    /** Cierra Carrusel */
 
     /** Main INDEX */ 
     .producto{
