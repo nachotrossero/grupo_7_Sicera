@@ -1078,12 +1078,13 @@ section .sub-footer {
 
   /** Carrusel */
   #conteItemsCarrusel{
-    height: 320px
+    height: 500px
   }
   
   .flechasCarrusel{
     font-size: 50px
   }
+
   /** Cierra Carrusel */
 
   /** Main INDEX */ 
