@@ -919,6 +919,16 @@ section .sub-footer {
     flex-wrap: wrap;
   }
 
+  /* Imagen youtube*/
+
+  .imagen-youtube{
+    padding-bottom: 0px;
+  }
+
+  .video-img{
+    width: 70%
+  }
+
   .fotos-experiencia-sidra img {
     display: flex;
     /* border-bottom: 2px solid #d9545f; */
@@ -946,12 +956,6 @@ section .sub-footer {
     padding-bottom: 10px;
     width: 70%;
     text-align: center;
-  }
-
-   /* Imagen youtube*/
-
-   .imagen-youtube{
-    padding-bottom: 50px;
   }
 
 
@@ -1121,6 +1125,11 @@ section .sub-footer {
   .imagen-youtube{
     padding-bottom: 150px;
   }
+
+  .video-img{
+    width: 80%
+  }
+
 
   /**Footer*/
 
