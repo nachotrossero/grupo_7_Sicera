@@ -1054,7 +1054,8 @@ section .sub-footer {
      /** Carrusel */ 
      #conteItemsCarrusel{
       
-      height: 660px;
+      height: 670px;
+      margin: 0;
     }
 
     /** Articulos */
