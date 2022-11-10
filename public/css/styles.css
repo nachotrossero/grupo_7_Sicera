@@ -363,27 +363,15 @@ h3 {
   box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
 }
 
-.fotos-experiencia-sidra {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-bottom: 50px;
+
+.fotos-experiencia-sidra div{
+  display: none;
 }
 
-.fotos-experiencia-sidra img {
-  /* border-bottom: 2px solid #d9545f; */
-  margin-top: 10px;
-  margin-bottom: 6px;
-  text-align: center;
-  background-color: #ffffff;
-  width: 30%;
-  border-radius: 10%;
-  box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
+.descripcion-experiencia{
   display: none;
-}
-.descripcion-experiencia {
-  display: none;
-}
+} 
+
 
 /*!Footer y subfooter*/
 
@@ -857,14 +845,28 @@ section .sub-footer {
     font-size: 26px;
   }
 
-    .fotos-experiencia-sidra img {
-      display: block;
+
+  .fotos-experiencia-sidra img {
+    display: flex;
+     /* border-bottom: 2px solid #d9545f; */
+      margin-top: 10px;
+      margin-bottom: 6px;
+      text-align: center;
+      background-color: #ffffff;
+      width: 50%;
+      border-radius: 10%;
+      box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
     }
     .fotos-experiencia-sidra div{
       display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 10px;
+      }
+  }
+  
+    
 
 
     /**Footer*/
@@ -904,7 +906,7 @@ section .sub-footer {
   .lista-footer2 {
     justify-content: center;
   }
-}
+
 
 /*?Desktop*/
 @media (min-width: 769px) {
