@@ -269,7 +269,7 @@ h1 {
   text-align: center;
   padding: 10px 0px 20px 0px;
   border-bottom: 3px solid #d9545f;
-  color: #e33241;
+  color: goldenrod;
 }
 
 h2 {
@@ -277,8 +277,8 @@ h2 {
   font-style: italic;
 }
 
-.most-value h2{
-  font-size: 20px;
+.most-value h2 {
+  font-size: 22px;
   margin-bottom: 5px;
 }
 
@@ -842,6 +842,11 @@ section .sub-footer {
 
   /** Main INDEX */
 
+  .most-value h2 {
+    font-size: 22px;
+    padding-bottom: 15px;
+  }
+
   .producto {
     width: 45%;
   }
@@ -893,54 +898,54 @@ section .sub-footer {
     width: 33%;
   }
     
-    .descripcion-experiencia{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      padding-bottom: 10px;
-      width: 70%;
-      text-align: center;
-    }
-
-      /*!Footer*/
-
-    .footer {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .top-footer {
-      width: 100%;
-      justify-content: space-around;
-    }
-
-    .top-footer article {
-      width: 30%;
-      display: flex;
-    }
-
-    .top-footer .paypal {
-      justify-content: flex-end;
-    }
-
-    .top-footer .visa {
-      justify-content: center;
-    }
-
-    .top-footer .mastercard {
-      justify-content: flex-start;
-    }
-
-    .listas-footer {
-      width: 100%;
-    }
-
-    .lista-footer2 {
-      justify-content: center;
-    }
+  .descripcion-experiencia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 70%;
+    text-align: center;
   }
+
+  /*!Footer*/
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-footer {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .top-footer article {
+    width: 30%;
+    display: flex;
+  }
+
+  .top-footer .paypal {
+    justify-content: flex-end;
+  }
+
+  .top-footer .visa {
+    justify-content: center;
+  }
+
+  .top-footer .mastercard {
+    justify-content: flex-start;
+  }
+
+  .listas-footer {
+    width: 100%;
+  }
+
+  .lista-footer2 {
+    justify-content: center;
+  }
+}
   
 
 /*?Desktop*/
@@ -967,6 +972,11 @@ section .sub-footer {
   /** Estilos de los botones del header desktop **/
   .header-nav-links {
     display: contents;
+    font-weight: bold;
+  }
+
+  .most-value h2 {
+    font-size: 24px;
     font-weight: bold;
   }
 
