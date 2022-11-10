@@ -845,7 +845,17 @@ section .sub-footer {
     font-size: 26px;
   }
 
+/** Carrusel */
 
+  #conteItemsCarrusel{
+  height:300px
+  }
+
+  .flechasCarrusel{
+    font-size: 35px;
+  }
+
+/** Cierra Carrusel */
 
   .fotos-experiencia-sidra img {
     display: flex;
