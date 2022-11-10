@@ -1,12 +1,12 @@
-:root{
+:root {
   --red: #e33241; /*barra de navegacion opacidad 80%*/
   --light-orange: #fff4e9; /* fondo de la pag */
   --dark-gray: #2c363f; /* footer */
 }
 
 /**Selectores universales*/
-* {  
-  font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -14,7 +14,7 @@
 
 /**Selectores generales*/
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #fff4e9;
 }
 
@@ -22,10 +22,7 @@ p {
   font-size: 12px;
 }
 
-
-
 /******************************************/
-
 
 /*?Index styles* start/
 
@@ -33,7 +30,7 @@ p {
 
 /**Header reglas generales*/
 header {
-  background-color: #E33241;
+  background-color: #e33241;
   opacity: 80%;
   padding: 0px;
 }
@@ -49,7 +46,7 @@ header {
 /**Contenedor del logo*/
 .logo-sicera {
   width: 15%;
-  display: flex;  
+  display: flex;
   padding: 4px;
   /* background-color: blanchedalmond; */
   border-radius: 60%;
@@ -84,8 +81,8 @@ header {
   color: #000;
   border-radius: 50px;
   font-size: 14px;
-  border: 2px solid #D50000;
-  transition: all .7s ease;
+  border: 2px solid #d50000;
+  transition: all 0.7s ease;
   font-weight: bold;
 }
 
@@ -108,21 +105,21 @@ header {
 .icon-search {
   width: 33px;
   height: 33px;
-  background: #D50000;
+  background: #d50000;
   line-height: 80px;
   border-radius: 50%;
-  text-align: center;    
+  text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 /**Imagen icon search*/
 .icon-search i {
   font-size: 20px;
-  color:white;
+  color: white;
   line-height: 80px;
-  transition: all .7s ease;
+  transition: all 0.7s ease;
 }
 
 /** Nav desktop  */
@@ -149,19 +146,18 @@ header {
   display: none;
 }
 
-
 /**Burger menu icono*/
 .burger-menu label {
-  display: inline-block;  
-  border-radius: 5px;  
-  line-height: 30px;  
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 30px;
   text-align: center;
   user-select: none;
 }
 
 .burger-menu label i {
   color: #ffffff;
-  background-color: #D50000;
+  background-color: #d50000;
   padding: 10px;
   border-radius: 5px;
   font-size: 18px;
@@ -175,14 +171,14 @@ header {
 
 /** input para mostrar la lista */
 .burger-menu .nav-burger input:checked ~ ul {
-  display: block;  
+  display: block;
 }
 
-/** Estilo desplegables burger menu*/ 
+/** Estilo desplegables burger menu*/
 .nav-burger .lista-burger-menu li {
   width: 150px;
   display: block;
-  background: #D50000;
+  background: #d50000;
   margin: 0;
   padding: 10px;
   list-style: none;
@@ -199,14 +195,10 @@ header {
   display: none;
 }
 
-
-
-
-
 /*!Main*/
 
 main {
-  background-color: #FFF4E9;
+  background-color: #fff4e9;
 }
 
 /**Carrusel*/
@@ -245,9 +237,9 @@ a {
   text-decoration: none;
 }
 
-#contePuntos{
+#contePuntos {
   display: flex;
-  justify-content: space-around;    
+  justify-content: space-around;
 }
 
 #contePuntos > a {
@@ -267,9 +259,7 @@ i {
   height: 100%;
 }
 
-
 /* FIN DEL CARRUSEL */
-
 
 h1 {
   font-size: 22px;
@@ -278,7 +268,7 @@ h1 {
   text-align: center;
   padding: 10px 0px 15px 0px;
   border-bottom: 3px solid #d9545f;
-  color:#e33241;
+  color: #e33241;
 }
 
 h2 {
@@ -286,13 +276,12 @@ h2 {
   font-style: italic;
 }
 
-.articulos h2{
+.articulos h2 {
   font-weight: bold;
   text-align: center;
   padding: 10px 0px 15px 0px;
-  color:#e33241;
+  color: #e33241;
 }
-
 
 h3 {
   font-size: 16px;
@@ -303,7 +292,7 @@ h3 {
 .productos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;  
+  justify-content: center;
   padding-bottom: 50px;
 }
 
@@ -312,7 +301,7 @@ h3 {
   margin-top: 10px;
   margin-bottom: 6px;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 85%;
   border-radius: 10%;
   box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
@@ -344,7 +333,7 @@ h3 {
   font-size: 20px;
 }
 
-.price {  
+.price {
   font-size: 20px;
   font-style: italic;
 }
@@ -355,60 +344,47 @@ h3 {
   margin-bottom: 4px;
 }
 
-
-
-
 /**Experiencia Sidra */
 .video-experiencia-sidra {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;  
+  justify-content: center;
   padding-bottom: 50px;
 }
 
-.video-experiencia-sidra img{
-   /* border-bottom: 2px solid #d9545f; */
-   margin-top: 10px;
-   margin-bottom: 6px;
-   text-align: center;
-   background-color: #FFFFFF;
-   width: 85%;
-   border-radius: 10%;
-   box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
-}
-
-.fotos-experiencia-sidra {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;  
-  padding-bottom: 50px;
-}
-
-.fotos-experiencia-sidra img {
+.video-experiencia-sidra img {
   /* border-bottom: 2px solid #d9545f; */
   margin-top: 10px;
   margin-bottom: 6px;
   text-align: center;
-  background-color: #FFFFFF;
-  width: 30%;
+  background-color: #ffffff;
+  width: 80%;
   border-radius: 10%;
   box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
+}
+
+
+.fotos-experiencia-sidra div{
   display: none;
 }
+
+.descripcion-experiencia{
+  display: none;
+} 
 
 
 /*!Footer y subfooter*/
 
 footer {
   margin: 1px;
-  border:solid rgb(52, 52, 116) 2px ;
+  border: solid rgb(52, 52, 116) 2px;
   background-color: var(--dark-gray);
   padding: 10px 0;
 }
 
 .top-footer {
-  display: flex;  
-  flex-wrap: wrap;  
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   padding-top: 10px;
 }
@@ -434,20 +410,19 @@ footer {
 }
 
 .lista-footer1 {
-  display: flex;  
-  flex-wrap: wrap;  
-  width: 40%;  
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
   justify-content: center;
 }
 
 .lista-footer2 {
-  display: flex;  
-  flex-wrap: wrap;  
-  width: 50%;  
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
 }
 
 footer section ul li a {
-
   text-decoration: none;
   color: white;
   font-size: 18px;
@@ -457,26 +432,24 @@ footer section ul {
   list-style-type: none;
 }
 
-.bottom-footer{
-
+.bottom-footer {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .bottom-footer article {
-  display: flex;  
+  display: flex;
   flex-wrap: wrap;
   padding-right: 8px;
   padding-left: 8px;
   margin: 1px;
-  
 }
 
 .bottom-footer article a {
   padding-top: 15px;
   padding-bottom: 15px;
-  color: white;  
+  color: white;
 }
 
 .bottom-footer article a i {
@@ -493,16 +466,12 @@ section .sub-footer {
   color: white;
 }
 
-
-
-
 /******************************************/
 
 /*?Login styles* start/
 /*!Header*/
 
 /*!Main*/
-
 
 .main-login {
   display: flex;
@@ -539,9 +508,9 @@ section .sub-footer {
   border-bottom: 2px solid black;
 }
 
- .hr-invisible {
+.hr-invisible {
   visibility: collapse;
- }
+}
 
 .hipervinculo {
   display: flex;
@@ -592,18 +561,17 @@ section .sub-footer {
   margin: 12px 0px 6px 0px;
 }
 
-.hipervinculo-register { 
+.hipervinculo-register {
   display: flex;
 }
 
-.hipervinculo-register p{
+.hipervinculo-register p {
   margin: 0 2px 0 2px;
 }
 
 .login-button2 {
   margin: 10px 0px 0px 0px;
 }
-
 
 /*!Footer*/
 /*?Register styles* end/
@@ -617,12 +585,7 @@ section .sub-footer {
 /*!Header*/
 /*TODO: Esperar a que corrija jero el header para ponerlo*/
 
-
-
-
-
 /*!Main*/
-
 
 .kart-main-top {
   display: flex;
@@ -631,7 +594,6 @@ section .sub-footer {
   padding-bottom: 15px;
   justify-content: space-between;
   align-items: flex-end;
-
 }
 
 .kart-h1 {
@@ -646,12 +608,11 @@ section .sub-footer {
 
 .kart-main-top-text p {
   display: flex;
-  font-style:italic ;
+  font-style: italic;
   font-weight: 500;
   padding: 5px;
   margin: 3px;
 }
-
 
 .kart-main-top-basket i {
   display: flex;
@@ -659,7 +620,6 @@ section .sub-footer {
   margin: 3px;
   font-size: 25px;
   margin-right: 20px;
-
 }
 
 .kart-products {
@@ -702,7 +662,7 @@ section .sub-footer {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px solid black;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 18px;
   justify-content: space-around;
   position: relative;
@@ -717,7 +677,6 @@ section .sub-footer {
   margin-bottom: 10px;
   position: relative;
   top: -15px;
-
 }
 
 .kart-lower-main {
@@ -735,7 +694,6 @@ section .sub-footer {
   padding: 4px;
 }
 
-
 .kart-buttons button {
   display: flex;
   width: 100%;
@@ -746,8 +704,8 @@ section .sub-footer {
   text-transform: uppercase;
   border: 1px solid black;
   border-radius: 8%;
-  background-color:#d9545f;
-  color: #ffffff
+  background-color: #d9545f;
+  color: #ffffff;
 }
 
 /*!Footer*/
@@ -763,7 +721,7 @@ section .sub-footer {
 /*!Header*/
 /*!Main*/
 
-.main-prod-detail{
+.main-prod-detail {
   margin: 0 25px 15px 25px;
 }
 
@@ -788,7 +746,7 @@ section .sub-footer {
 }
 
 .main-article i {
-  color: #D50000;
+  color: #d50000;
 }
 
 .button-agregar-al-carro button {
@@ -799,8 +757,8 @@ section .sub-footer {
   text-transform: uppercase;
   border: 1px solid black;
   border-radius: 8%;
-  background-color:#d9545f;
-  color: #ffffff
+  background-color: #d9545f;
+  color: #ffffff;
 }
 
 .precios {
@@ -809,7 +767,7 @@ section .sub-footer {
   justify-content: space-between;
 }
 
-.precio-original{
+.precio-original {
   text-decoration: line-through;
   margin-right: 5px;
 }
@@ -830,7 +788,7 @@ section .sub-footer {
 }
 
 .calificacion-manzanas i {
-  color:#D50000;
+  color: #d50000;
 }
 
 .comentario-usuario {
@@ -845,219 +803,203 @@ section .sub-footer {
 
 /******************************************/
 
-
-
-
 /*!Media Queries*/
 
 /*?Tablet*/
-  @media (min-width: 426px) {
+@media (min-width: 426px) {
+  /** Header */
 
-    /** Header */
+  .logo-completo {
+    display: flex;
+  }
+  .logo-sicera {
+    width: 25%;
+  }
+  .logo-incompleto {
+    display: none;
+  }
 
-    
-    .logo-completo {
-      display: flex;
-      
-    }
-    .logo-sicera{
-      width: 25%;
-    }
-    .logo-incompleto {
-      display: none;      
-    }
+  .top-header {
+    justify-content: space-around;
+  }
 
-    .top-header {
-      justify-content: space-around;
-    }
+  .search-bar {
+    width: 50%;
+  }
 
-    .search-bar {
-      width: 50%;
-    }
+  .section-burger .nav-burger label i {
+    font-size: 40px;
+  }
 
-    .section-burger .nav-burger label i {
-      font-size: 40px;
-    }
+  /** Main INDEX */
 
-    /** Main INDEX */
+  .producto {
+    width: 45%;
+  }
 
-    .producto {
-      width: 45%;
-    }
+  .productos {
+    justify-content: space-evenly;
+  }
 
-    .productos {
-      justify-content: space-evenly;
-    }
-
-    .manzanas-calificacion i {
-      font-size: 26px;
-    }
-
-    /** Main Home */
-    /** Carrusel */ 
-    #conteItemsCarrusel{
-      height: 420px;
-    }
-
-    /** Experiencia sidra */
-    .fotos-experiencia-sidra img {
-      display: block;
-    }
-    .fotos-experiencia-sidra div{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
-
-    
-
-    /**Footer*/
-
-    .footer {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .top-footer {
-      width: 100%;
-      justify-content: space-around;
-    }
-
-    .top-footer article {   
-      width: 30%;
-      display: flex;
-    }
-
-    .top-footer .paypal {
-      justify-content: flex-end;
-    }
-
-    .top-footer .visa {
-      justify-content: center;
-    }
-
-    .top-footer .mastercard {
-      justify-content: flex-start;
-    }
-
-    .listas-footer {
-      width: 100%
-    }
-    .lista-footer2{
-
-      justify-content: center;
-    }
-    
+  .manzanas-calificacion i {
+    font-size: 26px;
   }
 
 
- /*?Desktop*/
-  @media (min-width: 769px) {
 
-    /**Header */
-
-    .logo-completo {
-      display: flex;
-    }
-
-    .logo-incompleto {
-      display: none;      
-    }
-
-    .logo-sicera {
-      width: 30%;
-    }
-
-    .search-bar {
-      width: 35%;
-      justify-content: center;
-    }
-    
-    /** Estilos de los botones del header desktop **/
-    .header-nav-links {
-      display:contents;
-      font-weight: bold;        
-    }
-    
-    section .login-registro-carro-desktop {
-      position: relative;
-      left: -17px;
-    }
-   
-    .login-registro-carro-desktop {
-      display: flex;
-      width: 25%;
-      justify-content: space-evenly;
-    }
-
-    .login-registro-carro-desktop a {
-      display: flex;
-      background-color: #D50000;
-      color: white;      
+  .fotos-experiencia-sidra img {
+    display: flex;
+     /* border-bottom: 2px solid #d9545f; */
+      margin-top: 10px;
+      margin-bottom: 6px;
+      text-align: center;
+      background-color: #ffffff;
+      width: 50%;
       border-radius: 10%;
-      padding: 5px;
-      margin: 5px;
-      font-weight: bold;
-      
-      box-shadow: 0 0 0 1px rgb(157, 61, 25);
+      box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
     }
-    .login-registro-carro-desktop  :hover{
-
-      filter: brightness(105%); 
-
-    }
-
-    .login-registro-carro-desktop a i{
-      font-size: 35px;
-      padding-right: 3px;
-    }
-
-
-    .section-nav-desktop {
-      margin-top: 20px;
-      padding-bottom: 5px;
+    .fotos-experiencia-sidra div{
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-    }
-
-    .section-nav-desktop :hover{
-
-      filter: brightness(105%);
-    }
-
-    .section-nav-desktop a {
-      background-color: #D50000;
-      color: white;      
-      border-radius: 10%;
-      padding: 5px;
-      margin: 5px;
-      box-shadow: 0 0 0 1px rgb(157, 61, 25);
-      display: flex;
+      justify-content: space-around;
       align-items: center;
-    }
+      flex-direction: column;
+      padding-bottom: 10px;
+      }
+  }
+  
+    
 
-    .section-nav-desktop a i {
-      font-size: 25px;
-      padding-right: 5px;     
-      
-    }
 
-    .section-burger {
-      display: none;
-    }
+    /**Footer*/
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-footer {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .top-footer article {
+    width: 30%;
+    display: flex;
+  }
+
+  .top-footer .paypal {
+    justify-content: flex-end;
+  }
+
+  .top-footer .visa {
+    justify-content: center;
+  }
+
+  .top-footer .mastercard {
+    justify-content: flex-start;
+  }
+
+  .listas-footer {
+    width: 100%;
+  }
+  .lista-footer2 {
+    justify-content: center;
+  }
+
+
+/*?Desktop*/
+@media (min-width: 769px) {
+  /**Header */
+
+  .logo-completo {
+    display: flex;
+  }
+
+  .logo-incompleto {
+    display: none;
+  }
+
+  .logo-sicera {
+    width: 30%;
+  }
+
+  .search-bar {
+    width: 35%;
+    justify-content: center;
+  }
+
+  /** Estilos de los botones del header desktop **/
+  .header-nav-links {
+    display: contents;
+    font-weight: bold;
+  }
+
+  section .login-registro-carro-desktop {
+    position: relative;
+    left: -17px;
+  }
+
+  .login-registro-carro-desktop {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+  }
+
+  .login-registro-carro-desktop a {
+    display: flex;
+    background-color: #d50000;
+    color: white;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+
+    box-shadow: 0 0 0 1px rgb(157, 61, 25);
+  }
+  .login-registro-carro-desktop :hover {
+    filter: brightness(105%);
+  }
+
+  .login-registro-carro-desktop a i {
+    font-size: 35px;
+    padding-right: 3px;
+  }
+
+  .section-nav-desktop {
+    margin-top: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .section-nav-desktop :hover {
+    filter: brightness(105%);
+  }
+
+  .section-nav-desktop a {
+    background-color: #d50000;
+    color: white;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 0 0 1px rgb(157, 61, 25);
+    display: flex;
+    align-items: center;
+  }
+
+  .section-nav-desktop a i {
+    font-size: 25px;
+    padding-right: 5px;
+  }
+
+  .section-burger {
+    display: none;
+  }
 
     /** Main INDEX */ 
-
-     /** Carrusel */ 
-     #conteItemsCarrusel{
-      
-      height: 660px;
-    }
-
-    /** Articulos */
     .producto{
       width: 20%;
     }
@@ -1068,56 +1010,51 @@ section .sub-footer {
 
     }
 
-    .manzanas-calificacion i {
-      font-size: 25px;
-    }
-
-
-
-
-
-    /**Footer*/
-
-    .footer {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .top-footer {
-      width: 30%;
-      justify-content: center;
-    }
-
-    .top-footer article {   
-      width: 30%;
-      display: flex;    
-    }
-
-    .top-footer .paypal {
-    justify-content: flex-end;
-    }
-
-    .top-footer .visa {
-      justify-content: center;
-    }
-
-    .top-footer .mastercard {
-      justify-content: flex-start;
-    }
-
-    .listas-footer {
-      width: 30%
-    }
-
-    .lista-footer2 {
-      width: 60%;
-    }
-
-    .bottom-footer {
-      width: 30%;
-      align-items: center;
-    }
-
+  .manzanas-calificacion i {
+    font-size: 25px;
   }
+
+  /**Footer*/
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-footer {
+    width: 30%;
+    justify-content: center;
+  }
+
+  .top-footer article {
+    width: 30%;
+    display: flex;
+  }
+
+  .top-footer .paypal {
+    justify-content: flex-end;
+  }
+
+  .top-footer .visa {
+    justify-content: center;
+  }
+
+  .top-footer .mastercard {
+    justify-content: flex-start;
+  }
+
+  .listas-footer {
+    width: 30%;
+  }
+
+  .lista-footer2 {
+    width: 60%;
+  }
+
+  .bottom-footer {
+    width: 30%;
+    align-items: center;
+  }
+}
