@@ -393,6 +393,7 @@ h3 {
   width: 30%;
   border-radius: 10%;
   box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
+  display: none;
 }
 
 
@@ -895,9 +896,20 @@ section .sub-footer {
     /** Main Home */
     /** Carrusel */ 
     #conteItemsCarrusel{
-      
       height: 420px;
     }
+
+    /** Experiencia sidra */
+    .fotos-experiencia-sidra img {
+      display: block;
+    }
+    .fotos-experiencia-sidra div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    
 
     /**Footer*/
 
