@@ -355,6 +355,36 @@ h3 {
   margin-bottom: 4px;
 }
 
+
+
+
+/**Experiencia Sidra */
+.fotos-experiencia-sidra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  padding-bottom: 50px;
+}
+
+.fotos-experiencia-sidra img {
+  /* border-bottom: 2px solid #d9545f; */
+  margin-top: 10px;
+  margin-bottom: 6px;
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 85%;
+  border-radius: 10%;
+  box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 13%;
+  padding-top: 6px;
+}
+
+
+
 /*!Footer y subfooter*/
 
 footer {
