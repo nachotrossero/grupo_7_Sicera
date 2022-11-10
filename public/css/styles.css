@@ -366,12 +366,13 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
   width: 100%;
 }
 
+/**
 .video-experiencia-sidra img {
-  /* border-bottom: 2px solid #d9545f; */
+  /* border-bottom: 2px solid #d9545f; *
   margin-top: 40px;
   text-align: center;
   background-color: #ffffff;
@@ -380,6 +381,26 @@ h3 {
   box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
 }
 
+*/
+
+.video-img {
+  margin-top: 40px;
+  text-align: center;
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 10%;
+  box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
+  opacity: 70%;
+  position: absolute;
+}
+
+ .imagen-youtube{
+  margin-top: 25%;
+  text-align: center;
+  border-radius: 10%;
+  width:5%;
+  z-index: 1;
+}
 
 .fotos-experiencia-sidra{
   display: none;
@@ -882,7 +903,7 @@ section .sub-footer {
   /** Carrusel */
 
   #conteItemsCarrusel{
-  height:300px
+  height: 340px
   }
 
   .flechasCarrusel{
@@ -1066,7 +1087,7 @@ section .sub-footer {
 
   /** Carrusel */
   #conteItemsCarrusel{
-    height:450px
+    height: 500px
   }
   
   .flechasCarrusel{
