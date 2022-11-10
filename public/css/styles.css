@@ -212,7 +212,7 @@ main {
 /**Carrusel*/
 
 #conteItemsCarrusel {
-  height: 300px;
+  height: 210px;
   overflow: hidden;
   margin-top: 0px;
 }
@@ -893,6 +893,13 @@ section .sub-footer {
       font-size: 26px;
     }
 
+    /** Main Home */
+    /** Carrusel */ 
+    #conteItemsCarrusel{
+      height: 420px;
+    }
+
+    /** Experiencia sidra */
     .fotos-experiencia-sidra img {
       display: block;
     }
@@ -902,6 +909,7 @@ section .sub-footer {
       justify-content: space-evenly;
     }
 
+    
 
     /**Footer*/
 
@@ -1042,6 +1050,14 @@ section .sub-footer {
     }
 
     /** Main INDEX */ 
+
+     /** Carrusel */ 
+     #conteItemsCarrusel{
+      
+      height: 660px;
+    }
+
+    /** Articulos */
     .producto{
       width: 20%;
     }
