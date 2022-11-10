@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- <%- include(‘./partials/head’) %> -->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Para linkear fuente Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--Para linkear iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Sicera</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!--Para linkear hoja de estilos-->
+    <link rel="stylesheet" href="/css/styles.css">
+
+  </head>
+
+
+  <body>
+    <!-- <%- include(‘./partials/header’) %> -->
+    <!--Inicio del header-->
+    <header>
+      
+      <section class="top-header">
+        <!--Burger menu-->         
+      <section class="section-burger">            
+        <div class="burger-menu">
+          <nav class="nav-burger">
+            <input type="checkbox" id="menu">
+            <label for="menu"><i class="fas fa-bars"></i></label>
+            <ul class="lista-burger-menu">
+              <li><a href="/register">Registro</a></li>
+              <li><a href="/login">Iniciar sesión</a></li>
+              <li><a href="/productCart">Carro de compras</a></li>
+              <li><a href="/sidras">Sidras</a></li>
+              <li><a href="/maridajes">Maridajes</a></li>
+              <li><a href="/manzanas">Manzanas</a></li>
+              <li><a href="/experienciaSidra">Experiencia sidra</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+        
+        <!--Logo-->
+        <section class="logo-sicera">
+          <div class="logo-img">
+            <a href="/index">
+            <img src="img/logo-completo-con-contorno-en-manzana.png" alt="logo" class="logo-completo">
+            <img src="img/logo-manzana-sola-con-stroke.png" alt="logo" class="logo-incompleto">
+            </a>
+          </div>
+        </section>
+      
+
+        <!--Buscador-->
+        <div class="search-bar">
+          <input type="text" 
+            name="search" 
+            placeholder="Buscá la sidra indicada" 
+            class="src" 
+            autocomplete="off">
+
+          <!--icono del buscador-->
+          <div class="icon-search">
+            <i class="fas fa-search"></i>
+          </div>
+        </div> 
+
+        
+        <section class="login-registro-carro-desktop">
+
+          <a href="/login"><i class="fas fa-user"></i>Iniciar sesión</a>
+                  
+          <a href="/productCart"><i class="fas fa-shopping-basket"></i>Carro de compras</a>
+
+        </section>
+            
+      </section>          
+      
+      <!--Nav links-->
+      <nav class="header-nav-links">
+        <section class="section-nav-desktop">          
+          <a href="/sidras"><i class="fas fa-wine-bottle"></i>Sidras</a>
+          <a href="/maridajes"><i class="fas fa-cheese"></i>Maridajes</a>
+          <a href="/manzanas"><i class="fas fa-apple-alt"></i>Manzanas</a>
+          <a href="/experienciaSidra"><i class="fas fa-map-marked"></i>Experiencia sidra</a>
+        </section>  
+      </nav>   
+
+    </header>
+    <!--Final del header-->
+
+
+    <!--Inicio del main-->
+    <main>
+      
+      <!--carrusel-->
+      <div id="conteItemsCarrusel">
+        <div class="itemCarrusel">
+        <!--IMAGEN 1-->
+            <div class="tarjetaCarrusel">
+                <img src="img/1carrusel-primera.jpg" id="img1" class="img-carrusel">
+            </div>  
+            <div class="flechasCarrusel">
+              <a href="#img3"> 
+                <i class="fas fa-chevron-left"></i>
+              </a>
+              <a href="#img2">
+                <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+        </div>
+        <!--IMAGEN 2-->
+        <div class="itemCarrusel">
+            <div class="tarjetaCarrusel">
+                <img src="img/2carruse-segunda.jpg " id="img2" class="img-carrusel">
+            </div>  
+            <div class="flechasCarrusel">
+                <a href="#img1"> 
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#img3">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+        <!--IMAGEN 3-->
+        <div class="itemCarrusel">
+            <div class="tarjetaCarrusel">
+                <img src="img/3carrusel-tercera.jpg" id="img3" class="img-carrusel">
+            </div>  
+            <div class="flechasCarrusel">
+                <a href="#img2"> 
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#img1">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>   
+    </div> 
+    
+    <!--<div id="contePuntos"> Revisar
+        <a href="#img1"><i class="fas fa-circle"></i></a>
+        <a href="#img2"><i class="fas fa-circle"></i></a>
+        <a href="#img3"><i class="fas fa-circle"></i></a>
+    </div>
+    -->
+
+      <section>
+        <h1 class="index-h1">¡Encontrá la sidra perfecta!</h1><i class="far fa-search"></i>
+      </section>
+
+    
+      <section class="articulos">
+
+        <section  class="most-value">
+          <h2>Las sidras mejores valoradas</h2>
+        </section>
+
+        <div class="productos">
+
+
+          <article class="producto">
+            <a href="/productDetail">
+            <img class= "card-img" src="img/1888-product-1.jpg" alt="1888">
+            </a>
+
+            <div class="main-article">
+              <h4 class="product-name">Sidra 1888</h4> 
+              <p class="price">$1.873</p>
+              <div class="manzanas-calificacion">
+                <p>Valoración</p>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-apple-alt"></i>
+              </div>              
+                          
+            </div>
+          </article>
+
+          <article class="producto">
+            <a href="/productDetail">
+            <img class= "card-img" src="img/la-victoria-product-2.jpg" alt= "La victoria">
+            </a>
+            <div class="main-article">
+
+              <h4 class="product-name">Sidra La Victoria</h4> 
+              <p class="price">$1.540</p>
+              <div class="manzanas-calificacion">
+                <p>Valoración</p>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-apple-alt"></i>                
+              </div>
+
+            </div>
+          </article>
+
+          <article class="producto">
+            <a href="/productDetail">
+              <img class= "card-img" src="img/real-product-3.png" alt="Real">
+            </a>
+            
+            <div class="main-article">
+
+              <h4 class="product-name">Sidra Real</h4>  
+              <p class="price">$1.615</p>                         
+              <div class="manzanas-calificacion">
+                <p>Valoración</p>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-apple-alt"></i>                
+                <i class="fas fa-apple-alt"></i>
+              </div>
+            </div>
+          </article>          
+          
+          <article class="producto">
+            
+            <a href="/productDetail">
+            <img class= "card-img" src="img/sidra-pulku-organica.jpg" alt="Real">
+            </a>
+
+            <div class="main-article">
+              <h4 class="product-name">Sidra orgánica Pulku</h4>             
+              <p class="price">$700</p>
+              <div class="manzanas-calificacion">
+                <p>Valoración</p>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-apple-alt"></i>                
+                <i class="fas fa-apple-alt"></i>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>  
+    <!-- EXPERIENCIA SIDRA -->
+      <section>
+        <h1>Sumate a la experiencia Sidra</h1>
+      </section>
+      <section class="experiencia-sidra">
+        <article class="video-experiencia-sidra">          
+        <img src="img/video-youtube.jpg" alt="" class="video-img">
+        </article>
+        <article class="fotos-experiencia-sidra">
+          <div class="exp-sidra-div">
+            <img src="img/Exp_Sidra2.jpg" alt="">
+            <div class="descripcion-experiencia">
+            <h3>Neuquén</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+          </div>
+          </div>
+          <div class="exp-sidra-div">
+          <img src="img/Exp_Sidra3.jpg" alt="">
+          <div class="descripcion-experiencia">
+          <h3>Rio Negro</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+        </div>
+        </div>
+        <div class="exp-sidra-div">
+          <img src="img/Exp_Sidra4.jpg" alt="">
+          <div class="descripcion-experiencia">
+        <h3>Mendoza</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+      </div>
+      </div>
+      </div>
+        <!-- <img src="img/Exp_Sidra5.jpg" alt=""> -->
+      </article>
+      </section>
+
+    </main>
+    <!--Final del main-->
+
+
+    <!-- <%- include(‘./partials/footer) %> -->
+    <!--Inicio del footer-->
+    <footer>
+      <div class="footer">
+        <section class="top-footer">
+          <article class="paypal"> <i class="fab fa-paypal"></i> </article>
+
+          <article class="visa"> <i class="fab fa-cc-visa"> </i></article>
+
+          <article class="mastercard"> <i class="fab fa-cc-mastercard"> </i></article>
+
+          <div class="under-top-footer"><p>Las opciones de pago varían según el comerciante</p></div>
+        </section> 
+
+        <section class="listas-footer">
+          <article class="lista-footer1">
+            <ul>
+              <li> <a href="#">Acerca de</a> </li>
+
+              <li> <a href="#">Contacto</a> </li>
+
+            </ul>
+          </article>
+          
+          <article class="lista-footer2">
+            <ul>
+              <li> <a href="#">Política de seguridad</a> </li>
+
+              <li> <a href="#">Política de contenido</a> </li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="bottom-footer">
+          <article> <a href="www.instagram.com"> <i class="fab fa-instagram"></i> </a> </article>
+
+          <article> <a href="www.twitter.com"> <i class="fab fa-twitter"></i>  </a> </article>
+
+          <article> <a href="www.facebook.com"> <i class="fab fa-facebook"></i> </a> </article>
+        </section>
+      
+      </div>
+      <section>
+        <div class="sub-footer"> 
+          <p>Todos los derechos reservados Copyright 2022.</p>
+        </div>
+      </section>
+    </footer>
+    <!--Final del footer-->
+
+  </body>
+</html>
