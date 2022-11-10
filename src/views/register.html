@@ -27,18 +27,38 @@
   <body>
     <!--Inicio del header-->
     <header>
-      
+       
       <section class="top-header">
+        <!--Burger menu-->         
+       <section class="section-burger">            
+        <div class="burger-menu">
+          <nav class="nav-burger">
+            <input type="checkbox" id="menu">
+            <label for="menu"><i class="fas fa-bars"></i></label>
+            <ul class="lista-burger-menu">
+              <li><a href="/register">Registro</a></li>
+              <li><a href="/login">Iniciar sesión</a></li>
+              <li><a href="/productCart">Carro de compras</a></li>
+              <li><a href="/sidras">Sidras</a></li>
+              <li><a href="/maridajes">Maridajes</a></li>
+              <li><a href="/manzanas">Manzanas</a></li>
+              <li><a href="/experienciaSidra">Experiencia sidra</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
 
+        
         <!--Logo-->
         <section class="logo-sicera">
           <div class="logo-img">
             <a href="/index">
-            <img src="img/logo-sicera-sin-fondo.png" alt="logo" class="logo-completo">
+            <img src="img/logo-completo-con-contorno-en-manzana.png" alt="logo" class="logo-completo">
             <img src="img/logo-manzana-sola-con-stroke.png" alt="logo" class="logo-incompleto">
             </a>
           </div>
         </section>
+       
 
         <!--Buscador-->
         <div class="search-bar">
@@ -54,24 +74,7 @@
           </div>
         </div> 
 
-        <!--Burger menu-->         
-        <section class="section-burger">            
-          <div class="burger-menu">
-            <nav class="nav-burger">
-              <input type="checkbox" id="menu">
-              <label for="menu"><i class="fas fa-bars"></i></label>
-              <ul class="lista-burger-menu">
-                <li><a href="/register">Registro</a></li>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/productCart">Carrito</a></li>
-                <li><a href="/sidras">Sidras</a></li>
-                <li><a href="/maridajes">Maridajes</a></li>
-                <li><a href="/manzanas">Manzanas</a></li>
-                <li><a href="/experienciaSidra">Experiencia sidra</a></li>
-              </ul>
-            </nav>
-          </div>
-        </section>
+        
         <section class="login-registro-carro-desktop">
 
           <a href="/login"><i class="fas fa-user"></i>Iniciar sesión</a>
@@ -159,57 +162,53 @@
       </form> 
     </main>
 
-        <!--Inicio del footer-->
+    <!--Inicio del footer-->
     <footer>
+      <div class="footer">
+        <section class="top-footer">
+          <article class="paypal"> <i class="fab fa-paypal"></i> </article>
 
-      <section class="top-footer">
-        <article> <i class="fab fa-paypal"></i> </article>
-    
-        <article> <i class="fab fa-cc-visa"> </i></article>
-    
-        <article> <i class="fab fa-cc-mastercard"> </i></article>
-      </section>
-    
-    
-      <div class="under-top-footer"><p>Las opciones de pago varían según el comerciante</p></div>
-    
-      <section class="listas-footer">
-        <section class="lista-footer1">
-          <ul>
-            <li> <a href="#">Acerca de</a> </li>
-    
-            <li> <a href="#">Contacto</a> </li>
-    
-          </ul>
+          <article class="visa"> <i class="fab fa-cc-visa"> </i></article>
+
+          <article class="mastercard"> <i class="fab fa-cc-mastercard"> </i></article>
+
+          <div class="under-top-footer"><p>Las opciones de pago varían según el comerciante</p></div>
+        </section> 
+
+        <section class="listas-footer">
+          <article class="lista-footer1">
+            <ul>
+              <li> <a href="#">Acerca de</a> </li>
+
+              <li> <a href="#">Contacto</a> </li>
+
+            </ul>
+          </article>
+          
+          <article class="lista-footer2">
+            <ul>
+              <li> <a href="#">Política de seguridad</a> </li>
+
+              <li> <a href="#">Política de contenido</a> </li>
+            </ul>
+          </article>
         </section>
-    
-            
-        <section class="lista-footer2">
-          <ul>
-            <li> <a href="#">Política de seguridad</a> </li>
-    
-            <li> <a href="#">Política de contenido</a> </li>
-          </ul>
+
+        <section class="bottom-footer">
+          <article> <a href="www.instagram.com"> <i class="fab fa-instagram"></i> </a> </article>
+
+          <article> <a href="www.twitter.com"> <i class="fab fa-twitter"></i>  </a> </article>
+
+          <article> <a href="www.facebook.com"> <i class="fab fa-facebook"></i> </a> </article>
         </section>
-      </section>
-    
-    
-      <section class="bottom-footer">
-        <article> <a href="www.instagram.com"> <i class="fab fa-instagram"></i> </a> </article>
-    
-        <article> <a href="www.twitter.com"> <i class="fab fa-twitter"></i>  </a> </article>
-    
-        <article> <a href="www.facebook.com"> <i class="fab fa-facebook"></i> </a> </article>
-      </section>
-    
-    
+      
+      </div>
       <section>
         <div class="sub-footer"> 
           <p>Todos los derechos reservados Copyright 2022.</p>
         </div>
       </section>
-    
     </footer>
-        <!--Final del footer-->
+    <!--Final del footer-->
   </body>
 </html>

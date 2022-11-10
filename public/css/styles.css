@@ -91,7 +91,7 @@ header {
 
 /**Search bar hover*/
 .search-bar:hover input {
-  width: 200px;
+  width: 110%;
 }
 
 /**Search bar hover*/
@@ -813,6 +813,18 @@ section .sub-footer {
 
     /** Header */
 
+    
+    .logo-completo {
+      display: flex;
+      
+    }
+    .logo-sicera{
+      width: 25%;
+    }
+    .logo-incompleto {
+      display: none;      
+    }
+
     .top-header {
       justify-content: space-around;
     }
@@ -904,12 +916,13 @@ section .sub-footer {
       width: 35%;
       justify-content: center;
     }
-
+    
+    /** Estilos de los botones del header desktop **/
     .header-nav-links {
       display:contents;
       font-weight: bold;        
     }
-
+    
     section .login-registro-carro-desktop {
       position: relative;
       left: -17px;
@@ -923,13 +936,19 @@ section .sub-footer {
 
     .login-registro-carro-desktop a {
       display: flex;
-      background-color: #e8dbc5;
-      color: darkslateblue;
-      border: solid 1px #000;
+      background-color: #D50000;
+      color: white;      
       border-radius: 10%;
       padding: 5px;
       margin: 5px;
       font-weight: bold;
+      
+      box-shadow: 0 0 0 1px rgb(157, 61, 25);
+    }
+    .login-registro-carro-desktop  :hover{
+
+      filter: brightness(105%); 
+
     }
 
     .login-registro-carro-desktop a i{
@@ -937,26 +956,35 @@ section .sub-footer {
       padding-right: 3px;
     }
 
+
     .section-nav-desktop {
       margin-top: 20px;
-      margin-bottom: 0px;
+      padding-bottom: 5px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
     }
 
+    .section-nav-desktop :hover{
+
+      filter: brightness(105%);
+    }
+
     .section-nav-desktop a {
-      background-color: #e8dbc5;
-      color: darkslateblue;
-      border: solid 1px #000;
+      background-color: #D50000;
+      color: white;      
       border-radius: 10%;
       padding: 5px;
       margin: 5px;
+      box-shadow: 0 0 0 1px rgb(157, 61, 25);
+      display: flex;
+      align-items: center;
     }
 
     .section-nav-desktop a i {
       font-size: 25px;
-      padding-right: 5px;
+      padding-right: 5px;     
+      
     }
 
     .section-burger {
