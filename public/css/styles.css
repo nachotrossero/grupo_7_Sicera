@@ -273,6 +273,16 @@ h1 {
   color: #d9545f;
 }
 
+.index-h1 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #d9545f;
+  color: goldenrod;
+}
+
 h2 {
   font-size: 18px;
   font-style: italic;
