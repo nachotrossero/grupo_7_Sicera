@@ -988,6 +988,12 @@ section .sub-footer {
     .producto{
       width: 20%;
     }
+    .producto:hover{
+
+      width: 20.1%;
+      box-shadow: 0 0 0 2px rgb(157, 61, 25);
+
+    }
 
     .manzanas-calificacion i {
       font-size: 25px;
