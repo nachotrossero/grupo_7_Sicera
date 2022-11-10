@@ -204,9 +204,9 @@ main {
 /**Carrusel*/
 
 #conteItemsCarrusel {
-  height: 300px;
+  height: 210px;
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 3px;
 }
 
 .itemCarrusel {
@@ -857,26 +857,17 @@ section .sub-footer {
     font-size: 26px;
   }
 
-  .fotos-experiencia-sidra img {
-    display: block;
-  }
-  .fotos-experiencia-sidra img {
-    display: block;
-  }
+    .fotos-experiencia-sidra img {
+      display: block;
+    }
+    .fotos-experiencia-sidra div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
 
-  .fotos-experiencia-sidra div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 30%;
-    flex-wrap: wrap;
-  }
-  .descripcion-experiencia{
-    display: flex;
-  }
 
-  /**Footer*/
+    /**Footer*/
 
   .footer {
     display: flex;
@@ -1005,14 +996,16 @@ section .sub-footer {
     display: none;
   }
 
-  /** Main INDEX */
-  .producto {
-    width: 20%;
-  }
-  .producto:hover {
-    width: 20.1%;
-    box-shadow: 0 0 0 2px rgb(157, 61, 25);
-  }
+    /** Main INDEX */ 
+    .producto{
+      width: 20%;
+    }
+    .producto:hover{
+
+      width: 20.1%;
+      box-shadow: 0 0 0 2px rgb(157, 61, 25);
+
+    }
 
   .manzanas-calificacion i {
     font-size: 25px;
