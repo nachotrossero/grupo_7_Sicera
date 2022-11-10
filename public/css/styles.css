@@ -366,7 +366,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 150px;
+  padding-bottom: 90px;
   width: 100%;
 }
 
@@ -948,6 +948,13 @@ section .sub-footer {
     text-align: center;
   }
 
+   /* Imagen youtube*/
+
+   .imagen-youtube{
+    padding-bottom: 50px;
+  }
+
+
   /*!Footer*/
 
   .footer {
@@ -1087,7 +1094,7 @@ section .sub-footer {
 
   /** Carrusel */
   #conteItemsCarrusel{
-    height: 500px
+    height: 480px
   }
   
   .flechasCarrusel{
@@ -1107,6 +1114,12 @@ section .sub-footer {
 
   .manzanas-calificacion i {
     font-size: 25px;
+  }
+
+  /* Imagen youtube*/
+
+  .imagen-youtube{
+    padding-bottom: 150px;
   }
 
   /**Footer*/
