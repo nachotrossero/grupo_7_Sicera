@@ -1,0 +1,57 @@
+
+/*?Login styles* start/
+/*!Header*/
+
+/*!Main*/
+
+.main-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 25px 20px 25px;
+}
+
+.input-user-name-email {
+  margin-bottom: 13px;
+  margin-top: 5px;
+}
+
+.input-user-name-email input {
+  text-align: center;
+  font-weight: bold;
+}
+
+.input-user-password {
+  margin-bottom: 1px;
+}
+
+.input-user-password input {
+  text-align: center;
+  font-weight: bold;
+}
+
+.control-form {
+  font-size: 12px;
+  padding-top: 5px;
+  font-weight: bold;
+  margin-bottom: 9px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.hr-invisible {
+  visibility: collapse;
+}
+
+.hipervinculo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 600;
+}
+
+/*!Footer*/
+
+/*?Login styles* end/

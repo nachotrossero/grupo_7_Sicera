@@ -1,0 +1,48 @@
+
+/*?Register styles* start/
+
+/*!Header*/
+
+/*!Main*/
+.main-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 20px 0px;
+}
+
+.input-register {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.input-register input {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.login-line {
+  border-bottom: 2px solid black;
+  padding-top: 5px;
+}
+
+.login-button1 {
+  margin: 12px 0px 6px 0px;
+}
+
+.hipervinculo-register {
+  display: flex;
+}
+
+.hipervinculo-register p {
+  margin: 0 2px 0 2px;
+}
+
+.login-button2 {
+  margin: 10px 0px 0px 0px;
+}
+
+/*!Footer*/
+/*?Register styles* end/
