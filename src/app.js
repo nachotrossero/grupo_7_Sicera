@@ -13,7 +13,10 @@ app.listen(PORT, console.log('Servidor corriendo en puerto ' + PORT));
 //Hacemos publicos algunos archivos
 app.use(express.static(path.resolve(__dirname,'../public')));
 
+//EJS
+app.set('views', path.resolve(__dirname, 'views'));
+app.set('view engine', 'ejs');
 
+//Rutas
 app.use('/', mainRouter);
 
-app.set('view engine', 'ejs');

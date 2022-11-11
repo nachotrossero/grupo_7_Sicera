@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %>
+
+  <body>
+   <%- include('./partials/header') %>
+   
+
+    <h1>Inicia sesión en tu cuenta</h1>
+  
+    <!--Inicio del main-->
+    <main class="main-login">
+
+
+      <section class="slider">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </section>
+      
+
+      <!--Comienza formulario -->
+      <form action="#" method="POST" class="login">
+
+        <section>
+          <div class="input-user-name-email">
+            <label for="user-name-email"></label>
+            <input type="text" name="user-name-email" placeholder="E-mail o usuario" required>
+          </div>
+        
+          <div class="input-user-password">  
+            <label for="user-password"></label>
+            <input type="password" name="user-password" placeholder="Contraseña" required>
+            <label for="submit"></label>
+          </div>
+        
+          <div class="control-form">
+            <label name="remember-me">Recuerdame
+            <input type="checkbox">
+          </label>
+          </div>
+        </section>
+        
+        <section>
+          <div class="kart-buttons">
+            <button type="submit" class="primary" name="submit">Ingresar</button>
+          </div>
+          <hr class="hr-invisible">
+          <div class="kart-buttons">
+            <label for="submit"></label>
+            <button type="submit" name="submit">Continua con Google</button> 
+          </div>
+        </section>
+      </form> 
+        
+        <div class="hipervinculo">
+          <p><a href="/register">¿No tienes cuenta?</a></p>
+        </div>
+        
+        <section>
+          <hr>
+          <div class="hipervinculo">
+            <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+          </div>
+        </section>
+    </main>
+    <!--Final del main-->
+
+    <%- include('./partials/footer') %>
+    
+  </body>
+</html>

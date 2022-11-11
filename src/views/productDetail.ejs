@@ -1,106 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- <%- include(‘./partials/head’) %> -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--Para linkear fuente Roboto-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-
-    <!--Para linkear iconos-->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      rel="stylesheet"
-    />
-
-    <!--Para linkear hoja de estilos-->
-    <link rel="stylesheet" href="/css/styles.css" />
-
-    <title>Productos</title>
-    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
-  </head>
+  <%- include('./partials/head') %>
+  
 
   <body>
-    <!-- <%- include(‘./partials/header’) %> -->
-    <!--Inicio del header-->
-    <header>
-       
-      <section class="top-header">
-        <!--Burger menu-->         
-       <section class="section-burger">            
-        <div class="burger-menu">
-          <nav class="nav-burger">
-            <input type="checkbox" id="menu">
-            <label for="menu"><i class="fas fa-bars"></i></label>
-            <ul class="lista-burger-menu">
-              <li><a href="/register">Registro</a></li>
-              <li><a href="/login">Iniciar sesión</a></li>
-              <li><a href="/productCart">Carro de compras</a></li>
-              <li><a href="/sidras">Sidras</a></li>
-              <li><a href="/maridajes">Maridajes</a></li>
-              <li><a href="/manzanas">Manzanas</a></li>
-              <li><a href="/experienciaSidra">Experiencia sidra</a></li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-
-        
-        <!--Logo-->
-        <section class="logo-sicera">
-          <div class="logo-img">
-            <a href="/index">
-            <img src="img/logo-completo-con-contorno-en-manzana.png" alt="logo" class="logo-completo">
-            <img src="img/logo-manzana-sola-con-stroke.png" alt="logo" class="logo-incompleto">
-            </a>
-          </div>
-        </section>
-       
-
-        <!--Buscador-->
-        <div class="search-bar">
-          <input type="text" 
-            name="search" 
-            placeholder="Buscá la sidra indicada" 
-            class="src" 
-            autocomplete="off">
-
-          <!--icono del buscador-->
-          <div class="icon-search">
-            <i class="fas fa-search"></i>
-          </div>
-        </div> 
-
-        
-        <section class="login-registro-carro-desktop">
-
-          <a href="/login"><i class="fas fa-user"></i>Iniciar sesión</a>
-                  
-          <a href="/productCart"><i class="fas fa-shopping-basket"></i>Carro de compras</a>
-
-        </section>
-            
-      </section>          
-      
-      <!--Nav links-->
-      <nav class="header-nav-links">
-        <section class="section-nav-desktop">          
-          <a href="/sidras"><i class="fas fa-wine-bottle"></i>Sidras</a>
-          <a href="/maridajes"><i class="fas fa-cheese"></i>Maridajes</a>
-          <a href="/manzanas"><i class="fas fa-apple-alt"></i>Manzanas</a>
-          <a href="/experienciaSidra"><i class="fas fa-map-marked"></i>Experiencia sidra</a>
-        </section>  
-      </nav>   
-
-    </header>
-    <!--Final del header-->
+    <%- include('./partials/header') %>
+    
 
     
     <!-- el producto elegido -->
@@ -247,57 +152,7 @@
       
     </main>
 
-  <!-- <%- include(‘./partials/footer) %> -->
-  <!--Inicio del footer-->
-    <footer>
-      <div class="footer">
-        <section class="top-footer">
-          <article class="paypal"> <i class="fab fa-paypal"></i> </article>
-
-          <article class="visa"> <i class="fab fa-cc-visa"> </i></article>
-
-          <article class="mastercard"> <i class="fab fa-cc-mastercard"> </i></article>
-
-          <div class="under-top-footer"><p>Las opciones de pago varían según el comerciante</p></div>
-        </section> 
-
-        
-        <section class="listas-footer">
-          <article class="lista-footer1">
-            <ul>
-              <li> <a href="#">Acerca de</a> </li>
-
-              <li> <a href="#">Contacto</a> </li>
-
-            </ul>
-          </article>
-        
-          <article class="lista-footer2">
-            <ul>
-              <li> <a href="#">Política de seguridad</a> </li>
-
-              <li> <a href="#">Política de contenido</a> </li>
-            </ul>
-          </article>
-        </section>
-
-
-        <section class="bottom-footer">
-          <article> <a href="www.instagram.com"> <i class="fab fa-instagram"></i> </a> </article>
-
-          <article> <a href="www.twitter.com"> <i class="fab fa-twitter"></i>  </a> </article>
-
-          <article> <a href="www.facebook.com"> <i class="fab fa-facebook"></i> </a> </article>
-        </section>
-    
-      </div>
-
-      <section>
-        <div class="sub-footer"> 
-          <p>Todos los derechos reservados Copyright 2022.</p>
-        </div>
-      </section>
-    </footer>
-    <!--Final del footer-->
+  <%- include('./partials/footer') %>
+  
   </body>
 </html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %>
+  
+
+  <body>
+    <%- include('./partials/header') %>
+  
+  
+    <!--CSS: título debería ir centrado-->
+    <h1>Registrate</h1>
+
+    <main class="main-register">
+
+      <section class="slider">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </section>
+
+
+      <!--Comienza formulario -->
+        <form action="#" method="POST" class="register">
+
+          <section>
+            <div class="input-register">
+              <label for="user-name"></label>
+              <input type="text" name="user-name" placeholder="Nombre" required>
+            </div>
+            
+            <div class="input-register">
+              <label for="user-surname"></label>
+              <input type="text" name="user-surname" placeholder="Apellido" required>
+            </div>
+  
+            <div class="input-register">
+              <label for="user-email"></label>
+              <input type="text" name="user-email" placeholder="E-mail" required>
+            </div>
+  
+            <div class="input-register">  
+              <label for="user-password"></label>
+              <input type="password" name="user-password" placeholder="Contraseña" required>
+            <label for="submit"></label>
+            </div>
+          </section>
+
+          <section class="login-line"></section>
+
+          <section class="login-button1">
+            <div class="kart-buttons">
+              <button type="submit" name="submit">Registrate</button>
+            </div>
+          </section>
+
+          <section>
+            <div class="hipervinculo-register">
+              <p class="margin">¿Ya eres miembro?</p>
+              <p><a href="/logIn">Inicia sesión</a></p>
+            </div>
+          </section>
+
+          <section class="login-button2">
+            <div class="kart-buttons">
+              <label for="submit"></label>
+              <button type="submit" name="submit">Ingresa con Google</button>
+            </div>
+          </section>
+        
+      </form> 
+    </main>
+
+    <%- include('./partials/footer') %>
+    
+  </body>
+</html>

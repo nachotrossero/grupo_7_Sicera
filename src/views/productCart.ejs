@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %>
+  
+
+  <body>
+    
+    <%- include('./partials/header') %>
+   
+
+    <!--Inicio del main-->
+    <main>
+      <!-- <section class="slider">
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+      </section> -->
+
+      <section class="kart-main-top">
+        <div class="kart-h1">
+          <h1>Tu carro de compras</h1>
+        </div>
+
+        <div class="kart-main-top-text">
+          <button><a href="/index" target="_blank"><p>Agregar más productos</p></a></button>
+        </div>
+
+        <div class="kart-main-top-basket">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </section>
+
+      <section class="kart-products">
+
+        <article class="product">
+          <div class="kart-product-img">
+            <img class="card-img" src="img/real-product-3.png" alt="Real" />
+          </div>
+          <div class="kart-product-details">
+            <p>Sidra Real</p>
+          </div>
+          <div class="kart-product-units">
+            <p>- 1 Unidad +</p>
+          </div>
+          <div class="kart-product-price">
+            <p>$1.615</p>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="kart-product-img">
+            <img class="card-img" src="img/1888-product-1.jpg" alt="1888" />
+          </div>
+          <div class="kart-product-details">
+            <p>Sidra 1888</p>
+          </div>
+          <div class="kart-product-units">
+            <p>- 1 Unidad +</p>
+          </div>
+          <div class="kart-product-price">
+            <p>$1.873</p>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <div class="kart-final-price">
+          <p>Total: $3.488</p>
+        </div>
+      </section>
+
+      <section class="kart-lower-main">
+        <section class="kart-buttons">
+          <button type="submit" class="primary">Comprar</button>
+
+          <button type="submit" class="primary">Vaciar carro</button>
+        </section>
+      </section>
+    </main>
+    <!--Final del main-->
+
+    <%- include('./partials/footer') %>
+    
+  </body>
+</html>
