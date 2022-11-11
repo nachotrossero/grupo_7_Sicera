@@ -116,7 +116,7 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
    - [x] 1er sprint. Wireframes + boceto. Fecha límite de entrega 18-10-2022.
 
-   - [ ] 2do sprint. HTML Y CSS. Fecha límite de entrega 10-11-2022.
+   - [x] 2do sprint. HTML Y CSS. Fecha límite de entrega 10-11-2022.
 
    - [ ] 3er sprint. Template engines. Fecha límite de entrega 17-11-2022.
 
