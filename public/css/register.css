@@ -1,7 +1,4 @@
 
-/*?Register styles* start/
-
-/*!Header*/
 
 /*!Main*/
 .main-register {
@@ -44,5 +41,13 @@
   margin: 10px 0px 0px 0px;
 }
 
-/*!Footer*/
-/*?Register styles* end/
+
+@media(min-width: 426px) {
+  
+}
+
+
+
+@media(min-width: 769px) {
+
+}

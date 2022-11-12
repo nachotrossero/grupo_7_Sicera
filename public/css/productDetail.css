@@ -1,6 +1,5 @@
 
-/*?ProductDetail styles* start/
-/*!Header*/
+
 /*!Main*/
 
 .main-prod-detail {
@@ -77,5 +76,12 @@
   font-style: italic;
 }
 
-/*!Footer*/
-/*?ProductDetail styles* end/
+@media (min-width: 426px) {
+  
+}
+
+
+
+@media (min-width: 769px) {
+
+}

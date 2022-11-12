@@ -1,7 +1,4 @@
 
-/*?Login styles* start/
-/*!Header*/
-
 /*!Main*/
 
 .main-login {
@@ -52,6 +49,12 @@
   font-weight: 600;
 }
 
-/*!Footer*/
+@media(min-width: 426px) {
+  
+}
 
-/*?Login styles* end/
+
+
+@media(min-width: 769px) {
+
+}
