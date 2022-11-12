@@ -404,6 +404,51 @@ h3 {
   display: none;
 } 
 
+/*! Boton menu admin */
+.admin-menu-article input[type="checkbox"]{
+
+  display: none;
+}
+.admin-menu-article {
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 30px;
+  text-align: center;
+  user-select: none;
+  position: fixed;
+  right: 50px;
+  bottom: 250px;
+}
+.admin-menu-article label i {
+  color: #ffffff;
+  background-color: #CE3859;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 35px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.admin-menu-article ul{
+  display: none;
+}
+.admin-menu-article input:checked ~ ul{
+  display: block;
+}
+.admin-menu-article li {
+
+  width: 150px;
+  display: block;
+  background: #CE3859;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  border: 1px solid rgb(0, 0, 0);
+}
+.admin-menu-article li a{
+
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /*!Footer y subfooter*/
 
@@ -596,6 +641,8 @@ section .sub-footer {
     width: 70%;
     text-align: center;
   }
+
+
 
 
   /*!Footer*/
