@@ -1,6 +1,17 @@
 
 /*!Main*/
 
+.h1-login {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: 3px;
+  padding-bottom: 5px;
+  width: 100%;
+  display: block;
+}
+
 .main-login {
   display: flex;
   flex-direction: column;
@@ -89,37 +100,49 @@
 
 
 @media(min-width: 426px) {
-  
-  .input-email-user input {
 
+  .input-email-user {
+    padding-top: 15px;
+  }
+
+  .input-email-user input {
+    width: 42vw;
+    font-size: 16px;
+    height: 27px;
+    margin-bottom: 15px;
   }
 
   .input-user-password input {
-
+    width: 42vw;
+    font-size: 16px;
+    height: 27px;
+    margin-bottom: 5px;
   }
 
   .remember-form {
-
-  }
-
-  .remember-form input {
-
+    font-size: 14px;
+    padding-bottom: 18px;
   }
 
   .button-login .enter {
-
+   width: 44vw;
+   font-size: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
   }
 
   .button-login .Google {
-
+    width: 44vw;
+    font-size: 15px;
+    margin-bottom: 10px;
   }
 
   .hyperlink-to-register p {
-
+    font-size: 15px;
   }
 
   .hyperlink-forgot-password p {
-
+    font-size: 15px;
   }  
 
 }
@@ -129,35 +152,41 @@
 @media(min-width: 769px) {
 
   .input-email-user input {
-
+    width: 50vw;
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 
   .input-user-password input {
-
+    width: 50vw;
+    font-size: 20px;
+    margin-bottom: 4px;
   }
 
   .remember-form {
-
-  }
-
-  .remember-form input {
-
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 24px;
   }
 
   .button-login .enter {
-
+    width: 52vw;
+   font-size: 19px;
+   margin: 20px 0px 13px 0px;
   }
 
   .button-login .Google {
-
+    width: 52vw;
+    font-size: 19px;
+    margin-bottom: 15px;
   }
 
   .hyperlink-to-register p {
-
+    font-size: 18px;
   }
 
   .hyperlink-forgot-password p {
-    
+    font-size: 18px;
   }  
 
 }
