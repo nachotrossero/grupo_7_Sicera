@@ -193,10 +193,12 @@
 
   .main-top-kart-text p {
     font-size: 20px;
+    margin-left: 50px;
   }
 
   .main-top-kart-basket i {
     font-size: 30px;
+    margin-right: 50px;
   }
 
   .product-kart-img img {
