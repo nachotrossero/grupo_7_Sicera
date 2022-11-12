@@ -131,7 +131,7 @@ header {
   display: none;
 }
 
-.login-registro-carro-desktop {
+.button-login-carro-header {
   display: none;
 }
 
@@ -180,7 +180,7 @@ header {
 }
 
 /** Estilo desplegables burger menu*/
-.nav-burger .lista-burger-menu li {
+.nav-burger .list-burger-menu li {
   width: 150px;
   display: block;
   background: #d50000;
@@ -190,7 +190,7 @@ header {
   border-bottom: 1px solid grey;
 }
 
-.nav-burger .lista-burger-menu li a {
+.nav-burger .list-burger-menu li a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -298,7 +298,7 @@ h2 {
   margin-bottom: 5px;
 }
 
-.articulos h2 {
+.articles h2 {
   font-weight: bold;
   text-align: center;
   padding: 10px 0px 15px 0px;
@@ -311,14 +311,14 @@ h3 {
 }
 
 /* Productos del main */
-.productos {
+.products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
 }
 
-.producto {
+.product {
   /* border-bottom: 2px solid #d9545f; */
   margin-top: 10px;
   margin-bottom: 6px;
@@ -329,13 +329,13 @@ h3 {
   box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
 }
 
-.producto img {
+.product img {
   width: 100%;
   border-radius: 13%;
   padding-top: 6px;
 }
 
-.producto i {
+.product i {
   color: #d9545f;
 }
 
@@ -536,11 +536,11 @@ section .sub-footer {
     padding-bottom: 15px;
   }
 
-  .producto {
+  .product {
     width: 45%;
   }
 
-  .productos {
+  .products {
     justify-content: space-evenly;
   }
 
@@ -676,18 +676,18 @@ section .sub-footer {
     font-weight: bold;
   }
 
-  section .login-registro-carro-desktop {
+  section .button-login-carro-header {
     position: relative;
     left: -17px;
   }
 
-  .login-registro-carro-desktop {
+  .button-login-carro-header {
     display: flex;
     width: 25%;
     justify-content: space-evenly;
   }
 
-  .login-registro-carro-desktop a {
+  .button-login-carro-header a {
     display: flex;
     background-color: #d50000;
     color: white;
@@ -698,11 +698,11 @@ section .sub-footer {
     box-shadow: 0 0 0 1px rgb(157, 61, 25);
   }
 
-  .login-registro-carro-desktop :hover {
+  .button-login-carro-header :hover {
     filter: brightness(105%);
   }
 
-  .login-registro-carro-desktop a i {
+  .button-login-carro-header a i {
     font-size: 35px;
     padding-right: 3px;
   }
@@ -752,11 +752,11 @@ section .sub-footer {
   /** Cierra Carrusel */
 
   /** Main INDEX */ 
-  .producto{
+  .product{
     width: 20%;
   }
 
-  .producto:hover {
+  .product:hover {
     width: 20.1%;
     box-shadow: 0 0 0 2px rgb(157, 61, 25);
   }
