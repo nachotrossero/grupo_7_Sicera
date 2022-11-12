@@ -8,48 +8,208 @@
   margin: 0px 0px 20px 0px;
 }
 
-.input-register {
+.input-name-register {
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.input-name-register input {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3px;
+  border: 2px solid gray;
+}
+
+.input-surname-register {
   margin-bottom: 5px;
   margin-top: 5px;
   text-align: center;
 }
 
-.input-register input {
+.input-surname-register input {
+  margin-bottom: 5px;
+  margin-top: 5px;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 3px;
+  border: 2px solid gray;
+}
+
+.input-email-register {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.input-email-register input {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid gray;
+}
+
+.input-password-register {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.input-password-register input {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid gray;
 }
 
 .login-line {
   border-bottom: 2px solid black;
   padding-top: 5px;
+  margin-bottom: 12px;
 }
 
-.login-button1 {
-  margin: 12px 0px 6px 0px;
+.button-signup-login {
+  width: 38vw;
+  font-weight: thin;
+  padding: 1px;
+  margin: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color: #d9545f;
+  color: #ffffff;
+  font-size: 13px;
+  margin-bottom: 5px;
 }
 
-.hipervinculo-register {
-  display: flex;
+.hiperlink-Google-login {
+ 
 }
 
-.hipervinculo-register p {
-  margin: 0 2px 0 2px;
+.button-Google-login {
+  width: 38vw;
+  font-weight: thin;
+  padding: 1px;
+  margin: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color: #d9545f;
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.login-button2 {
-  margin: 10px 0px 0px 0px;
-}
 
 
 
 
 @media (min-width: 426px) {
+
+  .input-name-register {
+
+  }
   
+  .input-name-register input {
+
+  }
+
+  .input-surname-register {
+
+  }
+
+  .input-surname-register input {
+
+  }
+
+  .input-email-register {
+
+  }
+
+  .input-email-register input {
+
+  }
+
+  .input-password-register {
+
+  }
+
+  .input-password-register input {
+    
+  }
+
+  .login-line {
+
+  }
+
+  .button-signup-login {
+
+  }
+
+  .hiperlink-Google-login {
+
+  }
+
+  .button-Google-login {
+
+  }
+
 }
 
 
 
 @media (min-width: 769px) {
+  
+  .input-name-register {
+
+  }
+  
+  .input-name-register input {
+
+  }
+
+  .input-surname-register {
+
+  }
+
+  .input-surname-register input {
+
+  }
+
+  .input-email-register {
+
+  }
+
+  .input-email-register input {
+
+  }
+
+  .input-password-register {
+
+  }
+
+  .input-password-register input {
+    
+  }
+
+  .login-line {
+
+  }
+
+  .button-signup-login {
+
+  }
+
+  .hiperlink-Google-login {
+
+  }
+
+  .button-Google-login {
+
+  }
 
 }

@@ -25,12 +25,14 @@
   margin-top: 5px;
   font-weight: bold;
   text-align: center;
+  border: 2px solid gray;
 }
 
 .input-user-password input {
   margin-bottom: 1px;
   text-align: center;
   font-weight: bold;
+  border: 2px solid gray;
 }
 
 .remember-form {
