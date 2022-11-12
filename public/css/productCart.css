@@ -204,10 +204,12 @@
   .product-kart-img img {
     width: 35vw;
     margin: 15px;
+    border: 3px solid #d9545f;
   }
 
   .product-kart-details p {
     font-size: 19px;
+    font-style: italic;
   }
 
   .product-kart-units p {
@@ -228,6 +230,7 @@
   .buttons-kart button {
     width: 19vw;
     font-size: 18px;
+    margin-bottom: 5px;
   }
 
   /**Final querie 769 kart*/
