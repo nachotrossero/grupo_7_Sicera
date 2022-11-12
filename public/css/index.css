@@ -55,7 +55,6 @@ header {
   padding: 4px;
   /* background-color: blanchedalmond; */
   border-radius: 60%;
-
   z-index: 5;
 }
 
@@ -200,6 +199,7 @@ header {
 .header-nav-links {
   display: none;
 }
+
 
 /*!Main*/
 

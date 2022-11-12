@@ -5,58 +5,159 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
   margin: 0 25px 20px 25px;
 }
 
-.input-user-name-email {
+.input-email-user input {
   margin-bottom: 13px;
   margin-top: 5px;
-}
-
-.input-user-name-email input {
-  text-align: center;
   font-weight: bold;
-}
-
-.input-user-password {
-  margin-bottom: 1px;
+  text-align: center;
 }
 
 .input-user-password input {
+  margin-bottom: 1px;
   text-align: center;
   font-weight: bold;
 }
 
-.control-form {
+.remember-form {
   font-size: 12px;
   padding-top: 5px;
   font-weight: bold;
   margin-bottom: 9px;
   padding-bottom: 10px;
   border-bottom: 2px solid black;
+  color: blue;
 }
 
-.hr-invisible {
-  visibility: collapse;
+.remember-form input {
+  position: relative;
+  top: 3px;
+  right: -2px;
 }
 
-.hipervinculo {
+.button-login .enter {
+  width: 38vw;
+  font-weight: thin;
+  padding: 1px;
+  margin: 2px;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color: #d9545f;
+  color: #ffffff;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.button-login .Google {
+  width: 38vw;
+  font-weight: thin;
+  padding: 1px;
+  margin: 2px;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color: #d9545f;
+  color: #ffffff;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.hyperlink-to-register p {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 3px;
   padding-bottom: 3px;
   font-weight: 600;
+  font-size: 13px;
+}
+
+.hyperlink-forgot-password p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 600;
+  font-size: 13px;
 }
 
 
 
 @media(min-width: 426px) {
   
+  .input-email-user input {
+
+  }
+
+  .input-user-password input {
+
+  }
+
+  .remember-form {
+
+  }
+
+  .remember-form input {
+
+  }
+
+  .button-login .enter {
+
+  }
+
+  .button-login .Google {
+
+  }
+
+  .hyperlink-to-register p {
+
+  }
+
+  .hyperlink-forgot-password p {
+
+  }  
+
 }
 
 
 
 @media(min-width: 769px) {
+
+  .input-email-user input {
+
+  }
+
+  .input-user-password input {
+
+  }
+
+  .remember-form {
+
+  }
+
+  .remember-form input {
+
+  }
+
+  .button-login .enter {
+
+  }
+
+  .button-login .Google {
+
+  }
+
+  .hyperlink-to-register p {
+
+  }
+
+  .hyperlink-forgot-password p {
+    
+  }  
 
 }
