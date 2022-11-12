@@ -636,8 +636,12 @@ section .sub-footer {
   .lista-footer2 {
     justify-content: center;
   }
+
+
 }
-  
+
+
+
 
 
 /*?Desktop*/
@@ -806,32 +810,5 @@ section .sub-footer {
     align-items: center;
   }
 
-
-  /**kart*/
-
-  .kart-product-units {
-    width: 20%;
-    height: 20px;
-  }
-
- .kart-product-units p{
-    font-size: 15px;
-  }
-
-  .kart-main-top-text button p {
-    font-size: 18px;
-  }
-
-  .kart-product-details p {
-    font-size: 18px;
-  }
-
-  .kart-product-price p {
-    font-size: 18px;
-  }
-
-  .kart-final-price p {
-    font-size: 20px;
-  }
-
 }
+
