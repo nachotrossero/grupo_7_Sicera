@@ -178,6 +178,7 @@
   .product-description p {
     font-size: 14px;
     margin: 0px 15px 0px 15px;
+    text-align: justify;
   }
 
   .additional-info-h3 {
