@@ -50,3 +50,7 @@
 .div-button-submit{
     width: 50%;
 }
+.main-create-product input[type="text"], .main-create-product select {
+
+    width: 150px;
+}

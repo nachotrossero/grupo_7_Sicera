@@ -127,10 +127,10 @@
   }
 
   .button-login .enter {
-   width: 44vw;
-   font-size: 15px;
-   margin-top: 10px;
-   margin-bottom: 10px;
+    width: 44vw;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .button-login .Google {
@@ -153,6 +153,12 @@
 
 @media(min-width: 769px) {
 
+  .h1-login h1{
+
+    font-size: 35px;
+
+  }
+
   .input-email-user input {
     width: 50vw;
     font-size: 20px;
@@ -173,8 +179,8 @@
 
   .button-login .enter {
     width: 52vw;
-   font-size: 19px;
-   margin: 20px 0px 13px 0px;
+    font-size: 19px;
+    margin: 20px 0px 13px 0px;
   }
 
   .button-login .Google {
