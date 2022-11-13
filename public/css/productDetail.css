@@ -103,18 +103,159 @@
 
   .aditional-info-product h5 {
     margin-top: 6px;
-    }
+  }
 
   .aditional-info-product .p-PH {
     margin-bottom: 15px;
   }
 
+
+
 @media (min-width: 426px) {
   
+  .selected-products article img {
+
+  }
+
+  .selected-products h4 {
+
+  }
+
+  .productD-price {
+
+  }
+
+  .product-amount .product-amount-label {
+
+  }
+
+  .product-amount .product-units {
+
+  }
+  
+  .button-add-to-kart button {
+
+  } 
+
+  .productD-line {
+
+  }
+
+  .ratings-h3 {
+
+  }
+
+  .ratings-users {
+
+  }
+
+  .ratings-icons {
+
+  }
+
+  .product-ratings p {
+
+  }
+
+  .description-h3 {
+
+  }
+
+  .product-description h4 {
+
+  }
+
+  .additional-info-h3 {
+
+  }
+
+  .aditional-info-product h4 {
+
+  }
+
+  .aditional-info-product h5 {
+  
+  }
+
+  .aditional-info-product .p-PH {
+
+  }
+
+
 }
 
 
 
 @media (min-width: 769px) {
+
+  .selected-products article img {
+
+  }
+
+  .selected-products h4 {
+
+  }
+
+  .productD-price {
+
+  }
+
+  .product-amount .product-amount-label {
+
+  }
+
+  .product-amount .product-units {
+
+  }
+  
+  .button-add-to-kart button {
+
+  } 
+
+  .productD-line {
+
+  }
+
+  .ratings-h3 {
+
+  }
+
+  .ratings-users {
+
+  }
+
+  .ratings-icons {
+
+  }
+
+  .product-ratings p {
+
+  }
+
+  .description-h3 {
+
+  }
+
+  .product-description h4 {
+
+  }
+
+  .additional-info-h3 {
+
+  }
+
+  .aditional-info-product h4 {
+
+  }
+
+  .aditional-info-product h5 {
+  
+  }
+
+  .aditional-info-product .p-PH {
+
+  }
+
+
 
 }
