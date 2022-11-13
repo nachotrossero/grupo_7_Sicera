@@ -2,79 +2,66 @@
 
 /*!Main*/
 
-.main-prod-detail {
-  margin: 0 25px 15px 25px;
-}
+  .main-product-detail {
+    text-align: center;
+  }
 
-.productosDetalles article img {
-  width: 35%;
-  padding: 3px;
-  margin: 5px;
-  position: relative;
-  background-color: #d9545f;
-}
+  .selected-product1 {
+    margin-top: 10px;
+  }
 
-.articulo-elegido {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .selected-products article img {
+    width: 30vw;
+    padding: 5px;
+    margin: 7px;
+    text-align: left;
+    background-color: #d9545f;
+  }
 
-.main-article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .selected-products h4 {
+    font-size: 16px;
+  }
 
-.main-article i {
-  color: #d50000;
-}
+  .productD-price {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 3px;
+    margin-bottom: 7px;
+  }
 
-.button-agregar-al-carro button {
-  width: 100%;
-  font-weight: thin;
-  padding: 1px;
-  margin: 2px;
-  text-transform: uppercase;
-  border: 1px solid black;
-  border-radius: 8%;
-  background-color: #d9545f;
-  color: #ffffff;
-}
+  .product-amount .product-amount-label {
+    font-weight: bold;
+    font-size: 14px;
+  }
 
-.precios {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+  .product-amount .product-units {
+    text-align: center;
+    font-weight: bold;
+    width: 30vw;
+    margin-bottom: 14px;
+  }
+  
+  .button-add-to-kart button {
+    display: flex;
+    width: 31vw;
+    justify-content: center;
+    font-weight: thin;
+    padding: 1px;
+    margin: 2px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 8%;
+    background-color: #d9545f;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 145px;
+  } 
 
-.precio-original {
-  text-decoration: line-through;
-  margin-right: 5px;
-}
-
-.precio-con-descuento {
-  color: green;
-  font-weight: bolder;
-}
-
-.cantidad-de-productos {
-  margin: 0 5px 0 5px;
-  font-size: 14px;
-}
-
-.unidades {
-  font-style: italic;
-  width: 30%;
-}
-
-.calificacion-manzanas i {
-  color: #d50000;
-}
-
-.comentario-usuario {
-  font-style: italic;
-}
+  .productD-line {
+    border-bottom: 2px solid gray;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
 
 
 

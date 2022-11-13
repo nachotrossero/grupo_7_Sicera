@@ -7,76 +7,82 @@
     <%- include('./partials/header') %>
     
 
-    
-    <!-- el producto elegido -->
-    <!-- <main class="main-prod-detail">
-      <section class="slider">
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-      </section> -->
+    <main class="main-product-detail">
+      <!-- el producto elegido -->
+      <!-- <main class="main-prod-detail">
+        <section class="slider">
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </section> -->
 
       <!-- Foto del producto -->
-      <section>
-        <div class="productosDetalles">
-          <article class="articulo-elegido">
-            <img class="card-img" src="img/1888-product-1.jpg" alt="1888" />
-            <div class="main-article">
-              <h4 class="product-name">Sidra 1888</h4> 
-              <div class="precios">
-              <p class="precio-original">$2.236</p>
-              <p class="precio-con-descuento">$1.873</p>
-            </div>
-            </div>  
-              <label
-                class="cantidad-de-productos"
-                for="input"
-                placeholder="Cantidad"
-                >Cantidad de productos</label
-              >
-              <input
-                class="unidades"
-                type="number"
-                placeholder="unidades"
-                style="text-align: center"
-              />
-            </label>
-              
-              <section class="button-agregar-al-carro">
-                <section class="button-agregar-al-carro">  
-                  <a href="productCart">
-                    <button type="submit" class="primary"> Agregar al carro </button>
-                  </a>
-                </section>
-              </section>
-            </div>
-          </article>
-            </div>
-          </article>
-        </div>
-        <br>
-        <section>
-          <h4>VALORACIONES</h4>
-          <br>
-          <h5>Nacho Trossero</h5>
-          <div class="calificacion-manzanas">
-              <i class="fas fa-apple-alt"></i>
-              <i class="fas fa-apple-alt"></i>
-              <i class="fas fa-apple-alt"></i>
-              <i class="fas fa-apple-alt"></i>
-              <i class="fas fa-apple-alt"></i>
-            </div>
-          <p class="comentario-usuario">"Tiene un gusto espectacular, la regalo en todos los cumpleaños!"</p>
-          
-        </section>
-        <br>
+      <section class="selected-products">
 
+        <section class="selected-product1">
+          <article>
+            <img class="card-img" src="img/1888-product-1.jpg" alt="1888"/>
+            <div class="product-detail">
+              <h4>Sidra 1888</h4> 
+              <p class="productD-price">$1.873</p>
+            </div>  
+          </article>
+          <article class="product-amount">
+            <label class="product-amount-label" for="input" placeholder="amount">Amount of products</label>
+            <br>
+            <input class="product-units" type="number" placeholder="units"/>
+            </label>
+          </article>
+        </section>
+
+
+        <section>
+           <article>
+            <img class="card-img" src="img/real-product-3.png" alt="1888"/>
+            <div class="product-detail">
+              <h4>Royal Cider</h4> 
+              <p class="productD-price">$1.615</p>
+            </div>  
+          </article>
+          <article class="product-amount">
+            <label class="product-amount-label" for="input" placeholder="amount">Amount of products</label>
+            <br>
+            <input class="product-units" type="number" placeholder="units"/>
+            </label>
+          </article>
+        </section>
+       
+      </section>
+            
+              
+              
+      <section class="button-add-to-kart">  
+        <a href="productCart">
+        <button type="submit" class="primary"> Add to kart </button>
+        </a>
+      </section>
+          
+      <section class="productD-line"></section>
+
+      <section class="product-ratings">
+        <h3>RATINGS</h3>
+        <h5>Nacho Trossero</h5>
+        <div>
+          <i class="fas fa-apple-alt"></i>
+          <i class="fas fa-apple-alt"></i>
+          <i class="fas fa-apple-alt"></i>
+          <i class="fas fa-apple-alt"></i>
+          <i class="fas fa-apple-alt"></i>
+        </div>
+          <p class="user-comment-productD">"Its taste is mindblowing, I would recommend it for sure!"</p>
+      </section>
+
+      <section class="productD-line"></section>
 
       <!-- Descripción del producto-->
-      <section>
-        <h4>DESCRIPCIÓN</h4>
-        <br />
+      <section class="product-description">
+        <h3>DESCRIPTION</h3>
         <h4>Sidra 1888</h4>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
@@ -84,38 +90,34 @@
           dicta libero, ex non nisi aliquam corrupti! Asperiores enim accusamus
           repellendus qui?
         </p>
-        <br />
       </section>
 
-      <section>
-        <h4>INFORMACIÓN ADICIONAL</h4>
-        <br>
-        <h4>Notas de Cata</h4>
-        <br />
-        <h5>Color</h5>
+      <section class="productD-line"></section>
+
+      <section class="aditional-info-product">
+        <h3>Additional info</h3>
+        <h4>Tasting notes</h4>
+        <h5>Colour</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta
           accusantium, ipsam incidunt voluptate error ullam, veritatis quidem,
           saepe tempora explicabo unde quo aliquam neque sunt doloremque alias
           id quibusdam?
         </p>
-        <br />
-        <h5>Aroma</h5>
+        <h5>Smell</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta
           accusantium, ipsam incidunt voluptate error ullam, veritatis quidem,
           saepe tempora explicabo unde quo aliquam neque sunt doloremque alias
           id quibusdam?
         </p>
-        <br />
-        <h5>Boca</h5>
+        <h5>Mouth</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta
           accusantium, ipsam incidunt voluptate error ullam, veritatis quidem,
           saepe tempora explicabo unde quo aliquam neque sunt doloremque alias
           id quibusdam?
         </p>
-        <br />
         <h5>Alcohol</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta
@@ -123,23 +125,20 @@
           saepe tempora explicabo unde quo aliquam neque sunt doloremque alias
           id quibusdam?
         </p>
-        <br />
-        <h5>Acidez</h5>
+        <h5>Acidity</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta
           accusantium, ipsam incidunt voluptate error ullam, veritatis quidem,
           saepe tempora explicabo unde quo aliquam neque sunt doloremque alias
           id quibusdam?
         </p>
-        <br />
-        <h5>Azucar</h5>
+        <h5>Sugar</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta
           accusantium, ipsam incidunt voluptate error ullam, veritatis quidem,
           saepe tempora explicabo unde quo aliquam neque sunt doloremque alias
           id quibusdam?
         </p>
-        <br />
         <h5>PH</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta
@@ -148,7 +147,6 @@
           id quibusdam?
         </p>
       </section>
-      <br>
       
     </main>
 
