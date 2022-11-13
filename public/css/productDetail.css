@@ -4,6 +4,7 @@
 
   .main-product-detail {
     text-align: center;
+    align-items: center;
   }
 
   .selected-product {
@@ -29,7 +30,7 @@
     margin-bottom: 7px;
   }
 
-  .product-amount .product-amount-label {
+  .product-amount-label {
     font-weight: bold;
     font-size: 14px;
   }
@@ -114,71 +115,94 @@
 @media (min-width: 426px) {
   
   .selected-products article img {
-
+    width: 37vw;
+    margin-bottom: 15px;
   }
 
   .selected-products h4 {
-
+    font-size: 20px;
+    margin-bottom: 5px;
   }
 
   .productD-price {
-
+    font-size: 16px;
+    margin-bottom: 12px;
   }
 
-  .product-amount .product-amount-label {
-
+  .product-amount-label {
+    font-size: 16px;
   }
 
   .product-amount .product-units {
-
+    margin-top: 3px;
+    font-size: 15px;
   }
   
   .button-add-to-kart button {
-
+    font-size: 18px;
   } 
 
   .productD-line {
-
+    border-bottom: 3px solid gray;
+    margin-bottom: 15px;
   }
 
   .ratings-h3 {
-
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .ratings-users {
-
+    font-size: 16px;
   }
 
   .ratings-icons {
-
+    font-size: 15px;
+    margin: 4px 0px 5px 0px;
   }
 
   .product-ratings p {
-
+    font-size: 15px;
   }
 
   .description-h3 {
-
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .product-description h4 {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
 
+  .product-description p {
+    font-size: 14px;
+    margin: 0px 15px 0px 15px;
   }
 
   .additional-info-h3 {
-
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .aditional-info-product h4 {
-
+    font-size: 16px;
   }
 
   .aditional-info-product h5 {
-  
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .aditional-info-product p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 0px 15px 0px 15px;
+
   }
 
   .aditional-info-product .p-PH {
-
+    margin-bottom: 25px;
   }
 
 
