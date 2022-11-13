@@ -1,114 +1,115 @@
 
 
 /*!Main*/
-.main-register {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0px 0px 20px 0px;
-}
+  .main-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+  }
 
-.input-name-register {
-  margin-bottom: 5px;
-  margin-top: 15px;
-  text-align: center;
-}
+  .input-name-register {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-align: center;
+  } 
 
-.input-name-register input {
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 3px;
-  border: 2px solid gray;
-}
+  .input-name-register input {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3px;
+    border: 2px solid gray;
+    }
 
-.input-surname-register {
-  margin-bottom: 5px;
-  margin-top: 5px;
-  text-align: center;
-}
+  .input-surname-register {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+  } 
 
-.input-surname-register input {
-  margin-bottom: 5px;
-  margin-top: 5px;
-  text-align: center;
-  font-weight: bold;
-  border: 2px solid gray;
-}
+  .input-surname-register input {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid gray;
+  }
 
-.input-email-register {
-  margin-bottom: 5px;
-  margin-top: 5px;
-  text-align: center;
-}
+  .input-email-register {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+  }
 
-.input-email-register input {
-  margin-bottom: 5px;
-  margin-top: 5px;
-  text-align: center;
-  font-weight: bold;
-  border: 2px solid gray;
-}
+  .input-email-register input {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid gray;
+  }
 
-.input-password-register {
-  margin-bottom: 5px;
-  margin-top: 5px;
-  text-align: center;
-}
+  .input-password-register {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+  }
 
-.input-password-register input {
-  margin-bottom: 5px;
-  margin-top: 5px;
-  text-align: center;
-  font-weight: bold;
-  border: 2px solid gray;
-}
+  .input-password-register input {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid gray;
+  }
 
-.login-line {
-  border-bottom: 2px solid black;
-  padding-top: 5px;
-  margin-bottom: 12px;
-}
+  .login-line {
+    border-bottom: 2px solid black;
+    padding-top: 5px;
+    margin-bottom: 12px;
+  }
 
-.button-signup-login button {
-  width: 38vw;
-  font-weight: thin;
-  padding: 1px;
-  margin: 2px;
-  text-align: center;
-  text-transform: uppercase;
-  border: 1px solid black;
-  border-radius: 8%;
-  background-color: #d9545f;
-  color: #ffffff;
-  font-size: 13px;
-  margin-bottom: 5px;
-}
+  .button-signup-login button {
+    width: 38vw;
+    font-weight: thin;
+    padding: 1px;
+    margin: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 8%;
+    background-color: #d9545f;
+    color: #ffffff;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
 
-.hiperlink-Google-login {
+  .hiperlink-Google-login {
  
-}
+  }
 
-.button-Google-login button {
-  width: 38vw;
-  font-weight: thin;
-  padding: 1px;
-  margin: 2px;
-  text-align: center;
-  text-transform: uppercase;
-  border: 1px solid black;
-  border-radius: 8%;
-  background-color: #d9545f;
-  color: #ffffff;
-  font-size: 13px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
+  .button-Google-login button {
+    width: 38vw;
+    font-weight: thin;
+    padding: 1px;
+    margin: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 8%;
+    background-color: #d9545f;
+    color: #ffffff;
+    font-size: 13px;
+   margin-top: 5px;
+    margin-bottom: 5px;
+  }
 
 
 
 
 
 @media (min-width: 426px) {
+
 
   .input-name-register {
 
