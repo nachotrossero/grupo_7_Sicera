@@ -63,7 +63,51 @@
     margin-bottom: 10px;
   }
 
+  .ratings-h3 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
 
+  .ratings-users {
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+
+  .ratings-icons {
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+
+  .product-ratings p {
+    font-size: 13px;
+  }
+
+  .description-h3 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  .product-description h4 {
+    font-size: 14px;
+  }
+
+  .additional-info-h3 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  .aditional-info-product h4 {
+    font-size: 14px;
+    margin: 4px 0px 9px 0px;
+  }
+
+  .aditional-info-product h5 {
+    margin-top: 6px;
+    }
+
+  .aditional-info-product .p-PH {
+    margin-bottom: 15px;
+  }
 
 @media (min-width: 426px) {
   
