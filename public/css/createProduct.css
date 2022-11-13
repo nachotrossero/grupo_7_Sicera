@@ -11,3 +11,42 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.main-create-product h1{
+    display: block;
+}
+.main-create-product{
+
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+.form-create-product{
+
+    width: 80%;
+    background-color: #95a8b8;
+    padding: 10px;
+    border-radius: 4%;
+
+}
+.form-create-product form{
+
+    display: flex;
+    
+    flex-wrap: wrap;
+
+}
+.form-create-product div{
+    width: 100%;
+    padding: 5px;
+}
+.div-button-reset {
+
+    width: 50%;
+}
+.div-button-submit{
+    width: 50%;
+}
