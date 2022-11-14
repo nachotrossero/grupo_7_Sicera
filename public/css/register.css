@@ -110,13 +110,16 @@
 
 @media (min-width: 426px) {
 
+  .h1-register {
+    font-size: 27px;
+  }
 
   .input-name-register {
-
+  
   }
   
   .input-name-register input {
-
+    font-size: 18px;
   }
 
   .input-surname-register {
@@ -124,7 +127,7 @@
   }
 
   .input-surname-register input {
-
+    font-size: 18px;
   }
 
   .input-email-register {
@@ -132,7 +135,7 @@
   }
 
   .input-email-register input {
-
+    font-size: 18px;
   }
 
   .input-password-register {
@@ -140,11 +143,12 @@
   }
 
   .input-password-register input {
-    
+    font-size: 18px;
   }
 
   .login-line {
-
+    padding-top: 10px;
+    margin-bottom: 20px;
   }
 
   .button-signup-login {

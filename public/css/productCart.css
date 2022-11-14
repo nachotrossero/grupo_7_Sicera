@@ -142,6 +142,10 @@
 @media (min-width: 426px) {
    /**Queries 426 kart*/
 
+   .h1-kart h1 {
+    font-size: 27px;
+   }
+
    .main-top-kart-text p {
     font-size: 16px;
    }
