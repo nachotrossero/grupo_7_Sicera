@@ -1,4 +1,19 @@
 Grupo #7
+Retrospectiva Sprint #2
+1. Comenzar a hacer.
+
+2. Hacer más.
+
+3. Continuar haciendo.
+
+4. Hacer menos.
+
+5. Dejar de hacer.
+
+Conclusiones finales de la retrospectiva en base al sprint #2:
+
+Consideramos que...
+
 
 
 Retrospectiva Sprint #1

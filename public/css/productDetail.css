@@ -118,6 +118,10 @@
 
 @media (min-width: 426px) {
   
+  .h1-login {
+    font-size: 27px;
+  }
+
   .selected-products article img {
     width: 37vw;
     margin-bottom: 15px;
