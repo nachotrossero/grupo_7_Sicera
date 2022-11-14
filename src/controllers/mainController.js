@@ -22,15 +22,13 @@ const mainController = {
   productDetail: (req, res) => {
     res.render('productDetail');
   },
+
   createProduct: (req, res) =>{
-
-    res.render("createProduct")
-
+    res.render("createProduct");
   },
+  
   editProduct: (req, res) =>{
-
-    res.render("editProduct")
-
+    res.render("editProduct");
   },
 
   notFound: (req, res) => { //NotFound

@@ -366,6 +366,13 @@ h3 {
   margin-bottom: 4px;
 }
 
+.come-to-Argentina h3 {
+  font-size: 18px;
+  text-align: justify;
+  color: #d9545f;
+  margin: 0px 30px 0px 30px;
+}
+
 /**Experiencia Sidra */
 .video-experiencia-sidra {
   display: flex;
@@ -373,6 +380,7 @@ h3 {
   justify-content: center;
   padding-bottom: 10px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 /**
@@ -385,7 +393,6 @@ h3 {
   border-radius: 10%;
   box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
 }
-
 */
 
 .video-experiencia-sidra img {
@@ -405,10 +412,10 @@ h3 {
 } 
 
 /*! Boton menu admin */
-.admin-menu-article input[type="checkbox"]{
-
+.admin-menu-article input[type="checkbox"] {
   display: none;
 }
+
 .admin-menu-article {
   display: inline-block;
   border-radius: 5px;
@@ -419,6 +426,7 @@ h3 {
   right: 50px;
   bottom: 250px;
 }
+
 .admin-menu-article label i {
   color: #ffffff;
   background-color: #CE3859;
@@ -428,14 +436,15 @@ h3 {
   border: 1px solid rgb(0, 0, 0);
 }
 
-.admin-menu-article ul{
+.admin-menu-article ul {
   display: none;
 }
-.admin-menu-article input:checked ~ ul{
+
+.admin-menu-article input:checked ~ ul {
   display: block;
 }
-.admin-menu-article li {
 
+.admin-menu-article li {
   width: 150px;
   display: block;
   background: #CE3859;
@@ -444,8 +453,8 @@ h3 {
   list-style: none;
   border: 1px solid rgb(0, 0, 0);
 }
-.admin-menu-article li a{
 
+.admin-menu-article li a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -544,6 +553,7 @@ section .sub-footer {
 }
 
 
+
 /*!Media Queries*/
 
 /*?Tablet*/
@@ -607,11 +617,15 @@ section .sub-footer {
 
   /** Section experiencia sidra*/
   
+  .come-to-Argentina h3 {
+    font-size: 20px;
+    margin: 0px 30px 0px 30px;
+  }
+
   .fotos-experiencia-sidra {
     display: flex;
     flex-wrap: wrap;
   }
-
   
   .fotos-experiencia-sidra img {
     display: flex;
@@ -817,6 +831,10 @@ section .sub-footer {
   }
 
   .manzanas-calificacion i {
+    font-size: 25px;
+  }
+
+  .come-to-Argentina h3 {
     font-size: 25px;
   }
 
