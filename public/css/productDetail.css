@@ -7,13 +7,21 @@
     align-items: center;
   }
 
-  .selected-product {
-    margin-top: 10px;
+  .h1-productD {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    padding-bottom: 5px;
+    width: 100%;
   }
+
 
   .selected-products article img {
     width: 30vw;
     padding: 5px;
+    margin-top: 10px;
     margin: 7px;
     text-align: left;
     background-color: #d9545f;
@@ -43,19 +51,15 @@
   }
   
   .button-add-to-kart button {
-    display: flex;
     width: 31vw;
     justify-content: center;
     font-weight: thin;
-    padding: 1px;
-    margin: 2px;
     text-transform: uppercase;
     border: 1px solid black;
     border-radius: 8%;
     background-color: #d9545f;
     color: #ffffff;
     font-size: 15px;
-    margin-left: 145px;
   } 
 
   .productD-line {
@@ -117,6 +121,7 @@
   .selected-products article img {
     width: 37vw;
     margin-bottom: 15px;
+    margin-top: 10px;
   }
 
   .selected-products h4 {
@@ -139,6 +144,7 @@
   }
   
   .button-add-to-kart button {
+    width: 35vw;
     font-size: 18px;
   } 
 
@@ -213,74 +219,102 @@
 
 @media (min-width: 769px) {
 
-  .selected-products article img {
+  .h1-productD {
+    font-size: 35px;
+  }
 
+  .selected-products article img {
+    width: 45vw;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border: 3px solid #d9545f;
   }
 
   .selected-products h4 {
-
+    font-size: 25px;
+    margin-bottom: 8px;
   }
 
   .productD-price {
-
+    font-size: 20px;
+    margin-bottom: 18px;
   }
 
-  .product-amount .product-amount-label {
-
+  .product-amount-label {
+    font-size: 18px;
   }
 
   .product-amount .product-units {
-
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 25px;
   }
   
   .button-add-to-kart button {
-
+    font-size: 22px;
+    margin-bottom: 20px;
   } 
 
   .productD-line {
-
+    border-bottom: 4px solid gray;
+    margin-bottom: 22px;
   }
 
   .ratings-h3 {
-
+    font-size: 23px;
+    margin-bottom: 20px;
   }
 
   .ratings-users {
-
+    font-size: 18px;
   }
 
   .ratings-icons {
-
+    font-size: 18px;
   }
 
   .product-ratings p {
-
+    font-size: 18px;
   }
 
   .description-h3 {
-
+    font-size: 23px;
+    margin-bottom: 20px;
   }
 
   .product-description h4 {
+    font-size: 19px;
+    margin-bottom: 14px
+  }
 
+  .product-description p {
+    font-size: 18px;
+    margin: 0px 25px 0px 25px;
   }
 
   .additional-info-h3 {
-
+    font-size: 23px;
+    margin-bottom: 20px;
   }
 
   .aditional-info-product h4 {
-
+    font-size: 20px;
   }
 
   .aditional-info-product h5 {
-  
+    font-size: 18px;
+    margin-top: 22px;
+    margin-bottom: 6px;
+  }
+
+  .aditional-info-product p {
+    font-size: 18px;
+    margin: 0px 25px 0px 25px;
   }
 
   .aditional-info-product .p-PH {
-
+     margin-bottom: 35px;
   }
-
 
 
 }
