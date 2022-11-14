@@ -786,6 +786,14 @@ section .sub-footer {
     display: none;
   }
 
+  .index-h1 {
+    font-size: 25px;
+  }
+
+  .most-value h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
 
   /** Carrusel */
   #conteItemsCarrusel{
@@ -811,7 +819,6 @@ section .sub-footer {
   .manzanas-calificacion i {
     font-size: 25px;
   }
-
 
   /**Footer*/
 

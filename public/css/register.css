@@ -84,15 +84,9 @@
     margin-bottom: 5px;
   }
 
-  .hiperlink-Google-login {
-
-  }
-
   .button-Google-login button {
     width: 38vw;
     font-weight: thin;
-    padding: 1px;
-    margin: 2px;
     text-align: center;
     text-transform: uppercase;
     border: 1px solid black;
@@ -100,7 +94,7 @@
     background-color: #d9545f;
     color: #ffffff;
     font-size: 13px;
-   margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
   }
 
@@ -114,53 +108,54 @@
     font-size: 27px;
   }
 
-  .input-name-register {
-  
-  }
-  
   .input-name-register input {
     font-size: 18px;
-  }
-
-  .input-surname-register {
-
+    border: 3px solid gray;
+    margin-top: 15px;
   }
 
   .input-surname-register input {
     font-size: 18px;
-  }
-
-  .input-email-register {
-
+    border: 3px solid gray;
+    margin-top: 15px;
   }
 
   .input-email-register input {
     font-size: 18px;
-  }
-
-  .input-password-register {
-
+    border: 3px solid gray;
+    margin-top: 15px;
   }
 
   .input-password-register input {
     font-size: 18px;
+    border: 3px solid gray;
+    margin-top: 15px;
   }
 
   .login-line {
     padding-top: 10px;
     margin-bottom: 20px;
+    border-bottom: 3px solid black;
   }
 
   .button-signup-login {
-
+    border-bottom: 3px solid black;
   }
 
-  .hiperlink-Google-login {
-
+  .button-signup-login button {
+    margin-bottom: 15px;
+    width: 50vw;
+    font-size: 18px;
   }
 
-  .button-Google-login {
+  .hiperlink-login p{
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+  }
 
+  .button-Google-login button{
+    width: 50vw;
+    font-size: 18px;
   }
 
 }
@@ -169,6 +164,10 @@
 
 @media (min-width: 769px) {
   
+  .h1-register {
+    font-size: 35px;
+  }
+
   .input-name-register {
 
   }
