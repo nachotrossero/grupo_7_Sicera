@@ -11,3 +11,128 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.main-edit-product h1{
+  display: block;
+}
+.main-edit-product{
+
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: column;
+}
+.form-edit-product{
+
+  width: 80%;
+  background-color: #D9D9D9;
+  padding: 10px;
+  border-radius: 4%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+
+}
+.form-edit-product form{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.form-edit-product div{
+  
+  padding: 10px;
+}
+.form-edit-product .div-description{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.div-button-reset, .div-button-submit{
+  width: 50%;
+  
+}
+.div-button-reset button, .div-button-submit button, .div-button-delete button{
+
+  font-size: 20px;
+  
+}
+.div-button-reset button{
+
+  background-color: #c74d4d;
+  color:white;
+  padding: 4px;
+}
+.div-button-submit button{
+
+  background-color: #e33241;
+  color: white;
+  padding: 6px;
+}
+.div-button-delete button{
+
+  background-color: #9E9696;
+  color:white;
+  padding: 4px;
+}
+
+.main-edit-product input[type="text"], .main-edit-product select {
+
+  width: 150px;
+  border-radius: 4px;
+}
+.div-description textarea{
+
+  border-radius: 10px;
+}
+.div-maridajes{
+  display: flex;
+}
+
+
+
+@media(min-width: 426px) {
+  
+
+  .form-edit-product div{
+
+      width: 70%;
+
+  }
+  .form-edit-product div label{
+
+      font-size: 20px;
+  }
+  .div-maridajes{
+      justify-content: center;
+  }
+  .form-edit-product .div-button-submit,.form-edit-product .div-button-reset{
+
+      width: 40%;
+  }
+  
+}
+
+@media(min-width: 769px){
+
+  .form-edit-product div label{
+
+      font-size: 25px;
+  }
+  .main-edit-product input[type="text"], .main-edit-product select {
+
+      width: 200px;
+      height: 30px;
+      border-radius: 4px; 
+      font-size: 20px;
+  }
+  .main-edit-product #maridajes{
+
+      height: 70px;
+  }
+  
+}
