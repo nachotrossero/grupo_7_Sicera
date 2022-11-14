@@ -123,7 +123,7 @@
 
 .buttons-kart button {
   display: flex;
-  width: 24vw;
+  width: 26vw;
   justify-content: center;
   font-weight: thin;
   padding: 1px;
@@ -178,7 +178,7 @@
    }
 
    .buttons-kart button {
-    width: 30vw;
+    width: 32vw;
     font-size: 16px;
    }
 
@@ -233,7 +233,7 @@
   }
 
   .buttons-kart button {
-    width: 19vw;
+    width: 22vw;
     font-size: 18px;
     margin-bottom: 5px;
   }
