@@ -1,14 +1,30 @@
 Grupo #7
 Retrospectiva Sprint #2
 1. Comenzar a hacer.
+	Corregir sprints a tiempo, para que no se acumulen las correcciones.
+	Estandarizar el código: Todas las etiquetas y clases serán en inglés, las clases ahora serán con el siguiente formato: class="description-view" y, además, este estandar nos ayudará a acostumbrarnos a un idioma que nos servirá para la profesión.
+	Usar el tablero de trabajo y asignar la dificultad y urgencia de cada tarea.
+	Ordenar el CSS, sobre todo el orden de las QUERIES que respeten el orden vertical (Header, main footer) así es más fácil identificar y corregir el código.
 
-2. Hacer más.
+2. Hacer más. 
+	Aprovechar la asistencia de los profesores para aprender y sacarnos dudas.
+	Pair programing ya que ayuda mucho saber que hay otro trabajando al mismo tiempo que uno. 
+	Usar más notion que trello para priorizar y asignar tareas. Trello es dificil de leer.
+	Pensar en cómo podemos mejorar el trabajo cuando tenemos tiempo extra.
+	Seguir siendo optimistas y mantener el entusiasmo.
 
 3. Continuar haciendo.
+	Optimizar el trabajo con los conocimientos de cada uno.
+	Llevar las clases y el trabajo al día.
+	Fue muy beneficioso programar durante el fin de semana.
+	Mantener el ritmo del trabajo al finalizar el sprint.
 
 4. Hacer menos.
+	Quedarnos atrás con los contenidos de las clases.
+	Trello no ha sido funcional para todo el equipo, así que buscaremos nuevas alternativas.
 
 5. Dejar de hacer.
+	Evitar focalizarse en detalles que nos 
 
 Conclusiones finales de la retrospectiva en base al sprint #2:
 
