@@ -5,6 +5,7 @@ Retrospectiva Sprint #2
 	Estandarizar el código: Todas las etiquetas y clases serán en inglés, las clases ahora serán con el siguiente formato: class="description-view" y, además, este estandar nos ayudará a acostumbrarnos a un idioma que nos servirá para la profesión.
 	Usar el tablero de trabajo y asignar la dificultad y urgencia de cada tarea.
 	Ordenar el CSS, sobre todo el orden de las QUERIES que respeten el orden vertical (Header, main footer) así es más fácil identificar y corregir el código.
+	Aprender a usar ramas o branches para hacer testeos y no trabajar solo en la rama principal.
 
 2. Hacer más. 
 	Aprovechar la asistencia de los profesores para aprender y sacarnos dudas.
@@ -21,10 +22,11 @@ Retrospectiva Sprint #2
 
 4. Hacer menos.
 	Quedarnos atrás con los contenidos de las clases.
-	Trello no ha sido funcional para todo el equipo, así que buscaremos nuevas alternativas.
+	Trello no ha sido funcional para todo el equipo, así que buscaremos nuevas alternativas como Notion.
 
 5. Dejar de hacer.
-	Evitar focalizarse en detalles que nos 
+	Evitar focalizarse en detalles que nos hacen perder el tiempo (sobre todo en los momentos que hay poco tiempo) y focalizar en los aspectos más fuertes del proyecto primero.
+	Evitar implementar nuevos conceptos en el proyecto final el día de la entrega.
 
 Conclusiones finales de la retrospectiva en base al sprint #2:
 
