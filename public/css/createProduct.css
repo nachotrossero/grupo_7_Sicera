@@ -12,100 +12,119 @@
     box-sizing: border-box;
 }
 
-.main-create-product h1{
+  .main-create-product h1 {
     display: block;
-}
-.main-create-product{
+    font-size: 20px;
+  }
 
+  .main-create-product {
     width: 100%;
     text-align: center;
     align-items: center;
     flex-wrap: nowrap;
     display: flex;
     flex-direction: column;
-}
-.form-create-product{
+    font-weight: bold;
+  }
 
+  .form-create-product {
     width: 80%;
     background-color: #D9D9D9;
     padding: 10px;
     border-radius: 4%;
     margin-top: 15px;
     margin-bottom: 30px;
+  }
 
-}
-.form-create-product form{
-
+  .form-create-product form {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
 
-}
-.form-create-product div{
-    
+  .form-create-product div {
     padding: 10px;
-}
-.form-create-product .div-description{
+  }
 
+  .article-name {
+    font-size: 16px;
+  }
+
+  div .space {
+    margin-top: 5px;
+    border: 2px solid gray;
+  }
+
+  .form-create-product .div-description {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-}
-.div-button-reset, .div-button-submit{
+  }
+
+  .div-description textarea {
+    border-radius: 10px;
+    border: 2px solid gray;
+  }
+
+  .createP-textarea {
+    margin-bottom: 10px;
+  }
+
+  .div-photo .article-photo {
+    font-size: 16px;
+  }
+
+  .main-create-product input[type="text"], .main-create-product select {
+    width: 150px;
+    border-radius: 4px;
+  }
+
+  .div-maridajes {
+    display: flex;
+  }
+
+  .div-button-reset, .div-button-submit {
     width: 50%;
-    
-}
-.div-button-reset button, .div-button-submit button{
+  }
 
+  .div-button-reset button, .div-button-submit button {
     font-size: 20px;
-    
-}
-.div-button-reset button{
+  }
 
+
+  .div-button-reset button {
     background-color: #9E9696;
     color:white;
     padding: 4px;
-}
-.div-button-submit button{
+  }
 
+  .div-button-submit button {
     background-color: #e33241;
     color: white;
     padding: 6px;
-}
-
-.main-create-product input[type="text"], .main-create-product select {
-
-    width: 150px;
-    border-radius: 4px;
-}
-.div-description textarea{
-
-    border-radius: 10px;
-}
-.div-maridajes{
-    display: flex;
-}
+  }
 
 
 
 @media(min-width: 426px) {
     
-
-    .form-create-product div{
-
-        width: 70%;
-
+    .main-create-product h1 {
+        font-size: 27px;
     }
-    .form-create-product div label{
 
+    .form-create-product div {
+        width: 70%;
+    }
+
+    .form-create-product div label {
         font-size: 20px;
     }
-    .div-maridajes{
+
+    .div-maridajes {
         justify-content: center;
     }
-    .form-create-product .div-button-submit,.form-create-product .div-button-reset{
 
+    .form-create-product .div-button-submit,.form-create-product .div-button-reset {
         width: 40%;
     }
     
@@ -113,19 +132,22 @@
 
 @media(min-width: 769px){
 
-    .form-create-product div label{
+    .main-create-product h1 {
+        font-size: 27px;
+    }
 
+    .form-create-product div label {
         font-size: 25px;
     }
-    .main-create-product input[type="text"], .main-create-product select {
 
+    .main-create-product input[type="text"], .main-create-product select {
         width: 200px;
         height: 30px;
         border-radius: 4px; 
         font-size: 20px;
     }
-    .main-create-product #maridajes{
 
+    .main-create-product #maridajes {
         height: 70px;
     }
 }
