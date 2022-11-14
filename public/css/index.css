@@ -625,6 +625,7 @@ section .sub-footer {
   .fotos-experiencia-sidra {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
   }
   
   .fotos-experiencia-sidra img {
