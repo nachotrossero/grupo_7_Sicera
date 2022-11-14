@@ -30,7 +30,7 @@ Retrospectiva Sprint #2
 
 Conclusiones finales de la retrospectiva en base al sprint #2:
 
-Consideramos que...
+Consideramos que el grupo funciona muy bien, hay buena comunicación y buenas prácticas. Vamos descubriendo las habilidades de cada uno y estratégicamente cada uno toma la parte del código con la que cada uno se siente muy cómodo así el proyecto fluye. Dedicaremos tiempo a estar al día con las clases para que cada uno aporte y pueda contribuir a todo el proyecto. Es importante definir un estilo a la hora de ordenar el código y la forma en la que llamamos a cada etiqueta y adecuarnos a las buenas prácticas de los programadores.
 
 
 
