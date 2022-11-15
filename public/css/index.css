@@ -368,7 +368,7 @@ h3 {
 
 .come-to-Argentina h3 {
   font-size: 18px;
-  text-align: justify;
+  text-align: center;
   color: #d9545f;
   margin: 0px 30px 0px 30px;
 }
@@ -620,6 +620,7 @@ section .sub-footer {
   .come-to-Argentina h3 {
     font-size: 20px;
     margin: 0px 30px 0px 30px;
+    text-align: center;
   }
 
   .fotos-experiencia-sidra {
@@ -836,7 +837,50 @@ section .sub-footer {
   }
 
   .come-to-Argentina h3 {
-    font-size: 25px;
+    font-size: 20px;
+    margin: 0px 30px 0px 30px;
+    
+  }
+
+  .fotos-experiencia-sidra {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .fotos-experiencia-sidra img {
+    display: flex;
+    /* border-bottom: 2px solid #d9545f; */
+    margin-top: 10px;
+    margin-bottom: 6px;
+    background-color: #ffffff;
+    width: 50%;
+    border-radius: 10%;
+    box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
+  }
+    
+  .fotos-experiencia-sidra .exp-sidra-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 33%;
+  }
+    
+  .descripcion-experiencia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 70%;
+    text-align: center;
+  }
+  .descripcion-experiencia p{
+    font-size: 20px;
+  }
+  .descripcion-experiencia h3{
+    font-size: 23px;
   }
 
   /**Footer*/
