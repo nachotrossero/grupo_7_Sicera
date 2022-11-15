@@ -269,7 +269,11 @@
     flex-direction: row;
     justify-content: right;
   }
-
+  .product-price-buy-button{
+    display: flex;
+    flex-direction: column;
+    padding: 0 35vw 0 35vw;
+  }
   .more-product-images-productDetail img{
     width: 30vw;
     padding: 5px;
