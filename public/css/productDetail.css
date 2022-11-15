@@ -283,7 +283,7 @@
   .more-product-images img{
     padding: 5px;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 63px;
     text-align: left;
     background-color: #d9545f;
     max-width: 40%;
@@ -317,7 +317,9 @@
     font-size: 19px;
     margin-bottom: 14px;
   }
-
+  .aditional-info-product{
+    margin-left: 20px;
+  }
   .product-description p {
     font-size: 18px;
     margin: 0px 25px 0px 25px;
@@ -327,20 +329,27 @@
     font-size: 23px;
     margin-bottom: 20px;
   }
-
+  
+  .aditional-info-product h3 {
+    font-size: 20px;
+    text-align: left;
+    
+  }
   .aditional-info-product h4 {
     font-size: 20px;
+    text-align: left;
   }
 
   .aditional-info-product h5 {
     font-size: 18px;
     margin-top: 22px;
     margin-bottom: 6px;
+    text-align: left;
   }
 
   .aditional-info-product p {
     font-size: 18px;
-    margin: 0px 25px 0px 25px;
+    /* margin: 0px 25px 0px 25px; */
   }
 
   .aditional-info-product .p-PH {
