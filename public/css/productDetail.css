@@ -1,123 +1,117 @@
-
-
 /*!Main*/
 
-  .main-product-detail {
-    text-align: center;
-    align-items: center;
-  }
+.main-product-detail {
+  text-align: center;
+  align-items: center;
+}
 
-  .h1-productD {
-    text-align: center;
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 6px;
-    margin-bottom: 3px;
-    padding-bottom: 5px;
-    width: 100%;
-  }
+.h1-productD {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: 3px;
+  padding-bottom: 5px;
+  width: 100%;
+}
 
+.selected-products article img {
+  width: 30vw;
+  padding: 5px;
+  margin-top: 10px;
+  margin: 7px;
+  text-align: left;
+  background-color: #d9545f;
+}
 
-  .selected-products article img {
-    width: 30vw;
-    padding: 5px;
-    margin-top: 10px;
-    margin: 7px;
-    text-align: left;
-    background-color: #d9545f;
-  }
+.selected-products h4 {
+  font-size: 16px;
+}
 
-  .selected-products h4 {
-    font-size: 16px;
-  }
+.productD-price {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
 
-  .productD-price {
-    font-size: 13px;
-    font-weight: 600;
-    margin-top: 3px;
-    margin-bottom: 7px;
-  }
+.product-amount-label {
+  font-weight: bold;
+  font-size: 14px;
+}
 
-  .product-amount-label {
-    font-weight: bold;
-    font-size: 14px;
-  }
+.product-amount .product-units {
+  text-align: center;
+  font-weight: bold;
+  width: 30vw;
+  margin-bottom: 14px;
+}
 
-  .product-amount .product-units {
-    text-align: center;
-    font-weight: bold;
-    width: 30vw;
-    margin-bottom: 14px;
-  }
-  
-  .button-add-to-kart button {
-    width: 31vw;
-    justify-content: center;
-    font-weight: thin;
-    text-transform: uppercase;
-    border: 1px solid black;
-    border-radius: 8%;
-    background-color: #d9545f;
-    color: #ffffff;
-    font-size: 15px;
-  } 
+.button-add-to-kart button {
+  width: 31vw;
+  justify-content: center;
+  font-weight: thin;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color: #d9545f;
+  color: #ffffff;
+  font-size: 15px;
+}
 
-  .productD-line {
-    border-bottom: 2px solid gray;
-    padding-top: 20px;
-    margin-bottom: 10px;
-  }
+.productD-line {
+  border-bottom: 2px solid gray;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
 
-  .ratings-h3 {
-    font-size: 18px;
-    margin-bottom: 4px;
-  }
+.ratings-h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
 
-  .ratings-users {
-    font-size: 13px;
-    margin-bottom: 2px;
-  }
+.ratings-users {
+  font-size: 13px;
+  margin-bottom: 2px;
+}
 
-  .ratings-icons {
-    margin-bottom: 5px;
-    font-size: 13px;
-  }
+.ratings-icons {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
 
-  .product-ratings p {
-    font-size: 13px;
-  }
+.product-ratings p {
+  font-size: 13px;
+}
 
-  .description-h3 {
-    font-size: 18px;
-    margin-bottom: 4px;
-  }
+.description-h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
 
-  .product-description h4 {
-    font-size: 14px;
-  }
+.product-description h4 {
+  font-size: 14px;
+}
 
-  .additional-info-h3 {
-    font-size: 18px;
-    margin-bottom: 4px;
-  }
+.additional-info-h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
 
-  .aditional-info-product h4 {
-    font-size: 14px;
-    margin: 4px 0px 9px 0px;
-  }
+.aditional-info-product h4 {
+  font-size: 14px;
+  margin: 4px 0px 9px 0px;
+}
 
-  .aditional-info-product h5 {
-    margin-top: 6px;
-  }
+.aditional-info-product h5 {
+  margin-top: 6px;
+}
 
-  .aditional-info-product .p-PH {
-    margin-bottom: 15px;
-  }
-
-
+.aditional-info-product .p-PH {
+  margin-bottom: 15px;
+}
 
 @media (min-width: 426px) {
-  
   .h1-login {
     font-size: 27px;
   }
@@ -146,11 +140,11 @@
     margin-top: 3px;
     font-size: 15px;
   }
-  
+
   .button-add-to-kart button {
     width: 35vw;
     font-size: 18px;
-  } 
+  }
 
   .productD-line {
     border-bottom: 3px solid gray;
@@ -209,20 +203,14 @@
     font-size: 14px;
     text-align: justify;
     margin: 0px 15px 0px 15px;
-
   }
 
   .aditional-info-product .p-PH {
     margin-bottom: 25px;
   }
-
-
 }
 
-
-
 @media (min-width: 769px) {
-
   .h1-productD {
     font-size: 35px;
   }
@@ -253,11 +241,11 @@
     margin-top: 10px;
     margin-bottom: 25px;
   }
-  
+
   .button-add-to-kart button {
     font-size: 22px;
     margin-bottom: 20px;
-  } 
+  }
 
   .productD-line {
     border-bottom: 4px solid gray;
@@ -288,7 +276,7 @@
 
   .product-description h4 {
     font-size: 19px;
-    margin-bottom: 14px
+    margin-bottom: 14px;
   }
 
   .product-description p {
@@ -317,8 +305,6 @@
   }
 
   .aditional-info-product .p-PH {
-     margin-bottom: 35px;
+    margin-bottom: 35px;
   }
-
-
 }
