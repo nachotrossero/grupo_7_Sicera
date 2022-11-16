@@ -77,7 +77,7 @@
   .main-create-product input[type="text"], .main-create-product select {
     width: 150px;
     border-radius: 4px;
-  }
+  } 
 
   .div-maridajes {
     display: flex;

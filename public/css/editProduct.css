@@ -49,6 +49,14 @@
     flex-direction: column;
     align-items: center;
 }
+.main-edit-product input[type="text"], .main-edit-product select {
+  width: 150px;
+  border-radius: 4px;
+}
+
+.div-description textarea {
+  border-radius: 10px;
+}
 
   .div-button-reset, .div-button-submit {
     width: 50%;
@@ -76,14 +84,6 @@
     padding: 4px;
   }
 
-  .main-edit-product input[type="text"], .main-edit-product select {
-    width: 150px;
-    border-radius: 4px;
-  }
-
-  .div-description textarea {
-    border-radius: 10px;
-  }
   .div-maridajes {
     display: flex;
   }
