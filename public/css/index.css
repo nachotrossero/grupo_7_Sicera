@@ -35,8 +35,7 @@ p {
 
 /**Header reglas generales*/
 header {
-  background-color: #e33241;
-  opacity: 80%;
+  background-color: #FF394B;
   padding: 0px;
 }
 
@@ -109,7 +108,6 @@ header {
 .icon-search {
   width: 33px;
   height: 33px;
-  background: #d50000;
   line-height: 80px;
   border-radius: 50%;
   text-align: center;
@@ -120,8 +118,8 @@ header {
 
 /**Imagen icon search*/
 .icon-search i {
-  font-size: 20px;
-  color: white;
+  font-size: 25px;
+  color: #000;
   line-height: 80px;
   transition: all 0.7s ease;
 }
@@ -204,7 +202,7 @@ header {
 /*!Main*/
 
 main {
-  background-color: #fff4e9;
+  background-color: #F8F8F3;
 }
 
 /**Carrusel*/
@@ -747,18 +745,16 @@ section .sub-footer {
   .button-login-carro-header {
     display: flex;
     width: 25%;
-    justify-content: space-evenly;
+    justify-content: flex-end;
   }
 
   .button-login-carro-header a {
     display: flex;
-    background-color: #d50000;
     color: white;
     border-radius: 10%;
     padding: 5px;
     margin: 5px;
     font-weight: bold;
-    box-shadow: 0 0 0 1px rgb(157, 61, 25);
   }
 
   .button-login-carro-header :hover {
@@ -783,12 +779,10 @@ section .sub-footer {
   }
 
   .section-nav-desktop a {
-    background-color: #d50000;
-    color: white;
+    color: #000;
     border-radius: 10%;
     padding: 5px;
     margin: 5px;
-    box-shadow: 0 0 0 1px rgb(157, 61, 25);
     display: flex;
     align-items: center;
   }
