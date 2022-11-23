@@ -1,6 +1,6 @@
-const express = require('express');
-const router = express.Router();
+// const express = require('express');
+// const router = express.Router();
 
 
-//Exportamos las rutas
-module.exports = router;
+// Exportamos las rutas
+// module.exports = router;

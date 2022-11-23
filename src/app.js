@@ -3,6 +3,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const mainRouter = require('./routers/mainRouter');
+const productsRouter = require('./routers/productsRouter');
+// const usersRouter = require('./routers/usersRouter');
 
 
 //Levantamos el servidor donde el webhosting le da un puerto a tu proyecto. Si no, se le asigna el 3000 por default
@@ -19,5 +21,7 @@ app.set('view engine', 'ejs');
 
 //Rutas
 app.use('/', mainRouter);
+app.use('/products', productsRouter);
+// app.use('/users', usersRouter);
 
 
