@@ -1,12 +1,39 @@
 [
     {
      "id": 1,
-     "name": "",
-     "price": ,
-     "discount": ,
-     "category": "",
-     "description": "",
-     "image": ""
+     "name": "Sidra 1888",
+     "price": 1.873,
+     "discount": 10,
+     "category": ,
+     "description": "Sidra 1888 tiene como ingrediente principal manzanas del Alto Valle de Río Negro que son el corazón y la esencia de la marca. Al estar elaborada solo a base de manzanas seleccionadas del tipo Red Delicious, esta sidra ofrece notas dulces, refrescantes y amigables al paladar.",
+     "image": "img/1888-product-1.jpg"
     },
+    {
+        "id": 2,
+        "name": "",
+        "price": ,
+        "discount": ,
+        "category": ,
+        "description": ,
+        "image": "",
+       },
+       {
+        "id": 3,
+        "name": "",
+        "price": ,
+        "discount": ,
+        "category": ,
+        "description": '',
+        "image": ""
+       },
+       {
+        "id": 4,
+        "name": "",
+        "price": ,
+        "discount": ,
+        "category": ,
+        "description": "",
+        "image": ""
+       },
     
 ]
