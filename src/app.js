@@ -7,7 +7,7 @@ const mainRouter = require('./routers/mainRouter');
 
 //Levantamos el servidor donde el webhosting le da un puerto a tu proyecto. Si no, se le asigna el 3000 por default
 let PORT = process.env.PORT || 3000;
-app.listen(PORT, console.log('Servidor corriendo en puerto ' + PORT));
+app.listen(PORT, console.log('http://localhost:3000'));
 
 
 //Hacemos publicos algunos archivos
