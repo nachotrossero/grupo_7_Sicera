@@ -1,0 +1,42 @@
+[{
+    "id": 1,
+    "name": "Jeronimo",
+    "lastname": "Saracho",
+    "email": "jerosaracho@live.com.ar",
+    "password": "contraseña123",
+    "category": "admin",
+    "image": ""
+},
+{
+    "id": 2,
+    "name": "Facundo",
+    "lastname": "Undiano",
+    "email": "facuundiano@hotmail.com",
+    "password": "contraseña1234",
+    "category": "admin",
+    "image": ""
+},
+{
+    
+"id": 3,
+"name": "Aylin",
+"lastname": "Avila",
+"email": "aylinavila@yahoo.com.ar",
+"password": "contraseña125",
+"category": "admin",
+"image": ""
+},
+{
+    "id": 4,
+    "name": "Ignacio",
+    "lastname": "Trossero",
+    "email": "nachotrossero@outlook.com",
+    "password": "contraseña321",
+    "category": "admin",
+    "image": ""
+}
+
+]
+
+
+

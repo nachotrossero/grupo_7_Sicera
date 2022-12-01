@@ -81,83 +81,28 @@
 
         <div class="products">
 
+          <!--Tarjetas dinamicas -->
 
-          <article class="product">
-            <a href="/products/productDetail">
-            <img class= "card-img" src="/img/1888-product-1.jpg" alt="1888">
-            </a>
+          <% products.forEach(product => { %>
+            <article class="product">
+              <a href= <%= product.url %> >
+                <img class= "card-img" src= <%= product.image %> alt="1888">
+              </a>              
+              <div class="main-article">
+                <h4 class="product-name"> <%= product.name %> </h4> 
+                <p class="price">$ <%= product.price %> </p>
+                <div class="manzanas-calificacion">
+                  <p>Valoración</p>
+                  <% for( let index = 0; index < product.rating; index++ ) { %>
 
-            <div class="main-article">
-              <h4 class="product-name">Sidra 1888</h4> 
-              <p class="price">$1.873</p>
-              <div class="manzanas-calificacion">
-                <p>Valoración</p>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-apple-alt"></i>
+                    <i class="fas fa-apple-alt"></i>
+
+                  <% } %>
+                </div>                
               </div>
-                          
-            </div>
-          </article>
-
-          <article class="product">
-            <a href="/products/productDetail">
-            <img class= "card-img" src="/img/la-victoria-product-2.jpg" alt= "La victoria">
-            </a>
-            <div class="main-article">
-
-              <h4 class="product-name">Sidra La Victoria</h4> 
-              <p class="price">$1.540</p>
-              <div class="manzanas-calificacion">
-                <p>Valoración</p>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-apple-alt"></i>                
-              </div>
-
-            </div>
-          </article>
-
-          <article class="product">
-            <a href="/products/productDetail">
-              <img class= "card-img" src="/img/real-product-3.png" alt="Real">
-            </a>
-            
-            <div class="main-article">
-
-              <h4 class="product-name">Sidra Real</h4>  
-              <p class="price">$1.615</p>                         
-              <div class="manzanas-calificacion">
-                <p>Valoración</p>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-apple-alt"></i>                
-                <i class="fas fa-apple-alt"></i>
-              </div>
-            </div>
-          </article>          
+            </article>
+            <% }) %>
           
-          <article class="product">
-            
-            <a href="/products/productDetail">
-            <img class= "card-img" src="img/sidra-pulku-organica.jpg" alt="Real">
-            </a>
-
-            <div class="main-article">
-              <h4 class="product-name">Sidra orgánica Pulku</h4>             
-              <p class="price">$700</p>
-              <div class="manzanas-calificacion">
-                <p>Valoración</p>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-apple-alt"></i>                
-                <i class="fas fa-apple-alt"></i>
-              </div>
-            </div>
-          </article>
-        </div>
       </section>  
 
       <!-- EXPERIENCIA SIDRA -->

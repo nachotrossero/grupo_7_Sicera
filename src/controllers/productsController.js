@@ -5,15 +5,14 @@ const productsFilePath = path.join(__dirname, '../data/productsData.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 
-const productsController = 
-
-{
+const productsController = {
+  
   productCart: (req, res) => {
     res.render('productCart', {products});
   },
 
   productDetail: (req, res) => {
-    res.render('productDetail');
+    res.render('productDetail', {products});
   },
 
   createProduct: (req, res) =>{
