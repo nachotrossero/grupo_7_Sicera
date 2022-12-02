@@ -24,4 +24,8 @@ app.use('/', mainRouter);
 app.use('/products', productsRouter);
 app.use('/users', usersRouter);
 
+//Formularios y método Post
+app.use(express.urlencoded({ extended: false}));
+app.use(express.json());
+
 
