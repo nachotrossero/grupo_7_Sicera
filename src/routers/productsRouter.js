@@ -9,7 +9,8 @@ router.get('/productDetail/:id?/', productsController.productDetail);
 router.get('/productCart', productsController.productCart);
 
 //Routeo a crear producto, vista administrador
-router.get('/createProduct', productsController.createProduct);
+router.get('/createProduct', productsController.createProduct); //Para mostrar la vista
+router.post('/createProduct', productsController.saveProduct); //Para procesar la vista
 
 //Routeo a editar producto, vista administrador
 router.get('/editProduct/:id?/', productsController.editProduct);
