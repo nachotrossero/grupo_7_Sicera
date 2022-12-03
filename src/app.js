@@ -1,23 +1,26 @@
 
+//Requires
 const express = require('express');
-const app = express();
 const path = require('path');
 const mainRouter = require('./routers/mainRouter');
 const productsRouter = require('./routers/productsRouter');
 const usersRouter = require('./routers/usersRouter');
+// const methodOverride = require('method-override'); // Pasar poder usar los métodos PUT y DELETE
+
+//Express
+const app = express();
 
 
-
-
-//Levantamos el servidor donde el webhosting le da un puerto a tu proyecto. Si no, se le asigna el 3000 por default
+//Middlewares
 let PORT = process.env.PORT || 3000;
 app.listen(PORT, console.log('http://localhost:3000'));
+// app.use(methodOverride('_method'));
 
 
 //Hacemos publicos algunos archivos
 app.use(express.static(path.resolve(__dirname,'../public')));
 
-//EJS
+//Template engine EJS
 app.set('views', path.resolve(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -27,10 +30,9 @@ app.use('/', mainRouter);
 app.use('/products', productsRouter);
 app.use('/users', usersRouter);
 
+
 //Formularios y método Post
 app.use(express.urlencoded({ extended: false}));
 app.use(express.json());
-
-
 
 

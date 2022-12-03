@@ -1,14 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const productsFilePath = path.join(__dirname, '../data/productsData.json');
+const productsFilePath = path.join(__dirname, '../data/productsData.json'); //Para poder leer el json
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 
 const productsController = {
   
   productDetail: (req, res) => {
-    let product = products.find(product => product.id == req.params.id);
+    let product = products.find(product => product.id == req.params.id); //Matcheamos el id del producto y el de la url
     res.render('productDetail', {product});
   },
 
@@ -33,11 +33,13 @@ const productsController = {
     "brand": req.body.brand,
     "cellar": req.body.cellar, 
     "rating": req.body.rating,
-    }
+    };
 
-    products.push(newProduct);
-    fs.writeFileSync(productsFilePath, JSON.stringify(products, null, '\t'));
-    res.redirect('/');
+    products.push(newProduct); //Pisamos los datos de la variable 
+
+    fs.writeFileSync(productsFilePath, JSON.stringify(products, null, '\t')); //Volvemos a pasar a formato json
+    
+    res.redirect('/'); //Hacemos redirect al home
   },
   
   editProduct: (req, res) =>{
