@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %>
+
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/register.css">
+
+</head>
+
+  <body>
+    <%- include('./partials/header') %>
+  
+  
+    <!--CSS: título debería ir centrado-->
+    <h1 class="h1-register">Editar usuario</h1>
+
+    <main class="main-register">
+
+      <!-- <section class="slider">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </section> -->
+
+
+      <!--Comienza formulario -->
+      <!-- habria que poner algo así según los videos -->
+      
+      <!-- <form action="/usuarios/__/acutalizar?_method=PUT" method="POST">
+        
+      </form> -->
+        <form action="/usersController/edit" method="POST" class="register">
+
+          <section>
+            <div class="input-name-register">
+              <label for="user-name"></label>
+              <input type="text" name="user-name" placeholder="Nombre" required value="<%= userToEdit.name %> ">
+            </div>
+
+          <section class="button-signup-login">
+            <div>
+              <input type="submit" value="editar">Inicia sesión</input>
+            </div>
+          </section>
+        
+      </form> 
+    </main>
+
+    <%- include('./partials/footer') %>
+    
+  </body>
+</html>
