@@ -28,4 +28,6 @@ app.use('/users', usersRouter);
 app.use(express.urlencoded({ extended: false}));
 app.use(express.json());
 
-
+//Formularios y método Put y Delete
+const methodOverride = require('method-override');
+app.use(methodOverride('_method'));
