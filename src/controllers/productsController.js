@@ -87,7 +87,15 @@ const productsController = {
 
 		res.redirect("/")
 
-  }
+  },
+
+  // Delete 
+	destroy : (req, res) => {
+		let id = req.params.id;
+		let productDelete = products.filter(product=>product.id != id);
+		fs.writeFileSync(productsFilePath, JSON.stringify(productDelete,null, '\t'));
+		res.redirect('/');
+	}
 
 }
 

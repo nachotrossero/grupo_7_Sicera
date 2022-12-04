@@ -114,6 +114,14 @@
   margin-bottom: 15px;
 }
 
+.button-delete{
+  background-color: #ffae6a;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid black;
+  width: 80px;
+}
+
 /* ?Media Queries */
 
 @media (min-width: 426px) {
