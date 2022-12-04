@@ -27,12 +27,12 @@
       <!-- Foto del producto -->
       <section class="selected-products">
           <article>
-            <img class="card-img" src="/img/1888-product-1.jpg" alt="1888"/>
+            <img class="card-img" src= <%= product.image %>  alt="1888"/>
           </article>
           <article class="product-amount">
             <div class="product-detail">
-              <h4>Sidra 1888</h4> 
-              <p class="productD-price">$1.873</p>
+              <h4><%= product.name %></h4>
+              <p class="productD-price"><%= product.price %></p>
             </div>  
             <label class="product-amount-label" for="input" placeholder="amount">Cantidad de productos</label>
             <br>
@@ -40,7 +40,7 @@
             </label>
             <section class="button-add-to-kart">  
               <a href="productCart">
-              <button type="submit" class="primary"> Agregar al carro</button>
+              <button type="submit" class="primary"> Agregar al carro </button>
               </a>
             </section>
           </article>
@@ -62,11 +62,9 @@
           <h3 class="ratings-h3">VALORACIONES</h3>
           <h5 class="ratings-users">Nacho Trossero</h5>
           <div class="ratings-icons">
-            <i class="fas fa-apple-alt"></i>
-            <i class="fas fa-apple-alt"></i>
-            <i class="fas fa-apple-alt"></i>
-            <i class="fas fa-apple-alt"></i>
-            <i class="fas fa-apple-alt"></i>
+            <% for( let index = 0; index < product.rating; index++ ) { %>
+              <i class="fas fa-apple-alt"></i>
+            <% } %>
           </div>
             <p class="user-comment-productD">"¡El sabor es asombroso, la recomiendo sin dudarlo!"</p>
         </article>
@@ -77,12 +75,9 @@
       <!-- Descripción del producto-->
       <section class="product-description">
         <h3 class="description-h3">DESCRIPCIÓN</h3>
-        <h4>Sidra 1888</h4>
+        <h4><%= product.name %></h4>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          quas non iure? Optio nobis blanditiis accusamus culpa, voluptates
-          dicta libero, ex non nisi aliquam corrupti! Asperiores enim accusamus
-          repellendus qui?
+        <%= product.description %>
         </p>
       </section>
 
