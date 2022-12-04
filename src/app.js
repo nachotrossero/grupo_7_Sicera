@@ -16,6 +16,9 @@ let PORT = process.env.PORT || 3000;
 app.listen(PORT, console.log('http://localhost:3000'));
 // app.use(methodOverride('_method'));
 
+//Formularios y método Post
+app.use(express.urlencoded({ extended: false}));
+app.use(express.json());
 
 //Hacemos publicos algunos archivos
 app.use(express.static(path.resolve(__dirname,'../public')));
@@ -31,8 +34,5 @@ app.use('/products', productsRouter);
 app.use('/users', usersRouter);
 
 
-//Formularios y método Post
-app.use(express.urlencoded({ extended: false}));
-app.use(express.json());
 
 
