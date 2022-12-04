@@ -7,7 +7,7 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 const productsController = {
   sidras: (req, res)=>{
-    res.render('allProducts',{products})
+    res.render('products',{products})
   },
   
   productDetail: (req, res) => {
