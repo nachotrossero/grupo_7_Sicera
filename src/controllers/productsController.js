@@ -24,6 +24,8 @@ const productsController = {
   },
 
   saveProduct: (req, res) => {
+    
+    console.log(req.body)
     let newProduct = {
     "id": products[products.length - 1]['id'] + 1,
     "name": req.body.name,
@@ -38,7 +40,7 @@ const productsController = {
     "rating": req.body.rating,
     };
 
-    products.push(newProduct); //Pisamos los datos de la variable 
+     products.push(newProduct); //Pisamos los datos de la variable 
 
     fs.writeFileSync(productsFilePath, JSON.stringify(products, null, '\t')); //Volvemos a pasar a formato json
     
@@ -46,7 +48,45 @@ const productsController = {
   },
   
   editProduct: (req, res) =>{
-    res.render('editProduct');
+
+    let product = products.find(product => product.id == req.params.id)
+
+    res.render('editProduct', {product});
+  },
+  updateProduct: (req, res) =>{
+
+    console.log(req.body)
+    
+    let productToEdit = products.find(product => product.id == req.params.id)
+
+    let editedProduct = {
+      "id": productToEdit.id,
+      "name": req.body.name,
+      "price": req.body.price,
+      "discount": req.body.discount,
+      "category": req.body.category,
+      "description": req.body.description,
+      "country": req.body.country,
+      "region": req.body.region,
+      "brand": req.body.brand,
+      "cellar": req.body.cellar, 
+      "rating": req.body.rating,
+      };
+
+      let newProduct = products.map(product => {
+
+        if (product.id === productToEdit.id){
+  
+          return product = editedProduct;
+        }
+        return product
+  
+      })
+
+      fs.writeFileSync(productsFilePath, JSON.stringify(newProduct, null, "\t"));
+
+		res.redirect("/")
+
   }
 
 }

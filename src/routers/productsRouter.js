@@ -7,7 +7,7 @@ const productsController = require('../controllers/productsController');
 router.get('/sidras', productsController.sidras)
 
 //Routeo detalles de producto
-router.get('/productDetail/:id?/', productsController.productDetail);
+router.get('/productDetail/:id/', productsController.productDetail);
 
 //Routeo al carro de compras
 router.get('/productCart', productsController.productCart);
@@ -17,7 +17,8 @@ router.get('/createProduct', productsController.createProduct); //Para mostrar l
 router.post('/createProduct', productsController.saveProduct); //Para procesar la vista
 
 //Routeo a editar producto, vista administrador
-router.get('/editProduct/:id?/', productsController.editProduct);
+router.get('/editProduct/:id/', productsController.editProduct);
+router.put('/editProduct/:id/', productsController.updateProduct);
 
 
 //Exportamos las rutas

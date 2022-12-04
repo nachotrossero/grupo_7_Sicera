@@ -5,7 +5,7 @@ const path = require('path');
 const mainRouter = require('./routers/mainRouter');
 const productsRouter = require('./routers/productsRouter');
 const usersRouter = require('./routers/usersRouter');
-// const methodOverride = require('method-override'); // Pasar poder usar los métodos PUT y DELETE
+ const methodOverride = require('method-override'); // Pasar poder usar los métodos PUT y DELETE
 
 //Express
 const app = express();
@@ -14,7 +14,10 @@ const app = express();
 //Middlewares
 let PORT = process.env.PORT || 3000;
 app.listen(PORT, console.log('http://localhost:3000'));
-// app.use(methodOverride('_method'));
+
+app.use(express.urlencoded({ extended: false}));
+app.use(express.json());
+ app.use(methodOverride('_method'));
 
 
 //Hacemos publicos algunos archivos
@@ -32,7 +35,5 @@ app.use('/users', usersRouter);
 
 
 //Formularios y método Post
-app.use(express.urlencoded({ extended: false}));
-app.use(express.json());
 
 

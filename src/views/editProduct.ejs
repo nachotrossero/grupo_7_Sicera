@@ -14,9 +14,9 @@
 
         <h1>EDITAR PRODUCTOS</h1>
         <section class="form-edit-product">
-            <form action="#" method="POST" enctype="multipart/form-data">
+            <form action="/products/editProduct/<%= product.id %>?_method=put" method="POST" >
                 
-                <div class="div-search-edit">
+                <!-- <div class="div-search-edit">
                     <label for="search-edit">Buscar articulo</label>
                     <input type="text" 
                     name="search-edit" 
@@ -24,16 +24,16 @@
                     id="search-edit"
                     autocomplete="off">
                     <button class="button-search-edit" type="submit"><i class="fas fa-search"></i></button>
-                </div>            
+                </div>             -->
 
                 <div class="div-name">
                     <label for="name">Nombre del articulo</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" placeholder= <%= product.name %>  value= <%= product.name %> >
                 </div>
 
                 <div class="div-description">
                     <label for="description"> Descripcion articulo</label>
-                    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                    <textarea name="description" id="description"  placeholder=<%= product.description %>  value= <%= product.description %>> </textarea>
                 </div>
                 
                 <div class="div-photo">
@@ -43,7 +43,7 @@
                 
                 <div class="div-price">
                     <label for="price">Precio</label>
-                    <input type="text" name="price" id="price">
+                    <input type="text" name="price" id="price" placeholder=<%= product.price %>  value=<%= product.price %>>
                 </div>
                 
                 <div class="div-country">
