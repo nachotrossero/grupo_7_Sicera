@@ -6,6 +6,9 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 
 const productsController = {
+  sidras: (req, res)=>{
+    res.render('allProducts',{products})
+  },
   
   productDetail: (req, res) => {
     let product = products.find(product => product.id == req.params.id); //Matcheamos el id del producto y el de la url

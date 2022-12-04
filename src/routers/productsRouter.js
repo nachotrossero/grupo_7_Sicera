@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const productsController = require('../controllers/productsController');
 
+
+
 //Routeo detalles de producto
 router.get('/productDetail/:id?/', productsController.productDetail);
 
@@ -14,6 +16,9 @@ router.post('/createProduct', productsController.saveProduct); //Para procesar l
 
 //Routeo a editar producto, vista administrador
 router.get('/editProduct/:id?/', productsController.editProduct);
+
+//Routeo a todos los productos
+router.get('/sidras', productsController.sidras)
 
 //Exportamos las rutas
 module.exports = router;

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %>
+
+  <link rel="stylesheet" href="/css/index.css">
+
+  </head>
+
+
+  <body>
+    <%- include('./partials/header') %>
+
+
+
+    <!--Inicio del main-->
+    <main>
+      
+      
+
+      <section>
+        <h1 class="index-h1">Mirá todas nuestras sidras y encontrá la tuya</h1><i class="far fa-search"></i>
+      </section>
+
+        <div class="products">
+
+          <!--Tarjetas dinamicas -->
+
+          <% products.forEach(product => { %>
+            <article class="product">
+              <a href="/products/productDetail/<%= product.id %>">
+                <img class= "card-img" src= <%= product.image %> alt="1888">
+              </a>              
+              <div class="main-article">
+                <h4 class="product-name"> <%= product.name %> </h4> 
+                <p class="price">$ <%= product.price %> </p>
+                <div class="manzanas-calificacion">
+                  <p>Valoración</p>
+                  <% for( let index = 0; index < product.rating; index++ ) { %>
+                    <i class="fas fa-apple-alt"></i>
+                  <% } %>
+                </div>                
+              </div>
+            </article>
+            <% }) %>
+          
+      </section>  
+    </main>
+    <!--Final del main-->
+
+
+    <%- include('./partials/footer') %>
+    
+
+  </body>
+</html>
