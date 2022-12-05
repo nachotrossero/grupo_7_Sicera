@@ -6,7 +6,7 @@ const mainRouter = require('./routers/mainRouter');
 const productsRouter = require('./routers/productsRouter');
 const usersRouter = require('./routers/usersRouter');
 const methodOverride = require('method-override'); // Pasar poder usar los métodos PUT y DELETE
-const multer = require('multer')
+
 
 //Express
 const app = express();

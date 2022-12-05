@@ -26,6 +26,17 @@ const productsController = {
   saveProduct: (req, res) => {
     
     console.log(req.body)
+
+    let img 
+
+    if(req.files.length > 0){
+
+      img = req.files[0]
+
+    } else {
+      img = 'default-image.png'
+    }
+
     let newProduct = {
     "id": products[products.length - 1]['id'] + 1,
     "name": req.body.name,
@@ -38,6 +49,7 @@ const productsController = {
     "brand": req.body.brand,
     "cellar": req.body.cellar, 
     "rating": req.body.rating,
+    "image": img //!Agregué la propiedad acá que no estaba planteada, creo que habría que sumarla en el form.
     };
 
      products.push(newProduct); //Pisamos los datos de la variable 
