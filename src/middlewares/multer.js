@@ -3,8 +3,10 @@ const multer = require("multer"); //Para poder subir archivos
 
 //*Para que funcione Multer
 const storage = multer.diskStorage({
+  
   destination: function (req, file, cb) {
-    cb(null, "public/img");
+    let folder = path.join(__dirname, '../public/img')
+    cb(null, folder);
   },
   filename: function (req, file, cb) {
     const uniqueSuffix =
