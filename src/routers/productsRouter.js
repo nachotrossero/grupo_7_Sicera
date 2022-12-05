@@ -1,9 +1,10 @@
+/* Requieres */
 const express = require('express');
 const router = express.Router();
+
+/* Controllers Requieres */
 const productsController = require('../controllers/productsController');
-
-const upload = require('../middlewares/multer')
-
+const upload = require('../middlewares/multer') //Para que funcione Multer
 
 //Routeo a todos los productos
 router.get('/sidras', productsController.sidras)

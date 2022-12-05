@@ -21,6 +21,7 @@ app.use(express.json());
 app.use(methodOverride('_method'));
 
 
+
 //Hacemos publicos algunos archivos
 app.use(express.static(path.resolve(__dirname,'../public')));
 
