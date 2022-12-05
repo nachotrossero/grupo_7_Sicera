@@ -20,12 +20,13 @@ app.use(express.urlencoded({ extended: false}));
 app.use(express.json());
 app.use(methodOverride('_method'));
 
-//Formularios y método Post
-app.use(express.urlencoded({ extended: false}));
-app.use(express.json());
 
 //Hacemos publicos algunos archivos
 app.use(express.static(path.resolve(__dirname,'../public')));
+
+//Formularios y método Post
+app.use(express.urlencoded({ extended: false}));
+app.use(express.json());
 
 //Template engine EJS
 app.set('views', path.resolve(__dirname, 'views'));
