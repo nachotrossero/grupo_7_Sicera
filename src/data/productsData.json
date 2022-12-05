@@ -40,27 +40,5 @@
 		"cellar": "Sáenz Briones",
 		"rating": 5,
 		"image": "/img/real-product-3.png"
-	},
-	{
-		"id": 4,
-		"name": "Sidra orgánica Pulku",
-		"price": 700,
-		"discount": 15,
-		"category": "sidra",
-		"description": "Pülku Dulce es la sidra que conocemos en Argentina, pero el cuidado de la fruta y de la producción que hacemos en Chacra Don Simón permite que sea una sidra natural, sin saborizantes ni esencias químicas, con fruta orgánica, poca azúcar y libre de TACC. Es perfecta para acompañar postres y brindar en las fiestas, sin dejar de disfrutar los aromas y el sabor natural de la manzana.",
-		"country": "Argentina",
-		"region": "Patagónia",
-		"brand": "Pulku",
-		"cellar": "Pülku",
-		"rating": 3,
-		"image": "/img/sidra-pulku-organica.jpg"
-	},
-	{
-		"id": 5,
-		"name": "asdasd",
-		"price": "111",
-		"description": " asdadsasd",
-		"country": "argentina",
-		"region": "mendoza"
 	}
 ]

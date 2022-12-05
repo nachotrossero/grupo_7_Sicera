@@ -23,5 +23,8 @@ router.get('/editProduct/:id/', productsController.editProduct);
 router.put('/editProduct/:id/', productsController.updateProduct);
 
 
+// Routeo para eliminar un producto 
+router.post('/delete/:id/', productsController.destroy); 
+
 //Exportamos las rutas
 module.exports = router;
