@@ -1,3 +1,23 @@
+Retrospectiva Sprint #4
+1. Comenzar a hacer. Aprovechar el impulso del sprint anterior para comenzar con fuerza el siguiente sprint, aunque sea leer en conjunto la consigna y tratar de modularizar el sprint para encararlo con estrategia.
+ 
+2. Hacer más.  Llevar las clases y el trabajo al día. Mantener un ritmo constante de programación, aunque sea un poco todos los días es un avance, peor es no hacer nada. Weeklys de manera ágil sin distracción, aprovechando esta buena práctica de la industria. Focalizar en los aspectos más fuertes del proyecto primero, luego en los detalles. “Dar una vuelta a la mesa” luego de horas de golpearse con el código, para que fluyan nuevas ideas.
+ 
+3. Continuar haciendo.  Pair programing ya que ayuda mucho saber que hay otro trabajando al mismo tiempo que uno. Usar más notion que trello para priorizar y asignar tareas.Seguir siendo optimistas y mantener el entusiasmo. Aprovechar la asistencia de los profesores para aprender y sacarnos dudas. Optimizar el trabajo con los conocimientos de cada uno. Fue muy beneficioso programar durante el fin de semana. Mantener el ritmo del trabajo al finalizar el sprint. Usaremos notion.
+ 
+4. Hacer menos. Quedarnos atrás con los contenidos de las clases. 
+ 
+5. Dejar de hacer. Evitar implementar nuevos conceptos en el proyecto final el día de la entrega. Trello no ha sido funcional para todo el equipo.
+ 
+Conclusiones finales de la retrospectiva en base al sprint #4:
+ 
+El equipo ha encontrado las tareas en las que se siente cómodo y podemos apoyarnos unos a otros. Fue buena práctica pautar días y horarios en el que podían todos o al menos 3 miembros del equipo y encarar el proyecto. Fue buena práctica que aquellos que sabían cómo resolver el código explicaran a aquellos que no sabían cómo hacerlo.
+ 
+Consideramos que el grupo funciona muy bien, hay buena comunicación y buenas prácticas. 
+
+Fue un sprint difícil ya que los contenidos fueron más complejos de absorber, pero pudimos encararlo. 
+
+
 Grupo #7
 Retrospectiva Sprint #2
 1. Comenzar a hacer.
@@ -58,4 +78,5 @@ Retrospectiva Sprint #1
 Conclusiones finales de la retrospectiva en base al sprint #1:
 
 Consideramos que la primera experiencia del sprint fue muy positiva, debido a que supimos organizar nuestro tiempo para trabajar de forma constante y en conjunto. Cada uno aportó en el desarrollo del mismo desde donde se sentía cómodo y siempre hubo espírtu de compañerismo.
+
 

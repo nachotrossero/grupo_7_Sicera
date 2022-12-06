@@ -49,6 +49,10 @@
         <section>
           <a href="/products/editProduct/<%= product.id %> ">Editar Artículo</a>
         </section>
+
+        <form action="/products/delete/<%= product.id %> " method="POST" style="display: inline-flex">
+          <button type="submit" class="button-delete">Eliminar</button>
+        </form>
         
         <section>
           <article class="more-product-images">
