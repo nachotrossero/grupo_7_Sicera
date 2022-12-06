@@ -62,5 +62,13 @@
 		"description": " asdadsasd",
 		"country": "argentina",
 		"region": "mendoza"
+	},
+	{
+		"id": 6,
+		"name": "asdasd",
+		"price": "123444",
+		"description": " Coso",
+		"country": "argentina",
+		"region": "mendoza"
 	}
 ]
