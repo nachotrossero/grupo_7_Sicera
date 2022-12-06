@@ -11,8 +11,8 @@ router.get('/register', usersController.register);
 
 //Routeo para editar y actualizar información
 router.get('/edit/:idUser', usersController.edit)
-router.put('/edit/:idUser', (req,res)=>{
-    res.send('Fui por PUT')
+router.put('/edit/:idUser', (req,res) => {
+    res.send('Fui por PUT');
 })
 
 //Routeo para borrar Delete

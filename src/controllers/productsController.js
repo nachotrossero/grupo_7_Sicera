@@ -64,8 +64,6 @@ const productsController = {
     res.render('editProduct', {product});
   },
   updateProduct: (req, res) =>{
-
-    console.log(req.body)
     
     let productToEdit = products.find(product => product.id == req.params.id);
 
