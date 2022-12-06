@@ -36,7 +36,7 @@ const productsController = {
       img = req.files[0].filename
 
     } else {
-      img = 'default-image.png'
+      img = '/img/default-image.png'
     };
 
     let newProduct = {

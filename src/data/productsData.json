@@ -62,5 +62,14 @@
 		"description": "Prueba",
 		"country": "chile",
 		"region": "cuyo"
+	},
+	{
+		"id": 6,
+		"price": "11111",
+		"description": "dasasd",
+		"country": "argentina",
+		"region": "mendoza",
+		"brand": "real",
+		"image": "/img/default-image.png"
 	}
 ]

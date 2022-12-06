@@ -21,7 +21,7 @@ router.post('/createProduct', upload.any(''), productsController.saveProduct); /
 
 //Routeo a editar producto, vista administrador
 router.get('/editProduct/:id/', productsController.editProduct);
-router.put('/editProduct/:id/', productsController.updateProduct);
+router.put('/editProduct/:id/', upload.any(''), productsController.updateProduct);
 
 
 // Routeo para eliminar un producto 
