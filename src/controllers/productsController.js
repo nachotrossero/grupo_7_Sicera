@@ -7,7 +7,7 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 const productsController = {
   sidras: (req, res)=>{
-    res.render('products',{products})
+    res.render('products',{products});
   },
   
   productDetail: (req, res) => {
@@ -24,19 +24,15 @@ const productsController = {
   },
 
   saveProduct: (req, res) => {
-    
-    console.log(req.body)
 
     let img 
 
     if(req.files.length > 0){
       
-      
-      console.log("🚀 ~ req.files[0]", req.files[0])
-      img = req.files[0].filename
+      img = req.files[0].filename;
 
     } else {
-      img = '/img/default-image.png'
+      img = '/img/default-image.png';
     };
 
     let newProduct = {
@@ -51,7 +47,7 @@ const productsController = {
     "brand": req.body.brand,
     "cellar": req.body.cellar, 
     "rating": req.body.rating,
-    "image": img //!Agregué la propiedad acá por el multer que no estaba planteada, creo que habría que sumarla en el form.
+    "image": img
     };
 
      products.push(newProduct); //Pisamos los datos de la variable 
@@ -63,7 +59,7 @@ const productsController = {
   
   editProduct: (req, res) =>{
 
-    let product = products.find(product => product.id == req.params.id)
+    let product = products.find(product => product.id == req.params.id);
 
     res.render('editProduct', {product});
   },
@@ -71,7 +67,7 @@ const productsController = {
 
     console.log(req.body)
     
-    let productToEdit = products.find(product => product.id == req.params.id)
+    let productToEdit = products.find(product => product.id == req.params.id);
 
     let editedProduct = {
       "id": productToEdit.id,
@@ -89,17 +85,17 @@ const productsController = {
 
       let newProduct = products.map(product => {
 
-        if (product.id === productToEdit.id){
+        if (product.id === productToEdit.id) {
   
           return product = editedProduct;
         }
-        return product
+        return product;
   
       })
 
       fs.writeFileSync(productsFilePath, JSON.stringify(newProduct, null, "\t"));
 
-		res.redirect("/")
+		res.redirect("/");
 
   },
 

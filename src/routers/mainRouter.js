@@ -5,7 +5,6 @@ const usersRouter = require('./usersRouter');
 const mainController = require('../controllers/mainController');
 
 //Routeo al home
-//? Deberíamos ver cómo usar solo una linea de estos como dice GIAN.
 router.get('/', mainController.index);
 
 //Routeo a productos y users
