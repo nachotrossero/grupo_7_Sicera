@@ -1,36 +1,36 @@
 Sprint #4
 Weekly 28-11-22
+
 1. ¿Qué se hizo la semana pasada?
     se hicieron las tarjetas dinámicas
     se comenzaron los routeos correspondientes en las páginas.
     Se plantearon las funcionalidades básicas de las páginas para luego encarar el CRUD, los formularios funcionales para cargar productos nuevos y el MULTER.
-2. ¿Se encontró con algún impedimento? 
+2. ¿Se encontró con algún impedimento?
     Dudas sobre donde poner ciertas rutas, si en la app.js o en mainRoutes.
     Fue difícil encarar las aplicaciones prácticas de la teoría aprendida en el código.
-3. ¿Qué vamos a hacer esta semana? 
+3. ¿Qué vamos a hacer esta semana?
     Dividimos las tareas usando la matriz de Eisenhower (impacto y esfuerzo) para priorizar las tareas más importantes de las secundarias.
-    Volveremos a ver las clases de CRUD para poder aplicar correctamente los get, post, put y delete. 
+    Volveremos a ver las clases de CRUD para poder aplicar correctamente los get, post, put y delete.
     Haremos las consultas pertinentes a los profes, pero primero trataremos por nuestras cuentas.
     Ordenaremos el código para poder aplicar Multer.
     Organizaremos encuentros entre pares para que aquellos que saben resolver las tareas también puedan asistir aquellos que están más atrasados.
 
-Conclusiones y soluciones: 
+Conclusiones y soluciones:
 El equipo funciona pero la teoría se pone más difícil, pero si hacemos pair programing de manera constante y segura nos vamos a acercar a la meta de terminar el sprint 4.
 
-
 Sprint #3
-Weekly 
+Weekly
 Equipo 7 - Sicera
 
-¿Qué se hizo la semana pasada? 
+¿Qué se hizo la semana pasada?
     Se realizó ruteo de los archivos.
     Se crearon las carpetas parciales.
     Se dividió el código.
-    Se implementó los 
+    Se implementó los
 ¿Se encontró con algún impedimento?
-    Baja estandarización de código, algunos códigos en inglés, algunas etiquetas que tenían muchas conexiones en muchas partes del proyecto (editabas uno y afectabas a todos). 
-    Queries desordenadas. 
-    Trello resultó ser una herramienta que confundía mucho y quizás no teníamos buenas prácticas para ordenar un proyecto tan grande. 
+    Baja estandarización de código, algunos códigos en inglés, algunas etiquetas que tenían muchas conexiones en muchas partes del proyecto (editabas uno y afectabas a todos).
+    Queries desordenadas.
+    Trello resultó ser una herramienta que confundía mucho y quizás no teníamos buenas prácticas para ordenar un proyecto tan grande.
     Algunos no estabamos al día con las clases lo cual impactó en el desarrollo grupal del sprint 3.
 ¿Qué vamos a hacer esta semana?
     Dividir las tareas desde las prioritarias a las poco urgente.
@@ -43,6 +43,4 @@ Equipo 7 - Sicera
 Conclusiones y soluciones:
     Definimos estandar de código sobre todo en el CSS. De ahora en más usaremos términos en inglés y las class las escribiremos así: class="description-view".
     Definimos que las Queries serán ordenadas siguiendo el criterio de orden vertical (Header, main, footer) así es más fácil de leer el código y encontrar lo que uno busca.
-    Usaremos Notion como herramienta de trabajo como prueba. 
-
-
+    Usaremos Notion como herramienta de trabajo como prueba.
