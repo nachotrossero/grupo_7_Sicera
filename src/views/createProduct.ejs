@@ -15,7 +15,7 @@
         <h1>CREAR PRODUCTOS</h1>
 
         <section class="form-create-product">
-            <form action="/products/createProduct" method="POST">
+            <form action="/products/createProduct" method="POST" enctype="multipart/form-data">
 
                 <div class="div-name">
                     <label class="article-name" for="name">Nombre del artículo: </label>
@@ -29,8 +29,8 @@
                 </div>
                 
                 <div class="div-photo">
-                    <label class="article-photo" for="photo">Foto del articulo: </label>
-                    <input type="file" name="photo" id="photo" accept=".jpg" class="coso">
+                    <label class="article-photo" for="image">Foto del articulo: </label>
+                    <input type="file" name="image" id="image" accept=".jpg" class="coso">
                 </div>
                 
                 <div class="div-price">
@@ -82,7 +82,7 @@
                 <div class="div-button-reset">
                     <button type="reset">Descartar</button>
                 </div>
-                <div class="div-button-submit">
+                <div class="div-button-submit"> 
                     <button type="submit">Crear artículo</button>
                 </div>
 

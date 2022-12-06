@@ -57,18 +57,10 @@
 	},
 	{
 		"id": 5,
-		"name": "asdasd",
-		"price": "111",
-		"description": " asdadsasd",
-		"country": "argentina",
-		"region": "mendoza"
-	},
-	{
-		"id": 6,
-		"name": "asdasd",
-		"price": "123444",
-		"description": " Coso",
-		"country": "argentina",
-		"region": "mendoza"
+		"name": "Sidra de prueba",
+		"price": "80000",
+		"description": "Prueba",
+		"country": "chile",
+		"region": "cuyo"
 	}
 ]
