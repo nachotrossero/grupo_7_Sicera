@@ -1,4 +1,25 @@
-Weekly
+Sprint #4
+Weekly 28-11-22
+1. ¿Qué se hizo la semana pasada?
+    se hicieron las tarjetas dinámicas
+    se comenzaron los routeos correspondientes en las páginas.
+    Se plantearon las funcionalidades básicas de las páginas para luego encarar el CRUD, los formularios funcionales para cargar productos nuevos y el MULTER.
+2. ¿Se encontró con algún impedimento? 
+    Dudas sobre donde poner ciertas rutas, si en la app.js o en mainRoutes.
+    Fue difícil encarar las aplicaciones prácticas de la teoría aprendida en el código.
+3. ¿Qué vamos a hacer esta semana? 
+    Dividimos las tareas usando la matriz de Eisenhower (impacto y esfuerzo) para priorizar las tareas más importantes de las secundarias.
+    Volveremos a ver las clases de CRUD para poder aplicar correctamente los get, post, put y delete. 
+    Haremos las consultas pertinentes a los profes, pero primero trataremos por nuestras cuentas.
+    Ordenaremos el código para poder aplicar Multer.
+    Organizaremos encuentros entre pares para que aquellos que saben resolver las tareas también puedan asistir aquellos que están más atrasados.
+
+Conclusiones y soluciones: 
+El equipo funciona pero la teoría se pone más difícil, pero si hacemos pair programing de manera constante y segura nos vamos a acercar a la meta de terminar el sprint 4.
+
+
+Sprint #3
+Weekly 
 Equipo 7 - Sicera
 
 ¿Qué se hizo la semana pasada? 
