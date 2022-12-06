@@ -29,7 +29,7 @@ const productsController = {
 
     if(req.files.length > 0){
       
-      img = req.files[0].filename;
+      img = '/img/' + req.files[0].filename;
 
     } else {
       img = '/img/default-image.png';

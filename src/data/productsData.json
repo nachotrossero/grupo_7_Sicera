@@ -54,22 +54,5 @@
 		"cellar": "Pülku",
 		"rating": 3,
 		"image": "/img/sidra-pulku-organica.jpg"
-	},
-	{
-		"id": 5,
-		"name": "Sidra de prueba",
-		"price": "80000",
-		"description": "Prueba",
-		"country": "chile",
-		"region": "cuyo"
-	},
-	{
-		"id": 6,
-		"price": "11111",
-		"description": "dasasd",
-		"country": "argentina",
-		"region": "mendoza",
-		"brand": "real",
-		"image": "/img/default-image.png"
 	}
 ]
