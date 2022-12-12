@@ -26,7 +26,7 @@ const usersController = {
     };
 
     let newUser = {
-    "id": products[products.length - 1]['id'] + 1,
+    "id": users[users.length - 1]['id'] + 1,
     "name": req.body.name,
     "lastname": req.body.lastname,
     "email": req.body.email,

@@ -1,42 +1,54 @@
-[{
-    "id": 1,
-    "name": "Jeronimo",
-    "lastname": "Saracho",
-    "email": "jerosaracho@live.com.ar",
-    "password": "contraseña123",
-    "category": "admin",
-    "image": ""
-},
-{
-    "id": 2,
-    "name": "Facundo",
-    "lastname": "Undiano",
-    "email": "facuundiano@hotmail.com",
-    "password": "contraseña1234",
-    "category": "admin",
-    "image": ""
-},
-{
-    
-"id": 3,
-"name": "Aylin",
-"lastname": "Avila",
-"email": "aylinavila@yahoo.com.ar",
-"password": "contraseña125",
-"category": "admin",
-"image": ""
-},
-{
-    "id": 4,
-    "name": "Ignacio",
-    "lastname": "Trossero",
-    "email": "nachotrossero@outlook.com",
-    "password": "contraseña321",
-    "category": "admin",
-    "image": ""
-}
-
+[
+	{
+		"id": 1,
+		"name": "Jeronimo",
+		"lastname": "Saracho",
+		"email": "jerosaracho@live.com.ar",
+		"password": "contraseña123",
+		"category": "admin",
+		"image": ""
+	},
+	{
+		"id": 2,
+		"name": "Facundo",
+		"lastname": "Undiano",
+		"email": "facuundiano@hotmail.com",
+		"password": "contraseña1234",
+		"category": "admin",
+		"image": ""
+	},
+	{
+		"id": 3,
+		"name": "Aylin",
+		"lastname": "Avila",
+		"email": "aylinavila@yahoo.com.ar",
+		"password": "contraseña125",
+		"category": "admin",
+		"image": ""
+	},
+	{
+		"id": 4,
+		"name": "Ignacio",
+		"lastname": "Trossero",
+		"email": "nachotrossero@outlook.com",
+		"password": "contraseña321",
+		"category": "admin",
+		"image": ""
+	},
+	{
+		"id": 5,
+		"name": "Bingo",
+		"lastname": "Trossero",
+		"email": "bingotrossero@gmail.com",
+		"password": "bingo",
+		"image": "/img/image-1670803797158-908938346.png"
+	},
+	{
+		"id": 6,
+		"name": "Facu",
+		"lastname": "Avila",
+		"email": "favila@hotmail.com",
+		"password": "bla lblab",
+		"image": "/img/users/user-profile-icon-default.jpg"
+	}
 ]
-
-
-
