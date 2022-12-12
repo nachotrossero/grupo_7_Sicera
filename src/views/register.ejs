@@ -30,30 +30,35 @@
       <!-- <form action="/usuarios/__/acutalizar?_method=PUT" method="POST">
         
       </form> -->
-        <form action="#" method="POST" class="register">
+        <form action="/users/register" method="POST" class="register" enctype="multipart/form-data">
 
           <section>
             <div class="input-name-register">
               <label for="user-name"></label>
-              <input type="text" name="user-name" placeholder="Nombre" required>
+              <input id="user-name" type="text" name="name" placeholder="Nombre" required>
             </div>
             
             <div class="input-surname-register">
               <label for="user-surname"></label>
-              <input type="text" name="user-surname" placeholder="Apellido" required>
+              <input id="user-surname" type="text" name="lastname" placeholder="Apellido" required>
             </div>
   
             <div class="input-email-register">
               <label for="user-email"></label>
-              <input type="text" name="user-email" placeholder="E-mail" required>
+              <input id="user-email" type="text" name="email" placeholder="E-mail" required>
             </div>
   
             <div class="input-password-register">  
               <label for="user-password"></label>
-              <input type="password" name="user-password" placeholder="Contraseña" required>
+              <input id="user-password" type="password" name="password" placeholder="Contraseña" required>
             <label for="submit"></label>
             </div>
           </section>
+
+          <div class="div-photo">
+            <label class="article-photo" for="image">Foto del Usuario: </label>
+            <input type="file" name="image" id="image" accept=".jpg, .png" class="coso">
+        </div>
 
           <section class="login-line"></section>
 

@@ -14,6 +14,34 @@ const usersController = {
       register: (req, res) => {
         res.render('register');
       },
+      createUser: (req, res)=>{
+        let img 
+
+    if(req.files.length > 0){
+      
+      img = '/img/' + req.files[0].filename;
+
+    } else {
+      img = '/img/users/user-profile-icon-default.jpg';
+    };
+
+    let newUser = {
+    "id": products[products.length - 1]['id'] + 1,
+    "name": req.body.name,
+    "lastname": req.body.lastname,
+    "email": req.body.email,
+    "password": req.body.password,
+    //"category": req.body.category,
+    "image": img
+    };
+
+     users.push(newUser); //Pisamos los datos de la variable 
+
+    fs.writeFileSync(usersFilePath, JSON.stringify(users, null, '\t')); //Volvemos a pasar a formato json
+    
+    res.redirect('/'); //Hacemos redirect al home
+
+      },
 
       edit: function(req, res){
         let idUser = req.params.idUser
