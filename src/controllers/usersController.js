@@ -32,7 +32,7 @@ const usersController = {
     "lastname": req.body.lastname,
     "email": req.body.email,
     "password": bcryptjs.hashSync(req.body.password, 10), 
-    //"category": req.body.category,
+    //"category": req.body.category, 
     "image": img
     };
 
