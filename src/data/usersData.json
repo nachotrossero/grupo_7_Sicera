@@ -74,5 +74,21 @@
 		"email": "aylupipa@gmail.com",
 		"password": "$2a$10$nPN0jlJrQaatebU.1bbZqufIOJ.adMr.SlE9ytcnFez8yM0oQprhW",
 		"image": "/img/image-1671230037853-865712105.png"
+	},
+	{
+		"id": 10,
+		"name": "Prueba",
+		"lastname": "Trossero",
+		"email": "nachotrossero@gmail.com",
+		"password": "$2a$10$/q67.yavz4raez1Ig/2KVO3OuB1MWW06.cPhnVoKGk0ijEbVbby0u",
+		"image": "/img/image-1671231842982-216874334.png"
+	},
+	{
+		"id": 11,
+		"name": "Prueba 2",
+		"lastname": "Trossero",
+		"email": "nachotrossero@gmail.com",
+		"password": "$2a$10$WFy5qwoUvziU1imbUv5/3Oa85WJR.m9THAe7oYM2HGHuKhrZxArDq",
+		"image": "/img/image-1671231900037-418037053.png"
 	}
 ]
