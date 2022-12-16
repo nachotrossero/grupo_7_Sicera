@@ -50,5 +50,29 @@
 		"email": "favila@hotmail.com",
 		"password": "bla lblab",
 		"image": "/img/users/user-profile-icon-default.jpg"
+	},
+	{
+		"id": 7,
+		"name": "Bingo",
+		"lastname": "Pipa",
+		"email": "bingopipa@gmail.com",
+		"password": "$2a$10$NqwRCwwkByDE77P2PkxXpOxWYKVzR.MesgjfzdIpp7Lwe/QZmD9B6",
+		"image": "/img/users/user-profile-icon-default.jpg"
+	},
+	{
+		"id": 8,
+		"name": "Jero",
+		"lastname": "Bingo",
+		"email": "jero_bingo@gmail.com",
+		"password": "$2a$10$w2Whgg1iK1.qqD/frFk9LOhiv2a2MjAYzwtANv3GwPTlR7/2iYz/i",
+		"image": "/img/image-1671229931751-212002602.png"
+	},
+	{
+		"id": 9,
+		"name": "Aylu",
+		"lastname": "Pipa",
+		"email": "aylupipa@gmail.com",
+		"password": "$2a$10$nPN0jlJrQaatebU.1bbZqufIOJ.adMr.SlE9ytcnFez8yM0oQprhW",
+		"image": "/img/image-1671230037853-865712105.png"
 	}
 ]

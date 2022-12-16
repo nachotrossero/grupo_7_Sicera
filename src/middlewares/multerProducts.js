@@ -5,7 +5,7 @@ const multer = require("multer"); //Para poder subir archivos
 const storage = multer.diskStorage({
   
   destination: function (req, file, cb) {
-    let folder = path.join(__dirname, '../../public/img');
+    let folder = path.join(__dirname, '../../public/img/products');
     
     console.log('folder',folder);
 
