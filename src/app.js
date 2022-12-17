@@ -4,6 +4,7 @@ const express = require('express');
 const path = require('path');
 const mainRouter = require('./routers/mainRouter');
 const methodOverride = require('method-override'); // Pasar poder usar los métodos PUT y DELETE
+const session = require('express-session')
 
 
 //Express
@@ -17,7 +18,7 @@ app.listen(PORT, console.log('http://localhost:3000'));
 app.use(express.urlencoded({ extended: false}));
 app.use(express.json());
 app.use(methodOverride('_method'));
-
+app.use(session({secret:'Shhh esto es secreto', resave: false, saveUninitialized: false}));
 
 
 //Hacemos publicos algunos archivos
