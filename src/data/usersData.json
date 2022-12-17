@@ -7,6 +7,13 @@
 		"password": "contraseña123",
 		"category": "admin",
 		"image": ""
+	},
+	{
+		"id": 2,
+		"name": "Nacho",
+		"lastname": "Trossero",
+		"email": "nachotrossero@gmail.com",
+		"password": "$2a$10$mVota.7hyIW7zj2xwAhvA.urs/KV21N/pfxbJ48vH8XT05npYTGu6",
+		"image": "/img/image-1671243834001-221234910.png"
 	}
-	
 ]

@@ -9,22 +9,42 @@ const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
 const usersController = {
 
     login: (req, res) => {
-        res.render('login', {users});
-      },
-    
-      register: (req, res) => {
-        res.render('register');
-      },
-      createUser: (req, res)=>{
-        let img 
+      res.render('login', {users});
+    },
 
-    if(req.files.length > 0){
+    loginProcess: (req, res ) => {
+      let userToLogIn = users.find( user => user.email == req.body.email);
+      console.log(userToLogIn, 'mi vieja mula ya no es lo que era')
+
+      if(userToLogIn){
+        let correctPassword = bcryptjs.compareSync(req.body.password, userToLogIn.password);
+        if(correctPassword){
+          return res.redirect('/users/userProfile');
+        }
+      }
+      return res.render('login',{
+        errors: {
+          email:{
+            msg: 'las credenciales no son inválidas'
+        }
+      }
+    });
       
-      img = '/img/' + req.files[0].filename;
+    },
+    
+    register: (req, res) => {
+      res.render('register');
+    },
+    createUser: (req, res)=>{
+      let img 
 
-    } else {
-      img = '/img/users/user-profile-icon-default.jpg';
-    };
+      if(req.files.length > 0){
+        
+        img = '/img/' + req.files[0].filename;
+
+      } else {
+        img = '/img/users/user-profile-icon-default.jpg';
+      };
 
     let newUser = {
     "id": users[users.length - 1]['id'] + 1,
@@ -42,6 +62,11 @@ const usersController = {
     
     res.redirect('/users/login'); //Hacemos redirect al home
 
+      },
+
+
+      profile: function(req, res){
+        res.render('userProfile');
       },
 
       edit: function(req, res){
