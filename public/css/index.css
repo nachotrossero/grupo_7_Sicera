@@ -59,7 +59,7 @@ header {
 
 /**Logo imagen*/
 .logo-sicera img {
-  width: 100%;
+  width: 70%;
 }
 
 .logo-completo {
@@ -70,6 +70,7 @@ header {
 .search-bar {
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   padding: 15px;
 }
 
@@ -91,7 +92,7 @@ header {
 
 /**Search bar hover*/
 .search-bar:hover input {
-  width: 110%;
+  width: 85%;
 }
 
 /**Search bar hover*/
@@ -751,8 +752,8 @@ section .sub-footer {
     display: flex;
     color: white;
     border-radius: 10%;
-    padding: 5px;
-    margin: 5px;
+    padding: 5px 5px 0px 5px;
+    margin: 17px 5px 0px 5px;
     /* font-weight: bold; */
     align-items: flex-end;
 
