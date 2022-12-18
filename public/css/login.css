@@ -162,14 +162,14 @@
   }
 
   .input-email-user input {
-    width: 50vw;
-    font-size: 20px;
+    width: 25vw;
+    font-size: 15px;
     margin-bottom: 20px;
   }
 
   .input-user-password input {
-    width: 50vw;
-    font-size: 20px;
+    width: 25vw;
+    font-size: 15px;
     margin-bottom: 4px;
   }
 
@@ -180,13 +180,13 @@
   }
 
   .button-login .enter {
-    width: 52vw;
+    width: 25vw;
     font-size: 19px;
     margin: 20px 0px 13px 0px;
   }
 
   .button-login .Google {
-    width: 52vw;
+    width: 25vw;
     font-size: 19px;
     margin-bottom: 15px;
   }

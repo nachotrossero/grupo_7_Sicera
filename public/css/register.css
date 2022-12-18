@@ -82,6 +82,7 @@
     color: #ffffff;
     font-size: 13px;
     margin-bottom: 5px;
+    margin-left: 90px;
   }
 
   .hiperlink-login p {
@@ -100,6 +101,7 @@
     font-size: 13px;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 90px;
   }
 
 
@@ -148,8 +150,9 @@
 
   .button-signup-login button {
     margin-bottom: 15px;
-    width: 50vw;
+    width: 30vw;
     font-size: 18px;
+    margin-left: 135px;
   }
 
   .hiperlink-login p{
@@ -160,6 +163,7 @@
   .button-Google-login button{
     width: 50vw;
     font-size: 18px;
+    margin-left: 90px;
   }
 
 }
@@ -204,7 +208,7 @@
   .button-signup-login button {
     font-size: 22px;
     height: 38px;
-    width: 50vw;
+    width: 30vw;
     border-radius: 0.5%;
     border: 2px solid red;
   }
@@ -221,6 +225,7 @@
   .button-Google-login button {
     font-size: 22px;
     height: 38px;
+    width: 35vw;
     border-radius: 0.5%;
     border: 2px solid red;
   }
