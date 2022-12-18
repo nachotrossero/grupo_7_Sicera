@@ -766,11 +766,9 @@ section .sub-footer {
   }
 
   .section-nav-desktop {
-    margin-top: 20px;
-    padding-bottom: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .section-nav-desktop :hover {
