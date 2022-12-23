@@ -3,40 +3,23 @@
   <%- include('./partials/head') %>
 
   <link rel="stylesheet" href="/css/index.css">
-  <link rel="stylesheet" href="/css/productDetail.css">
+  <link rel="stylesheet" href="/css/userProfile.css">
 </head>
 
   <body>
     <%- include('./partials/header') %>
-    
+     
+      <div class="h1-profile-container">
+        <h1 class="h1-userProfile">¡Hola User name!</h1>
+      </div>
 
-    <main class="main-product-detail">
-      <!-- el producto elegido -->
-      <!-- <main class="main-prod-detail">
-        <section class="slider">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </section> -->
+      <div class="div-photo">
+        <label class="article-photo" for="image"><i class="fas fa-pencil-alt"></i> </label>
+        <input type="file" name="image" id="image" accept=".jpg, .png" class="coso" >
+       
+      </div>
       
-      <section>
-        <h1 class="h1-productD">User name</h1>
-      </section>
 
-      <!-- Foto del producto -->
-      <section class="selected-products">
-          <!-- <article>
-            <img class="card-img" src=  %= product.image %>  alt="1888"/>
-          </article>
-          <article class="product-amount">
-            <div class="product-detail">
-              <h4> %= product.name %></h4>
-              <p class="productD-price"> %= product.price %></p>
-            </div>  
-            </section>
-          </article> -->
-    </main>
 
   <%- include('./partials/footer') %>
   
