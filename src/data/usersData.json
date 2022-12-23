@@ -1,14 +1,5 @@
 [
 	{
-		"id": 1,
-		"name": "Jeronimo",
-		"lastname": "Saracho",
-		"email": "jerosaracho@live.com.ar",
-		"password": "contraseña123",
-		"category": "admin",
-		"image": ""
-	},
-	{
 		"id": 2,
 		"name": "Nacho",
 		"lastname": "Trossero",
@@ -23,6 +14,21 @@
 		"email": "valeaylu@gmail.com",
 		"password": "$2a$10$SrOcGPKUHbb4NQJAUDE33./IkphcL7aXzOYKab4bhkpcaTUdsPxUi",
 		"image": "/img/users/user-profile-icon-default.jpg"
+	},
+	{
+		"id": 4,
+		"name": "asd",
+		"lastname": "asd",
+		"email": "asd@asd.com",
+		"password": "$2a$10$I5aGlv63C4zqnUA.m2DIUe3h8YJ1jWgR5muoP2X/BvaA9XDdYbrdC",
+		"image": "/img/image-1671824530245-998584501.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Jeronimo",
+		"lastname": "Saracho",
+		"email": "jerosaracho@live.com.ar",
+		"password": "$2a$10$DtscUtYoCqy5ECWUcbkn0OGGFBbTDONus1KLyoHbK06S/4tgUTEze",
+		"image": "/img/users/image-1671825620801-767899555.jpg"
 	}
-
 ]
