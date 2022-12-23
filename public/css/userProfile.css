@@ -1,0 +1,24 @@
+*{
+    padding: 10px;
+}
+
+.h1-userProfile{
+    text-align: center;
+    background-color:#FF394B;
+    border: 2px #ffff;
+    border-radius: 4.5%;
+    padding: 20px;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.h1-profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-photo{
+    right: 10px;
+}
