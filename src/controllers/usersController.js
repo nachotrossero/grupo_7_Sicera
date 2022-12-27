@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const bcryptjs = require('bcryptjs');
+const session = require('express-session');
+//const { Session } = require('express-session');
 
 const usersFilePath = path.join(__dirname, '../data/usersData.json');
 const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
@@ -14,11 +16,16 @@ const usersController = {
 
     loginProcess: (req, res ) => {
       let userToLogIn = users.find( user => user.email == req.body.email);
-      console.log(userToLogIn, 'mi vieja mula ya no es lo que era')
+      //console.log(userToLogIn, 'mi vieja mula ya no es lo que era')
 
       if(userToLogIn){
         let correctPassword = bcryptjs.compareSync(req.body.password, userToLogIn.password);
         if(correctPassword){
+          delete userToLogIn.password;
+
+          console.log(userToLogIn);
+          req.session.loggedUser = userToLogIn;
+
           return res.redirect('/users/userProfile');
         }
       }
@@ -40,7 +47,7 @@ const usersController = {
 
       if(req.files.length > 0){
         
-        img = '/img/' + req.files[0].filename;
+        img = '/img/users' + req.files[0].filename;
 
       } else {
         img = '/img/users/user-profile-icon-default.jpg';
@@ -66,7 +73,12 @@ const usersController = {
 
 
       profile: function(req, res){
-        res.render('userProfile');
+        
+        res.render('userProfile',{
+
+          user: req.session.loggedUser
+
+        });
       },
 
       edit: function(req, res){
