@@ -22,3 +22,76 @@
 .div-photo{
     right: 10px;
 }
+
+.section-user-profile .user-profile-body,
+.section-user-profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: inherit;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-top: -55px;
+}
+
+
+
+.section-user-profile .user-profile-avatar {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid #FFFFFF;
+    background-color: #DFE5F2;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    position: relative;
+    bottom: -40px;
+    left: calc(50% - 90px);
+    z-index: 1;
+}
+
+.section-user-profile .user-profile-avatar img {
+    width: 80%;
+    text-align: center;
+}
+
+.section-user-profile .user-profile-avatar .boton-avatar {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section-user-profile .user-profile-body {
+    width: 70%;
+    position: relative;
+    max-width: 750px;
+}
+
+.boton-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-user-profile .user-profile-body .titulo {
+    display: block;
+    width: 100%;
+    font-size: 1.75em;
+    margin-bottom: 0.5rem;
+}
+
+.section-user-profile .user-profile-body .texto {
+    color: #848484;
+    font-size: 0.95em;
+}
+
+
