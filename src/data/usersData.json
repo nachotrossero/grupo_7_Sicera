@@ -30,5 +30,21 @@
 		"email": "jerosaracho@live.com.ar",
 		"password": "$2a$10$DtscUtYoCqy5ECWUcbkn0OGGFBbTDONus1KLyoHbK06S/4tgUTEze",
 		"image": "/img/users/image-1671825620801-767899555.jpg"
+	},
+	{
+		"id": 6,
+		"name": "Nacho",
+		"lastname": "Trossero",
+		"email": "nachotrossero@gmail.com",
+		"password": "$2a$10$XalgU8K6HmCptfDISjFkEuGWCdY.pFjq8UekQ8tNTDgCooV4X5B4O",
+		"image": "/img/usersimage-1672172853622-843417207.jpg"
+	},
+	{
+		"id": 7,
+		"name": "Pedrito",
+		"lastname": "yellobo",
+		"email": "pedro@gil.com",
+		"password": "$2a$10$fd3kcDMJAWPHJRzcKMDD0.jXz2.LMplSbCDHHK.8mmx.QP6GTYaYC",
+		"image": "/img/users/image-1672173248771-939447484.jpg"
 	}
 ]

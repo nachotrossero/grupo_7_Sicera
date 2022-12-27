@@ -60,10 +60,18 @@
 
         
         <section class="button-login-carro-header">
-          <a href="/users/register"><!-- <i class="fas fa-map-marked"></i> -->Registrate</a>
-
-          <a href="/users/login"><i class="fas fa-user"></i></a>
-                  
+          
+          <% if (locals.loggedUser) { %>
+            <a href="/users/userProfile"><p>Hola <%= locals.loggedUser.name %> <img class="avatar-logged-user" src="<%= locals.loggedUser.image %>" alt=""></p> </a> 
+            
+          <% } else { %>
+            <a href="/users/register"></i>Registrate</a>
+            <a href="/users/login"><i class="fas fa-user"></i></a>
+          <% } %>
+          
+          
+          
+          
           <a href="/products/productCart"><i class="fas fa-shopping-basket"></i></a>
 
         </section>

@@ -4,7 +4,9 @@ const express = require('express');
 const path = require('path');
 const mainRouter = require('./routers/mainRouter');
 const methodOverride = require('method-override'); // Pasar poder usar los métodos PUT y DELETE
-const session = require('express-session')
+
+const session = require('express-session'); //para login
+const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
 
 
 //Express
@@ -19,7 +21,8 @@ app.use(express.urlencoded({ extended: false}));
 app.use(express.json());
 app.use(methodOverride('_method'));
 app.use(session({secret:'Shhh esto es secreto', resave: false, saveUninitialized: false}));
-
+app.use(userLoggedMiddleware);
+//console.log(res.locals.userLogged + "funca el login???")
 
 //Hacemos publicos algunos archivos
 app.use(express.static(path.resolve(__dirname,'../public')));

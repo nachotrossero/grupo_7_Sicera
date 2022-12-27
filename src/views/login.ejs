@@ -27,12 +27,17 @@
        -->
 
       <!--Comienza formulario -->
+
+      
       <form action="/users/login" method="POST" class="login">
 
         <section>
           <div class="input-email-user">
             <label for="user-name-email"></label>
             <input type="text" name="email" placeholder="Ingresa e-mail o usuario" required>
+            <% if (locals.errors && locals) { %>
+              <p><%=errors.email.msg %> </p>
+            <% } %>
           </div>
         
           <div class="input-user-password">  

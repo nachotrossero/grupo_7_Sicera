@@ -768,6 +768,11 @@ section .sub-footer {
     padding-right: 3px;
   }
 
+  .avatar-logged-user{
+    width: 100%;
+    height: 100%;
+  }
+
   .section-nav-desktop {
     display: flex;
     flex-wrap: wrap;

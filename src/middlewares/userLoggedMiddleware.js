@@ -1,0 +1,11 @@
+function userLoggedMiddleware(req, res, next){
+    res.locals.isLogged = false;
+    if(req.session.loggedUser){
+        res.locals.isLogged = true;
+        res.locals.loggedUser = req.session.loggedUser
+        console.log(res.locals.loggedUser + "funca esta gilada")
+    }
+    next();
+}
+
+module.exports = userLoggedMiddleware;
