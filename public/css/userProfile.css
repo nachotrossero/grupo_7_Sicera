@@ -1,5 +1,17 @@
-*{
-    padding: 10px;
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/**Selectores generales*/
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff4e9;
+}
+p {
+    font-size: 12px;
 }
 
 .h1-userProfile{
@@ -10,15 +22,70 @@
     padding: 20px;
     color: #fff;
     font-size: 25px;
-
 }
 
 .h1-profile-container{
+    margin: 5px 0px 5px 5px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    
 }
 
 .div-photo{
     right: 10px;
+}
+
+.user-profile-avatar{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.user-profile-avatar img{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-left: 5px; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+
+/*?Desktop*/
+@media (min-width: 769px) {
+/**Datos del usuario */
+.h1-userProfile{
+    text-align: center;
+    background-color:#FF394B;
+    border: 2px #ffff;
+    border-radius: 4.5%;
+    padding: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.h1-profile-container{
+    
+    justify-content:flex-start;
+    
+}
+
+.div-photo{
+    right: 10px;
+}
+
+.user-profile-avatar{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.user-profile-avatar img{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
 }
