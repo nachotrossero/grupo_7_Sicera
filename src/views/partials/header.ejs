@@ -62,7 +62,10 @@
         <section class="button-login-carro-header">
           
           <% if (locals.loggedUser) { %>
-            <a href="/users/userProfile"><p>Hola <%= locals.loggedUser.name %> <img class="avatar-logged-user" src="<%= locals.loggedUser.image %>" alt=""></p> </a> 
+            <a href="/users/userProfile">Hola <%= locals.loggedUser.name %>
+              <img class="avatar-logged-user" src="<%= locals.loggedUser.image %>" alt="">
+              
+            </a> 
             
           <% } else { %>
             <a href="/users/register"></i>Registrate</a>
@@ -78,7 +81,5 @@
             
       </section>          
       
-         
-
     </header>
     <!--Final del header-->

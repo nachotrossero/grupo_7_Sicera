@@ -3,7 +3,7 @@ function userLoggedMiddleware(req, res, next){
     if(req.session.loggedUser){
         res.locals.isLogged = true;
         res.locals.loggedUser = req.session.loggedUser
-        console.log(res.locals.loggedUser + "funca esta gilada")
+        console.log(res.locals.loggedUser + "el userlogged middleware funciona")
     }
     next();
 }
