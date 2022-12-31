@@ -60,10 +60,14 @@ const usersController = {
 
           console.log(userToLogIn);
           req.session.loggedUser = userToLogIn;
-
+          /* 
+          if(req.body.remember-me){
+            res.cookie('userEmail', req.body.email, {maxAge: (1000*60)*50})
+          } */
           return res.redirect('/users/userProfile');
         }
       }
+
       return res.render('login',{
         errors: {
           email:{
@@ -127,7 +131,13 @@ const usersController = {
         ]
         let userToEdit = users[idUser];
         res.render('userToEdit', {userToEdit: userToEdit })
+      },
+      logout: function(req,res){
+        req.session.destroy();
+        console.log(req.session);
+        return res.redirect('/');
       }
+      
 }
 
 module.exports = usersController;

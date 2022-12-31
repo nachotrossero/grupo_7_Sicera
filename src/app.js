@@ -7,6 +7,8 @@ const methodOverride = require('method-override'); // Pasar poder usar los méto
 
 const session = require('express-session'); //para login
 const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
+const cookies = require('cookie-parser')
+
 
 
 //Express
