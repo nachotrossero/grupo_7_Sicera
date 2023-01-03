@@ -44,7 +44,21 @@
 		"name": "Pedrito",
 		"lastname": "yellobo",
 		"email": "pedro@gil.com",
-		"password": "$2a$10$fd3kcDMJAWPHJRzcKMDD0.jXz2.LMplSbCDHHK.8mmx.QP6GTYaYC",
 		"image": "/img/users/image-1672173248771-939447484.jpg"
+	},
+	{
+		"id": 8,
+		"name": "Nacho",
+		"lastname": "Tross",
+		"email": "coso@cosa.com",
+		"image": "/img/users/user-profile-icon-default.jpg"
+	},
+	{
+		"id": 9,
+		"name": "Aylu",
+		"lastname": "Aylu",
+		"email": "aylu@aylu.com",
+		"password": "$2a$10$RimznRFKS.jAAuEd2.34We4jQvPBwRYrE1NpJMhExPMz9qrBoWiiK",
+		"image": "/img/users/user-profile-icon-default.jpg"
 	}
 ]

@@ -2,7 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const bcryptjs = require('bcryptjs');
 const session = require('express-session');
-//const { Session } = require('express-session');
+
+//** Modelo User
+
+const User = require('../models/User')
+
 
 const usersFilePath = path.join(__dirname, '../data/usersData.json');
 const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
@@ -51,6 +55,7 @@ const usersController = {
 
 
       let userToLogIn = users.find( user => user.email == req.body.email);
+      //let userToLogIn = User.findByfield('email',req.body.email)
       
 
       if(userToLogIn){
@@ -60,10 +65,10 @@ const usersController = {
 
           console.log(userToLogIn);
           req.session.loggedUser = userToLogIn;
-          /* 
-          if(req.body.remember-me){
-            res.cookie('userEmail', req.body.email, {maxAge: (1000*60)*50})
-          } */
+          
+          if(req.body.rememberme){
+            res.cookies('userEmail', req.body.email, {maxAge: (60000)})
+          }
           return res.redirect('/users/userProfile');
         }
       }
