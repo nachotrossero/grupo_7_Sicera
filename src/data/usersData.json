@@ -60,5 +60,13 @@
 		"email": "aylu@aylu.com",
 		"password": "$2a$10$RimznRFKS.jAAuEd2.34We4jQvPBwRYrE1NpJMhExPMz9qrBoWiiK",
 		"image": "/img/users/user-profile-icon-default.jpg"
+	},
+	{
+		"id": 10,
+		"name": "jero",
+		"lastname": "jero",
+		"email": "jero@jero.com",
+		"password": "$2a$10$aZB8g3Huhx1ho04mGJxxreEFm5bTgLMydCx/0CTAeCLDme9fmtpVu",
+		"image": "/img/users/default-avatar.png"
 	}
 ]

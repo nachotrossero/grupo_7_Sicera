@@ -94,7 +94,7 @@ const usersController = {
         img = '/img/users/' + req.files[0].filename;
 
       } else {
-        img = '/img/users/user-profile-icon-default.jpg';
+        img = '/img/users/default-avatar.png';
       };
 
     let newUser = {
