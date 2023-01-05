@@ -1,4 +1,31 @@
 Retrospectiva Sprint #4
+1. Comenzar a hacer:
+
+- usar trello.
+- aplicar correcciones de estilo en el html a medida que hacemos las tareas del sprint correspondiente.
+
+2. Más de:
+
+- llevar las clases al día.
+- hacer consulta antes o después de clase para destrabarse.
+- utilizar documentación.
+
+3. Seguir haciendo:
+
+- Codeando en equipo.
+- Utilizar reacciones en Discord para coordinar días y horarios de juntada para trabajar.
+- Mantener un ritmo de trabajo constante.
+
+4. Menos de:
+
+- Atrasarse con el material de la clase.
+
+5. Dejar de hacer:
+
+- dejar de usar Notion.
+
+
+Retrospectiva Sprint #3
 1. Comenzar a hacer. Aprovechar el impulso del sprint anterior para comenzar con fuerza el siguiente sprint, aunque sea leer en conjunto la consigna y tratar de modularizar el sprint para encararlo con estrategia.
  
 2. Hacer más.  Llevar las clases y el trabajo al día. Mantener un ritmo constante de programación, aunque sea un poco todos los días es un avance, peor es no hacer nada. Weeklys de manera ágil sin distracción, aprovechando esta buena práctica de la industria. Focalizar en los aspectos más fuertes del proyecto primero, luego en los detalles. “Dar una vuelta a la mesa” luego de horas de golpearse con el código, para que fluyan nuevas ideas.
