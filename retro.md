@@ -24,6 +24,14 @@ Retrospectiva Sprint #4
 
 - dejar de usar Notion.
 
+Conclusiones finales de la retrospectiva en base al sprint #4:
+- Si bien el mundial y las fiestas tuvieron un impacto en la productividad fue clave organizar con tiempo qué días y horarios podíamos dedicarle tiempo durante la semana al código.
+- El equipo ha encontrado las tareas en las que se siente cómodo y podemos apoyarnos unos a otros.
+- El pair programing es una excelente práctica.
+- La comunicación del equipo es buena.
+- Debemos cuidar la estética y la funcionalidad del sitio.
+
+
 
 Retrospectiva Sprint #3
 1. Comenzar a hacer. Aprovechar el impulso del sprint anterior para comenzar con fuerza el siguiente sprint, aunque sea leer en conjunto la consigna y tratar de modularizar el sprint para encararlo con estrategia.
