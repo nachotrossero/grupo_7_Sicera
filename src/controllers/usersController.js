@@ -19,43 +19,9 @@ const usersController = {
     },
 
     loginProcess: (req, res ) => {
-      /* let errors = validaciones(req);
-      if(errors.isEmpty()){
-        
-      } */
       
-      /* let errors = validationResult(req);
-      if(errors.isEmpty()){
-        let usersJson = fs.readFileSync('usersData.json',)
-        let users;
-        if(usersJson==""){
-          users = [];
-        } else{
-          users = JSON.parse(usersJson);
-        }
-        for(let i =0; i<users.length; i++){
-          if(users[i].email== req.body.email){
-            if(bcryptjs.compareSync(req.body.password,users[i].password)){
-            let usuarioALogearse = users[i];
-            break
-          }
-        }
-        }
-        if(usuarioALogearse == undefined){
-          return res.render('login',{errors: [{msg:'Credenciales inválidas'}]});
-        }
-        req.session.usuarioLogeado = usuarioALogearse;
-        res.render('success');
-
-      }else{
-        return res.render('login',{errors: errors.errors})
-
-      } */
-
-
-
-      let userToLogIn = users.find( user => user.email == req.body.email);
-      //let userToLogIn = User.findByfield('email',req.body.email)
+      
+      let userToLogIn = User.findByfield('email',req.body.email)
       
 
       if(userToLogIn){
