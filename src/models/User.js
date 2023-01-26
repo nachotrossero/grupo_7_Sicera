@@ -9,7 +9,6 @@ const User = {
         const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
         return users;
     },
-
     generateId: function(){
         let allUsers = this.findAll();
         let lastUser = allUsers.pop();
