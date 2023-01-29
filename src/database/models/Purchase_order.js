@@ -31,7 +31,10 @@ module.exports = function(sequelize, dataTypes){
 
     Order.associte = function(models){
 
-        
+        Order.hasMany(models.Cart, {
+            as: "cart", 
+            foreignKey: "id_order"
+        })
         
 
     }

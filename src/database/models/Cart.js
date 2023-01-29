@@ -40,7 +40,10 @@ module.exports = function(sequelize, dataTypes){
 
     Cart.associte = function(models){
 
-        
+        Cart.belongsTo(models.Order, {
+            as: "order",
+            foreignKey: "id_order"
+        })
         
 
     }
