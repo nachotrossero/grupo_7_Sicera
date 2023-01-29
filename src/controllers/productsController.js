@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { where } = require('sequelize');
 
 const productsFilePath = path.join(__dirname, '../data/productsData.json'); //Para poder leer el json
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
@@ -7,6 +8,7 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 let db = require("../database/models");
 
 const productsController = {
+
   sidras: (req, res)=>{
 
     db.Product.findAll()
@@ -17,8 +19,14 @@ const productsController = {
   },
   
   productDetail: (req, res) => {
-    let product = products.find(product => product.id == req.params.id); //Matcheamos el id del producto y el de la url
-    res.render('productDetail', {product});
+    //let product = products.find(product => product.id == req.params.id); //Matcheamos el id del producto y el de la url
+    
+    db.Product.findByPk(req.params.id)
+    .then(function(product){
+
+      res.render('productDetail', {product:product});
+
+    })
   },
 
   productCart: (req, res) => {
@@ -72,17 +80,42 @@ const productsController = {
 
     //fs.writeFileSync(productsFilePath, JSON.stringify(products, null, '\t')); //Volvemos a pasar a formato json
     
-    res.redirect('/'); //Hacemos redirect al home
+    res.redirect("/products/sidras/" ); //Hacemos redirect al home
   },
   
   editProduct: (req, res) =>{
 
-    let product = products.find(product => product.id == req.params.id);
+    //let product = products.find(product => product.id == req.params.id);
 
-    res.render('editProduct', {product});
+    db.Product.findByPk(req.params.id)
+    .then(function(product){
+
+      
+      res.render('editProduct', {product});
+
+    })
   },
   updateProduct: (req, res) =>{
     
+    //let img = product.image
+
+    db.Product.update({
+      "name": req.body.name,
+      "price": req.body.price,
+      "description": req.body.description,
+      "country": req.body.country,
+      "region": req.body.region,
+      "brand": req.body.brand,
+      "cellar": req.body.cellar, 
+      //"rating": req.body.rating,
+      "image": req.body.image, 
+      "is_active": 1
+    },
+    {where: {id_product: req.params.id}});
+
+    res.redirect("/products/sidras/");
+    
+    /*
     let productToEdit = products.find(product => product.id == req.params.id);
 
     let editedProduct = {
@@ -110,17 +143,16 @@ const productsController = {
       })
 
       fs.writeFileSync(productsFilePath, JSON.stringify(newProduct, null, "\t"));
-
-		res.redirect("/");
+      */
 
   },
 
   // Delete 
 	destroy : (req, res) => {
-		let id = req.params.id;
-		let productDelete = products.filter(product=>product.id != id);
-		fs.writeFileSync(productsFilePath, JSON.stringify(productDelete,null, '\t'));
-		res.redirect('/');
+    db.Product.destroy({
+      where: {id_product: req.params.id}
+    })
+    res.redirect("/products/sidras/");
 	}
 
 }
