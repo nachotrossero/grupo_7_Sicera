@@ -68,5 +68,13 @@
 		"email": "jero@jero.com",
 		"password": "$2a$10$aZB8g3Huhx1ho04mGJxxreEFm5bTgLMydCx/0CTAeCLDme9fmtpVu",
 		"image": "/img/users/default-avatar.png"
+	},
+	{
+		"id": 11,
+		"name": "Prueba",
+		"lastname": "DeImagen",
+		"email": "prueba@prueba.com",
+		"password": "$2a$10$zHIswZfSp6TXJX3yK3vep.T79vIwz0KIhu.I9Bw8qtEUJJoa9EVNi",
+		"image": "/img/users/image-1675030079231-61556081.jpg"
 	}
 ]

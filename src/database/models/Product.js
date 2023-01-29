@@ -25,7 +25,7 @@ module.exports = function(sequelize, dataTypes){
             allowNull: true
         },
         image:{
-            type: dataTypes.STRING(100),
+            type: dataTypes.STRING(255),
             allowNull: false
         },
         country:{
