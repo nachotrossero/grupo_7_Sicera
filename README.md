@@ -118,13 +118,13 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
    - [x] 2do sprint. HTML Y CSS. Fecha límite de entrega 10-11-2022.
 
-   - [ ] 3er sprint. Template engines. Fecha límite de entrega 17-11-2022.
+   - [x] 3er sprint. Template engines. Fecha límite de entrega 17-11-2022.
 
-   - [ ] 4to sprint. JSON + métodos HTTP. Fecha límite de entrega 06-12-2022.
+   - [x] 4to sprint. JSON + métodos HTTP. Fecha límite de entrega 06-12-2022.
 
-   - [ ] 5to sprint. Middlewares + Auth. Fecha límite de entrega 05-01-2023.
+   - [x] 5to sprint. Middlewares + Auth. Fecha límite de entrega 05-01-2023.
 
-   - [ ] 6to sprint. Base de datos. Fecha límite de entrega 31-01-2023.
+   - [x] 6to sprint. Base de datos. Fecha límite de entrega 31-01-2023.
 
    - [ ] 7mo sprint. Validaciones. Fecha límite de entrega 14-02-2023.
 
