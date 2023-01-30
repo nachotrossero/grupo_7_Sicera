@@ -6,10 +6,18 @@ const productsFilePath = path.join(__dirname, '../data/productsData.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 
+let db = require("../database/models");
+
 const mainController = {
 
   index: (req, res) => {
-    res.render('index', {products});
+
+    db.Product.findAll()
+    .then(function(products){
+
+      return res.render('index', {products});       
+    })
+
   }, 
 
   notFound: (req, res) => { //NotFound

@@ -61,31 +61,12 @@ const productsController = {
       "image": img, 
       "is_active": 1
     })
-    /*let newProduct = {
-    "id": products[products.length - 1]['id'] + 1,
-    "name": req.body.name,
-    "price": req.body.price,
-    "discount": req.body.discount,
-    "category": req.body.category,
-    "description": req.body.description,
-    "country": req.body.country,
-    "region": req.body.region,
-    "brand": req.body.brand,
-    "cellar": req.body.cellar, 
-    "rating": req.body.rating,
-    "image": img
-    };*/
 
-     //products.push(newProduct); //Pisamos los datos de la variable 
-
-    //fs.writeFileSync(productsFilePath, JSON.stringify(products, null, '\t')); //Volvemos a pasar a formato json
-    
     res.redirect("/products/sidras/" ); //Hacemos redirect al home
   },
   
   editProduct: (req, res) =>{
 
-    //let product = products.find(product => product.id == req.params.id);
 
     db.Product.findByPk(req.params.id)
     .then(function(product){
@@ -113,37 +94,7 @@ const productsController = {
     },
     {where: {id_product: req.params.id}});
 
-    res.redirect("/products/sidras/");
-    
-    /*
-    let productToEdit = products.find(product => product.id == req.params.id);
-
-    let editedProduct = {
-      "id": productToEdit.id,
-      "name": req.body.name,
-      "price": req.body.price,
-      "discount": req.body.discount,
-      "category": req.body.category,
-      "description": req.body.description,
-      "country": req.body.country,
-      "region": req.body.region,
-      "brand": req.body.brand,
-      "cellar": req.body.cellar, 
-      "rating": req.body.rating,
-      };
-
-      let newProduct = products.map(product => {
-
-        if (product.id === productToEdit.id) {
-  
-          return product = editedProduct;
-        }
-        return product;
-  
-      })
-
-      fs.writeFileSync(productsFilePath, JSON.stringify(newProduct, null, "\t"));
-      */
+    res.redirect("/products/sidras/");    
 
   },
 

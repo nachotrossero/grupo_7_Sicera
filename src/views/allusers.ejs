@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %>
+
+  <link rel="stylesheet" href="/css/index.css">
+
+  </head>
+  <body>
+    <%- include('./partials/header') %>
+
+    <!--Inicio del main-->
+    <main>
+      <section>
+        <h1 class="index-h1">Usuarios</h1><i class="far fa-search"></i>
+      </section>
+
+        <div class="products">
+
+          <!--Tarjetas dinamicas -->
+
+          <% users.forEach(user => { %>
+            <article class="product">                
+                <img class= "card-img" src= <%= user.image %> alt="1888">            
+              <div class="main-article">
+                <h4 class="product-name"> <%= user.first_name %> </h4> 
+                <h4 class="product-name"> <%= user.last_name %> </h4> 
+                <h4 class="product-name"> <%= user.email %> </h4>   
+                    
+                <form action="/users/editUser/ <%= user.id %>?_method=put" method="POST">
+
+                    <% if (user.is_admin === 0) { %>
+                        <label for="admin">Es admin</label>
+                        <input type="checkbox" name="admin">                     
+                    <% } else { %>
+                        <label for="admin">Es admin</label>
+                        <input type="checkbox" name="admin" checked>
+                    <% } %> 
+                    <button type="submit"> Guardar cambios</button>
+
+                </form>
+
+                <form action="/users/deleteUser/ <%= user.id %>" method="POST">
+                    <button type="submit">Eliminar Usuario</button>
+                </form>
+
+              </div>
+            </article>
+            <% }) %>
+          
+      </section>  
+    </main>
+    <!--Final del main-->
+
+
+    <%- include('./partials/footer') %>  
+  </body>
+</html>

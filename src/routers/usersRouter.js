@@ -57,10 +57,12 @@ router.put('/edit/:idUser', (req,res) => {
 //Routeo para Logout
 router.get('/logout/', usersController.logout)
 
-//Routeo para borrar Delete
-/* router.delete('/delete/:idUser', function(req,res){
-    res.send('Fui por DELETE');
-}) */
+//Routeo de admin para ver todos los usuarios
+router.get("/allUsers", usersController.allUsers)
+
+router.put("/editUser/:id/", usersController.giveAdmin)
+
+router.post('/deleteUser/:id/', usersController.deleteUser); 
 
  //Exportamos las rutas
  module.exports = router;

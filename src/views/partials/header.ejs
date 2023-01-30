@@ -62,7 +62,7 @@
         <section class="button-login-carro-header">
           
           <% if (locals.loggedUser) { %>
-            <a href="/users/userProfile">Hola <%= locals.loggedUser.name %>
+            <a href="/users/userProfile">Hola <%= locals.loggedUser.first_name %>
               <img class="avatar-logged-user" src="<%= locals.loggedUser.image %>" alt="">
               
             </a> 

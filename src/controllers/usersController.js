@@ -7,6 +7,9 @@ const session = require('express-session');
 
 const User = require('../models/User')
 
+let db = require("../database/models");
+const { where } = require('sequelize');
+
 
 const usersFilePath = path.join(__dirname, '../data/usersData.json');
 const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
@@ -21,32 +24,38 @@ const usersController = {
     loginProcess: (req, res ) => {
       
       
-      let userToLogIn = User.findByfield('email',req.body.email)
-      
+      //let userToLogIn = User.findByfield('email',req.body.email)
+      let userToLogIn;
 
-      if(userToLogIn){
-        let correctPassword = bcryptjs.compareSync(req.body.password, userToLogIn.password);
-        if(correctPassword){
-          delete userToLogIn.password;
+      db.User.findOne({where: {email: req.body.email }})
 
-          console.log(userToLogIn);
-          req.session.loggedUser = userToLogIn;
-          
-          if(req.body.rememberme){
-            res.cookies('userEmail', req.body.email, {maxAge: (60000)})
+      .then(function(userFound ){
+        return userToLogIn = userFound;
+      })
+      .then(function(){
+
+        if(userToLogIn != null){
+          let correctPassword = bcryptjs.compareSync(req.body.password, userToLogIn.password);
+          if(correctPassword){
+            delete userToLogIn.password;
+
+            req.session.loggedUser = userToLogIn;
+            
+            if(req.body.rememberme){
+              res.cookies('userEmail', req.body.email, {maxAge: (60000)})
+            }
+            return res.redirect('/users/userProfile');
           }
-          return res.redirect('/users/userProfile');
         }
-      }
 
-      return res.render('login',{
-        errors: {
-          email:{
-            msg: 'las credenciales son inválidas'
+        return res.render('login',{
+          errors: {
+            email:{
+              msg: 'las credenciales son inválidas'
+          }
         }
-      }
-    });
-      
+      });
+      })
     },
     
     register: (req, res) => {
@@ -63,20 +72,17 @@ const usersController = {
         img = '/img/users/default-avatar.png';
       };
 
-    let newUser = {
-    "id": users[users.length - 1]['id'] + 1,
-    "name": req.body.name,
-    "lastname": req.body.lastname,
-    "email": req.body.email,
-    "password": bcryptjs.hashSync(req.body.password, 10), 
-    //"category": req.body.category, 
-    "image": img
-    };
+      db.User.create({
 
-     users.push(newUser); //Pisamos los datos de la variable 
+        "first_name": req.body.name,
+        "last_name": req.body.lastname,
+        "email": req.body.email,
+        "password": bcryptjs.hashSync(req.body.password, 10), 
+        "image": img,
+        "is_active": 1,
+        "is_admin": 1        
+      })
 
-    fs.writeFileSync(usersFilePath, JSON.stringify(users, null, '\t')); //Volvemos a pasar a formato json
-    
     res.redirect('/users/login'); //Hacemos redirect al home
 
       },
@@ -87,28 +93,58 @@ const usersController = {
         res.render('userProfile',{
 
           user: req.session.loggedUser
-
         });
       },
 
       edit: function(req, res){
-        let idUser = req.params.idUser
-
-        let users = [
-          {id: 1, name:'Nacho'},
-          {id: 2, name:'Facu'},
-          {id: 3, name:'Aylu'},
-          {id: 4, name:'Jero'}
-        ]
-        let userToEdit = users[idUser];
-        res.render('userToEdit', {userToEdit: userToEdit })
+        
       },
       logout: function(req,res){
         req.session.destroy();
         console.log(req.session);
         return res.redirect('/');
+      },
+      allUsers: function(req, res){
+
+        db.User.findAll()
+        .then(function(users){
+    
+          return res.render('allusers',{users});       
+        })
+      },
+      deleteUser: function(req, res){
+
+        db.User.destroy({
+          where: {id: req.params.id}
+        })
+        res.redirect("/users/allusers");
+      },
+      giveAdmin: function(req, res){
+
+        let is_admin = req.body.admin;
+
+        if(is_admin){
+          db.User.update({
+
+            "is_admin": 1,
+            
+          },
+          {where: {id: req.params.id}});
+        }else{
+          
+          db.User.update({
+
+            "is_admin": 0,
+            
+          },
+          {where: {id: req.params.id}});
+
+        }
+
+
+        res.redirect("/users/allusers/");    
       }
-      
+        
 }
 
 module.exports = usersController;

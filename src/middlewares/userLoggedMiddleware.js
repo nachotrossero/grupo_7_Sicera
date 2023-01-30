@@ -12,7 +12,7 @@ function userLoggedMiddleware(req, res, next){
     res.locals.isLogged = false;
 
     let emailInCookie = req.cookies.userEmail;
-    //let userFromCookie = users.find( user => user.email == req.body.email);
+
     let userFromCookie = User.findByfield('email', emailInCookie);
     
     if(userFromCookie){
