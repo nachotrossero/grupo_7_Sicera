@@ -1,4 +1,29 @@
 Sprint #5
+Weekly 26-01-23
+1. ¿Qué hicimos?
+
+- Diagrama de base de datos en la primera semana del sprint.
+- Consultamos vía discord con el profesor para ver si fue correcto el diseño de la tabla.
+- Aplicamos las correcciones a la table.
+- Hicimos bien en reunirnos a codear juntos para que todos resolvamos los problemas.
+
+2. ¿Qué impedimentos tuvimos? 
+
+- Un miembro de nuestro equipo (Nacho) tuvo que internar de urgencia a su perro por una insuficiencia renal, tuvieron que absorber la mayor parte de las tareas Aylin y Jerónimo.
+- Llevar al día las clases y hacer el sprint. 
+
+3. ¿Qué haremos?
+- Distribuir las tareas acorde a la dificultad y los tiempos de cada miembro para poder completar todas las tareas propuestas para el Sprint.
+- mantendremos una rutina de código constante, aunque sea pequeña es un avance.
+- Seguiremos el video paso a paso del crud.
+- consultaremos a compañeros o amigos que hagan código para agilizar el sprint.
+
+4. Conclusiones
+Fue muy buena idea arrancar rápido el sprint ya que pudimos definir la tabla para la base de datos y sus relaciones; y además hacer consulta sobre la misma. El pair programing es lo que más ha funcionado. Es mejor adelantarse a las tareas antes de que surjan imprevistos.
+
+
+
+
 Weekly 2-01-23
 1. ¿Qué hicimos?
 

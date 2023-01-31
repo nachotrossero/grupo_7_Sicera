@@ -1,3 +1,41 @@
+Retrospectiva del Sprint #5
+1. Comenzar a hacer:
+- participar en las clases.
+- ordenar el código con comentarios para que toda persona que entre en el código lo entienda.
+- aplicar correcciones de estilo en el html a medida que hacemos las tareas del sprint correspondiente.
+
+
+2. Más de:
+- aplicar correcciones y feedback de los sprint anteriores.
+- Objetivos smart: programar una línea de código por día.
+- estética y funcionalidad del sitio (dividir tareas).
+- consulta a los profesores.
+3. Seguir haciendo:
+- Codeando en equipo. Pair programming.
+- Utilizar reacciones en Discord para coordinar días y horarios de juntada para trabajar.
+- Mantener un ritmo de trabajo constante.
+- hacer consulta antes o después de clase para destrabarse.
+- utilizar documentación.
+- llevar las clases al día.
+- comunicación fluida.
+
+
+
+
+4. Menos de:
+- Atrasarse con el material de la clase.
+- distracción durante las clases
+
+
+5. Dejar de hacer:
+- dejar de usar Notion.
+
+Conclusiones finales de la retrospectiva en base al sprint #5:
+El equipo ha encontrado las tareas en las que se siente cómodo y podemos apoyarnos unos a otros.
+El pair programing es una excelente práctica.
+La comunicación del equipo es buena y rápida.
+Debemos cuidar la estética y la funcionalidad del sitio.
+
 Retrospectiva Sprint #4
 1. Comenzar a hacer:
 
