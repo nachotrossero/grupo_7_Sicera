@@ -22,9 +22,8 @@ const usersController = {
     },
 
     loginProcess: (req, res ) => {
+            
       
-      
-      //let userToLogIn = User.findByfield('email',req.body.email)
       let userToLogIn;
 
       db.User.findOne({where: {email: req.body.email }})
@@ -80,7 +79,7 @@ const usersController = {
         "password": bcryptjs.hashSync(req.body.password, 10), 
         "image": img,
         "is_active": 1,
-        "is_admin": 1        
+        "is_admin": 0    //Para consultar como hacerlo bien    
       })
 
     res.redirect('/users/login'); //Hacemos redirect al home
@@ -101,7 +100,6 @@ const usersController = {
       },
       logout: function(req,res){
         req.session.destroy();
-        console.log(req.session);
         return res.redirect('/');
       },
       allUsers: function(req, res){
@@ -109,7 +107,7 @@ const usersController = {
         db.User.findAll()
         .then(function(users){
     
-          return res.render('allusers',{users});       
+          return res.render('allUsers',{users});       
         })
       },
       deleteUser: function(req, res){
@@ -117,7 +115,7 @@ const usersController = {
         db.User.destroy({
           where: {id: req.params.id}
         })
-        res.redirect("/users/allusers");
+        res.redirect("/users/allUsers");
       },
       giveAdmin: function(req, res){
 
@@ -142,7 +140,7 @@ const usersController = {
         }
 
 
-        res.redirect("/users/allusers/");    
+        res.redirect("/users/allUsers/");    
       }
         
 }
