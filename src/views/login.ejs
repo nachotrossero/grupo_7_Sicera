@@ -34,7 +34,7 @@
         <section>
           <div class="input-email-user">
             <label for="user-name-email"></label>
-            <input type="text" name="email" placeholder="Ingresa e-mail o usuario" required>
+            <input type="text" name="email" placeholder="Ingresa e-mail o usuario" >
             <% if (locals.errors && locals) { %>
               <p><%=errors.email.msg %> </p>
             <% } %>
@@ -42,7 +42,7 @@
         
           <div class="input-user-password">  
             <label for="user-password"></label>
-            <input type="password" name="password" placeholder="Contraseña" required>
+            <input type="password" name="password" placeholder="Contraseña" >
             <label for="submit"></label>
           </div>
         

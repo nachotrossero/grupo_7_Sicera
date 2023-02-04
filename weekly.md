@@ -1,4 +1,4 @@
-Sprint #5
+Sprint #6
 Weekly 26-01-23
 1. ¿Qué hicimos?
 
@@ -22,8 +22,7 @@ Weekly 26-01-23
 Fue muy buena idea arrancar rápido el sprint ya que pudimos definir la tabla para la base de datos y sus relaciones; y además hacer consulta sobre la misma. El pair programing es lo que más ha funcionado. Es mejor adelantarse a las tareas antes de que surjan imprevistos.
 
 
-
-
+Sprint #5
 Weekly 2-01-23
 1. ¿Qué hicimos?
 
