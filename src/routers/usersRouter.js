@@ -1,15 +1,48 @@
- const express = require('express');
- const router = express.Router();
+const express = require('express');
+const router = express.Router();
+const path = require('path');
 
- const usersController = require('../controllers/usersController');
+const usersController = require('../controllers/usersController');
 
- const {body} = require('express-validator'); //para validar por ejemplo un formulario
- const validaciones = [
-    //body('nombreCompleto').notEmpty().withMessage('Debes completar el campo del nombre.'),]
-    //body('apellido').notEmpty().withMessage('Debes completar el campo del apellido.'),
-    body('email').isEmail().withMessage('Debes completar el campo del apellido.'),
+const {check, body} = require('express-validator'); //para validar por ejemplo un formulario
+
+const validacionesRegister = [
+    body('name')
+    .notEmpty().withMessage('Debes completar el campo del nombre.').bail()
+    .isLength({min : 2}).withMessage("Debe contener al menos 2 caracteres"),
+    body('lastname')
+    .notEmpty().withMessage('Debes completar el campo del apellido.').bail()
+    .isLength({min : 2}).withMessage("Debe contener al menos 2 caracteres"),
+    body('email')
+    .notEmpty().withMessage('Debes completar el campo de email.').bail()
+    .isEmail().withMessage('Debes introducir un email válido.'),
+    body('password')
+    .notEmpty().withMessage('Debes completar el campo de constraseña.').bail()
+    .isLength({min : 8}).withMessage("La contraseña debe contener al menos 8 caracteres"),
+    body("image")
+    .custom((value, {req}) => {
+
+        let file = req.file;
+        let validExtensions = [".png", ".jpg", "jpeg", ".gif"];
+
+        if (file) {
+
+            let fileExtension = path.extname(file.originalname);
+            if (!validExtensions.includes(fileExtension)) {
+                throw new Error("Este archivo no es válido");
+            }            
+        }
+        return true
+
+    })
 ];
-
+const validacionesLogin = [
+    body('email')
+    .notEmpty().withMessage('Debes completar el campo de email.').bail()
+    .isEmail().withMessage('Debes introducir un email válido.'),
+    body('password')
+    .notEmpty().withMessage('Debes completar el campo de constraseña.')
+];
 
 
 //Middlewares
@@ -23,7 +56,7 @@ const authMiddleware = require('../middlewares/authMiddleware')
 
 //Routeo al login
 router.get('/login', guestMiddleware, usersController.login);
-router.post('/login', validaciones, usersController.loginProcess)
+router.post('/login', validacionesLogin, usersController.loginProcess)
 
 //! Para chequear si el usuario cargó bien los datos
 /* router.post('/login',[
@@ -42,7 +75,7 @@ router.post('/login', validaciones, usersController.loginProcess)
 //Routeo al registro
 router.get('/register', guestMiddleware, usersController.register);
 //router.get('/register', guestMiddleware, usersController.register);
-router.post('/register', upload.any(''), usersController.createUser); //Para procesar la vista
+router.post('/register', upload.single('image'), validacionesRegister, usersController.createUser); //Para procesar la vista
 
 //Routeo al profile
 router.get('/userProfile', authMiddleware , usersController.profile)
@@ -65,4 +98,4 @@ router.put("/editUser/:id/", usersController.giveAdmin)
 router.post('/deleteUser/:id/', usersController.deleteUser); 
 
  //Exportamos las rutas
- module.exports = router;
+module.exports = router;

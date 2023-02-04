@@ -35,22 +35,34 @@
           <section>
             <div class="input-name-register">
               <label for="user-name"></label>
-              <input id="user-name" type="text" name="name" placeholder="Nombre" required>
+              <input id="user-name" type="text" name="name" placeholder="Nombre" value="<%= locals.oldData && locals.oldData.name ? locals.oldData.name : "" %>">
+              <% if (locals.errors && errors.name) { %>                
+                  <p><%=errors.name.msg %> </p>
+              <% } %>
             </div>
             
             <div class="input-surname-register">
               <label for="user-surname"></label>
-              <input id="user-surname" type="text" name="lastname" placeholder="Apellido" required>
+              <input id="user-surname" type="text" name="lastname" placeholder="Apellido" value="<%= locals.oldData && locals.oldData.lastname ? locals.oldData.lastname : "" %>">
+              <% if (locals.errors && errors.lastname) { %>                
+                <p><%=errors.lastname.msg %> </p>
+            <% } %>
             </div>
   
             <div class="input-email-register">
               <label for="user-email"></label>
-              <input id="user-email" type="text" name="email" placeholder="E-mail" required>
+              <input id="user-email" type="text" name="email" placeholder="E-mail"  value="<%= locals.oldData && locals.oldData.email ? locals.oldData.email : "" %>">
+              <% if (locals.errors && errors.email) { %>                
+                <p><%=errors.email.msg %> </p>
+            <% } %>
             </div>
   
             <div class="input-password-register">  
               <label for="user-password"></label>
-              <input id="user-password" type="password" name="password" placeholder="Contraseña" required>
+              <input id="user-password" type="password" name="password" placeholder="Contraseña"  >
+              <% if (locals.errors && errors.password) { %>                
+                <p><%=errors.password.msg %> </p>
+            <% } %>
             <label for="submit"></label>
             </div>
           </section>
@@ -58,6 +70,9 @@
           <div class="div-photo">
             <label class="article-photo" for="image">Foto del Usuario: </label>
             <input type="file" name="image" id="image" accept=".jpg, .png" class="coso">
+            <% if (locals.errors && errors.image) { %>                
+              <p><%=errors.image.msg %> </p>
+          <% } %>
         </div>
 
           <section class="login-line"></section>
