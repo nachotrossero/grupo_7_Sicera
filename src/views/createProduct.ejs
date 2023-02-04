@@ -20,56 +20,77 @@
                 <div class="div-name">
                     <label class="article-name" for="name">Nombre del artículo: </label>
                     <br>
-                    <input class="space" type="text" name="name">
+                    <input class="space" type="text" name="name" value="<%= locals.oldData && locals.oldData.name ? locals.oldData.name : "" %>">
+                    <% if (locals.errors && errors.name) { %>                
+                        <p><%=errors.name.msg %> </p>
+                    <% } %>
                 </div>
 
                 <div class="div-description">
                     <label class="createP-textarea" for="description"> Descripción artículo: </label>
-                    <textarea name="description" id="description" cols="40" rows="10"></textarea>
+                    <textarea name="description" id="description" cols="40" rows="10" value="<%= locals.oldData && locals.oldData.description ? locals.oldData.description : "" %>"></textarea>
+                    <% if (locals.errors && errors.description) { %>                
+                        <p><%=errors.description.msg %> </p>
+                    <% } %>
                 </div>
                 
                 <div class="div-photo">
                     <label class="article-photo" for="image">Foto del articulo: </label>
                     <input type="file" name="image" id="image" accept=".jpg, .png" class="coso">
+                    <% if (locals.errors && errors.image) { %>                
+                        <p><%=errors.image.msg %> </p>
+                    <% } %>
                 </div>
                 
                 <div class="div-price">
                     <label for="price">Precio: </label>
-                    <input type="text" name="price" id="price">
+                    <input type="text" name="price" id="price" value="<%= locals.oldData && locals.oldData.price ? locals.oldData.price : "" %>">
+                    <% if (locals.errors && errors.price) { %>                
+                        <p><%=errors.price.msg %> </p>
+                    <% } %>
                 </div>
                 
                 <div class="div-country">
                     <label for="country">País: </label>
-                    <select name="country" id="country">                        
+                    <select name="country" id="country">
+                        <option value="">Selecciona el país</option>                      
                         <option value="argentina">Argentina</option>
                         <option value="chile">Chile</option>
                         <option value="uruguay">Uruguay</option>
                     </select>
+                    <% if (locals.errors && errors.country) { %>                
+                        <p><%=errors.country.msg %> </p>
+                    <% } %>
                 </div>
 
-                <div class="div-region">
+                <!-- <div class="div-region">
                     <label for="region">Región: </label>
                     <select name="region" id="region">                        
                         <option value="mendoza">Mendoza</option>
                         <option value="cuyo">Cuyo</option>                    
                     </select>
-                </div>
+                </div> -->
 
                 <div class="div-brand">
                     <label for="brand">Marca: </label>
-                    <select name="brand" id="brand">                        
+                    <select name="brand" id="brand">  
+                        <option value="">Selecciona una marca</option>                      
                         <option value="real">Real</option>
                         <option value="1888">1888</option>
                     </select>
+                    <% if (locals.errors && errors.brand) { %>                
+                        <p><%=errors.brand.msg %> </p>
+                    <% } %>
                 </div>
                 <div class="div-bodega">
                     <label for="cellar">Bodega: </label>
-                    <select name="cellar" id="cellar">                        
+                    <select name="cellar" id="cellar">     
+                        <option value="">Selecciona una Bodega</option>                   
                         <option value="Pulku">Pulku</option>
                         <option value="Saenz-Briones">Saenz Briones</option>
                     </select>
                 </div>
-                <div class="div-maridajes">
+                <!-- <div class="div-maridajes">
                     <label for="maridajes">Maridajes: </label>
                     <select name="maridajes" id="maridajes" multiple size="3">                  
                         <option value="ternera">Ternera</option>
@@ -77,7 +98,7 @@
                         <option value="cerdo">Cerdo</option>
                         <option value="pescado">Pescado</option>
                     </select>
-                </div>
+                </div> -->
                 
                 <div class="div-button-reset">
                     <button type="reset">Descartar</button>

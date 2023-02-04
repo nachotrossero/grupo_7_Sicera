@@ -2,10 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const { where } = require('sequelize');
 
-const productsFilePath = path.join(__dirname, '../data/productsData.json'); //Para poder leer el json
-const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
-
 let db = require("../database/models");
+
+const {validationResult} = require("express-validator");
 
 const productsController = {
 
@@ -49,20 +48,30 @@ const productsController = {
       img = '/img/products/default-image.png';
     };
 
-    db.Product.create({
-      "name": req.body.name,
-      "price": req.body.price,
-      "description": req.body.description,
-      "country": req.body.country,
-      "region": req.body.region,
-      "brand": req.body.brand,
-      "cellar": req.body.cellar, 
-      //"rating": req.body.rating,
-      "image": img, 
-      "is_active": 1
-    })
+    errors = validationResult(req);
+    console.log(errors);
 
-    res.redirect("/products/sidras/" ); //Hacemos redirect al home
+    if (errors.isEmpty()) {
+      db.Product.create({
+        "name": req.body.name,
+        "price": req.body.price,
+        "description": req.body.description,
+        "country": req.body.country,
+        "region": req.body.region,
+        "brand": req.body.brand,
+        "cellar": req.body.cellar, 
+        //"rating": req.body.rating,
+        "image": img, 
+        "is_active": 1
+      })
+      res.redirect("/products/sidras/" );
+    }else{
+      res.render("createProduct", {
+        errors: errors.mapped(),
+        oldData: req.body,
+      });
+    } 
+
   },
   
   editProduct: (req, res) =>{
@@ -78,23 +87,42 @@ const productsController = {
   },
   updateProduct: (req, res) =>{
     
-    //let img = product.image
+    errors = validationResult(req);
+    //console.log(errors);
+    
+    if (errors.isEmpty()){
 
-    db.Product.update({
-      "name": req.body.name,
-      "price": req.body.price,
-      "description": req.body.description,
-      "country": req.body.country,
-      "region": req.body.region,
-      "brand": req.body.brand,
-      "cellar": req.body.cellar, 
-      //"rating": req.body.rating,
-      "image": req.body.image, 
-      "is_active": 1
-    },
-    {where: {id_product: req.params.id}});
+      db.Product.update({
+        "name": req.body.name,
+        "price": req.body.price,
+        "description": req.body.description,
+        "country": req.body.country,
+        "brand": req.body.brand,
+        "cellar": req.body.cellar, 
+        //"rating": req.body.rating,
+        "image": req.body.image, 
+        "is_active": 1
+      },
+      {where: {id_product: req.params.id}});
+  
+      res.redirect("/products/sidras/"); 
 
-    res.redirect("/products/sidras/");    
+    }else{
+      res.send(errors)
+    //   db.Product.findByPk(req.params.id)
+    // .then(function(product){      
+    //   res.render('editProduct', {product}, {
+    //     errors: errors.mapped(),
+    //     oldData: req.body,
+    //   });
+    // })
+      
+      // res.render("editProduct", {
+      //   errors: errors.mapped(),
+      //   oldData: req.body,
+      // });
+    }
+    
 
   },
 

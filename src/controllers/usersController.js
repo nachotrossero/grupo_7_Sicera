@@ -71,9 +71,10 @@ const usersController = {
     res.render("register");
   },
   createUser: (req, res) => {
-    db.User.findOne({ where: { email: req.body.email } }).then(function (
-      repeatedEmail
-    ) {
+
+    db.User.findOne({ where: { email: req.body.email } })
+    
+    .then(function (repeatedEmail) {
       if (repeatedEmail) {
         return res.render("register", {
           errors: {
@@ -92,7 +93,7 @@ const usersController = {
         }
 
         let errors = validationResult(req);
-
+        
         if (errors.isEmpty()) {
           db.User.create({
             first_name: req.body.name,

@@ -6,6 +6,12 @@ const router = express.Router();
 const productsController = require('../controllers/productsController');
 const upload = require('../middlewares/multerProducts'); //Para que funcione Multer
 
+//Middlewares
+const createProductValidation = require("../middlewares/validations/createProductValidation")
+//!no funca todavia el edit
+const editProductValidation = require("../middlewares/validations/editProductValidation")
+
+
 //Routeo a todos los productos
 router.get('/sidras', productsController.sidras);
 
@@ -17,11 +23,11 @@ router.get('/productCart', productsController.productCart);
 
 //Routeo a crear producto, vista administrador
 router.get('/createProduct', productsController.createProduct); //Para mostrar la vista
-router.post('/createProduct', upload.any(''), productsController.saveProduct); //Para procesar la vista
+router.post('/createProduct', upload.any(''), createProductValidation, productsController.saveProduct); //Para procesar la vista
 
 //Routeo a editar producto, vista administrador
 router.get('/editProduct/:id/', productsController.editProduct);
-router.put('/editProduct/:id/', upload.any(''), productsController.updateProduct);
+router.put('/editProduct/:id/', upload.any(''), editProductValidation, productsController.updateProduct);
 
 
 // Routeo para eliminar un producto 
