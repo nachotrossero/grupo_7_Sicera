@@ -50,6 +50,11 @@
 .more-product-images {
   display: none;
 }
+.button-add-to-kart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .button-add-to-kart button {
   width: 31vw;
   justify-content: center;
@@ -60,6 +65,7 @@
   background-color: #d9545f;
   color: #ffffff;
   font-size: 15px;
+  margin-bottom: 2px;
 }
 
 .productD-line {
@@ -114,12 +120,20 @@
   margin-bottom: 15px;
 }
 
-.button-delete{
-  background-color: #ffae6a;
-  text-align: center;
-  font-size: 16px;
+
+.button-edit {
+  width: 31vw;
+  justify-content: center;
+  font-weight: thin;
+  text-transform: uppercase;
   border: 1px solid black;
-  width: 80px;
+  border-radius: 8%;
+  background-color: #d9545f;
+  color: #ffffff;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* ?Media Queries */

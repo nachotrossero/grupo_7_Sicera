@@ -42,18 +42,17 @@
               <a href="productCart">
               <button type="submit" class="primary"> Agregar al carro </button>
               </a>
+              <section>
+                <a href="/products/editProduct/<%= product.id_product %> " class="button-edit">Editar Artículo</a>
+                    <form action="/products/delete/<%= product.id_product %> " method="POST" style="display: inline-flex">
+                  <button type="submit" class="button-delete">Eliminar</button>
+                </form>
+              </section>
             </section>
           </article>
         </section>
         
-        <section>
-          <a href="/products/editProduct/<%= product.id_product %> ">Editar Artículo</a>
-        </section>
-
-        <form action="/products/delete/<%= product.id_product %> " method="POST" style="display: inline-flex">
-          <button type="submit" class="button-delete">Eliminar</button>
-        </form>
-        
+          
         <section>
           <article class="more-product-images">
             <img src="/img/1888-logo.jpg" alt="">
