@@ -8,35 +8,34 @@
 
   <body>
     <%- include('./partials/header') %>
-     
-      <div class="h1-profile-container">
-        <h1 class="h1-userProfile">¡Hola <%= user.first_name %> <%= user.last_name %>  !</h1>
-      </div>
-
-     
-      <!--probando--> 
-      <section class="section-user-profile">
-        <div class="perfil-usuario-portada">
-          <div class="user-profile-header-container">
-            <div class="user-profile-header">
-
-          <div class="user-profile-avatar">
-            <img src="<%= user.image %>" alt="img-avatar">
-            <!-- <button type="button" class="boton-avatar"> -->
-              <!-- <label class="article-photo" for="image"><div class="user-profile-pencil"><i class="fas fa-pencil-alt"></i> </div></label> -->
-              <!-- <input type="file" name="image" id="image" accept=".jpg, .png" class="coso" > -->
-          <!-- </button> -->
+    
+    
+    <!--probando--> 
+    <section class="section-user-profile">
+      <div class="perfil-usuario-portada">
+        <div class="user-profile-header-container">
+          <div class="user-profile-header">
+            
+            <div class="user-profile-avatar">
+              <img src="<%= user.image %>" alt="img-avatar">
+              <!-- <button type="button" class="boton-avatar"> -->
+                <!-- <label class="article-photo" for="image"><div class="user-profile-pencil"><i class="fas fa-pencil-alt"></i> </div></label> -->
+                <!-- <input type="file" name="image" id="image" accept=".jpg, .png" class="coso" > -->
+                <!-- </button> -->
+              </div>
+            </div>
+          </section>
+          
+          <div class="h1-profile-container">
+            <h1 class="h1-userProfile">¡Bienvenido <%= user.first_name %> <%= user.last_name %>  !</h1>
           </div>
-        </div>
-      </section>
 
-      <div class="h1-profile-container">
-        <h2 class="h1-userProfile">Datos </h2>
-        <h3 class="h1-userProfile">Email: <%= user.email %> </h3>
-        <h3 class="h1-userProfile">Nombre: <%= user.first_name %> </h3>
-        <h3 class="h1-userProfile">Apellido: <%= user.last_name %> </h3>
+        <div class="user-data-container">
+        <h3 class="h3-userProfile">Email: <%= user.email %> </h3>
+        <h3 class="h3-userProfile">Nombre: <%= user.first_name %> </h3>
+        <h3 class="h3-userProfile">Apellido: <%= user.last_name %> </h3>
       </div>
-      <div>
+      <div class="logout-button">
         <a href="/users/logout">Logout</a>
       </div>
 
