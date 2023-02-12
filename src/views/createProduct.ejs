@@ -28,7 +28,7 @@
 
                 <div class="div-description">
                     <label class="createP-textarea" for="description"> Descripción artículo: </label>
-                    <textarea name="description" id="description" cols="40" rows="10" value="<%= locals.oldData && locals.oldData.description ? locals.oldData.description : "" %>"></textarea>
+                    <textarea name="description" id="description" cols="40" rows="10" > <%= locals.oldData && locals.oldData.description ? locals.oldData.description : "" %> </textarea>
                     <% if (locals.errors && errors.description) { %>                
                         <p><%=errors.description.msg %> </p>
                     <% } %>
@@ -36,7 +36,7 @@
                 
                 <div class="div-photo">
                     <label class="article-photo" for="image">Foto del articulo: </label>
-                    <input type="file" name="image" id="image" accept=".jpg, .png" class="coso">
+                    <input type="file" name="image" id="image" accept=".jpg, .png" class="coso" >
                     <% if (locals.errors && errors.image) { %>                
                         <p><%=errors.image.msg %> </p>
                     <% } %>
