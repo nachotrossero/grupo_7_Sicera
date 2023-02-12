@@ -89,6 +89,15 @@ const productsController = {
     
     errors = validationResult(req);
     //console.log(errors);
+    let img
+
+    if(req.files.length > 0){
+      
+      img = '/img/products/' + req.files[0].filename;
+
+    } else {
+      img = '/img/products/default-image.png';
+    };
     
     if (errors.isEmpty()){
 
@@ -100,7 +109,7 @@ const productsController = {
         "brand": req.body.brand,
         "cellar": req.body.cellar, 
         //"rating": req.body.rating,
-        "image": req.body.image, 
+        "image": img, 
         "is_active": 1
       },
       {where: {id_product: req.params.id}});
@@ -108,22 +117,17 @@ const productsController = {
       res.redirect("/products/sidras/"); 
 
     }else{
-      res.send(errors)
-    //   db.Product.findByPk(req.params.id)
-    // .then(function(product){      
-    //   res.render('editProduct', {product}, {
-    //     errors: errors.mapped(),
-    //     oldData: req.body,
-    //   });
-    // })
       
-      // res.render("editProduct", {
-      //   errors: errors.mapped(),
-      //   oldData: req.body,
-      // });
+      db.Product.findByPk(req.params.id)
+    .then(function(product){      
+      res.render('editProduct', 
+      {
+        product,
+        errors: errors.mapped(),
+        oldData: req.body,
+      });
+    })
     }
-    
-
   },
 
   // Delete 

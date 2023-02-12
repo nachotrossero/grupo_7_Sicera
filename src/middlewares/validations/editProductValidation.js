@@ -12,12 +12,11 @@ module.exports = [
     body("image")
     .custom((value, {req}) => {
 
-        console.log(req.files);
-
         let file = req.files;
+
         let validExtensions = [".png", ".jpg", "jpeg", ".gif"];
 
-        if (file) {
+        if (file.length > 0) {
             let fileExtension = path.extname(file[0].originalname);
             if (!validExtensions.includes(fileExtension)) {
                 throw new Error("Este archivo no es válido");

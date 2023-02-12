@@ -32,6 +32,11 @@
       </form> -->
         <form action="/users/register" method="POST" class="register" enctype="multipart/form-data">
 
+          <div class="errors">
+              <ul>
+                
+              </ul>
+          </div>
           <section>
             <div class="input-name-register">
               <label for="user-name"></label>
@@ -98,6 +103,8 @@
           </section>
         
       </form> 
+
+      <script src="/js/registerValidation.js" ></script>
     </main>
 
     <%- include('./partials/footer') %>

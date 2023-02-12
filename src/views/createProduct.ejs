@@ -17,10 +17,15 @@
         <section class="form-create-product">
             <form action="/products/createProduct" method="POST" enctype="multipart/form-data">
 
+                <div class="errors">
+                    <ul>
+                        
+                    </ul>
+                </div>
                 <div class="div-name">
                     <label class="article-name" for="name">Nombre del artículo: </label>
                     <br>
-                    <input class="space" type="text" name="name" value="<%= locals.oldData && locals.oldData.name ? locals.oldData.name : "" %>">
+                    <input class="space" type="text" name="name" id="product-name" value="<%= locals.oldData && locals.oldData.name ? locals.oldData.name : "" %>">
                     <% if (locals.errors && errors.name) { %>                
                         <p><%=errors.name.msg %> </p>
                     <% } %>
@@ -28,7 +33,7 @@
 
                 <div class="div-description">
                     <label class="createP-textarea" for="description"> Descripción artículo: </label>
-                    <textarea name="description" id="description" cols="40" rows="10" > <%= locals.oldData && locals.oldData.description ? locals.oldData.description : "" %> </textarea>
+                    <textarea name="description" id="description" cols="40" rows="10" ><%= locals.oldData && locals.oldData.description ? locals.oldData.description : "" %> </textarea>
                     <% if (locals.errors && errors.description) { %>                
                         <p><%=errors.description.msg %> </p>
                     <% } %>
@@ -36,7 +41,7 @@
                 
                 <div class="div-photo">
                     <label class="article-photo" for="image">Foto del articulo: </label>
-                    <input type="file" name="image" id="image" accept=".jpg, .png" class="coso" >
+                    <input type="file" name="image" id="image" class="coso" >
                     <% if (locals.errors && errors.image) { %>                
                         <p><%=errors.image.msg %> </p>
                     <% } %>
@@ -62,14 +67,6 @@
                         <p><%=errors.country.msg %> </p>
                     <% } %>
                 </div>
-
-                <!-- <div class="div-region">
-                    <label for="region">Región: </label>
-                    <select name="region" id="region">                        
-                        <option value="mendoza">Mendoza</option>
-                        <option value="cuyo">Cuyo</option>                    
-                    </select>
-                </div> -->
 
                 <div class="div-brand">
                     <label for="brand">Marca: </label>
@@ -113,7 +110,7 @@
 
     </main>
 
-
+    <script src="/js/createProductValidation.js"></script>
     <%- include('./partials/footer') %>
     
 </body>

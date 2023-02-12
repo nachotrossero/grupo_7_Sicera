@@ -30,11 +30,15 @@
 
       
       <form action="/users/login" method="POST" class="login">
-
+        <div class="errors">
+          <ul>
+            
+          </ul>
+      </div>
         <section>
           <div class="input-email-user">
             <label for="user-name-email"></label>
-            <input type="text" name="email" placeholder="Ingresa e-mail o usuario" required>
+            <input id="user-email" type="text" name="email" placeholder="Ingresa e-mail o usuario" >
             <% if (locals.errors && locals) { %>
               <p><%=errors.email.msg %> </p>
             <% } %>
@@ -42,7 +46,7 @@
         
           <div class="input-user-password">  
             <label for="user-password"></label>
-            <input type="password" name="password" placeholder="Contraseña" required>
+            <input type="password" id="user-password" name="password" placeholder="Contraseña" >
             <label for="submit"></label>
           </div>
         
@@ -78,7 +82,7 @@
         </section>
     </main>
     <!--Final del main-->
-
+    <script src="/js/logInValidation.js"></script>
     <%- include('./partials/footer') %>
     
   </body>

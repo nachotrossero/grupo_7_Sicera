@@ -14,21 +14,17 @@
 
         <h1>EDITAR PRODUCTOS</h1>
         <section class="form-edit-product">
-            <form action="/products/editProduct/<%= product.id_product %>?_method=put" method="POST" >
+            <form id="editForm" class="editForm" action="/products/editProduct/<%= product.id_product %>?_method=put" method="POST" enctype="multipart/form-data">
                 
-                <!-- <div class="div-search-edit">
-                    <label for="search-edit">Buscar articulo</label>
-                    <input type="text" 
-                    name="search-edit" 
-                    class="search-edit" 
-                    id="search-edit"
-                    autocomplete="off">
-                    <button class="button-search-edit" type="submit"><i class="fas fa-search"></i></button>
-                </div>             -->
+                <div class="errors">
+                    <ul>
+                        
+                    </ul>
+                </div>
 
                 <div class="div-name">
                     <label for="name">Nombre del articulo</label>
-                    <input type="text" name="name" placeholder= <%= product.name %>  value= <%= product.name %> >
+                    <input type="text" name="name" id="product-name" placeholder= <%= product.name %>  value= <%= product.name %> >
                     <% if (locals.errors && errors.name) { %>                
                         <p><%=errors.name.msg %> </p>
                     <% } %>
@@ -36,7 +32,7 @@
 
                 <div class="div-description">
                     <label for="description"> Descripcion articulo</label>
-                    <textarea name="description" id="description"  placeholder=<%= product.description %>  value= <%= product.description %>> </textarea>
+                    <textarea name="description" id="description" > <%= product.description %> </textarea>
                     <% if (locals.errors && errors.description) { %>                
                         <p><%=errors.description.msg %> </p>
                     <% } %>
@@ -44,7 +40,7 @@
                 
                 <div class="div-photo">
                     <label for="image">Foto del articulo</label>
-                    <input type="file" name="image" id="image"  >
+                    <input type="file" name="image" id="image" value="<%= product.image %>" >
                     <% if (locals.errors && errors.image) { %>                
                         <p><%=errors.image.msg %> </p>
                     <% } %>
@@ -119,7 +115,8 @@
 
     </main>
 
-
+    <script src="/js/editProductValidation.js"></script>
+    
     <%- include('./partials/footer') %>
     
 </body>
