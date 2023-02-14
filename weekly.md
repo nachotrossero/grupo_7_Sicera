@@ -1,4 +1,26 @@
 Sprint #6
+Weekly 06/02/23
+1. ¿Qué hicimos?
+
+Terminamos con las validaciones del Back end.
+Trabajamos en la estética del login, view del userEdit, y productCreate y productEdit
+
+
+
+2. ¿Qué impedimentos tuvimos? 
+detectamos issues  la hora de cargar información en la descripción de un producto, está se borraba al actualizarse o cometer un error en la validación.
+
+3. ¿Qué haremos?
+
+consulta a los profesores para destrabar y debuggear.
+validaciones del front end.
+trabajar en la estética de las validaciones.
+
+4. Conclusiones
+El pair programing es lo que más ha funcionado. Descubrimos que el mejor momento para codear es los fines de semana. 
+
+
+
 Weekly 26-01-23
 1. ¿Qué hicimos?
 

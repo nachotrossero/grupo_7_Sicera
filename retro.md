@@ -1,3 +1,41 @@
+Retrospectiva del Sprint #6
+1. Comenzar a hacer:
+- emprolijar el código.
+
+2. Más de:
+- participar en las clases.
+- aplicar correcciones de estilo en el html a medida que hacemos las tareas del sprint correspondiente.
+- aplicar correcciones y feedback de los sprint anteriores.
+- Objetivos smart: programar una línea de código por día.
+- estética y funcionalidad del sitio (dividir tareas).
+- consulta a los profesores.
+- sprints durante el fin de semana.
+
+3. Seguir haciendo:
+- Codeando en equipo. Pair programming.
+- Utilizar reacciones en Discord para coordinar días y horarios de juntada para trabajar.
+- Mantener un ritmo de trabajo constante.
+- hacer consulta antes o después de clase para destrabarse.
+- utilizar documentación.
+- llevar las clases al día.
+- comunicación fluida.
+
+4. Menos de:
+- Atrasarse con el material de la clase.
+- distracción durante las clases
+
+5. Dejar de hacer:
+- nada
+
+|| Conclusiones finales de la retrospectiva en base al sprint #6:||
+El equipo ha encontrado las tareas en las que se siente cómodo y podemos apoyarnos unos a otros.
+El pair programing es una excelente práctica.
+La comunicación del equipo es buena y rápida.
+Debemos cuidar la estética y la funcionalidad del sitio.
+Han funcionado muy bien los sprints durante los fines de semana.
+
+
+
 Retrospectiva del Sprint #5
 1. Comenzar a hacer:
 - participar en las clases.
