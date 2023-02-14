@@ -1,4 +1,4 @@
-Sprint #6
+Sprint #7
 Weekly 06/02/23
 1. ¿Qué hicimos?
 
@@ -20,7 +20,7 @@ trabajar en la estética de las validaciones.
 El pair programing es lo que más ha funcionado. Descubrimos que el mejor momento para codear es los fines de semana. 
 
 
-
+Sprint #6
 Weekly 26-01-23
 1. ¿Qué hicimos?
 
