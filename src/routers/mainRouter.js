@@ -13,7 +13,7 @@ router.get('/', mainController.index);
 router.use('/products', productsRouter);
 router.use('/users', usersRouter);
 
-
+//Routeo de Apis
 router.use('/products/api', productsRouterApi);
 
 //*Prueba session Nacho
