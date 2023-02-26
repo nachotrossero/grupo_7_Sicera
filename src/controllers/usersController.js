@@ -8,8 +8,6 @@ let { validationResult } = require("express-validator");
 
 //** Modelo User
 
-const User = require("../models/User");
-
 let db = require("../database/models");
 const { where } = require("sequelize");
 

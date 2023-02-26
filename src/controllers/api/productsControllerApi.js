@@ -27,6 +27,7 @@ db.Product.findAll()
     let response = {
 
         total: products.length,
+        //!Contador por categoria pendiente
         data: products,
         status: 200
     }
@@ -49,13 +50,15 @@ db.Product.findByPk(req.params.id)
         description: product.description,
         brand: product.brand,
         cellar: product.cellar,
+        country: product.country,
         image: product.image,
-        pathImage: `http://localhost:${process.env.PORT || 3000}${product[i].image}`,
+        pathImage: `http://localhost:${process.env.PORT || 3000}${product.image}`,
         status: 200
-    }
+    };
     console.log(response, "ASDASD");
+    
 
-    res.json({response});
+    return res.json({response});
 })
 .catch((error) => res.json(error))
 }
