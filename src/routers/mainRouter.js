@@ -4,12 +4,17 @@ const productsRouter = require('./productsRouter');
 const usersRouter = require('./usersRouter');
 const mainController = require('../controllers/mainController');
 
+const productsRouterApi = require('./api/productsRouterApi');
+
 //Routeo al home
 router.get('/', mainController.index);
 
 //Routeo a productos y users
 router.use('/products', productsRouter);
 router.use('/users', usersRouter);
+
+
+router.use('/products/api', productsRouterApi);
 
 //*Prueba session Nacho
 //*Armar un contador de visitas
