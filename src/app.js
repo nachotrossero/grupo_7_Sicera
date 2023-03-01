@@ -14,16 +14,18 @@ const cookies = require('cookie-parser')
 //Express
 const app = express();
 
+require("dotenv").config();
 
 //Middlewares
 let PORT = process.env.PORT || 3000;
-app.listen(PORT, console.log('http://localhost:3000'));
+app.listen(PORT, console.log(`http:localhost:${PORT}`));
 
 app.use(express.urlencoded({ extended: false}));
 app.use(express.json());
 app.use(methodOverride('_method'));
 app.use(session({secret:'Shhh esto es secreto', resave: false, saveUninitialized: false}));
 app.use(cookies());
+
 
 
 app.use(userLoggedMiddleware);

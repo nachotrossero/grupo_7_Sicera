@@ -32,9 +32,11 @@ const usersControllerApi = {
   },
 
   allUsers: function (req, res) {
-    db.User.findAll()
+    db.User.findAll({
+      attributes: {exclude: ['password']}
+    })
     .then(function (users) {
-
+      
         let usersFound = []
 
         for (let i = 0; i < users.length; i++) {

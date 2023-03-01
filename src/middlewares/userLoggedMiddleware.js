@@ -1,19 +1,23 @@
-//? Para chequear
-/* const fs = require('fs');
-const path = require('path');
-const usersFilePath = path.join(__dirname, '../data/usersData.json');
-const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8')); */
 
-
-const User = require('../models/User')
+let db = require("../database/models");
 
 function userLoggedMiddleware(req, res, next){
 
     res.locals.isLogged = false;
 
     let emailInCookie = req.cookies.userEmail;
+    //console.log(emailInCookie, "Email in cookies");
 
-    let userFromCookie = User.findByfield('email', emailInCookie);
+    let userFromCookie;
+
+    if (emailInCookie) {
+
+        db.User.findOne({ where: { email: emailInCookie } })
+        .then(function (user) {
+            return (userFromCookie = user)
+        })
+    }
+    
     
     if(userFromCookie){
         req.session.loggedUser = userFromCookie;
