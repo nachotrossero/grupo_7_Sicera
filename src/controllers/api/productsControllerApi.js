@@ -27,7 +27,6 @@ db.Product.findAll()
     let response = {
 
         total: products.length,
-        //!Contador por categoria pendiente
         data: products,
         status: 200
     }
