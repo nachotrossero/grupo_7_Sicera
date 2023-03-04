@@ -43,30 +43,33 @@
 .product-amount .product-units {
   text-align: center;
   font-weight: bold;
-  width: 30vw;
+  /* width: 30vw; */
   margin-bottom: 14px;
 }
 
 .more-product-images {
   display: none;
 }
-.button-add-to-kart {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .button-add-to-kart button {
-  width: 31vw;
   justify-content: center;
   font-weight: thin;
   text-transform: uppercase;
   border: 1px solid black;
-  border-radius: 8%;
+  border-radius: 5%;
   background-color: #d9545f;
   color: #ffffff;
   font-size: 15px;
   margin-bottom: 2px;
+  width: 50vw;
 }
+
+button i{
+  color: white;
+  font-size:large
+
+}
+
 
 .productD-line {
   border-bottom: 2px solid gray;
@@ -120,22 +123,6 @@
   margin-bottom: 15px;
 }
 
-
-.button-edit {
-  width: 31vw;
-  justify-content: center;
-  font-weight: thin;
-  text-transform: uppercase;
-  border: 1px solid black;
-  border-radius: 8%;
-  background-color: #d9545f;
-  color: #ffffff;
-  font-size: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 /* ?Media Queries */
 
 @media (min-width: 426px) {
@@ -169,8 +156,8 @@
   }
 
   .button-add-to-kart button {
-    width: 35vw;
     font-size: 18px;
+    width: 40vw;
   }
 
   .productD-line {
@@ -246,8 +233,8 @@
     align-items: stretch;
     justify-content: space-around;
   }
+
   .selected-products article img {
-    width: 45vw;
     margin-top: 20px;
     margin-bottom: 25px;
     border: 3px solid #d9545f;
@@ -259,12 +246,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 20px;
   }
   .selected-products h4 {
     font-size: 25px;
     margin-bottom: 8px;
   }
+  
+  .button-add-to-kart button {
+    font-size: 18px;
+    width: 20vw;
+  }
+
 
   .productD-price {
     font-size: 20px;
@@ -277,13 +269,15 @@
 
   .product-amount .product-units {
     font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 25px;
   }
 
   .button-add-to-kart button {
-    font-size: 22px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;    
+/*     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; */
   }
 
   .productD-line {
@@ -297,7 +291,7 @@
     padding: 0 35vw 0 35vw;
   }
 
-  .more-product-images {
+/*   .more-product-images {
     display: flex;
     flex-direction: row;
     width: 50%;
@@ -311,7 +305,7 @@
     max-width: 40%;
     height: auto;
     display: flex;
-  }
+  } */
 
   .ratings-h3 {
     font-size: 23px;
