@@ -22,7 +22,6 @@
 
 .input-email-user input {
   margin-bottom: 13px;
-  margin-top: 5px;
   font-weight: bold;
   text-align: center;
   border: 2px solid gray;
@@ -37,7 +36,7 @@
 
 .remember-form {
   font-size: 12px;
-  padding-top: 5px;
+  padding-top: 25px;
   font-weight: bold;
   margin-bottom: 9px;
   padding-bottom: 10px;
@@ -65,25 +64,13 @@
   margin-bottom: 5px;
 }
 
-.button-login .Google {
-  width: 38vw;
-  font-weight: thin;
-  padding: 1px;
-  margin: 2px;
-  text-transform: uppercase;
-  border: 1px solid black;
-  border-radius: 8%;
-  background-color: #d9545f;
-  color: #ffffff;
-  font-size: 13px;
-  margin-bottom: 5px;
-}
+
 
 .hyperlink-to-register p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3px;
+  margin-top: 25px;
   padding-bottom: 3px;
   font-weight: 600;
   font-size: 13px;
@@ -94,9 +81,21 @@
   flex-direction: column;
   align-items: center;
   margin-top: 3px;
-  padding-bottom: 3px;
+  padding-bottom: 100px;
   font-weight: 600;
   font-size: 13px;
+}
+
+.errorEmail p{
+  font-size: 15px;
+  color:red; 
+  font-weight: bold
+}
+
+.errorPassword p{
+  font-size: 15px;
+  color:red;
+  font-weight: bold
 }
 
 
@@ -104,7 +103,7 @@
 @media(min-width: 426px) {
 
   .h1-login {
-    font-size: 27px;
+    font-size: 20px;
   }
 
   .input-email-user {
@@ -112,14 +111,14 @@
   }
 
   .input-email-user input {
-    width: 42vw;
+    width: 48vw;
     font-size: 16px;
     height: 27px;
     margin-bottom: 15px;
   }
 
   .input-user-password input {
-    width: 42vw;
+    width: 48vw;
     font-size: 16px;
     height: 27px;
     margin-bottom: 5px;
@@ -128,6 +127,7 @@
   .remember-form {
     font-size: 14px;
     padding-bottom: 18px;
+    padding-top: 15px;
   }
 
   .button-login .enter {
@@ -137,11 +137,11 @@
     margin-bottom: 10px;
   }
 
-  .button-login .Google {
-    width: 44vw;
-    font-size: 15px;
-    margin-bottom: 10px;
+  .button-login{
+    display:flex;
+    justify-content:center
   }
+
 
   .hyperlink-to-register p {
     font-size: 15px;
@@ -150,8 +150,17 @@
   .hyperlink-forgot-password p {
     font-size: 15px;
   }  
+  
+  .errorEmail p{
+    font-size: 12px;
+  }
+
+  .errorPassword p{
+    font-size: 12px;
+  }
 
 }
+
 
 
 
@@ -162,14 +171,16 @@
   }
 
   .input-email-user input {
-    width: 25vw;
-    font-size: 15px;
+    width: 40vw;
+    height: 35px;
+    font-size: 18px;
     margin-bottom: 20px;
   }
 
   .input-user-password input {
-    width: 25vw;
-    font-size: 15px;
+    width: 40vw;
+    height: 35px;
+    font-size: 18px;
     margin-bottom: 4px;
   }
 
@@ -182,13 +193,12 @@
   .button-login .enter {
     width: 25vw;
     font-size: 19px;
-    margin: 20px 0px 13px 0px;
+    margin: 20px 0px 3px 0px;
   }
 
-  .button-login .Google {
-    width: 25vw;
-    font-size: 19px;
-    margin-bottom: 15px;
+  .button-login{
+    display:flex;
+    justify-content:center
   }
 
   .hyperlink-to-register p {
@@ -197,6 +207,15 @@
 
   .hyperlink-forgot-password p {
     font-size: 18px;
+    padding-bottom: 80px;
   }  
+
+  .errorEmail p{
+    font-size: 15px;
+  }
+
+  .errorPassword p{
+    font-size: 15px;
+  }
 
 }
