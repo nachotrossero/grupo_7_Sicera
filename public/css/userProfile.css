@@ -46,6 +46,10 @@ p {
     color: #000000;
     font-size: 15px;
 }
+.logout-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 .logout-button{
     text-align: right;
@@ -56,10 +60,10 @@ p {
     color: #fff;
     font-size: 18px;
     max-width: fit-content; 
-    margin: 5px;
+    margin: 0px 32px 5px 0px;
    /* position: relative; */
+    
 }
-
 
 .logout-button a{
     color: white
@@ -148,8 +152,11 @@ p {
     margin-bottom: 20px;
 }
 
+
 .logout-button{
     position: relative;
     right: 0;
+    display: flex;
+    margin: 0px 10px 5px 0px;
 }
 }
