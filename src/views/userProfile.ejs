@@ -9,8 +9,7 @@
   <body>
     <%- include('./partials/header') %>
     
-    
-    <!--probando--> 
+    <div class="avatar-info">
     <section class="section-user-profile">
       <div class="perfil-usuario-portada">
         <div class="user-profile-header-container">
@@ -26,6 +25,7 @@
             </div>
           </section>
           
+          <section class="user-info">
           <div class="h1-profile-container">
             <h1 class="h1-userProfile">¡Bienvenido <%= user.first_name %> <%= user.last_name %>  !</h1>
           </div>
@@ -36,8 +36,10 @@
         <h3 class="h3-userProfile">Apellido: <%= user.last_name %> </h3>
       </div>
       <div class="logout-button">
-        <a href="/users/logout">Logout</a>
+        <a href="/users/logout">Salir</a>
       </div>
+    </section>
+  </div>
 
 
       
