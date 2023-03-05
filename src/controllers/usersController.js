@@ -42,6 +42,7 @@ const usersController = {
 
               if (req.body.rememberme) {
                 res.cookies("userEmail", req.body.email, { maxAge: 60000 });
+                console.log(req.cookies, "COOKIE");
               }
               
               return res.redirect("/users/userProfile");
@@ -100,6 +101,7 @@ const usersController = {
             email: req.body.email,
             password: bcryptjs.hashSync(req.body.password, 10),
             image: img,
+            rating: req.body.rating,
             is_active: 1,
             is_admin: 0, //Para consultar como hacerlo bien
           });

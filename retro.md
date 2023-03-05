@@ -1,3 +1,47 @@
+Retrospectiva del Sprint #7
+1. Comenzar a hacer:
+- emprolijar el código.
+- definir íconos
+- camino del usuario para detectar issues.
+2. Más de:
+- aplicar correcciones y feedback de los sprint anteriores.
+- consulta a los profesores.
+- uso de la técnica pomodoro para focalizar y tomar descansos para moverse (beneficio para la espalda).
+- matriz de Eisenhower para detectar las tareas urgentes de las importantes y dividir tareas.
+- comenzar por las tareas más complejas.
+3. Seguir haciendo:
+- Objetivos smart: programar una línea de código por día.
+- estética y funcionalidad del sitio (dividir tareas).
+- sprints durante el fin de semana.
+- Codeando en equipo. Pair programming.
+- Utilizar reacciones en Discord para coordinar días y horarios de juntada para trabajar.
+- Mantener un ritmo de trabajo constante.
+- participar en las clases.
+- hacer consulta antes o después de clase para destrabarse.
+- utilizar documentación.
+- llevar las clases al día.
+- comunicación fluida.
+
+
+
+
+4. Menos de:
+- Atrasarse con el material de la clase.
+- distracción durante las clases
+
+
+5. Dejar de hacer:
+nada
+
+
+Conclusiones finales de la retrospectiva en base al sprint #7:
+El equipo ha encontrado las tareas en las que se siente cómodo y podemos apoyarnos unos a otros.
+El pair programing es una excelente práctica.
+La comunicación del equipo fue excelente.
+La división de tareas es clave para terminar el trabajo rápido, a tiempo y de manera estratégica.
+Han funcionado muy bien los sprints durante los fines de semana con descanso intermedios.
+
+
 Retrospectiva del Sprint #6
 1. Comenzar a hacer:
 - emprolijar el código.

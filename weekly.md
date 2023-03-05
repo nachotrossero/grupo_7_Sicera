@@ -1,3 +1,34 @@
+Sprint #8: Weekly 28-02-23
+
+1. ¿Qué hicimos?
+
+Vimos toda la documentación correspondiente al sprint 8.
+Hicimos cálculos de los días restantes del curso para la presentación final.
+Dividimos las tareas entre estética, validaciones, base de datos y React.
+Aprovechamos las clases para hacer consulta a Gian y a José.
+Hicimos un guión de la presentación final para mostrar todo el trabajo realizado.
+
+
+
+
+2. ¿Qué impedimentos tuvimos? 
+al hacer el recorrido del usuario detectamos problemas con la estética.
+algunos sitios no eran responsive.
+las validaciones del front no tenían ningún estilo y desarmaban la view.
+detectamos que nos faltaba un dato en el productCreate (rating del producto).
+
+3. ¿Qué haremos?
+
+Consulta a los profesores para destrabar y debuggear.
+Terminar el React.
+trabajar en la estética general.
+Trabajar estética de las validaciones de las validaciones.
+
+4. Conclusiones
+El equipo ha funcionado muy bien. Cada uno trabajó en aquello que se sintió más cómodo. A lo largo del curso aprendimos a buscar las soluciones en los colegas y también en la documentación. Los Sprints durante el fin de semana fueron una constante ya que algunos miembros del grupo trabajaban durante la semana. El pair programing es lo que más ha funcionado para que todos aprendamos de todos.
+
+
+
 Sprint #7
 Weekly 06/02/23
 1. ¿Qué hicimos?
