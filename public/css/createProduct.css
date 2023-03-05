@@ -14,7 +14,7 @@
 
   .main-create-product h1 {
     display: block;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .main-create-product {
@@ -45,7 +45,17 @@
   .form-create-product div {
     padding: 10px;
   }
-
+  
+.main-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.detail-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
   .article-name {
     font-size: 16px;
   }
@@ -92,18 +102,44 @@
   }
 
 
-  .div-button-reset button {
-    background-color: #9E9696;
+/*   .div-button-reset button {
+    background-color: #837c7c;
     color:white;
-    padding: 4px;
-  }
+    padding: 6px;
+  } */
 
-  .div-button-submit button {
+/*   .div-button-submit button {
     background-color: #e33241;
     color: white;
     padding: 6px;
-  }
+  } */
 
+  .div-button-submit button {
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #d9545f;
+    color: #ffffff;
+    margin-bottom: 2px;
+    padding: 6px;
+    width: 160px
+  }
+  
+  .div-button-reset button {
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #d9545f;
+    color: #ffffff;
+    margin-bottom: 2px;
+    padding: 6px;
+    width: 160px
+  }
+  
+  button i{
+    color: white;
+    font-size:large
+  }
 
 
 @media(min-width: 426px) {
@@ -117,16 +153,16 @@
     }
 
     .form-create-product div label {
-        font-size: 20px;
+        font-size: 20 px;
     }
 
     .div-maridajes {
         justify-content: center;
     }
 
-    .form-create-product .div-button-submit,.form-create-product .div-button-reset {
+/*     .form-create-product .div-button-submit,.form-create-product .div-button-reset {
         width: 40%;
-    }
+    } */
     
 }
 
@@ -137,7 +173,24 @@
     }
 
     .form-create-product div label {
-        font-size: 25px;
+        font-size: 18px;
+    }
+    .main-info-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center
+    }
+    .detail-info-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 26px;
+    }
+    .buttons-container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center
     }
 
     .main-create-product input[type="text"], .main-create-product select {
@@ -150,4 +203,5 @@
     .main-create-product #maridajes {
         height: 70px;
     }
+  
 }

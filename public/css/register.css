@@ -9,7 +9,7 @@
   }
 
   .input-name-register {
-    margin-bottom: 5px;
+    margin-bottom: -15px;
     margin-top: 15px;
     text-align: center;
   } 
@@ -22,7 +22,7 @@
     }
 
   .input-surname-register {
-    margin-bottom: 5px;
+    margin-bottom: -15px;
     margin-top: 5px;
     text-align: center;
   } 
@@ -36,7 +36,7 @@
   }
 
   .input-email-register {
-    margin-bottom: 5px;
+    margin-bottom: -15px;
     margin-top: 5px;
     text-align: center;
   }
@@ -50,7 +50,7 @@
   }
 
   .input-password-register {
-    margin-bottom: 5px;
+    margin-bottom: -15px;
     margin-top: 5px;
     text-align: center;
   }
@@ -85,24 +85,83 @@
     margin-left: 90px;
   }
 
-  .hiperlink-login p {
-    text-align: center;
+  .registerRegistrame{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    flex-direction: column;
   }
 
-  .button-Google-login button {
-    width: 38vw;
-    font-weight: thin;
+  .hiperlink-login p {
     text-align: center;
-    text-transform: uppercase;
-    border: 1px solid red;
-    border-radius: 8%;
-    background-color: #d9545f;
-    color: #ffffff;
-    font-size: 13px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 90px;
+    font-weight: bold;
   }
+
+
+  .div-photo{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-weight: bold;
+  }
+
+  .article-photo{
+    padding-right: 10px;
+    
+  }
+  
+  .errorName p{
+    font-size: 16px;
+    color:red;
+    font-weight: bold;
+    margin-top: -8px;
+    margin-bottom: 25px
+  }
+
+  .errorSurname p{
+    font-size: 16px;
+    color:red;
+    font-weight: bold;
+    margin-top: -8px;
+    margin-bottom: 25px
+  }
+
+  .errorLastname p{
+    font-size: 16px;
+    color:red;
+    font-weight: bold;
+    margin-top: -8px;
+    margin-bottom: 25px
+  }
+
+  .errorEmailRegister p{
+    font-size: 16px;
+    color:red;
+    font-weight: bold;
+    margin-top: -8px;
+    margin-bottom: 25px
+  }
+
+  .errorPasswordRegister p{
+    font-size: 16px;
+    color:red;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 48px
+  }
+
+  .errorPhoto p{
+    font-size: 16px;
+    color:red;
+    font-weight: bold;
+    margin-top: -8px;
+    margin-bottom: 25px
+  }
+
+  
+
 
 
 
@@ -115,29 +174,46 @@
   }
 
   .input-name-register input {
+    width: 48vw;
     font-size: 18px;
     border: 3px solid gray;
-    margin-top: 15px;
+    margin: 10px;
   }
+  
 
   .input-surname-register input {
+    width: 48vw;
     font-size: 18px;
     border: 3px solid gray;
-    margin-top: 15px;
+    margin: 10px;
   }
+  
 
   .input-email-register input {
+    width: 48vw;
     font-size: 18px;
     border: 3px solid gray;
-    margin-top: 15px;
+    margin: 10px;
   }
+  
 
   .input-password-register input {
+    width: 48vw;
     font-size: 18px;
     border: 3px solid gray;
-    margin-top: 15px;
+    margin: 10px;
   }
 
+  .div-photo {
+    font-size: 16px;
+    margin: 20px;
+    margin-left: 40px
+  }
+  
+  .article-photo {
+    padding-left: 40px;
+  }
+  
   .login-line {
     padding-top: 10px;
     margin-bottom: 20px;
@@ -146,13 +222,17 @@
 
   .button-signup-login {
     border-bottom: 3px solid black;
+    
   }
 
   .button-signup-login button {
     margin-bottom: 15px;
     width: 30vw;
     font-size: 18px;
-    margin-left: 135px;
+    margin-left: 145px;
+    display:flex;
+    justify-content:center;
+    
   }
 
   .hiperlink-login p{
@@ -160,13 +240,22 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .button-Google-login button{
-    width: 50vw;
-    font-size: 18px;
-    margin-left: 90px;
+  .errorPasswordRegister p {
+    margin-top: -1px;
+  margin-bottom: 50px
   }
 
+.errorPhoto p {
+  padding-top: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  } 
+
 }
+   
+  
+
+
 
 
 
@@ -206,11 +295,14 @@
   }
 
   .button-signup-login button {
-    font-size: 22px;
-    height: 38px;
+    font-size: 24px;
+    height: 40px;
     width: 30vw;
     border-radius: 0.5%;
     border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    margin-right: 120px;
   }
 
   .button-signup-login {
@@ -222,12 +314,6 @@
     margin: 10px 0px 10px 0px;
   }
 
-  .button-Google-login button {
-    font-size: 22px;
-    height: 38px;
-    width: 35vw;
-    border-radius: 0.5%;
-    border: 2px solid red;
-  }
+  
 
 }

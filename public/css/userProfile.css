@@ -14,8 +14,9 @@ p {
     font-size: 12px;
 }
 
+
 .h1-userProfile{
-    text-align: left;
+    text-align: center;
     background-color:#FF394B;
     border: 2px #ffff;
     padding: 5px;
@@ -24,7 +25,9 @@ p {
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 10px;
+    width: 90vw;
 }
+
 
 
 
@@ -42,21 +45,24 @@ p {
     padding: 4px;
     color: #000000;
     font-size: 15px;
-
+}
+.logout-container{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .logout-button{
     text-align: right;
-    background-color:#FF394B;
+    background-color:#395dff;
     border: 2px #ffff;
     border-radius: 10px;
     padding: 5px;
     color: #fff;
     font-size: 18px;
     max-width: fit-content; 
-    margin: 5px;
-    position: relative;
-    right: -350px;    
+    margin: 0px 32px 5px 0px;
+   /* position: relative; */
+    
 }
 
 .logout-button a{
@@ -112,10 +118,21 @@ p {
 }
 /*?Desktop*/
 @media (min-width: 769px) {
+
+
+.avatar-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}    
 /**Datos del usuario */
 .h1-userProfile{
     display: flex;
     justify-content: center;
+    max-width:max-content;
+    margin: 0px 10px 0px 10px
 }
 
 .div-photo{
@@ -131,10 +148,15 @@ p {
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 
 .logout-button{
     position: relative;
     right: 0;
+    display: flex;
+    margin: 0px 10px 5px 0px;
 }
 }

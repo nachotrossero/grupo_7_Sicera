@@ -38,16 +38,24 @@
         <section>
           <div class="input-email-user">
             <label for="user-name-email"></label>
+            
             <input id="user-email" type="text" name="email" placeholder="Ingresa e-mail o usuario" >
-            <% if (locals.errors && locals) { %>
+             <% if (locals.errors && locals) {%> 
               <p><%=errors.email.msg %> </p>
-            <% } %>
+            <% } %> 
+            <div class="errorEmail">
+              <p></p>
+            </div>
           </div>
         
           <div class="input-user-password">  
             <label for="user-password"></label>
+            
             <input type="password" id="user-password" name="password" placeholder="Contraseña" >
             <label for="submit"></label>
+            <div class="errorPassword">
+              <p></p>
+            </div>
           </div>
         
           <div class="remember-form">
@@ -62,22 +70,18 @@
             <button class="enter" type="submit" class="primary" name="submit">Ingresa</button>
           </div>
 
-          <div class="button-login">
-            <label for="submit"></label>
-            <button class="Google" type="submit" name="submit">Continua con Google</button> 
-          </div>
         </section>
       </form> 
         
         <section>
           <div class="hyperlink-to-register">
-            <p><a href="/users/register">No tienes una cuenta?</a></p>
+            <p><a href="/users/register">¿No tienes una cuenta?</a></p>
           </div>
         </section>
         
         <section>
           <div class="hyperlink-forgot-password">
-            <p><a href="#">Olvidaste tu contraseña?</a></p>
+            <p><a href="#">¿Olvidaste tu contraseña?</a></p>
           </div>
         </section>
     </main>

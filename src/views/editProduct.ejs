@@ -15,7 +15,7 @@
         <h1>EDITAR PRODUCTOS</h1>
         <section class="form-edit-product">
             <form id="editForm" class="editForm" action="/products/editProduct/<%= product.id_product %>?_method=put" method="POST" enctype="multipart/form-data">
-                
+                <article class="main-info-container">
                 <div class="errors">
                     <ul>
                         
@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="div-name">
-                    <label for="name">Nombre del articulo</label>
+                    <label for="name">Nombre del artículo</label>
                     <input type="text" name="name" id="product-name" placeholder= <%= product.name %>  value= <%= product.name %> >
                     <% if (locals.errors && errors.name) { %>                
                         <p><%=errors.name.msg %> </p>
@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="div-description">
-                    <label for="description"> Descripcion articulo</label>
+                    <label for="description"> Descripción artículo</label>
                     <textarea name="description" id="description" > <%= product.description %> </textarea>
                     <% if (locals.errors && errors.description) { %>                
                         <p><%=errors.description.msg %> </p>
@@ -39,13 +39,14 @@
                 </div>
                 
                 <div class="div-photo">
-                    <label for="image">Foto del articulo</label>
+                    <label for="image">Foto del artículo</label>
                     <input type="file" name="image" id="image" value="<%= product.image %>" >
                     <% if (locals.errors && errors.image) { %>                
                         <p><%=errors.image.msg %> </p>
                     <% } %>
                 </div>
-                
+            </article>
+            <article class="detail-info-container">
                 <div class="div-price">
                     <label for="price">Precio</label>
                     <input type="text" name="price" id="price" placeholder=<%= product.price %>  value=<%= product.price %>>
@@ -70,7 +71,7 @@
                 <div class="div-brand">
                     <label for="brand">Marca: </label>
                     <select name="brand" id="brand">  
-                        <option value="">Selecciona una marca</option>                      
+                        <option value="">Seleccioná una marca</option>                      
                         <option value="real">Real</option>
                         <option value="1888">1888</option>
                     </select>
@@ -81,7 +82,7 @@
                 <div class="div-bodega">
                     <label for="cellar">Bodega</label>
                     <select name="cellar" id="cellar">     
-                        <option value="">Selecciona una Bodega</option>                   
+                        <option value="">Seleccioná una Bodega</option>                   
                         <option value="Pulku">Pulku</option>
                         <option value="Saenz-Briones">Saenz Briones</option>
                     </select>
@@ -96,21 +97,25 @@
                         <option value="pescado">Pescado</option>
                     </select>
                 </div> -->
-
+            </article>
+                <article class="buttons-container">
+                    <div class="div-button-submit">
+                        <button type="submit"><i class="fas fa-check"></i> Guardar cambios</button>
+                    </div>  
                 <div class="div-button-reset">
-                    <button type="reset">Descartar cambios</button>
+                    <button type="reset"><i class="fas fa-times"></i> Descartar cambios</button>
                 </div>        
 
-                <div class="div-button-submit">
-                    <button type="submit">Guardar cambios</button>
-                </div>  
 
             </form>
             <form action="/products/delete/ <%= product.id_product %> " method="POST">
                 <div class="div-button-delete">
-                    <button type="submit">Eliminar artículo</button>
+                    <button type="submit"><i class="fas fa-trash"></i> Eliminar artículo</button>
                 </div>
             </form>
+            </article>
+        
+
         </section>
 
     </main>

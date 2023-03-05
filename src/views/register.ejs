@@ -44,6 +44,9 @@
               <% if (locals.errors && errors.name) { %>                
                   <p><%=errors.name.msg %> </p>
               <% } %>
+              <div class="errorName">
+                <p></p>
+              </div>
             </div>
             
             <div class="input-surname-register">
@@ -52,6 +55,9 @@
               <% if (locals.errors && errors.lastname) { %>                
                 <p><%=errors.lastname.msg %> </p>
             <% } %>
+            <div class="errorLastname">
+              <p></p>
+            </div>
             </div>
   
             <div class="input-email-register">
@@ -60,6 +66,9 @@
               <% if (locals.errors && errors.email) { %>                
                 <p><%=errors.email.msg %> </p>
             <% } %>
+            <div class="errorEmailRegister">
+              <p></p>
+            </div>
             </div>
   
             <div class="input-password-register">  
@@ -69,8 +78,13 @@
                 <p><%=errors.password.msg %> </p>
             <% } %>
             <label for="submit"></label>
+            <div class="errorPasswordRegister">
+              <p></p>
+            </div>
             </div>
           </section>
+
+          <section class="registerRegistrame">
 
           <div class="div-photo">
             <label class="article-photo" for="image">Foto del Usuario: </label>
@@ -78,6 +92,9 @@
             <% if (locals.errors && errors.image) { %>                
               <p><%=errors.image.msg %> </p>
           <% } %>
+          <div class="errorPhoto">
+            <p></p>
+          </div>
         </div>
 
           <section class="login-line"></section>
@@ -94,14 +111,7 @@
               <p><a href="/users/logIn">Ingresa con tu cuenta</a></p>
             </div>
           </section>
-
-          <section class="button-Google-login">
-            <div>
-              <label for="submit"></label>
-              <button type="submit" name="submit">Ingresa con Google</button>
-            </div>
-          </section>
-        
+        </section>
       </form> 
 
       <script src="/js/registerValidation.js" ></script>

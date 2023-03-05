@@ -32,7 +32,7 @@
           <article class="product-amount">
             <div class="product-detail">
               <h4><%= product.name %></h4>
-              <p class="productD-price"><%= product.price %></p>
+              <p class="productD-price">$ <%= product.price %></p>
             </div>  
             <label class="product-amount-label" for="input" placeholder="amount">Cantidad de productos</label>
             <br>
@@ -40,20 +40,26 @@
             </label>
             <section class="button-add-to-kart">  
               <a href="productCart">
-              <button type="submit" class="primary"> Agregar al carro </button>
+              <button type="submit" class="primary"><i class="fas fa-shopping-basket"></i> Agregar al carro  </button>
               </a>
-              <section>
-                <a href="/products/editProduct/<%= product.id_product %> " class="button-edit">Editar Artículo</a>
+              <section class="button-secondary">
+                <a href="/products/editProduct/<%= product.id_product %> ">
+                  <button class="button-edit"> <i class="far fa-edit"></i> Editar Artículo </button>
+                </a>
                     <form action="/products/delete/<%= product.id_product %> " method="POST" style="display: inline-flex">
-                  <button type="submit" class="button-delete">Eliminar</button>
+                  <button type="submit" class="button-delete"><i class="fas fa-trash"></i> Eliminar </button>
+                  
                 </form>
               </section>
             </section>
           </article>
         </section>
         
-          
-        <!-- <section>
+
+
+<!--           Otras imágenes del producto -->
+
+<!-- <section>
           <article class="more-product-images">
             <img src="/img/1888-logo.jpg" alt="">
             <img src="/img/1888-caja.jpg" alt="">
@@ -89,7 +95,7 @@
 
       <section class="productD-line"></section>
 
-      <section class="aditional-info-product">
+      <!-- <section class="aditional-info-product">
         <h3 class="additional-info-h3">INFORMACIÓN ADICIONAL</h3>
         <h4>Cata de sidras</h4>
         <h5>Color</h5>
@@ -141,7 +147,7 @@
           saepe tempora explicabo unde quo aliquam neque sunt doloremque alias
           id quibusdam?
         </p>
-      </section>
+      </section> -->
       
     </main>
 
