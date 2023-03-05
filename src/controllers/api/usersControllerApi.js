@@ -46,7 +46,9 @@ const usersControllerApi = {
             first_name: users[i].first_name,
             last_name: users[i].last_name,
             email: users[i].email,
-            detail: `http://localhost:${process.env.PORT || 3000}/users/api/userProfile/${users[i].id}`
+            detail: `http://localhost:${process.env.PORT || 3000}/users/api/userProfile/${users[i].id}`,
+            image: users[i].image,
+            pathImg: `http://localhost:${process.env.PORT || 3000}${users[i].image}`
             }            
         }
         

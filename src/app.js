@@ -8,7 +8,7 @@ const methodOverride = require('method-override'); // Pasar poder usar los méto
 const session = require('express-session'); //para login
 const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
 const cookies = require('cookie-parser')
-
+const cors = require("cors")
 
 
 //Express
@@ -20,6 +20,7 @@ require("dotenv").config();
 let PORT = process.env.PORT || 3000;
 app.listen(PORT, console.log(`http:localhost:${PORT}`));
 
+app.use(cors());
 app.use(express.urlencoded({ extended: false}));
 app.use(express.json());
 app.use(methodOverride('_method'));
