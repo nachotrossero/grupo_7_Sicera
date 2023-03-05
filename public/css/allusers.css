@@ -1,0 +1,907 @@
+
+:root {
+    --red: #e33241; /*barra de navegacion opacidad 80%*/
+    --light-orange: #fff4e9; /* fondo de la pag */
+    --dark-gray: #2c363f; /* footer */
+  }
+  
+  /**Selectores universales*/
+  * {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  /**Selectores generales*/
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff4e9;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+  
+  
+  
+  
+  
+  /******************************************/
+  
+  /*?Index styles* start/
+  
+  /*!Header -nav-links-burger*/
+  
+  /**Header reglas generales*/
+  header {
+    background-color: #FF394B;
+    padding: 0px;
+  }
+  
+  /**Incluye todo el header menos la nav*/
+  .top-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /**Contenedor del logo*/
+  .logo-sicera {
+    width: 15%;
+    display: flex;
+    padding: 4px;
+    /* background-color: blanchedalmond; */
+    border-radius: 60%;
+    z-index: 5;
+  }
+  
+  /**Logo imagen*/
+  .logo-sicera img {
+    width: 70%;
+  }
+  
+  .logo-completo {
+    display: none;
+  }
+  
+  /**Contenedor search bar*/
+  .search-bar {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  
+  /**Search bar input*/
+  .search-bar input {
+    text-align: center;
+    width: 80%;
+    height: 15px;
+    display: flex;
+    outline: none;
+    padding: 16px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 14px;
+    border: 2px solid #d50000;
+    transition: all 0.7s ease;
+    font-weight: bold;
+  }
+  
+  /**Search bar hover*/
+  .search-bar:hover input {
+    width: 85%;
+  }
+  
+  /**Search bar hover*/
+  .search-bar:hover i {
+    transform: rotate(-360deg);
+  }
+  
+  /**Color texto del input*/
+  ::placeholder {
+    color: #000;
+  }
+  
+  /**Contenedor icon search*/
+  .icon-search {
+    width: 33px;
+    height: 33px;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /**Imagen icon search*/
+  .icon-search i {
+    font-size: 25px;
+    color: #000;
+    line-height: 80px;
+    transition: all 0.7s ease;
+  }
+  
+  /** Nav desktop  */
+  .header-nav-links {
+    display: none;
+  }
+  
+  .button-login-carro-header {
+    display: none;
+  }
+  
+  /**Contenedor burger menu*/
+  .section-burger {
+    display: flex;
+    width: 60px;
+    z-index: 10;
+  }
+  
+  .burger-menu {
+    display: flex;
+    width: 100%;
+  }
+  
+  .nav-burger input[type="checkbox"] {
+    display: none;
+  }
+  
+  /**Burger menu icono*/
+  .burger-menu label {
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    user-select: none;
+  }
+  
+  .burger-menu label i {
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0.5px solid grey;
+  }
+  
+  /**Lista del burger menu*/
+  .burger-menu .nav-burger ul {
+    display: none;
+  }
+  
+  /** input para mostrar la lista */
+  .burger-menu .nav-burger input:checked ~ ul {
+    display: block;
+  }
+  
+  /** Estilo desplegables burger menu*/
+  .nav-burger .list-burger-menu li {
+    width: 150px;
+    display: block;
+    background: #d50000;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }
+  
+  .nav-burger .list-burger-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /**Links nav-bar*/
+  .header-nav-links {
+    display: none;
+  }
+  
+  
+  /*!Main*/
+  
+  main {
+    background-color: #F8F8F3;
+  }
+  
+  /**Carrusel*/
+  
+  #conteItemsCarrusel {
+    height: 210px;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  
+  .itemCarrusel {
+    height: 100%;
+    position: relative;
+  }
+  
+  .tarjetaCarrusel {
+    height: 100%;
+  }
+  
+  .flechasCarrusel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .flechasCarrusel i {
+    color: rgb(255, 255, 255);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #contePuntos {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #contePuntos > a {
+    font-size: 12px;
+    padding: 10px;
+    font-style: none;
+    color: #000;
+  }
+  
+  i {
+    font-size: none;
+    color: #000;
+  }
+  
+  .img-carrusel {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* FIN DEL CARRUSEL */
+  
+  h1 {
+    
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    border-bottom: 3px solid #d9545f;
+    color: #d9545f;
+  }
+  
+  .index-h1 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #d9545f;
+    color: goldenrod;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  .most-value h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  
+  .articles h2 {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px 15px 0px;
+    color: #e33241;
+  }
+  
+  h3 {
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  /* Productos del main */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  
+  .product {
+    /* border-bottom: 2px solid #d9545f; */
+    margin-top: 10px;
+    margin-bottom: 6px;
+    text-align: center;
+    background-color: #ffffff;
+    width: 85%;
+    border-radius: 10%;
+    box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
+    padding: 10px;
+  }
+  
+  .product img {
+    /* width: 100%;
+    border-radius: 13%;
+    padding-top: 6px; */
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    margin-left: 5px;
+    overflow: hidden;
+  }
+  
+  .product i {
+    color: #d9545f;
+  }
+
+  .save-icon i{
+    color: green
+  }
+  
+  .main-article {
+    background-color: transparent;
+  }
+  
+  .manzanas-calificacion {
+    padding: 10px;
+  }
+  
+  .manzanas-calificacion i {
+    font-size: 30px;
+  }
+  
+  .manzanas-calificacion p {
+    font-size: 20px;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .product-name {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 4px;
+  }
+  
+  .come-to-Argentina h3 {
+    font-size: 18px;
+    text-align: center;
+    color: #d9545f;
+    margin: 0px 30px 0px 30px;
+  }
+  
+  
+  /*! Boton menu admin */
+  .admin-menu-article input[type="checkbox"] {
+    display: none;
+  }
+  
+  .admin-menu-article {
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    user-select: none;
+    position: fixed;
+    right: 50px;
+    bottom: 250px;
+  }
+  
+  .admin-menu-article label i {
+    color: #ffffff;
+    background-color: #CE3859;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 35px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .admin-menu-article ul {
+    display: none;
+  }
+  
+  .admin-menu-article input:checked ~ ul {
+    display: block;
+  }
+  
+  .admin-menu-article li {
+    width: 150px;
+    display: block;
+    background: #CE3859;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .admin-menu-article li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /*!Footer y subfooter*/
+  
+  footer {
+    margin: 1px;
+    border: solid rgb(52, 52, 116) 2px;
+    background-color: var(--dark-gray);
+    padding: 10px 0;
+  }
+  
+  .top-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+  }
+  
+  .top-footer article i {
+    font-size: 50px;
+    color: white;
+  }
+  
+  .under-top-footer p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  
+  .listas-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .lista-footer1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: center;
+  }
+  
+  .lista-footer2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  
+  footer section ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  footer section ul {
+    list-style-type: none;
+  }
+  
+  .bottom-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .bottom-footer article {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 1px;
+  }
+  
+  .bottom-footer article a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+  }
+  
+  .bottom-footer article a i {
+    color: white;
+    font-size: 40px;
+  }
+  
+  section .sub-footer {
+    margin-top: 3px;
+    border-top: solid red 3px;
+    padding-top: 5px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+  }
+  
+  
+  
+  /*!Media Queries*/
+  
+  /*?Tablet*/
+  @media (min-width: 426px) {
+    /** Header */
+  
+    .logo-completo {
+      display: flex;
+    }
+  
+    .logo-sicera {
+      width: 25%;
+    }
+  
+    .logo-incompleto {
+      display: none;
+    }
+  
+    .top-header {
+      justify-content: space-around;
+    }
+  
+    .search-bar {
+      width: 50%;
+    }
+  
+    .section-burger .nav-burger label i {
+      font-size: 40px;
+    }
+  
+    /** Main INDEX */
+  
+    .most-value h2 {
+      font-size: 22px;
+      padding-bottom: 15px;
+    }
+  
+    .product {
+      width: 45%;
+    }
+  
+    .products {
+      justify-content: space-evenly;
+    }
+  
+    .manzanas-calificacion i {
+      font-size: 26px;
+    }
+  
+    /** Carrusel */
+  
+    #conteItemsCarrusel{
+    height: 340px
+    }
+  
+    .flechasCarrusel{
+      font-size: 35px;
+    }
+  
+    /** Cierra Carrusel */
+  
+    /** Section experiencia sidra*/
+    
+    .come-to-Argentina h3 {
+      font-size: 20px;
+      margin: 0px 30px 0px 30px;
+      text-align: center;
+    }
+  
+    .fotos-experiencia-sidra {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+    
+    .fotos-experiencia-sidra img {
+      display: flex;
+      /* border-bottom: 2px solid #d9545f; */
+      margin-top: 10px;
+      margin-bottom: 6px;
+      background-color: #ffffff;
+      width: 50%;
+      border-radius: 10%;
+      box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
+    }
+      
+    .fotos-experiencia-sidra .exp-sidra-div {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 10px;
+      width: 33%;
+    }
+      
+    .descripcion-experiencia {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 10px;
+      width: 70%;
+      text-align: center;
+    }
+  
+  
+  
+  
+    /*!Footer*/
+  
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .top-footer {
+      width: 100%;
+      justify-content: space-around;
+    }
+  
+    .top-footer article {
+      width: 30%;
+      display: flex;
+    }
+  
+    .top-footer .paypal {
+      justify-content: flex-end;
+    }
+  
+    .top-footer .visa {
+      justify-content: center;
+    }
+  
+    .top-footer .mastercard {
+      justify-content: flex-start;
+    }
+  
+    .listas-footer {
+      width: 100%;
+    }
+  
+    .lista-footer2 {
+      justify-content: center;
+    }
+  
+  
+  }
+  
+  
+  
+  
+  
+  /*?Desktop*/
+  @media (min-width: 769px) {
+    /**Header */
+  
+    .logo-completo {
+      display: flex;
+    }
+  
+    .logo-incompleto {
+      display: none;
+    }
+  
+    .logo-sicera {
+      width: 30%;
+    }
+  
+    .search-bar {
+      width: 35%;
+      justify-content: center;
+    }
+  
+    /** Estilos de los botones del header desktop **/
+    .header-nav-links {
+      display: contents;
+      font-weight: bold;
+    }
+  
+    .most-value h2 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    section .button-login-carro-header {
+      position: relative;
+      left: -17px;
+    }
+  
+    .button-login-carro-header {
+      display: flex;
+      width: 25%;
+      justify-content: flex-end;
+    }
+  
+    .button-login-carro-header a {
+      display: flex;
+      color: white;
+      border-radius: 10%;
+      padding: 5px 5px 0px 5px;
+      margin: 30px 5px 0px 5px;
+      /* font-weight: bold; */
+      align-items: center;
+  
+    }
+  
+    .button-login-carro-header :hover {
+      filter: brightness(105%);
+    }
+  
+    .button-login-carro-header a i {
+      font-size: 20px;
+      padding-right: 3px;
+    }
+  
+    .avatar-logged-user{
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      margin-left: 5px; 
+      overflow: hidden;
+    }
+  
+    .section-nav-desktop {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .section-nav-desktop :hover {
+      filter: brightness(105%);
+    }
+  
+    .section-nav-desktop a {
+      color: #000;
+      border-radius: 10%;
+      padding: 5px;
+      margin: 5px;
+      display: flex;
+      align-items: center;
+    }
+  
+    .section-nav-desktop a i {
+      font-size: 25px;
+      padding-right: 5px;
+    }
+  
+    .section-burger {
+      display: none;
+    }
+  
+    .index-h1 {
+      font-size: 25px;
+    }
+  
+    .most-value h2 {
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+  
+    /** Carrusel */
+    #conteItemsCarrusel{
+      height: 500px
+    }
+    
+    .flechasCarrusel{
+      font-size: 50px
+    }
+  
+    /** Cierra Carrusel */
+  
+    /** Main INDEX */ 
+    .product{
+      width: 21%;
+    }
+  
+    .product:hover {
+      width: 20.1%;
+      box-shadow: 0 0 0 2px rgb(157, 61, 25);
+    }
+  
+    .manzanas-calificacion i {
+      font-size: 25px;
+    }
+  
+    .come-to-Argentina h3 {
+      font-size: 20px;
+      margin: 0px 30px 0px 30px;
+      
+    }
+  
+    .fotos-experiencia-sidra {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+    
+    .fotos-experiencia-sidra img {
+      display: flex;
+      /* border-bottom: 2px solid #d9545f; */
+      margin-top: 10px;
+      margin-bottom: 6px;
+      background-color: #ffffff;
+      width: 50%;
+      border-radius: 10%;
+      box-shadow: 0 0 0 2px rgb(199, 75, 29, 40%);
+    }
+      
+    .fotos-experiencia-sidra .exp-sidra-div {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 10px;
+      width: 33%;
+    }
+      
+    .descripcion-experiencia {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 10px;
+      width: 70%;
+      text-align: center;
+    }
+    .descripcion-experiencia p{
+      font-size: 20px;
+    }
+    .descripcion-experiencia h3{
+      font-size: 23px;
+    }
+  
+    /**Footer*/
+  
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .top-footer {
+      width: 30%;
+      justify-content: center;
+    }
+  
+    .top-footer article {
+      width: 30%;
+      display: flex;
+    }
+  
+    .top-footer .paypal {
+      justify-content: flex-end;
+    }
+  
+    .top-footer .visa {
+      justify-content: center;
+    }
+  
+    .top-footer .mastercard {
+      justify-content: flex-start;
+    }
+  
+    .listas-footer {
+      width: 30%;
+    }
+  
+    .lista-footer2 {
+      width: 60%;
+    }
+  
+    .bottom-footer {
+      width: 30%;
+      align-items: center;
+    }
+  
+  }
+  
+  
