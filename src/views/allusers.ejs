@@ -25,24 +25,32 @@
                 <h4 class="product-name"> <%= user.first_name %> </h4> 
                 <h4 class="product-name"> <%= user.last_name %> </h4> 
                 <h4 class="product-name"> <%= user.email %> </h4>   
-                    
+                
                 <form action="/users/editUser/ <%= user.id %>?_method=put" method="POST">
+                  
 
                     <% if (user.is_admin === 0) { %>
-                        <label for="admin">Es admin</label>
+                      <div class="admin-icon"> 
+                        <label for="admin"><i class="fas fa-user-cog"></i> Es admin</label>
                         <input type="checkbox" name="admin">                     
+                      </div>
                     <% } else { %>
+                      
                         <label for="admin">Es admin</label>
                         <input type="checkbox" name="admin" checked>
                     <% } %> 
+                    <div class="div-button-save">
                     <div class="save-icon"> 
                     <button type="submit"><i class="fas fa-save"></i> Guardar cambios</button>
                   </div>
+                </div>
 
                 </form>
 
                 <form action="/users/deleteUser/ <%= user.id %>" method="POST">
-                    <button type="submit"><i class="fas fa-trash"></i>Eliminar Usuario</button>
+                  <div class="div-button-delete">
+                    <button type="submit"><i class="fas fa-trash"></i> Eliminar Usuario</button>
+                  </div>
                 </form>
 
               </div>

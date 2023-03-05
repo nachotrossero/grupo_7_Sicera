@@ -126,6 +126,7 @@ p {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 130px;
 }    
 /**Datos del usuario */
 .h1-userProfile{
