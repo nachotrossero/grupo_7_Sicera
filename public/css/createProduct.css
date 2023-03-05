@@ -141,6 +141,14 @@
     font-size:large
   }
 
+  p{
+    color:red;
+    font-size: 14px;
+    padding-top: 4px;
+  }
+  
+
+
 
 @media(min-width: 426px) {
     

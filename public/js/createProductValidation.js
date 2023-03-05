@@ -12,15 +12,21 @@ window.addEventListener("load", function(){
 
         if (name.value == "") {
             errors.push("Debes completar el campo del nombre.");
+            let errorNameProduct1 = document.querySelector("div.errorNameProduct p")
+            errorNameProduct1.innerHTML = "Debes completar el campo del nombre."
 
         }else if(name.value.length < 2){
-            errors.push("El campo del nombre debe contener al menos 2 caracteres");
+            errors.push("El campo del nombre debe contener al menos 2 caracteres.");
+            let errorNameProduct2 = document.querySelector("div.errorNameProduct p")
+            errorNameProduct2.innerHTML = "El campo del nombre debe contener al menos 2 caracteres."
         }
 
         let description = document.querySelector("#description")
 
         if (description.value < 21) {
             errors.push("La descripción debe tener al menos 20 caracteres.");
+            let errorDescriptionProduct = document.querySelector("div.errorDescriptionProduct p")
+            errorDescriptionProduct.innerHTML = "La descripción debe tener al menos 20 caracteres."
 
         }
 
@@ -28,6 +34,8 @@ window.addEventListener("load", function(){
 
         if (price.value == "") {
             errors.push("Debes ingresar un precio.");
+            let errorPriceProduct = document.querySelector("div.errorPriceProduct p")
+            errorPriceProduct.innerHTML = "Debes ingresar un precio."
 
         }
 
@@ -35,6 +43,8 @@ window.addEventListener("load", function(){
 
         if (country.value == "") {
             errors.push("Debes seleccionar un país.");
+            let errorCountryProduct = document.querySelector("div.errorCountryProduct p")
+            errorCountryProduct.innerHTML = "Debes seleccionar un país."
 
         }
 
@@ -42,6 +52,8 @@ window.addEventListener("load", function(){
 
         if (brand.value == "") {
             errors.push("Debes seleccionar una marca.");
+            let errorBrandProduct = document.querySelector("div.errorBrandProduct p")
+            errorBrandProduct.innerHTML = "Debes seleccionar una marca."
 
         }
 
@@ -62,23 +74,27 @@ window.addEventListener("load", function(){
             }
 
             if(!isValidFile) {
-                errors.push("Los formatos válidos son jpeg, jpg, gif, png");
+                errors.push("Los formatos válidos son jpeg, jpg, gif, png.");
+                let errorPhotoProduct1 = document.querySelector("div.errorPhotoProduct p")
+                errorPhotoProduct1.innerHTML = "Los formatos válidos son jpeg, jpg, gif, png."
             }
         }else{
 
-            errors.push("Debe subir una imagen");
+            errors.push("Debe subir una imagen.");
+            let errorPhotoProduct2 = document.querySelector("div.errorPhotoProduct p")
+            errorPhotoProduct2.innerHTML = "Debe subir una imagen."
         }       
         
 
         if (errors.length > 0) {
             e.preventDefault();
-            let ulErrors = document.querySelector("div.errors ul")
+            // let ulErrors = document.querySelector("div.errors ul")
 
-            ulErrors.innerHTML = "";
-            for (let i = 0; i < errors.length; i++) {
+            // ulErrors.innerHTML = "";
+            // for (let i = 0; i < errors.length; i++) {
                 
-                ulErrors.innerHTML += "<li>" + errors[i] + "</li>"
-            }
+            //     ulErrors.innerHTML += "<li>" + errors[i] + "</li>"
+            // }
         }
 
 
