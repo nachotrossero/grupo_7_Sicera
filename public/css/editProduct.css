@@ -44,6 +44,28 @@
     padding: 10px;
   }
 
+
+
+  .main-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+  .detail-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
   .form-edit-product .div-description {
     display: flex;
     flex-direction: column;
@@ -66,7 +88,7 @@
     font-size: 20px;
   }
 
-  .div-button-reset button {
+/*   .div-button-reset button {
     background-color: #c74d4d;
     color:white;
     padding: 4px;
@@ -82,6 +104,50 @@
     background-color: #9E9696;
     color:white;
     padding: 4px;
+  } */
+
+  .div-button-submit button {
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #d9545f;
+    color: #ffffff;
+    margin-bottom: 2px;
+    padding: 6px
+  }
+  
+  .div-button-reset button {
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #d9545f;
+    color: #ffffff;
+    margin-bottom: 2px;
+    padding: 6px
+  }
+
+  .div-button-submit button {
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #d9545f;
+    color: #ffffff;
+    margin-bottom: 2px;
+    padding: 6px
+  }
+  
+  .div-button-delete button {
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #d9545f;
+    color: #ffffff;
+    margin-bottom: 2px;
+    padding: 6px
+  }
+  button i{
+    color: white;
+    font-size:large
   }
 
   .div-maridajes {
@@ -96,8 +162,9 @@
   .form-edit-product div {
     width: 70%;
   }
+
   .form-edit-product div label{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .div-maridajes {
@@ -115,7 +182,7 @@
 @media(min-width: 769px) {
 
   .form-edit-product div label {
-      font-size: 25px;
+      font-size: 18px;
   }
 
   .main-edit-product input[type="text"], .main-edit-product select {
@@ -124,9 +191,27 @@
       border-radius: 4px; 
       font-size: 20px;
   }
+  .main-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  .detail-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 26px;
+  }
+  .buttons-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }   
 
   .main-edit-product #maridajes {
       height: 70px;
   }
-  
-}
+
+} 

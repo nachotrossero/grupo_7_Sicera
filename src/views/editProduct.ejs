@@ -15,7 +15,7 @@
         <h1>EDITAR PRODUCTOS</h1>
         <section class="form-edit-product">
             <form id="editForm" class="editForm" action="/products/editProduct/<%= product.id_product %>?_method=put" method="POST" enctype="multipart/form-data">
-                
+                <article class="main-info-container">
                 <div class="errors">
                     <ul>
                         
@@ -45,7 +45,8 @@
                         <p><%=errors.image.msg %> </p>
                     <% } %>
                 </div>
-                
+            </article>
+            <article class="detail-info-container">
                 <div class="div-price">
                     <label for="price">Precio</label>
                     <input type="text" name="price" id="price" placeholder=<%= product.price %>  value=<%= product.price %>>
@@ -96,21 +97,25 @@
                         <option value="pescado">Pescado</option>
                     </select>
                 </div> -->
-
+            </article>
+                <article class="buttons-container">
+                    <div class="div-button-submit">
+                        <button type="submit"><i class="fas fa-check"></i> Guardar cambios</button>
+                    </div>  
                 <div class="div-button-reset">
-                    <button type="reset">Descartar cambios</button>
+                    <button type="reset"><i class="fas fa-times"></i> Descartar cambios</button>
                 </div>        
 
-                <div class="div-button-submit">
-                    <button type="submit">Guardar cambios</button>
-                </div>  
 
             </form>
             <form action="/products/delete/ <%= product.id_product %> " method="POST">
                 <div class="div-button-delete">
-                    <button type="submit">Eliminar artículo</button>
+                    <button type="submit"><i class="fas fa-trash"></i> Eliminar artículo</button>
                 </div>
             </form>
+            </article>
+        
+
         </section>
 
     </main>

@@ -51,17 +51,19 @@
   display: none;
 }
 
+.button-add-to-kart {
+  display: flex;
+  flex-direction: column;
+}
+
 .button-add-to-kart button {
   justify-content: center;
-  font-weight: thin;
-  text-transform: uppercase;
-  border: 1px solid black;
-  border-radius: 5%;
-  background-color: #d9545f;
-  color: #ffffff;
-  font-size: 15px;
-  margin-bottom: 2px;
-  width: 50vw;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #d9545f;
+    color: #ffffff;
+    margin-bottom: 2px;
+    padding: 6px
 }
 
 button i{

@@ -15,7 +15,9 @@
         <h1>CREAR PRODUCTOS</h1>
 
         <section class="form-create-product">
+            
             <form action="/products/createProduct" method="POST" enctype="multipart/form-data">
+                <article class="main-info-container">
 
                 <div class="errors">
                     <ul>
@@ -46,7 +48,9 @@
                         <p><%=errors.image.msg %> </p>
                     <% } %>
                 </div>
-                
+            </article>
+            <article class="detail-info-container">
+
                 <div class="div-price">
                     <label for="price">Precio: </label>
                     <input type="text" name="price" id="price" value="<%= locals.oldData && locals.oldData.price ? locals.oldData.price : "" %>">
@@ -55,6 +59,22 @@
                     <% } %>
                 </div>
                 
+                
+                <div class="div-rating">
+                    <label for="country"> Rating </label>
+                    <select name="country" id="country">
+                        <option value="">Calificá del 1 al 5</option>                      
+                        <option value="argentina">1</option>
+                        <option value="chile">2</option>
+                        <option value="uruguay">3</option>
+                        <option value="uruguay">4</option>
+                        <option value="uruguay">5</option>
+                    </select>
+                    <% if (locals.errors && errors.country) { %>                
+                        <p><%=errors.country.msg %> </p>
+                    <% } %>
+                </div>
+
                 <div class="div-country">
                     <label for="country">País: </label>
                     <select name="country" id="country">
@@ -97,12 +117,16 @@
                     </select>
                 </div> -->
                 
+                <article class="buttons-container">
                 <div class="div-button-reset">
                     <button type="reset"><i class="fas fa-trash"></i> Descartar</button>
                 </div>
                 <div class="div-button-submit"> 
                     <button type="submit"><i class="fas fa-save"></i> Crear artículo</button>
                 </div>
+            </article>
+            </article>
+
 
             </form>
         </section>
