@@ -38,24 +38,24 @@
         <section>
           <div class="input-email-user">
             <label for="user-name-email"></label>
-            <div class="errorEmail">
-              <p></p>
-            </div>
+            
             <input id="user-email" type="text" name="email" placeholder="Ingresa e-mail o usuario" >
              <% if (locals.errors && locals) {%> 
               <p><%=errors.email.msg %> </p>
             <% } %> 
-            
+            <div class="errorEmail">
+              <p></p>
+            </div>
           </div>
         
           <div class="input-user-password">  
             <label for="user-password"></label>
+            
+            <input type="password" id="user-password" name="password" placeholder="Contraseña" >
+            <label for="submit"></label>
             <div class="errorPassword">
               <p></p>
             </div>
-            <input type="password" id="user-password" name="password" placeholder="Contraseña" >
-            <label for="submit"></label>
-            
           </div>
         
           <div class="remember-form">
