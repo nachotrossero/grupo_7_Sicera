@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="div-name">
-                    <label for="name">Nombre del articulo</label>
+                    <label for="name">Nombre del artículo</label>
                     <input type="text" name="name" id="product-name" placeholder= <%= product.name %>  value= <%= product.name %> >
                     <% if (locals.errors && errors.name) { %>                
                         <p><%=errors.name.msg %> </p>
@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="div-description">
-                    <label for="description"> Descripcion articulo</label>
+                    <label for="description"> Descripción artículo</label>
                     <textarea name="description" id="description" > <%= product.description %> </textarea>
                     <% if (locals.errors && errors.description) { %>                
                         <p><%=errors.description.msg %> </p>
@@ -39,7 +39,7 @@
                 </div>
                 
                 <div class="div-photo">
-                    <label for="image">Foto del articulo</label>
+                    <label for="image">Foto del artículo</label>
                     <input type="file" name="image" id="image" value="<%= product.image %>" >
                     <% if (locals.errors && errors.image) { %>                
                         <p><%=errors.image.msg %> </p>
@@ -70,7 +70,7 @@
                 <div class="div-brand">
                     <label for="brand">Marca: </label>
                     <select name="brand" id="brand">  
-                        <option value="">Selecciona una marca</option>                      
+                        <option value="">Seleccioná una marca</option>                      
                         <option value="real">Real</option>
                         <option value="1888">1888</option>
                     </select>
@@ -81,7 +81,7 @@
                 <div class="div-bodega">
                     <label for="cellar">Bodega</label>
                     <select name="cellar" id="cellar">     
-                        <option value="">Selecciona una Bodega</option>                   
+                        <option value="">Seleccioná una Bodega</option>                   
                         <option value="Pulku">Pulku</option>
                         <option value="Saenz-Briones">Saenz Briones</option>
                     </select>
