@@ -60,7 +60,7 @@ const productsController = {
         "region": req.body.region,
         "brand": req.body.brand,
         "cellar": req.body.cellar, 
-        //"rating": req.body.rating,
+        "rating": req.body.rating,
         "image": img, 
         "is_active": 1
       })
