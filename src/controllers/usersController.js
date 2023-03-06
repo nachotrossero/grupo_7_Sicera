@@ -103,7 +103,7 @@ const usersController = {
             image: img,
             rating: req.body.rating,
             is_active: 1,
-            is_admin: 1, //Para consultar como hacerlo bien
+            is_admin: 0, //Para consultar como hacerlo bien
           });
 
           res.redirect("/users/login"); //Hacemos redirect al home
