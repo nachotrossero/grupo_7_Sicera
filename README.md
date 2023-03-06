@@ -126,9 +126,9 @@ sus productos en tiempo, forma y con una experiencia agradable.
 
    - [x] 6to sprint. Base de datos. Fecha límite de entrega 31-01-2023.
 
-   - [ ] 7mo sprint. Validaciones. Fecha límite de entrega 14-02-2023.
+   - [x] 7mo sprint. Validaciones. Fecha límite de entrega 14-02-2023.
 
-   - [ ] 8vo sprint. APis + React. Fecha límite de entrega 23-02-2023.
+   - [x] 8vo sprint. APis + React. Fecha límite de entrega 23-02-2023.
 
 
 ## :apple: Wireframes 
