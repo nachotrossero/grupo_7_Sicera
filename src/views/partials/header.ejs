@@ -9,8 +9,13 @@
             <input type="checkbox" id="menu">
             <label for="menu"><i class="fas fa-bars"></i></label>
             <ul class="list-burger-menu">
-              <li><a href="/users/register">Registro</a></li>
-              <li><a href="/users/login">Iniciar sesión</a></li>
+
+              <% if (locals.loggedUser) { %>
+                <li><a href="/users/userProfile">Perfil</a> </li>
+              <% } else { %>
+                <li><a href="/users/register"></i>Registrate</a></li>
+                <li><a href="/users/login"><i class="fas fa-user"></i></a></li>
+              <% } %>
               <li><a href="/products/productCart">Carro de compras</a></li>
               <li><a href="/products/sidras">Sidras</a></li>
               <!-- <li><a href="/maridajes">Maridajes</a></li>
@@ -47,6 +52,7 @@
           </div>
           <nav class="header-nav-links">
             <section class="section-nav-desktop">          
+
               <a href="/products/sidras">Sidras</a>
               <a href="/maridajes"></i>Maridajes</a>
               <a href="/manzanas">Manzanas</a>
