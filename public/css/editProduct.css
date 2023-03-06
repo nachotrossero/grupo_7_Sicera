@@ -154,6 +154,13 @@
     display: flex;
   }
 
+  p{
+    color:red;
+    font-size: 14px;
+    padding-top: 4px;
+    font-weight: bold;
+  }
+
 
 
 @media(min-width: 426px) {

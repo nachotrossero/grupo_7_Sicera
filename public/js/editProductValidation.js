@@ -12,15 +12,21 @@ window.addEventListener("load", function(){
 
         if (name.value == "") {
             errors.push("Debes completar el campo del nombre.");
+            let errorNameEdit1 = document.querySelector("div.errorNameEdit p")
+            errorNameEdit1.innerHTML = "Debes completar el campo del nombre."
 
         }else if(name.value.length < 2){
-            errors.push("El campo del nombre debe contener al menos 2 caracteres");
+            errors.push("El campo del nombre debe contener al menos 2 caracteres.");
+            let errorNameEdit2 = document.querySelector("div.errorNameEdit p")
+            errorNameEdit2.innerHTML = "El campo del nombre debe contener al menos 2 caracteres."
         }
 
         let description = document.querySelector("#description")
 
         if (description.value < 21) {
             errors.push("La descripción debe tener al menos 20 caracteres.");
+            let errorDescriptionEdit = document.querySelector("div.errorDescriptionEdit p")
+            errorDescriptionEdit.innerHTML = "La descripción debe tener al menos 20 caracteres."
 
         }
 
@@ -28,6 +34,8 @@ window.addEventListener("load", function(){
 
         if (price.value == "") {
             errors.push("Debes ingresar un precio.");
+            let errorPriceEdit = document.querySelector("div.errorPriceEdit p")
+            errorPriceEdit.innerHTML = "Debes ingresar un precio."
 
         }
 
@@ -35,6 +43,8 @@ window.addEventListener("load", function(){
 
         if (country.value == "") {
             errors.push("Debes seleccionar un país.");
+            let errorCountryEdit = document.querySelector("div.errorContryEdit p")
+            errorCountryEdit.innerHTML = "Debes seleccionar un país."
 
         }
 
@@ -42,6 +52,8 @@ window.addEventListener("load", function(){
 
         if (brand.value == "") {
             errors.push("Debes seleccionar una marca.");
+            let errorBrandEdit = document.querySelector("div.errorBrandEdit p")
+            errorBrandEdit.innerHTML = "Debes seleccionar una marca."
 
         }
 
@@ -62,22 +74,26 @@ window.addEventListener("load", function(){
             }
 
             if(!isValidFile) {
-                errors.push("Los formatos válidos son jpeg, jpg, gif, png");
+                errors.push("Los formatos válidos son jpeg, jpg, gif, png.");
+                let errorPhotoEdit1 = document.querySelector("div.errorPhotoEdit p")
+                errorPhotoEdit1.innerHTML = "Los formatos válidos son jpeg, jpg, gif, png."
             }
         }else{
 
-            errors.push("Debe subir una imagen");
+            errors.push("Debe subir una imagen.");
+            let errorPhotoEdit2 = document.querySelector("div.errorPhotoEdit p")
+            errorPhotoEdit2.innerHTML = "Debe subir una imagen."
         }       
         
 
         if (errors.length > 0) {
             e.preventDefault();
-            let ulErrors = document.querySelector("div.errors ul")
-            ulErrors.innerHTML = ""
-            for (let i = 0; i < errors.length; i++) {
+            // let ulErrors = document.querySelector("div.errors ul")
+            // ulErrors.innerHTML = ""
+            // for (let i = 0; i < errors.length; i++) {
 
-                ulErrors.innerHTML += "<li>" + errors[i] + "</li>"
-            }
+            //     ulErrors.innerHTML += "<li>" + errors[i] + "</li>"
+            // }
         }
 
 
