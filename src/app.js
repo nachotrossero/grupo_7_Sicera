@@ -7,9 +7,9 @@ const methodOverride = require('method-override'); // Pasar poder usar los méto
 
 const session = require('express-session'); //para login
 const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
-const userAdminMiddleware = require("./middlewares/adminMiddleware");
 const cookies = require('cookie-parser');
 const cors = require("cors");
+const adminMiddleware = require('./middlewares/adminMiddleware');
 
 
 //Express
@@ -31,6 +31,7 @@ app.use(cookies());
 
 
 app.use(userLoggedMiddleware);
+
 
 //console.log(res.locals.userLogged + "funca el login???")
 

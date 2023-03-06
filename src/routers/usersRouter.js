@@ -7,6 +7,7 @@ const usersController = require('../controllers/usersController');
 const upload = require('../middlewares/multerUsers'); //Para que funcione Multer
 const guestMiddleware = require('../middlewares/guestMiddleware')
 const authMiddleware = require('../middlewares/authMiddleware')
+const adminMiddleware = require("../middlewares/adminMiddleware")
 
 const registerValidation = require("../middlewares/validations/registerValidation")
 const logInValidation = require("../middlewares/validations/logInValidation")
@@ -36,11 +37,11 @@ router.put('/edit/:idUser', (req,res) => {
 router.get('/logout/', usersController.logout)
 
 //Routeo de admin para ver todos los usuarios
-router.get("/allUsers", usersController.allUsers)
+router.get("/allUsers",adminMiddleware, usersController.allUsers)
 
-router.put("/editUser/:id/", usersController.giveAdmin)
+router.put("/editUser/:id/",adminMiddleware, usersController.giveAdmin)
 
-router.post('/deleteUser/:id/', usersController.deleteUser); 
+router.post('/deleteUser/:id/',adminMiddleware, usersController.deleteUser); 
 
  //Exportamos las rutas
 module.exports = router;
