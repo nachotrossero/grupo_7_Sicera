@@ -144,22 +144,14 @@
       </section> -->
 
       <!-- Faltan validaciones de admin -->
+      
+      
       <section class="admin-menu">
-        <article class="admin-menu-article">
-          <input type="checkbox" id="admin-menu">
-          <label for="admin-menu"><i class="fas fa-users-cog"></i></label>
-          <ul class="list-admin-menu">
-            <li><a href="/products/createProduct">Crear Artículo</a></li>
-            <li><a href="/users/allUsers">Listar Usuarios</a></li>
-            <!-- <li><a href="/products/editProduct">Editar Artículo</a></li> -->
-          </ul>
-        </article>
-
+        <%- include("./partials/adminMenu") %>
       </section>
 
     </main>
     <!--Final del main-->
-
 
     <%- include('./partials/footer') %>
     
