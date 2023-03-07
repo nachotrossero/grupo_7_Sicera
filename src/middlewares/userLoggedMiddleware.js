@@ -11,25 +11,22 @@ function userLoggedMiddleware(req, res, next){
 
     if (!emailInCookie) {
 
-        next(); 
+        return next(); 
         
-    }else{
-
-        db.User.findOne({ where: { email: emailInCookie } })
-        .then(function (user) {
-            delete user.password
-        
-            if(user){
-                req.session.loggedUser = user;
-                res.locals.isLogged = true;
-                res.locals.loggedUser = req.session.loggedUser;
-            }
-        
-            next();
-            
-        })
-
     }
+    db.User.findOne({ where: { email: emailInCookie } })
+    .then(function (user) {
+        delete user.password
+    
+        if(user){
+            req.session.loggedUser = user;
+            res.locals.isLogged = true;
+            res.locals.loggedUser = req.session.loggedUser;
+        }
+    
+        next();
+        
+    })
     
     
 }
