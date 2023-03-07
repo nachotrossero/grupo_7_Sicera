@@ -1,4 +1,5 @@
-![LOGO](https://user-images.githubusercontent.com/61055543/196007158-41a8273d-4c77-4c81-8d63-351424f255b4.png)
+
+![logo fondo blanco sicera](https://user-images.githubusercontent.com/61055543/223295540-648e7b31-a807-4b93-8fe4-b217e7970b38.png)
 
 # Sicera :champagne:
 
