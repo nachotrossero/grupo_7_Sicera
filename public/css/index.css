@@ -33,6 +33,53 @@ p {
 
 /*!Header -nav-links-burger*/
 
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
+  z-index: 100;
+  top: 1rem;
+  padding: 4px;
+  background: #e33241;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.hamburger i{
+  font-size: 20px;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.menu {
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: #e33241;
+  color: white;
+  list-style: none;
+  padding-top: 2rem;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
 /**Header reglas generales*/
 header {
   background-color: #FF394B;

@@ -2,9 +2,48 @@
     <header>
       
       <section class="top-header">
-        <!--Burger menu-->         
-      <section class="section-burger">            
-        <div class="burger-menu">
+        <section class="section-burger"> 
+        <ul class="menu">
+          <li><a class="menuItem" href="#">Perfil</a></li>
+          <li><a class="menuItem" href="#">Registrate</a></li>
+          <li><a class="menuItem" href="#">Carro de compras</a></li>
+        </ul>
+        <button class="hamburger"><i class="fas fa-bars"></i>
+          <!-- material icons https://material.io/resources/icons/ -->
+          <i class="menuIcon material-icons"></i>
+          <i class="closeIcon material-icons"></i>
+        </button>
+
+        <script>const menu = document.querySelector(".menu");
+          const menuItems = document.querySelectorAll(".menuItem");
+          const hamburger= document.querySelector(".hamburger");
+          const closeIcon= document.querySelector(".closeIcon");
+          const menuIcon = document.querySelector(".menuIcon");
+          
+          function toggleMenu() {
+            if (menu.classList.contains("showMenu")) {
+              menu.classList.remove("showMenu");
+              closeIcon.style.display = "none";
+              menuIcon.style.display = "block";
+            } else {
+              menu.classList.add("showMenu");
+              closeIcon.style.display = "block";
+              menuIcon.style.display = "none";
+            }
+          }
+          
+          hamburger.addEventListener("click", toggleMenu);
+          
+          menuItems.forEach( 
+            function(menuItem) { 
+              menuItem.addEventListener("click", toggleMenu);
+            }
+          )</script>
+
+
+         <!-- Burger menu          -->
+                 
+        <!-- <div class="burger-menu">
           <nav class="nav-burger">
             <input type="checkbox" id="menu">
             <label for="menu"><i class="fas fa-bars"></i></label>
@@ -23,7 +62,7 @@
               <li><a href="/experienciaSidra">Experiencia sidra</a></li> -->
             </ul>
           </nav>
-        </div>
+        </div>  
       </section>
 
         
