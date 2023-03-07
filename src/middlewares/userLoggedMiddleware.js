@@ -6,36 +6,32 @@ function userLoggedMiddleware(req, res, next){
     res.locals.isLogged = false;
 
     let emailInCookie = req.cookies.userEmail;
-    //console.log(emailInCookie, "Email in cookies");
+    console.log(emailInCookie, "Email in cookies");
 
-    let userFromCookie;
 
-    if (emailInCookie) {
+    if (!emailInCookie) {
+
+        next(); 
+        
+    }else{
 
         db.User.findOne({ where: { email: emailInCookie } })
         .then(function (user) {
             delete user.password
-            
-            userFromCookie = user
-            
-            return userFromCookie
+        
+            if(user){
+                req.session.loggedUser = user;
+                res.locals.isLogged = true;
+                res.locals.loggedUser = req.session.loggedUser;
+            }
+        
+            next();
             
         })
-        
+
     }
     
-   // console.log(userFromCookie, "USER");
     
-    if(userFromCookie){
-        req.session.loggedUser = userFromCookie;
-    }
-
-    if(req.session.loggedUser){
-        res.locals.isLogged = true;
-        res.locals.loggedUser = req.session.loggedUser;
-    }
-
-    next();
 }
 
 module.exports = userLoggedMiddleware;
