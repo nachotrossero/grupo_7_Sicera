@@ -42,15 +42,20 @@
               <a href="productCart">
               <button type="submit" class="primary"><i class="fas fa-shopping-basket"></i> Agregar al carro  </button>
               </a>
-              <section class="button-secondary">
-                <a href="/products/editProduct/<%= product.id_product %> ">
-                  <button class="button-edit"> <i class="far fa-edit"></i> Editar Artículo </button>
-                </a>
-                    <form action="/products/delete/<%= product.id_product %> " method="POST" style="display: inline-flex">
-                  <button type="submit" class="button-delete"><i class="fas fa-trash"></i> Eliminar </button>
-                  
-                </form>
-              </section>
+              <% if (locals.loggedUser) { %>
+                <% if (locals.loggedUser.is_admin == 1 ) { %>
+                  <section class="button-secondary">
+                    <a href="/products/editProduct/<%= product.id_product %> ">
+                      <button class="button-edit"> <i class="far fa-edit"></i> Editar Artículo </button>
+                    </a>
+                        <form action="/products/delete/<%= product.id_product %> " method="POST" style="display: inline-flex">
+                      <button type="submit" class="button-delete"><i class="fas fa-trash"></i> Eliminar </button>
+                      
+                    </form>
+                  </section>
+                <% } %>
+              <% } %>
+              
             </section>
           </article>
         </section>
