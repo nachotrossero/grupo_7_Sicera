@@ -29,7 +29,7 @@ const productsController = {
   },
   //Todavia no funciona
   productCart: (req, res) => {
-    res.render('productCart', {products});
+    res.render('productCart');
   },
 
   createProduct: (req, res) =>{

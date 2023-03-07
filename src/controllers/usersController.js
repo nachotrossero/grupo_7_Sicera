@@ -41,8 +41,8 @@ const usersController = {
               req.session.loggedUser = userToLogIn;
 
               if (req.body.rememberme) {
-                res.cookies("userEmail", req.body.email, { maxAge: 60000 });
-                console.log(req.cookies, "COOKIE");
+                res.cookie("userEmail", req.body.email, { maxAge: 60000 });
+                //console.log(req.cookies, "COOKIE");
               }
               
               return res.redirect("/users/userProfile");

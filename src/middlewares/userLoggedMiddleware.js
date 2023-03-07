@@ -14,15 +14,21 @@ function userLoggedMiddleware(req, res, next){
 
         db.User.findOne({ where: { email: emailInCookie } })
         .then(function (user) {
-            return (userFromCookie = user)
+            delete user.password
+            
+            userFromCookie = user
+            
+            return userFromCookie
+            
         })
+        
     }
     
+   // console.log(userFromCookie, "USER");
     
     if(userFromCookie){
         req.session.loggedUser = userFromCookie;
     }
-    
 
     if(req.session.loggedUser){
         res.locals.isLogged = true;

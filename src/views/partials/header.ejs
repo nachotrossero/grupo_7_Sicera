@@ -4,9 +4,13 @@
       <section class="top-header">
         <section class="section-burger"> 
         <ul class="menu">
-          <li><a class="menuItem" href="#">Perfil</a></li>
-          <li><a class="menuItem" href="#">Registrate</a></li>
-          <li><a class="menuItem" href="#">Carro de compras</a></li>
+          <% if (locals.loggedUser) { %>
+            <li><a class="menuItem" href="/users/userProfile">Perfil <i class="fas fa-user"></i></a> </li>
+          <% } else { %>
+            <li><a class="menuItem" href="/users/register">Registrate</a></li>
+            <li><a class="menuItem" href="/users/login">Iniciar sesión</a></li>
+          <% } %>
+          <li><a class="menuItem" href="/products/productCart">Carro de compras</a></li>
         </ul>
         <button class="hamburger"><i class="fas fa-bars"></i>
           <!-- material icons https://material.io/resources/icons/ -->
